@@ -1,7 +1,7 @@
 ---
-title: "DLE filings: two US project records"
-subtitle: "South West Arkansas and Hell’s Kitchen · historical evidence pilot"
-date: "Collection cutoff: September 14, 2026"
+title: "DLE filings: six US project records"
+subtitle: "Brine composition, process flowsheets and project evidence"
+date: "Expanded September 16, 2026 · project-specific cutoffs below"
 lang: en
 ---
 
@@ -9,25 +9,32 @@ lang: en
 
 # Overview
 
-This pilot brings together project-specific securities disclosures and environmental records for two US direct lithium extraction (DLE) developments. Its purpose is to make the evidence findable and comparable **where the definitions allow it**, while preserving disagreements and gaps. It does not establish either project's present operating performance.
+This research draft brings together project-specific securities disclosures and environmental records for six US direct lithium extraction (DLE) developments, including historical demonstrations and suspended designs. Its purpose is to make the evidence findable and comparable **where the definitions allow it**, while preserving disagreements and gaps. It does not establish present operating performance. **South West Arkansas and Hell’s Kitchen retain their September 14, 2026 collection cutoff; the four new profiles use September 16, 2026.** A collection date is not the date of the underlying study.
 
 <!-- BEGIN COUNTS -->
 
-**Collection:** 56 source records; 47 successful original-file downloads; 9 failed original-file downloads. The saved PDFs contain 2,876 pages. **Evidence:** 135 observations; 0 accepted after human review.
+**Collection:** 110 source records; 89 successful original-file downloads; 21 failed original-file downloads. The saved PDFs contain 5,026 pages. **Evidence:** 406 observations; 0 accepted after human review.
 
 <!-- END COUNTS -->
 
-The source manifest covers official agency pages, submitted reports and attachments, agency decisions, SEC indexes and selected exhibits, and explicitly labeled issuer supplements. The SEC filing-history snapshots contain **219 Standard Lithium entries, dated December 2011 to September 2026, and 79 Plum Acquisition Corp. IV entries, dated July 2024 to August 2026**. These 298 metadata entries are an inventory, not 298 downloaded or reviewed project filings. [D006](#d006), [D007](#d007).
+The source manifest covers official agency pages, submitted reports and attachments, agency decisions, SEC indexes and selected exhibits, and explicitly labeled issuer supplements. The saved SEC histories now contain **2,846 metadata entries**: 219 Standard Lithium, 79 Plum Acquisition Corp. IV, 2,453 Compass Minerals (April 2003–September 2026) and 95 EnergyX (November 2020–July 2026). Metadata is inventoried, not assumed to be downloaded or reviewed project evidence. [D006](#d006), [D007](#d007), [D083](#d083), [D084](#d084), [D091](#d091).
 
 ## Project reports
 
 - [South West Arkansas](south-west-arkansas.html): full published pilot-feed composition, process flowsheets, project profile, sources and evidence.
 - [Hell’s Kitchen](hells-kitchen.html): full expected brine composition, geothermal schematic, lithium-process disclosure limits, sources and evidence.
+- [BHER demonstration](bher.html): measured brine, canal-water and steam tables; process diagram; field-test outcome.
+- [ATLiS](atlis.html): DOE block flowsheet, brine/water flows, reagent use and explicit chemistry gaps.
+- [Ogden / Great Salt Lake](ogden.html): lake and pond chemistry, historical process design, and separate EnergyX proposal.
+- [Green River](green-river.html): Anson/Blackstone permit chemistry, injection limits and stream-label discrepancy.
 - [Full report](full-report.html): all projects on one page for browser search and printing.
 
 ## Principal findings
 
-- **Brine concentration is disclosed for both projects.** SWA's September 2025 plant-design table uses 439.9 mg/L lithium; HK's August 2023 EIR gives 250 mg/L as expected geothermal brine composition. Neither is a directly comparable dated well assay. SWA separately reports well-sample results and changing concentrations in its production model. [O009](#o009), [O051](#o051), [brine chemistry comparison](#brine-concentration-and-chemistry).
+- **Chemistry coverage now spans six projects, with different levels of detail.** BHER publishes measured brine and utility-water tables; Ogden reports selected cation analyses; Green River supplies proposed chemistry ranges with a stream-label conflict. A complete ATLiS geothermal-feed assay was not located in the screened records. [Disclosure comparison](#composition-and-flowsheet-availability).
+- **A process diagram is not a complete water balance.** New source diagrams cover BHER, ATLiS and historical Ogden. BHER cancelled its completed-balance deliverable; none of the new packages establishes all numbered streams with measured flows and compositions. [BHER](#bher-process-flowsheets), [ATLiS](#atlis-process-flowsheets), [Ogden](#ogden-process-flowsheets).
+
+- **The original pilot’s brine concentration figures have different bases.** SWA's September 2025 plant-design table uses 439.9 mg/L lithium; HK's August 2023 EIR gives 250 mg/L as expected geothermal brine composition. Neither is a directly comparable dated well assay. SWA separately reports well-sample results and changing concentrations in its production model. [O009](#o009), [O051](#o051), [brine chemistry comparison](#brine-concentration-and-chemistry).
 - **Recovery needs a process boundary.** South West Arkansas reports greater than 95% lithium extraction in demonstration/pilot testing, while the commercial process design uses 89.25% overall brine-to-product recovery. These are different quantities. [O002](#o002), [O003](#o003).
 - **Water figures need reconciliation.** The 2025 South West Arkansas feasibility study gives 3.17 million m³/year; the May 2026 DOE assessment gives 1,600–1,700 gpm for the central processing facility, after planned recycling. Hell’s Kitchen gives both 6,100 and 6,300 acre-feet/year for its lithium facility in different EIR sections. [O016](#o016), [O017](#o017), [O055](#o055), [O056](#o056).
 - **Emissions estimates are not comparable as presented.** South West Arkansas's estimate includes gas-fired electricity generation. Hell’s Kitchen's combined net result includes credit for geothermal electricity displacing grid power. Neither number is a measured lithium-product carbon intensity. [O033](#o033), [O063](#o063).
@@ -172,9 +179,298 @@ Fresh makeup water is separate: the EIR describes IID irrigation-water supply, s
 
 That description gives approximately **5.9 million lb/hr** of brine feeding the cooling trains. It is a mass-flow design value for the 2023 plan; no volume conversion or extraction recovery is inferred from it. [O135](#o135). A numbered-stream balance giving all water, brine, reagent and product compositions was not located in the reviewed environmental documents. The newer SEC presentation's original remains unavailable for visual diagram review, so this is a bounded finding, not a claim that no other public flowsheet exists. [D037](#d037).
 
+## BHER Minerals demonstration {#bher}
+
+**Disclosure summary:** measured brine lithium **222 ppm**, with 24 parameters in the published brine table; separate canal-water and steam analyses; a process diagram with selected design flows. These are records of a historical demonstration that did not achieve its intended outcome. Collection cutoff: **September 16, 2026**; principal technical source published **August 2024**, describing 2021–2023 work. [O144](#o144), [O201](#o201).
+
+BHER Minerals LLC (BHERM), associated with BHE Renewables and CalEnergy, tested a small side stream of Salton Sea geothermal brine at its Region 1 facilities. The final CEC report describes lithium-titanate ion-exchange media, sodium-hydroxide conditioning and hydrochloric-acid elution. The earlier 2020 CEQA exemption named Lilac resin; that initial description must not be assumed to describe every later test. [D058](#d058), pp. 1–3; [D059](#d059).
+
+### Published brine, canal-water and steam chemistry {#bher-water-composition}
+
+The following reproduces all parameters in **Tables 4–6, printed p. 17 / PDF p. 24**. The report identifies CalEnergy laboratory averages. It dates the canal-water analysis September 13, 2021, but does not give sample dates for the brine and steam averages. Preserve **ppm** as printed: a mass-versus-volume convention and density are not established, so these values are not converted to mg/L.
+
+**Geothermal brine — Table 4.**
+
+| Parameter | Reported value | Unit | Evidence |
+|:--|:--|:--|:--|
+| Arsenic | 15 | ppm | [O136](#o136) |
+| Barium | 223 | ppm | [O137](#o137) |
+| Cadmium | 1.99 | ppm | [O138](#o138) |
+| Calcium | 31365 | ppm | [O139](#o139) |
+| Chromium | 0.43 | ppm | [O140](#o140) |
+| Copper | 4.15 | ppm | [O141](#o141) |
+| Iron | 1001 | ppm | [O142](#o142) |
+| Lead | 82.3 | ppm | [O143](#o143) |
+| Lithium | 222 | ppm | [O144](#o144) |
+| Magnesium | 69.2 | ppm | [O145](#o145) |
+| Manganese | 1077 | ppm | [O146](#o146) |
+| Nickel | 0.0039 | ppm | [O147](#o147) |
+| Potassium | 15599 | ppm | [O148](#o148) |
+| Silver | 0.12 | ppm | [O149](#o149) |
+| Sodium | 66916 | ppm | [O150](#o150) |
+| Strontium | 532 | ppm | [O151](#o151) |
+| Zinc | 356 | ppm | [O152](#o152) |
+| Chloride | 181019 | ppm | [O153](#o153) |
+| Fluoride | 25 | ppm | [O154](#o154) |
+| Sulfate | 111 | ppm | [O155](#o155) |
+| pH | 4.82 | pH units | [O156](#o156) |
+| Silica | 161 | ppm | [O157](#o157) |
+| TDS | 305453 | ppm | [O158](#o158) |
+| TSS | 418 | ppm | [O159](#o159) |
+
+**Canal water — Table 5, September 13, 2021.** These surprisingly low printed concentrations are retained without speculative unit corrections.
+
+| Parameter | Reported value | Unit | Evidence |
+|:--|:--|:--|:--|
+| Calcium | 0.42 | ppm | [O160](#o160) |
+| Chlorides | 1.83 | ppm | [O161](#o161) |
+| Iron | 0.01 | ppm | [O162](#o162) |
+| Magnesium | 0.12 | ppm | [O163](#o163) |
+| Manganese | 0.001 | ppm | [O164](#o164) |
+| Potassium | 0.05 | ppm | [O165](#o165) |
+| Sodium | 0.47 | ppm | [O166](#o166) |
+| pH | 6.96 | pH units | [O167](#o167) |
+
+**Steam — Table 6.** The report calls the stream steam; it does not give a full sampling or condensate-normalization protocol.
+
+| Parameter | Reported concentration, ppm | Evidence |
+|:--|:--|:--|
+| Barium | 0.035 | [O168](#o168) |
+| Calcium | 68.1 | [O169](#o169) |
+| Iron | 1.04 | [O170](#o170) |
+| Magnesium | 29.4 | [O171](#o171) |
+| Manganese | 0.031 | [O172](#o172) |
+| Potassium | 4.77 | [O173](#o173) |
+| Sodium | 108 | [O174](#o174) |
+| Chloride | 113 | [O175](#o175) |
+| Fluoride | 0.319 | [O176](#o176) |
+| Sulfate | 247 | [O177](#o177) |
+| Antimony | Not detected; limit not given | [O178](#o178) |
+| Arsenic | Not detected; limit not given | [O179](#o179) |
+| Beryllium | Not detected; limit not given | [O180](#o180) |
+| Cadmium | Not detected; limit not given | [O181](#o181) |
+| Cobalt | Not detected; limit not given | [O182](#o182) |
+| Copper | Not detected; limit not given | [O183](#o183) |
+| Lead | Not detected; limit not given | [O184](#o184) |
+| Molybdenum | Not detected; limit not given | [O185](#o185) |
+| Nickel | Not detected; limit not given | [O186](#o186) |
+| Nitrates | Not detected; limit not given | [O187](#o187) |
+| Selenium | Not detected; limit not given | [O188](#o188) |
+| Silver | Not detected; limit not given | [O189](#o189) |
+| Thallium | Not detected; limit not given | [O190](#o190) |
+
+These are full transcriptions of the selected tables, not proof of exhaustive analytical coverage. Nondetects are not zero. The report does not provide sample-by-sample certificates, detection limits, charge-balance closure or full temperature/density characterization. [Open the original chemistry page](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24).
+
+### Process diagram and stream quantities {#bher-process-flowsheets}
+
+![BHER demonstration process diagram, Figure 2, CEC-500-2024-094; design annotations, not achieved operating data.](assets/D058-figure2.png)
+
+[Open Figure 2 at PDF page 18](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=18). The diagram covers brine conditioning, ion exchange, washing and acid elution, spent-brine acidification and return to geothermal facilities. Lithium carbonate conversion is shown only for a **laboratory sample** of the eluate. [O200](#o200).
+
+| Stream or input | Original design quantity | Boundary / issue | Evidence |
+|:--|:--|:--|:--|
+| Raw brine | 100 gpm; Li approximately 250 ppm | Diagram concentration differs from measured Table 4 average | [O191](#o191), [O192](#o192) |
+| Incremental freshwater | Approximately 6 gpm (10 acre-ft/year) | Table 1 estimate; existing geothermal facility use excluded | [O193](#o193) |
+| Filtered water | 24 gpm | Figure 2 gross process input; reuse shown | [O194](#o194) |
+| Spent brine | 106 gpm | Return stream, before connection to existing facilities | [O195](#o195) |
+| LiCl solution | 3.7 gpm | Only a sample goes to laboratory product conversion | [O196](#o196) |
+| NaOH at 32 wt% | Total 0.9 gpm / 286 kg/hr | Branches show 0.9 plus 0.1 gpm: unresolved discrepancy | [O197](#o197) |
+| HCl at 36 wt% | Total 0.9 gpm / 240 kg/hr | Acid elution and return-stream acidification | [O198](#o198) |
+| Electricity annotations | 3 and 10 kWh/hr | Two diagram annotations, not a measured energy balance | [O199](#o199) |
+
+**A completed mass/energy balance is not available in this report.** Table 7 is a sampling-point plan; the mass-balance and techno-economic deliverables were cancelled because of technical difficulties. The 6 gpm net-water estimate and 24 gpm process-water annotation cannot simply be interchanged. [O203](#o203).
+
+### Test outcome and later development
+
+The final report states that the planned one-tenth commercial-scale demonstration was unsuccessful under field conditions. In the sixth test, adsorption declined from about 80% to 25% over 30 cycles. The supplier termination was acknowledged June 23, 2023. Pretreatment for iron and silicon, media durability and low-pH materials compatibility were key lessons. [O201](#o201), [O202](#o202).
+
+The under-$4,000/metric-ton production-cost figure was an objective, not an achieved cost. Full commercial economics, product-purity results, annual emissions, executed offtake and current commercial operating performance are not established here. [O204](#o204).
+
+BHE and Occidental announced a TerraLithium joint venture in June 2024. Treat that later program separately; this report does not establish its current performance or transfer the failed historical media results to it. [O205](#o205).
+
+## EnergySource Minerals ATLiS {#atlis}
+
+**Disclosure summary:** a commercial **7,000 gpm brine-processing design**, a published process block diagram, water demand and detailed chemical-use estimates. A complete geothermal-feed or makeup-water composition was **not located in the screened documents**. Collection cutoff: **September 16, 2026**; technical vintages: **2021 EIR and March 2025 DOE EA**. [O206](#o206), [O236](#o236).
+
+EnergySource Minerals LLC proposes ATLiS beside Hudson Ranch Power I (HR1) in Imperial County, California. It would process post-geothermal brine after HR1's secondary clarification and return lithium-depleted brine to HR1 for reinjection. County records use **CUP 20-0008**, **SCH 2020120143**; the later federal review is **DOE/EA-2279**, also circulated under **SCH 2024110237**. This is a separate facility from both Hell’s Kitchen and the BHER demonstration. [D060](#d060), [D074](#d074), [D085](#d085), §2.4.2.
+
+### Water chemistry and flow boundaries {#atlis-water-composition}
+
+The 2021 EIR and 2025 EA describe impurity removal, ILiAD adsorption/desorption, lithium-chloride purification, conversion through carbonate to hydroxide, crystallization and packaging. Their selected process sections do not disclose a complete named-stream assay. The EIR's HR1 groundwater-monitoring appendix does contain laboratory analyses, but these describe **environmental monitoring wells**, not geothermal production brine or canal makeup water. They must not be used to fill the missing feed-composition fields. [O236](#o236).
+
+| Quantity | Reported value | Date / basis | Evidence |
+|:--|:--|:--|:--|
+| Geothermal brine | Approximately 7,000 gpm | 2025 commercial design; impurity-removal inlet | [O206](#o206) |
+| Geothermal brine mass | Approximately 4.0 million lb/hour | 2025 EA safety section; no density reconciliation | [O207](#o207) |
+| Cooling/process water | 3,400 acre-feet/year | IID water supply; design demand | [O208](#o208) |
+| Hourly water requirement | Approximately 90,000 gallons/hour | As separately printed; not exact equivalent of annual figure | [O209](#o209) |
+| Electricity | Up to 17 MW | Purchased power for ATLiS operations | [O210](#o210) |
+| Fe-silica cake | 136,200 metric tonnes/year dry; about 190,000 tonnes/year wet | Design residue quantities; dry/wet bases differ | [O211](#o211), [O212](#o212) |
+
+The source pairs 90,000 gallons/hour with 3,400 acre-feet/year; those do not match under continuous annual operation. No operating-hour correction is imposed. Brine flow, freshwater purchase, pond storage and reinjection are separate quantities. Full lithium concentration, recovery, product assay, eluate chemistry and a closed water balance remain gaps in this reviewed environmental package. [O209](#o209), [O236](#o236).
+
+### Published process diagram {#atlis-process-flowsheets}
+
+![ATLiS NEPA process flow diagram, Figure 4 of the March 2025 DOE EA; source EnergySource Minerals.](assets/D061-figure4.png)
+
+[Open Figure 4 at PDF page 15](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=15). The diagram shows the main processing stages, two filter-cake outlets and the return-brine connection. It does not expose the proprietary ILiAD equipment arrangement, regeneration steps or numerical compositions/flows of each internal stream. [O213](#o213).
+
+### Chemical inputs, residues and emissions {#atlis-reagents}
+
+The full chemical-use table below preserves the source units. Despite the source title “Annual Chemical/Materials Usage,” several rows are daily rates. Chemical ton conventions and solution strengths are not established by this table. These are design inputs, not measured consumption or water composition. [D061](#d061), p. 34 / PDF p. 40, Table 13.
+
+| Chemical/material | Reported quantity | Original unit | Evidence |
+|:--|:--|:--|:--|
+| Limestone | 102.0 | tons/day | [O217](#o217) |
+| Quicklime | 158.0 | tons/day | [O218](#o218) |
+| Flocculant | 2256.0 | pounds/day | [O219](#o219) |
+| HCl | 208.4 | tons/day | [O220](#o220) |
+| Antifoam | 906.0 | pounds/day | [O221](#o221) |
+| Sodium hydroxide | 1356.1 | tons/year | [O222](#o222) |
+| Soda ash | 40589.5 | tons/year | [O223](#o223) |
+| EDTA | 0.8 | tons/year | [O224](#o224) |
+| Lithium coagulant | 549.0 | pounds/day | [O225](#o225) |
+| Canal coagulant | 10.0 | pounds/day | [O226](#o226) |
+| Sodium bisulfite | 2.8 | tons/year | [O227](#o227) |
+| Lithium biocide | 6.0 | pounds/day | [O228](#o228) |
+| Sodium hypochlorite | 0.2 | tons/day | [O229](#o229) |
+| Canal anti-scalant | 5000.0 | pounds/year | [O230](#o230) |
+| Lithium polymer | 25.00 | pounds/day | [O231](#o231) |
+| Actiflo polymer | 14.0 | pounds/day | [O232](#o232) |
+| Veolia lime | 19079.4 | tons/year | [O233](#o233) |
+| Cooling tower chemical | 8.5 | tons/year | [O234](#o234) |
+| CO2 | 1008.0 | tons/year | [O235](#o235) |
+
+The EA estimates filter cake disposal to Wellton, Arizona until commercial uses become viable. It incorporates a **16,650.91 metric tonnes/year** construction-plus-operation GHG estimate from the 2021 EIR; construction is annualized over 30 years. Its separate avoided-gasoline calculation is not a measured lithium-product carbon footprint. [O212](#o212), [O215](#o215).
+
+### Approval, schedule and remaining gaps
+
+DOE announced its final EA and signed FONSI on **March 26, 2025**, explicitly stating that this was not a final decision to issue a federal loan. The EA expects full production in **Q4 2027**; the 2021 EIR had expected operations in Q2 2023. These are dated plans, not independently verified construction milestones. [O237](#o237), [O214](#o214); [D085](#d085), p. 2.0-10 / PDF p. 54.
+
+Capacity also needs a product basis: the 2021 EIR estimates shipments of 19,000 metric tons of “Li product,” while the later EA uses 20,000 tons/year in an avoided-emissions calculation. Neither wording should silently become a consistent LCE capacity. [O216](#o216); [D085](#d085), PDF p. 54. Project cost, executed offtake terms, complete financing, current construction status and actual commercial performance are not established by this package.
+
+## Ogden / Great Salt Lake {#ogden}
+
+**Disclosure summary:** selected multi-cation lake and pond tables, a historical East/West process flowsheet, and design water, energy and reagent quantities. **Evaporation precedes DLE**; ambient lake water is not the same stream as concentrated DLE feed. Collection cutoff: **September 16, 2026**. Chemistry and process design: Compass **2022 technical report**; latest relevant proposal screened: EnergyX **July 2026 SEC circular**. [D073](#d073), [D089](#d089).
+
+Compass Minerals' Ogden operation processes Great Salt Lake salts. Its 2022 lithium initial assessment used EnergySource Minerals' ILiAD technology and separate East and West product plants. The issuer-hosted PDF is preserved as **D073**, a supplement to the SEC technical exhibit **D064**, whose original download was blocked. [D073](#d073), §14.
+
+### Lake and pond composition {#ogden-water-composition}
+
+The following is the **full five-cation Table 7.2**, including its published aggregate. Sampling covered 2020 and the first half of 2021. FB-2 is in the south arm; LVG-4 and RD-2 are north-arm locations. Location/depth averages must not be merged into an invented representative plant feed. All concentrations are **mg/L**. [D073](#d073), pp. 44–45 / PDF pp. 56–57.
+
+| Location / depth | Samples | B | Ca | K | Li | Mg | Evidence |
+|:--|:--|:--|:--|:--|:--|:--|:--|
+| FB-2 Deep | 6 | 34.9 | 314 | 4642 | 37.8 | 7293 | [O241](#o241) |
+| FB-2 Deep Intermediate | 6 | 28 | 306 | 3908 | 30.7 | 6102 | [O246](#o246) |
+| FB-2 Deep Shallow | 6 | 24.5 | 282 | 3162 | 25.9 | 5002 | [O251](#o251) |
+| FB-2 Shallow | 5 | 23.8 | 280 | 3380 | 27.2 | 5274 | [O256](#o256) |
+| FB-2 Shallow Intermediate | 6 | 25 | 275 | 3442 | 27.6 | 5347 | [O261](#o261) |
+| LVG-4 Deep | 6 | 45.9 | 398 | 7870 | 58.6 | 11877 | [O266](#o266) |
+| LVG-4 Intermediate | 6 | 46.2 | 355 | 7475 | 56.8 | 11448 | [O271](#o271) |
+| LVG-4 Shallow | 6 | 45.8 | 348 | 7545 | 57 | 11550 | [O276](#o276) |
+| LVG-4 Surface | 4 | 42.8 | 342 | 7058 | 52.6 | 10595 | [O281](#o281) |
+| RD-2 Deep | 6 | 47.7 | 349 | 7305 | 55.2 | 11073 | [O286](#o286) |
+| RD-2 Intermediate | 6 | 46.6 | 371 | 7463 | 56.8 | 11332 | [O291](#o291) |
+| RD-2 Shallow | 6 | 48.5 | 401 | 7665 | 57.4 | 11545 | [O296](#o296) |
+| RD-2 Surface | 1 | 48.4 | 266 | 7380 | 51.6 | 9920 | [O301](#o301) |
+| Sub Total | 70 | 38.5 | 335 | 5934 | 45.4 | 9058 | [O306](#o306) |
+
+Each constituent has its own observation in the evidence appendix. The source aggregate is not an additional independent sample. The narrative spells LVG-4 as LGV-4; table labels above are retained.
+
+**Pond 114 interstitial brine — full Table 7.3.** All samples are dated **March 3, 2020**. Concentrations are mg/L; halite thickness is feet. Ratios are reported source values, not new calculations.
+
+| Sample | Halite, ft | Li | K | Mg | Na | K:Li | Mg:Li | Evidence |
+|:--|:--|:--|:--|:--|:--|:--|:--|:--|
+| 114TP01 | 8.0 | 238 | 18400 | 41400 | 63300 | 77:1 | 174:1 | [O308](#o308) |
+| 114TP02 | 6.5 | 328 | 26700 | 50100 | 51800 | 81:1 | 153:1 | [O314](#o314) |
+| 114TP03 | 6.5 | 321 | 25300 | 50900 | 52600 | 79:1 | 159:1 | [O320](#o320) |
+| 114TP04 | 6.5 | 279 | 23800 | 46100 | 52400 | 85:1 | 165:1 | [O326](#o326) |
+| 114TP05 | 5.5 | 265 | 23100 | 43000 | 46700 | 87:1 | 162:1 | [O332](#o332) |
+| 114TP06 | 6.5 | 125 | 12900 | 23400 | 89000 | 103:1 | 187:1 | [O338](#o338) |
+| 114TP07 | 6.5 | 208 | 17400 | 38400 | 68000 | 84:1 | 185:1 | [O344](#o344) |
+| Average | — | 252 | 21100 | 41900 | 60500 | 84:1 | 166:1 | [O350](#o350) |
+
+[Open Table 7.3 at PDF page 60](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60). These samples show lateral variability; the source assumes a full-thickness mix and does not resolve vertical chemistry. Other pond tables remain accessible in **Tables 7.5–7.9, PDF pp. 66–68**; they were identified but not fully transcribed in this pass. The selected tables above lack a complete anion suite, pH, density, TDS and a linked production-stream assay. Laboratory field-blank tables in §8 are quality-control evidence, not the brine composition.
+
+The narrative separately gives **51 mg/L** for ambient north-arm brine, **180 mg/L** for an average one-year concentrated brine, and **>1,000 mg/L** for final magnesium-chloride bittern. These are different streams and averaging bases. The 2022 design considers interstitial brine, approximately two-year brine and highly concentrated DustGard brine. [O356](#o356), [O357](#o357), [O358](#o358); [D073](#d073), §14.2.
+
+### Historical process flowsheet and demands {#ogden-process-flowsheets}
+
+![Ogden East and West process block flowsheets, Figure 14-1 of the 2022 Compass Minerals technical report.](assets/D073-figure14-1.png)
+
+[Open Figure 14-1 at PDF page 148](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=148). Both branches include pond evaporation, pretreatment and DLE. East produces lithium carbonate; West adds conversion to lithium hydroxide monohydrate. Reagents and water-recycle branches are shown. This is a **historical block flowsheet**, with no complete numbered-stream material/energy balance, and is not a published EnergyX 2026 engineering design. [O359](#o359).
+
+| 2022 design quantity | East plant | West plant | Interpretation |
+|:--|:--|:--|:--|
+| Fresh water from site wells | 487 AFY [O360](#o360) | 693 AFY [O361](#o361) | Design consumption; AFY defined by source footnote |
+| Connected electrical load | 2,901 kW [O367](#o367) | 5,848 kW [O369](#o369) | Pond pumps separately 5,000 kW [O371](#o371) |
+| Annual electrical energy | 21,601 MWh/year [O368](#o368) | 43,544 MWh/year [O370](#o370) | Pond pumps separately 31,050 MWh/year [O372](#o372) |
+| Intended output | 10,800 tonnes/year Li2CO3 [O364](#o364) | 27,800 tonnes/year LHM [O365](#o365) | 85% equipment-effectiveness assumption; different products |
+| Capital estimate | US$262.0 million [O362](#o362) | US$710.1 million [O363](#o363) | Historical FEL-1 estimate; exclusions and cost-year caveat below |
+
+The report describes pilot/column/cycle results exceeding **85% lithium recovery** across tested feeds. This does not establish full commercial brine-to-product performance. [O366](#o366).
+
+Capital values include contingency but exclude items such as sustaining capital, land acquisition, sunk costs, working capital and financing. The report's general currency convention is constant Q3 2021 USD, while its operating-cost basis specifically uses Q1 2022 USD; Table 18.5 does not independently restate the capital cost year. This ambiguity is retained, and the figures are not promoted to current project costs. [D073](#d073), §§2.2, 18.1.1, 18.2.1.
+
+Reagent utilization is also disclosed for the historical design: East caustic 24, HCl 2, soda ash 58 and clarifier polymer 2 tonnes/day; West caustic 43.3, HCl 5.5, soda ash 107.5, quicklime 73.9, CO2 3.3 and clarifier polymer 3.1 tonnes/day. Each quantity is retained in the evidence appendix. [D073](#d073), Tables 18.1–18.2 / PDF p. 178.
+
+### Keep the 2022 design and 2026 proposal separate
+
+Compass's 2025 annual filing reports that it terminated its lithium-development pursuit on **January 23, 2024**, following the 2023 investment pause. [O383](#o383).
+
+EnergyX's July 2026 filing describes a **March 19, 2026 largely non-binding MOU**, with proposed Phase I and Phase II targets of approximately 10,000 and 20,000 tpa LCE. Definitive agreements and approvals remain conditions. The July circular specified a 180-day expiry after the March 19 execution; an extension or executed definitive agreement was not established by this collection cutoff. [O384](#o384). The separate 2026 proposal does not inherit the old recovery, water, cost or flowsheet claims.
+
+The latest Compass June-quarter filing was inventoried and web-screened without a lithium-specific update. The blocked SEC originals, full current engineering design, current stream assays, project funding, executed offtake and a completed water balance remain gaps. [D090](#d090).
+
+## Anson / Blackstone Green River {#green-river}
+
+**Disclosure summary:** an **18-parameter brine table** in a November 2023 draft injection-permit attachment, including lithium **170–210 ppm**, density and pH. The table's stream label is ambiguous. An injection schematic is available, but a complete lithium-process flowsheet was not located in the reviewed package. Collection cutoff: **September 16, 2026**. [O385](#o385), [O404](#o404).
+
+Anson's August 2024 announcement links its wholly owned Blackstone subsidiary and the Utah injection approval to **Green River**. The agency's current index lists Blackstone under **UTU-19-F4-8F9143D**. Anson's separately named Paradox project is not merged with this site. [O405](#o405), [O406](#o406).
+
+### Full published permit chemistry table {#green-river-water-composition}
+
+**Read this qualification first:** Table D-1 calls the stream “production brine”; the preceding page calls it spent brine after lithium/bromide depletion and rinse-water dilution. No dated assay or lab method resolves the conflict. The ranges below are transcribed as proposed permit chemistry, **not verified raw-feed or operating-effluent measurements**. Ppm is retained without converting to mg/L. [D079](#d079), pp. 16–17.
+
+| Parameter | Published minimum–maximum | Unit | Evidence |
+|:--|:--|:--|:--|
+| Lithium | 170–210 | ppm | [O385](#o385) |
+| Bromine | 3500–4000 | ppm | [O386](#o386) |
+| Boron | 1400–1700 | ppm | [O387](#o387) |
+| Sodium | 18000–20000 | ppm | [O388](#o388) |
+| Potassium | 25000–29000 | ppm | [O389](#o389) |
+| Calcium | 45000–50000 | ppm | [O390](#o390) |
+| Magnesium | 35000–40000 | ppm | [O391](#o391) |
+| Chloride | 220000–260000 | ppm | [O392](#o392) |
+| Iron | 200–250 | ppm | [O393](#o393) |
+| Sulfate | 50–100 | ppm | [O394](#o394) |
+| Strontium | 1500–1800 | ppm | [O395](#o395) |
+| Barium | 1–4 | ppm | [O396](#o396) |
+| Zinc | 3–4 | ppm | [O397](#o397) |
+| Bicarbonate | 1200–1400 | ppm | [O398](#o398) |
+| Fluoride | 30–35 | ppm | [O399](#o399) |
+| TDS | 350000–400000 | ppm | [O400](#o400) |
+| Density | 1.27–1.28 | g/cm³ | [O401](#o401) |
+| pH | 4.5–5.0 | pH units | [O402](#o402) |
+
+[Open Table D-1 at PDF page 17](https://www.utah.gov/pmn/files/1044667.pdf#page=17). These are all listed parameters, including density and pH. Temperature, analytical methods, detection limits, sample dates and a complete charge-balanced analysis are not supplied. Separate raw-feed, eluate, spent-brine and fresh-water analyses would be needed to resolve the process balance.
+
+### Injection flow and diagram limits {#green-river-process-flowsheets}
+
+The draft attachment sets an injection-flow ceiling of **2,000 gpm**, with automatic shutdown near the maximum. This is a **draft permit limit**, not achieved DLE throughput or a current validated final-permit condition. [O403](#o403).
+
+[Figure F-1, PDF page 26](https://www.utah.gov/pmn/files/1044667.pdf#page=26) shows an **injection pump manifold**. Its following component table credits an ASARCO 1993 copper-mining report. The drawing is therefore not reproduced as if it were a project-specific lithium flowsheet. It does not disclose extraction, regeneration, purification, product conversion or a full material balance. [O404](#o404).
+
+### Permit status and remaining evidence
+
+The current agency index provides final permit and statement-of-basis links, but both returned HTML viewer/login responses to collection instead of the expected PDFs. They are recorded as unavailable originals. The November 2023 public-notice permit, fact sheet and attachments remain distinct historical drafts. [O406](#o406); [D069](#d069), [D070](#d070), [D078](#d078), [D092](#d092).
+
+An injection authorization listing does not demonstrate that every construction/operating approval is in place or that the plant is producing. Current recovery, product purity, reagent consumption, energy demand, freshwater consumption, emissions, costs, financing, offtake and commercial commissioning are not established by this selected permit package. Those gaps remain visible rather than being filled with figures from Anson's separate Paradox project.
+
 # Cross-project comparison
 
-The table preserves source definitions. It does not convert products, normalize water intensity, or calculate a comparative environmental ranking.
+The following original-pilot comparison covers SWA and Hell’s Kitchen; the six-project disclosure comparison follows it. The table preserves source definitions. It does not convert products, normalize water intensity, or calculate a comparative environmental ranking.
 
 | Topic | South West Arkansas | Hell’s Kitchen | Comparability |
 |:--|:--|:--|:--|
@@ -189,12 +485,18 @@ The table preserves source definitions. It does not convert products, normalize 
 
 ## Composition and flowsheet availability
 
-| Disclosure | South West Arkansas | Hell’s Kitchen |
-|:--|:--|:--|
-| Published composition table | 11 parameters; measured pilot and separate demonstration-feed averages. [Full table](#swa-water-composition) | 23 expected constituents. [Full table](#hk-water-composition) |
-| Lithium in that table | 476 mg/L in SWA pilot feed, Oct 2024–Jan 2025. [O109](#o109) | 250 mg/L expected geothermal brine, 2023 EIR. [O051](#o051) |
-| Process diagram | End-to-end process block flowsheets in DFS and DOE EA. [Figures](#swa-process-flowsheets) | Geothermal schematic plus a lithium-process narrative. [Figure and limits](#hk-process-flowsheets) |
-| Complete analytical / stream balance package | Not established from the reviewed disclosures | Not established from the reviewed disclosures |
+“Full table” means all rows of a named published table, not an exhaustive chemical characterization. No complete measured stream-by-stream material/energy balance was established for these six projects.
+
+| Project / technical vintage | Lithium value and stream basis | Broader chemistry | Diagram and balance coverage |
+|:--|:--|:--|:--|
+| [South West Arkansas](south-west-arkansas.html) · 2025 DFS | 476 mg/L measured pilot feed; separate design 439.9 mg/L | 11 parameters in full two-feed table. [Table](#swa-water-composition) | Overall block flowsheets; no complete numbered balance. [Figures](#swa-process-flowsheets) |
+| [Hell’s Kitchen](hells-kitchen.html) · 2023 EIR | 250 mg/L expected geothermal brine | 23 expected constituents. [Table](#hk-water-composition) | Geothermal schematic; lithium stages in narrative. [Limits](#hk-process-flowsheets) |
+| [BHER demonstration](bher.html) · 2024 report | 222 ppm laboratory-average brine; diagram uses approximately 250 ppm | 24 brine parameters plus canal-water and steam tables. [Tables](#bher-water-composition) | Demonstration PFD with selected flows; balance deliverable cancelled. [Figure](#bher-process-flowsheets) |
+| [ATLiS](atlis.html) · 2021/2025 environmental studies | Complete project-specific feed assay not located | Monitoring-well chemistry is a different stream. [Scope](#atlis-water-composition) | Four-stage block diagram; brine and water estimates, no closed balance. [Figure](#atlis-process-flowsheets) |
+| [Ogden](ogden.html) · 2022 initial assessment | Lake Table 7.2: 25.9–58.6 mg/L across location/depth averages; Pond 114: 125–328 mg/L across samples | Five-cation lake table and four-cation pond table; not complete water analyses. [Tables](#ogden-water-composition) | Historical East/West block flowsheets include pond evaporation. [Figure](#ogden-process-flowsheets) |
+| [Green River](green-river.html) · 2023 draft permit | 170–210 ppm; production/spent-brine label unresolved | 18 proposed parameters, including density and pH. [Table](#green-river-water-composition) | Injection manifold only, with reused copper-project provenance. [Limits](#green-river-process-flowsheets) |
+
+Do not rank these lithium values directly: ppm and mg/L are retained as distinct source units; lake, concentrated pond brine, geothermal feed and proposed injection chemistry are different boundaries. The earlier two-project engineering comparison above retains its original scope.
 
 ## Brine concentration and chemistry
 
@@ -247,7 +549,7 @@ Dates preserve source precision: a month or year is not expanded into an invente
 
 <!-- BEGIN CATALOG -->
 
-## South West Arkansas sources
+## South West Arkansas sources {#south-west-arkansas-sources}
 
 ### D001
 
@@ -475,7 +777,7 @@ Original saved.
 
 Snapshot of the changing statewide draft-air-permit list; no project-specific permit was established from this page.
 
-## Hell’s Kitchen sources
+## Hell’s Kitchen sources {#hells-kitchen-sources}
 
 ### D003
 
@@ -977,6 +1279,698 @@ Original saved.
 
 Issuer notice directing readers to the August SEC presentation; no downloadable issuer PDF was located.
 
+## BHER demonstration sources {#bher-sources}
+
+### D057
+
+**[BHERM final project report index](https://www.energy.ca.gov/publications/2024/bherm-lithium-recovery-demonstration-final-project-report)**
+
+Report index · California Energy Commission. Entity: BHER Minerals LLC.
+
+Published/filed: **2024-08-30**; effective/event date: **not established**. Source role: official agency record.
+
+Original saved.
+
+BHERM final project report index. Expansion source collected to document project history and chemistry/process disclosure.
+
+### D058
+
+**[BHERM lithium recovery demonstration final report CEC-500-2024-094](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf)**
+
+Grant final report · California Energy Commission. Entity: BHER Minerals LLC.
+
+Published/filed: **2024-08**; effective/event date: **not established**. Source role: official agency record.
+
+Original saved; 32 PDF pages.
+
+BHERM lithium recovery demonstration final report CEC-500-2024-094. Expansion source collected to document project history and chemistry/process disclosure.
+
+### D059
+
+**[Salton Sea geothermal lithium recovery demonstration exemption](https://ceqanet.lci.ca.gov/2020060332/2)**
+
+Notice of exemption · CEQAnet / CEC. Entity: BHER Minerals LLC.
+
+Published/filed: **2020-06-17**; effective/event date: **not established**. Source role: official agency record.
+
+Original saved.
+
+Salton Sea geothermal lithium recovery demonstration exemption. Expansion source collected to document project history and chemistry/process disclosure.
+
+### D076
+
+**[BHER demonstration CEC exemption original](https://ceqanet.lci.ca.gov/2020060332/2/Attachment/1BylSL)**
+
+Notice of exemption · CEQAnet / CEC. Entity: BHER Minerals LLC.
+
+Published/filed: **2020-06-17**; effective/event date: **not established**. Source role: official agency record.
+
+Original saved; 2 PDF pages.
+
+BHER demonstration CEC exemption original. Preserved to distinguish source versions and project phases.
+
+### D082
+
+**[Occidental and BHE TerraLithium joint venture announcement](https://www.oxy.com/siteassets/documents/news-releases/pr-060424_occidental-and-bhe-renewables-form-joint-venture-to-commercialize-terralithium-extraction-technology.pdf)**
+
+Issuer announcement · Issuer. Entity: Occidental / BHE Renewables.
+
+Published/filed: **2024-06-04**; effective/event date: **not established**. Source role: issuer supplement.
+
+Original saved; 3 PDF pages.
+
+Occidental and BHE TerraLithium joint venture announcement. Preserved to distinguish source versions and project phases.
+
+## ATLiS sources {#atlis-sources}
+
+### D060
+
+**[DOE EA-2279 ATLiS project index](https://www.energy.gov/nepa/doeea-2279-atlis-project-imperial-county-california)**
+
+Environmental review index · DOE. Entity: EnergySource Minerals LLC.
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official agency record.
+
+Original saved.
+
+DOE EA-2279 ATLiS project index. Expansion source collected to document project history and chemistry/process disclosure.
+
+### D061
+
+**[ATLiS final environmental assessment and FONSI](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf)**
+
+Final EA and FONSI · DOE. Entity: EnergySource Minerals LLC.
+
+Published/filed: **2025-03**; effective/event date: **not established**. Source role: official agency record.
+
+Original saved; 222 PDF pages.
+
+ATLiS final environmental assessment and FONSI. Expansion source collected to document project history and chemistry/process disclosure.
+
+### D062
+
+**[ATLiS early CEQA project record SCH 2020120143](https://ceqanet.lci.ca.gov/2020120143)**
+
+Environmental review index · CEQAnet / Imperial County. Entity: EnergySource Minerals LLC.
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official agency record.
+
+Original download unavailable. HTTP Error 404: Not Found.
+
+ATLiS early CEQA project record SCH 2020120143. Expansion source collected to document project history and chemistry/process disclosure.
+
+### D063
+
+**[ATLiS federal environmental review in state clearinghouse](https://ceqanet.lci.ca.gov/2024110237)**
+
+Draft EA index · CEQAnet / DOE. Entity: EnergySource Minerals LLC.
+
+Published/filed: **2024-11-07**; effective/event date: **not established**. Source role: official agency record.
+
+Original saved.
+
+ATLiS federal environmental review in state clearinghouse. Expansion source collected to document project history and chemistry/process disclosure.
+
+### D074
+
+**[ATLiS June 2021 draft EIR archive](https://ceqanet.lci.ca.gov/2020120143/3)**
+
+Draft EIR index · CEQAnet / Imperial County. Entity: EnergySource Minerals LLC.
+
+Published/filed: **2021-06-28**; effective/event date: **not established**. Source role: official agency record.
+
+Original saved.
+
+ATLiS June 2021 draft EIR archive. Preserved to distinguish source versions and project phases.
+
+### D075
+
+**[ATLiS December 2020 scoping record](https://ceqanet.lci.ca.gov/2020120143/2)**
+
+NOP index · CEQAnet / Imperial County. Entity: EnergySource Minerals LLC.
+
+Published/filed: **2020-12-08**; effective/event date: **not established**. Source role: official agency record.
+
+Original saved.
+
+ATLiS December 2020 scoping record. Preserved to distinguish source versions and project phases.
+
+### D077
+
+**[ATLiS November 2024 draft environmental assessment](https://ceqanet.lci.ca.gov/2024110237/Attachment/hqr8KL)**
+
+Draft EA · CEQAnet / DOE. Entity: EnergySource Minerals LLC.
+
+Published/filed: **2024-11**; effective/event date: **not established**. Source role: official agency record.
+
+Original saved; 91 PDF pages.
+
+ATLiS November 2024 draft environmental assessment. Preserved to distinguish source versions and project phases.
+
+### D080
+
+**[ATLiS county final EIR introduction](https://www.icpds.com/assets/CUP20-0008-FINAL-EIR-1.0-Introduction.pdf)**
+
+Final EIR chapter · Imperial County. Entity: EnergySource Minerals LLC.
+
+Published/filed: **2021**; effective/event date: **not established**. Source role: official agency record.
+
+Original saved; 3 PDF pages.
+
+ATLiS county final EIR introduction. Preserved to distinguish source versions and project phases.
+
+### D081
+
+**[ATLiS county final EIR responses to comments](https://www.icpds.com/assets/CUP20-0008-FINAL-EIR--3.0-Comments-and-Response-to-comments-.pdf)**
+
+Final EIR chapter · Imperial County. Entity: EnergySource Minerals LLC.
+
+Published/filed: **2021**; effective/event date: **not established**. Source role: official agency record.
+
+Original saved; 16 PDF pages.
+
+ATLiS county final EIR responses to comments. Preserved to distinguish source versions and project phases.
+
+### D085
+
+**[ATLiS full 2021 draft EIR and appendices](https://ceqanet.lci.ca.gov/2020120143/3/Attachment/1WAuc8)**
+
+Draft EIR · Imperial County / CEQAnet. Entity: EnergySource Minerals LLC.
+
+Published/filed: **2021-06-28**; effective/event date: **not established**. Source role: official agency record.
+
+Original saved; 1388 PDF pages.
+
+ATLiS full 2021 draft EIR and appendices. Expansion source; dates and boundaries retained separately from earlier technical evidence.
+
+### D086
+
+**[ATLiS CEQA historical project index](https://ceqanet.lci.ca.gov/Project/2020120143)**
+
+Agency index · CEQAnet. Entity: EnergySource Minerals LLC.
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official index.
+
+Original saved.
+
+ATLiS CEQA historical project index. Expansion source; dates and boundaries retained separately from earlier technical evidence.
+
+### D093
+
+**[DOE ATLiS final EA and FONSI publication notice](https://www.energy.gov/nepa/articles/doeea-2279-final-environmental-assessment-and-finding-no-significant-impact-march)**
+
+Agency decision notice · DOE. Entity: DOE Loan Programs Office.
+
+Published/filed: **2025-03-26**; effective/event date: **not established**. Source role: official agency record.
+
+Original saved.
+
+DOE confirms issuance of its EA and signed FONSI for potential financial assistance; explicitly not a final loan decision.
+
+### D094
+
+**[ATLiS_Notice_of_Availability](https://ceqanet.lci.ca.gov/2024110237/Attachment/xFbE5U)**
+
+Attachment: Draft EA index · CEQAnet / DOE. Entity: EnergySource Minerals LLC.
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official document.
+
+Original saved; 2 PDF pages.
+
+ATLiS_Notice_of_Availability; linked from the saved agency/index record. Relevance and source dates require review.
+
+Attachment or associated copy of [D063](#d063).
+
+### D095
+
+**[ATLiS_Summary_Form](https://ceqanet.lci.ca.gov/2024110237/Attachment/8cxygm)**
+
+Attachment: Draft EA index · CEQAnet / DOE. Entity: EnergySource Minerals LLC.
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official document.
+
+Original saved; 2 PDF pages.
+
+ATLiS_Summary_Form; linked from the saved agency/index record. Relevance and source dates require review.
+
+Attachment or associated copy of [D063](#d063).
+
+### D096
+
+**[ATLiS_Notice_of_Completion](https://ceqanet.lci.ca.gov/2024110237/Attachment/aSVCIK)**
+
+Attachment: Draft EA index · CEQAnet / DOE. Entity: EnergySource Minerals LLC.
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official document.
+
+Original saved; 2 PDF pages.
+
+ATLiS_Notice_of_Completion; linked from the saved agency/index record. Relevance and source dates require review.
+
+Attachment or associated copy of [D063](#d063).
+
+### D097
+
+**[2024110237_CDFW Comment](https://ceqanet.lci.ca.gov/2024110237/Attachment/4wtsP8)**
+
+Attachment: Draft EA index · CEQAnet / DOE. Entity: EnergySource Minerals LLC.
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official document.
+
+Original saved; 8 PDF pages.
+
+2024110237_CDFW Comment; linked from the saved agency/index record. Relevance and source dates require review.
+
+Attachment or associated copy of [D063](#d063).
+
+### D098
+
+**[2024110237_DOT Comment](https://ceqanet.lci.ca.gov/2024110237/Attachment/ZWafjP)**
+
+Attachment: Draft EA index · CEQAnet / DOE. Entity: EnergySource Minerals LLC.
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official document.
+
+Original saved; 3 PDF pages.
+
+2024110237_DOT Comment; linked from the saved agency/index record. Relevance and source dates require review.
+
+Attachment or associated copy of [D063](#d063).
+
+### D099
+
+**[2024110237_DTSC Comment](https://ceqanet.lci.ca.gov/2024110237/Attachment/s-nBpu)**
+
+Attachment: Draft EA index · CEQAnet / DOE. Entity: EnergySource Minerals LLC.
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official document.
+
+Original saved; 8 PDF pages.
+
+2024110237_DTSC Comment; linked from the saved agency/index record. Relevance and source dates require review.
+
+Attachment or associated copy of [D063](#d063).
+
+### D100
+
+**[Notice of Availability-ATLiS-DEIR](https://ceqanet.lci.ca.gov/2020120143/3/Attachment/dAJdaA)**
+
+Attachment: Draft EIR index · CEQAnet / Imperial County. Entity: EnergySource Minerals LLC.
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official document.
+
+Original saved; 1 PDF pages.
+
+Notice of Availability-ATLiS-DEIR; linked from the saved agency/index record. Relevance and source dates require review.
+
+Attachment or associated copy of [D074](#d074).
+
+### D101
+
+**[Respond to Mitigation Measures](https://ceqanet.lci.ca.gov/2020120143/3/Attachment/_B5Eec)**
+
+Attachment: Draft EIR index · CEQAnet / Imperial County. Entity: EnergySource Minerals LLC.
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official document.
+
+Original saved; 8 PDF pages.
+
+Respond to Mitigation Measures; linked from the saved agency/index record. Relevance and source dates require review.
+
+Attachment or associated copy of [D074](#d074).
+
+### D102
+
+**[Summary Form](https://ceqanet.lci.ca.gov/2020120143/3/Attachment/wFYba_)**
+
+Attachment: Draft EIR index · CEQAnet / Imperial County. Entity: EnergySource Minerals LLC.
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official document.
+
+Original saved; 2 PDF pages.
+
+Summary Form; linked from the saved agency/index record. Relevance and source dates require review.
+
+Attachment or associated copy of [D074](#d074).
+
+### D103
+
+**[Revised-NOC-ATLiS](https://ceqanet.lci.ca.gov/2020120143/3/Attachment/FQns9J)**
+
+Attachment: Draft EIR index · CEQAnet / Imperial County. Entity: EnergySource Minerals LLC.
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official document.
+
+Original saved; 2 PDF pages.
+
+Revised-NOC-ATLiS; linked from the saved agency/index record. Relevance and source dates require review.
+
+Attachment or associated copy of [D074](#d074).
+
+### D104
+
+**[2020120143_Conservation Comment](https://ceqanet.lci.ca.gov/2020120143/3/Attachment/xAHJbc)**
+
+Attachment: Draft EIR index · CEQAnet / Imperial County. Entity: EnergySource Minerals LLC.
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official document.
+
+Original saved; 2 PDF pages.
+
+2020120143_Conservation Comment; linked from the saved agency/index record. Relevance and source dates require review.
+
+Attachment or associated copy of [D074](#d074).
+
+### D105
+
+**[2020120143_Conservation Comment](https://ceqanet.lci.ca.gov/2020120143/3/Attachment/DoBXLI)**
+
+Attachment: Draft EIR index · CEQAnet / Imperial County. Entity: EnergySource Minerals LLC.
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official document.
+
+Original saved; 3 PDF pages.
+
+2020120143_Conservation Comment; linked from the saved agency/index record. Relevance and source dates require review.
+
+Attachment or associated copy of [D074](#d074).
+
+### D106
+
+**[CUP20-0008 Initial Study Energy Source ATLiS](https://ceqanet.lci.ca.gov/2020120143/2/Attachment/nKsfJy)**
+
+Attachment: NOP index · CEQAnet / Imperial County. Entity: EnergySource Minerals LLC.
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official document.
+
+Original saved; 42 PDF pages.
+
+CUP20-0008 Initial Study Energy Source ATLiS; linked from the saved agency/index record. Relevance and source dates require review.
+
+Attachment or associated copy of [D075](#d075).
+
+### D107
+
+**[CUP20-0008 NOC](https://ceqanet.lci.ca.gov/2020120143/2/Attachment/CchMo3)**
+
+Attachment: NOP index · CEQAnet / Imperial County. Entity: EnergySource Minerals LLC.
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official document.
+
+Original saved; 2 PDF pages.
+
+CUP20-0008 NOC; linked from the saved agency/index record. Relevance and source dates require review.
+
+Attachment or associated copy of [D075](#d075).
+
+### D108
+
+**[CUP20-0008 NOP](https://ceqanet.lci.ca.gov/2020120143/2/Attachment/HtuT1Q)**
+
+Attachment: NOP index · CEQAnet / Imperial County. Entity: EnergySource Minerals LLC.
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official document.
+
+Original saved; 1 PDF pages.
+
+CUP20-0008 NOP; linked from the saved agency/index record. Relevance and source dates require review.
+
+Attachment or associated copy of [D075](#d075).
+
+### D109
+
+**[2020120143_Caltrans comment](https://ceqanet.lci.ca.gov/2020120143/2/Attachment/-JskzA)**
+
+Attachment: NOP index · CEQAnet / Imperial County. Entity: EnergySource Minerals LLC.
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official document.
+
+Original saved; 2 PDF pages.
+
+2020120143_Caltrans comment; linked from the saved agency/index record. Relevance and source dates require review.
+
+Attachment or associated copy of [D075](#d075).
+
+### D110
+
+**[2020120143_NAHC Comment](https://ceqanet.lci.ca.gov/2020120143/2/Attachment/c7xI6t)**
+
+Attachment: NOP index · CEQAnet / Imperial County. Entity: EnergySource Minerals LLC.
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official document.
+
+Original saved; 5 PDF pages.
+
+2020120143_NAHC Comment; linked from the saved agency/index record. Relevance and source dates require review.
+
+Attachment or associated copy of [D075](#d075).
+
+## Ogden / Great Salt Lake sources {#ogden-sources}
+
+### D064
+
+**[Ogden lithium updated technical report summary](https://www.sec.gov/Archives/edgar/data/1227654/000122765422000252/cmpex961revisedogdenlithiu.htm)**
+
+Technical report / EX-96.1 · SEC. Entity: Compass Minerals International Inc..
+
+Published/filed: **2022-09-14**; effective/event date: **not established**. Source role: official filing.
+
+Original download unavailable. HTTP Error 403: Forbidden.
+
+Ogden lithium updated technical report summary. Expansion source collected to document project history and chemistry/process disclosure.
+
+### D065
+
+**[Compass Minerals 2023 annual report](https://www.sec.gov/Archives/edgar/data/1227654/000122765423000226/cmp-20230930.htm)**
+
+10-K · SEC. Entity: Compass Minerals International Inc..
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official filing.
+
+Original download unavailable. HTTP Error 403: Forbidden.
+
+Compass Minerals 2023 annual report. Expansion source collected to document project history and chemistry/process disclosure.
+
+### D066
+
+**[Compass Minerals 2025 annual report](https://www.sec.gov/Archives/edgar/data/1227654/000122765425000199/cmp-20250930.htm)**
+
+10-K · SEC. Entity: Compass Minerals International Inc..
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official filing.
+
+Original download unavailable. HTTP Error 403: Forbidden.
+
+Compass Minerals 2025 annual report. Expansion source collected to document project history and chemistry/process disclosure.
+
+### D067
+
+**[EnergyX June 2026 offering amendment](https://www.sec.gov/Archives/edgar/data/1830166/000149315226028871/partiiandiii.htm)**
+
+Regulation A offering amendment · SEC. Entity: Energy Exploration Technologies Inc..
+
+Published/filed: **2026-06-16**; effective/event date: **not established**. Source role: official filing.
+
+Original download unavailable. HTTP Error 403: Forbidden.
+
+EnergyX June 2026 offering amendment. Expansion source collected to document project history and chemistry/process disclosure.
+
+### D071
+
+**[Compass September 2022 technology and economics announcement](https://investors.compassminerals.com/investors-relations/investor-news/press-release-details/2022/Compass-Minerals-Announces-Selection-of-Direct-Lithium-Extraction-DLE-Technology-Provider-Attractive-Economics-and-Positive-Sustainability-Profile-for-First-Phase-of-Lithium-Project/default.aspx)**
+
+Issuer announcement · Issuer. Entity: Compass Minerals International Inc..
+
+Published/filed: **2022-09-14**; effective/event date: **not established**. Source role: issuer supplement.
+
+Original download unavailable. HTTP Error 403: Forbidden.
+
+Compass September 2022 technology and economics announcement. Expansion source collected to document project history and chemistry/process disclosure.
+
+### D073
+
+**[Ogden September 2022 technical report issuer PDF](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf)**
+
+Technical report / issuer-hosted copy · Issuer. Entity: Compass Minerals International Inc..
+
+Published/filed: **2022-09-14**; effective/event date: **not established**. Source role: issuer supplement.
+
+Original saved; 200 PDF pages.
+
+Ogden September 2022 technical report issuer PDF. Preserved to distinguish source versions and project phases.
+
+### D083
+
+**[Compass Minerals SEC submissions index](https://data.sec.gov/submissions/CIK0001227654.json)**
+
+Filing index · SEC. Entity: Compass Minerals International Inc..
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official agency record.
+
+Original saved.
+
+Compass Minerals SEC submissions index. Preserved to distinguish source versions and project phases.
+
+### D084
+
+**[EnergyX SEC submissions index](https://data.sec.gov/submissions/CIK0001830166.json)**
+
+Filing index · SEC. Entity: Energy Exploration Technologies Inc..
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official agency record.
+
+Original saved.
+
+EnergyX SEC submissions index. Preserved to distinguish source versions and project phases.
+
+### D089
+
+**[EnergyX July 2026 offering circular](https://www.sec.gov/Archives/edgar/data/1830166/000149315226032991/form253g2.htm)**
+
+253G2 · SEC. Entity: Energy Exploration Technologies Inc..
+
+Published/filed: **2026-07-13**; effective/event date: **not established**. Source role: official filing.
+
+Original download unavailable. HTTP Error 403: Forbidden.
+
+EnergyX July 2026 offering circular. Expansion source; dates and boundaries retained separately from earlier technical evidence.
+
+### D090
+
+**[Compass Minerals June 2026 quarterly report](https://www.sec.gov/Archives/edgar/data/1227654/000122765426000054/cmp-20260630.htm)**
+
+10-Q · SEC. Entity: Compass Minerals International Inc..
+
+Published/filed: **2026-08-06**; effective/event date: **not established**. Source role: official filing.
+
+Original download unavailable. HTTP Error 403: Forbidden.
+
+Compass Minerals June 2026 quarterly report. Expansion source; dates and boundaries retained separately from earlier technical evidence.
+
+### D091
+
+**[Compass Minerals historical SEC submissions index](https://data.sec.gov/submissions/CIK0001227654-submissions-001.json)**
+
+Filing index · SEC. Entity: Compass Minerals International Inc..
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official index.
+
+Original saved.
+
+Compass Minerals historical SEC submissions index. Expansion source; dates and boundaries retained separately from earlier technical evidence.
+
+Attachment or associated copy of [D083](#d083).
+
+## Green River sources {#green-river-sources}
+
+### D068
+
+**[Blackstone draft injection permit public notice](https://www.utah.gov/pmn/sitemap/notice/871019.html)**
+
+Public notice · Utah DEQ / Public Notice Website. Entity: Blackstone Minerals NV LLC.
+
+Published/filed: **2023-11-08**; effective/event date: **not established**. Source role: official agency record.
+
+Original saved.
+
+Blackstone draft injection permit public notice. Expansion source collected to document project history and chemistry/process disclosure.
+
+### D069
+
+**[Blackstone draft UIC permit UTU-19-F4-8F9143D](https://www.utah.gov/pmn/files/1044663.pdf)**
+
+Draft injection permit · Utah Division of Water Quality. Entity: Blackstone Minerals NV LLC.
+
+Published/filed: **2023-11**; effective/event date: **not established**. Source role: official agency record.
+
+Original saved; 49 PDF pages.
+
+Blackstone draft UIC permit UTU-19-F4-8F9143D. Expansion source collected to document project history and chemistry/process disclosure.
+
+### D070
+
+**[Blackstone UIC permit agency archive](https://lf-public.deq.utah.gov/WebLink/ElectronicFile.aspx?docid=444607&eqdocs=DWQ-2024-005095)**
+
+Injection permit · Utah Division of Water Quality. Entity: Blackstone Minerals NV LLC.
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official agency record.
+
+Original download unavailable. Expected PDF, received HTML.
+
+Blackstone UIC permit agency archive. Expansion source collected to document project history and chemistry/process disclosure.
+
+### D072
+
+**[Utah water quality notices alphabetical archive](https://deq.utah.gov/public-notices-archive/water-quality-public-notices-archive-z)**
+
+Agency index · Utah DEQ. Entity: Utah DEQ.
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official agency record.
+
+Original download unavailable. HTTP Error 404: Not Found.
+
+Utah water quality notices alphabetical archive. Expansion source collected to document project history and chemistry/process disclosure.
+
+### D078
+
+**[Blackstone November 2023 draft fact sheet and statement of basis](https://www.utah.gov/pmn/files/1044665.pdf)**
+
+Draft statement of basis · Utah Division of Water Quality. Entity: Blackstone Minerals NV LLC.
+
+Published/filed: **2023-11-07**; effective/event date: **not established**. Source role: official agency record.
+
+Original saved; 4 PDF pages.
+
+Blackstone November 2023 draft fact sheet and statement of basis. Preserved to distinguish source versions and project phases.
+
+### D079
+
+**[Blackstone November 2023 draft permit attachments A-I](https://www.utah.gov/pmn/files/1044667.pdf)**
+
+Draft permit attachments · Utah Division of Water Quality. Entity: Blackstone Minerals NV LLC.
+
+Published/filed: **2023-11**; effective/event date: **not established**. Source role: official agency record.
+
+Original saved; 45 PDF pages.
+
+Blackstone November 2023 draft permit attachments A-I. Preserved to distinguish source versions and project phases.
+
+### D087
+
+**[Utah current groundwater and UIC permit index](https://deq.utah.gov/dwq/ground-water-permits)**
+
+Agency index · Utah DEQ. Entity: Blackstone Minerals NV LLC.
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official index.
+
+Original saved.
+
+Utah current groundwater and UIC permit index. Expansion source; dates and boundaries retained separately from earlier technical evidence.
+
+### D088
+
+**[Anson announces Green River UIC approval](https://wcsecure.weblink.com.au/pdf/ASN/02842937.pdf)**
+
+Issuer announcement · Issuer / ASX announcement. Entity: Anson Resources Ltd..
+
+Published/filed: **2024-08-26**; effective/event date: **not established**. Source role: issuer supplement.
+
+Original download unavailable. &lt;urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)&gt;.
+
+Anson announces Green River UIC approval. Expansion source; dates and boundaries retained separately from earlier technical evidence.
+
+### D092
+
+**[Blackstone final UIC statement of basis](https://lf-public.deq.utah.gov/WebLink/ElectronicFile.aspx?docid=444608&eqdocs=DWQ-2024-005093)**
+
+Permit statement of basis · Utah DEQ. Entity: Blackstone Minerals NV LLC.
+
+Published/filed: **2024**; effective/event date: **not established**. Source role: official agency record.
+
+Original download unavailable. Expected PDF, received HTML.
+
+Blackstone final UIC statement of basis. Expansion source; dates and boundaries retained separately from earlier technical evidence.
+
 
 <!-- END CATALOG -->
 
@@ -986,7 +1980,7 @@ Every observation in the working CSV is reproduced below, including missing-info
 
 <!-- BEGIN EVIDENCE -->
 
-## South West Arkansas evidence
+## South West Arkansas evidence {#south-west-arkansas-evidence}
 
 ### Process
 
@@ -2016,7 +3010,7 @@ Government-hosted overview diagram, useful alongside DFS Figure 17-1. No per-str
 
 Review: AI text and rendered-page check; **human review pending**.
 
-## Hell’s Kitchen evidence
+## Hell’s Kitchen evidence {#hells-kitchen-evidence}
 
 ### Process
 
@@ -2636,6 +3630,3296 @@ Mass flow at the 2023 design scale, not freshwater demand. No volume conversion 
 
 Review: AI source-text check; **human review pending**.
 
+## BHER demonstration evidence {#bher-evidence}
+
+### Brine and water composition
+
+#### O136
+
+**brine — Arsenic: 15 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: brine. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 4](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O137
+
+**brine — Barium: 223 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: brine. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 4](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O138
+
+**brine — Cadmium: 1.99 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: brine. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 4](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O139
+
+**brine — Calcium: 31365 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: brine. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 4](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O140
+
+**brine — Chromium: 0.43 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: brine. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 4](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O141
+
+**brine — Copper: 4.15 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: brine. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 4](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O142
+
+**brine — Iron: 1001 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: brine. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 4](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O143
+
+**brine — Lead: 82.3 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: brine. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 4](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O144
+
+**brine — Lithium: 222 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: brine. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 4](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O145
+
+**brine — Magnesium: 69.2 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: brine. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 4](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O146
+
+**brine — Manganese: 1077 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: brine. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 4](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O147
+
+**brine — Nickel: 0.0039 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: brine. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 4](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O148
+
+**brine — Potassium: 15599 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: brine. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 4](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O149
+
+**brine — Silver: 0.12 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: brine. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 4](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O150
+
+**brine — Sodium: 66916 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: brine. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 4](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O151
+
+**brine — Strontium: 532 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: brine. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 4](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O152
+
+**brine — Zinc: 356 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: brine. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 4](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O153
+
+**brine — Chloride: 181019 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: brine. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 4](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O154
+
+**brine — Fluoride: 25 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: brine. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 4](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O155
+
+**brine — Sulfate: 111 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: brine. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 4](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O156
+
+**brine — pH: 4.82 pH units.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: brine. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 4](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O157
+
+**brine — Silica: 161 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: brine. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 4](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O158
+
+**brine — TDS: 305453 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: brine. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 4](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O159
+
+**brine — TSS: 418 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: brine. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 4](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O160
+
+**canal water — Calcium: 0.42 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: canal water. Date/basis: 2021-09-13.
+
+Source: [D058](#d058), [p. 17, Table 5](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O161
+
+**canal water — Chlorides: 1.83 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: canal water. Date/basis: 2021-09-13.
+
+Source: [D058](#d058), [p. 17, Table 5](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O162
+
+**canal water — Iron: 0.01 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: canal water. Date/basis: 2021-09-13.
+
+Source: [D058](#d058), [p. 17, Table 5](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O163
+
+**canal water — Magnesium: 0.12 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: canal water. Date/basis: 2021-09-13.
+
+Source: [D058](#d058), [p. 17, Table 5](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O164
+
+**canal water — Manganese: 0.001 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: canal water. Date/basis: 2021-09-13.
+
+Source: [D058](#d058), [p. 17, Table 5](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O165
+
+**canal water — Potassium: 0.05 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: canal water. Date/basis: 2021-09-13.
+
+Source: [D058](#d058), [p. 17, Table 5](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O166
+
+**canal water — Sodium: 0.47 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: canal water. Date/basis: 2021-09-13.
+
+Source: [D058](#d058), [p. 17, Table 5](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O167
+
+**canal water — pH: 6.96 pH units.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: canal water. Date/basis: 2021-09-13.
+
+Source: [D058](#d058), [p. 17, Table 5](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O168
+
+**steam — Barium: 0.035 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: steam. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 6](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O169
+
+**steam — Calcium: 68.1 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: steam. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 6](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O170
+
+**steam — Iron: 1.04 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: steam. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 6](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O171
+
+**steam — Magnesium: 29.4 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: steam. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 6](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O172
+
+**steam — Manganese: 0.031 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: steam. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 6](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O173
+
+**steam — Potassium: 4.77 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: steam. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 6](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O174
+
+**steam — Sodium: 108 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: steam. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 6](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O175
+
+**steam — Chloride: 113 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: steam. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 6](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O176
+
+**steam — Fluoride: 0.319 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: steam. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 6](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O177
+
+**steam — Sulfate: 247 ppm.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: steam. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 6](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+CalEnergy laboratory averages. All published rows retained. The source does not define ppm as a mass or volume basis, provide sample-level results or detection limits. Canal-water values are transcribed as printed, without correcting their unexpectedly small magnitudes.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O178
+
+**steam — Antimony: not detected detection limit not reported.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: steam. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 6](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+Not detected is not zero. Source spelling Berylium/Thalium normalized to element names; no numeric detection limit is supplied.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O179
+
+**steam — Arsenic: not detected detection limit not reported.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: steam. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 6](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+Not detected is not zero. Source spelling Berylium/Thalium normalized to element names; no numeric detection limit is supplied.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O180
+
+**steam — Beryllium: not detected detection limit not reported.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: steam. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 6](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+Not detected is not zero. Source spelling Berylium/Thalium normalized to element names; no numeric detection limit is supplied.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O181
+
+**steam — Cadmium: not detected detection limit not reported.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: steam. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 6](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+Not detected is not zero. Source spelling Berylium/Thalium normalized to element names; no numeric detection limit is supplied.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O182
+
+**steam — Cobalt: not detected detection limit not reported.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: steam. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 6](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+Not detected is not zero. Source spelling Berylium/Thalium normalized to element names; no numeric detection limit is supplied.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O183
+
+**steam — Copper: not detected detection limit not reported.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: steam. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 6](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+Not detected is not zero. Source spelling Berylium/Thalium normalized to element names; no numeric detection limit is supplied.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O184
+
+**steam — Lead: not detected detection limit not reported.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: steam. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 6](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+Not detected is not zero. Source spelling Berylium/Thalium normalized to element names; no numeric detection limit is supplied.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O185
+
+**steam — Molybdenum: not detected detection limit not reported.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: steam. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 6](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+Not detected is not zero. Source spelling Berylium/Thalium normalized to element names; no numeric detection limit is supplied.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O186
+
+**steam — Nickel: not detected detection limit not reported.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: steam. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 6](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+Not detected is not zero. Source spelling Berylium/Thalium normalized to element names; no numeric detection limit is supplied.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O187
+
+**steam — Nitrates: not detected detection limit not reported.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: steam. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 6](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+Not detected is not zero. Source spelling Berylium/Thalium normalized to element names; no numeric detection limit is supplied.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O188
+
+**steam — Selenium: not detected detection limit not reported.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: steam. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 6](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+Not detected is not zero. Source spelling Berylium/Thalium normalized to element names; no numeric detection limit is supplied.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O189
+
+**steam — Silver: not detected detection limit not reported.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: steam. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 6](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+Not detected is not zero. Source spelling Berylium/Thalium normalized to element names; no numeric detection limit is supplied.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O190
+
+**steam — Thallium: not detected detection limit not reported.**
+
+Basis: **reported measurement**; scale: demonstration support analysis; boundary: steam. Date/basis: sample dates not reported; published 2024-08.
+
+Source: [D058](#d058), [p. 17, Table 6](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=24) (PDF page 24).
+
+Not detected is not zero. Source spelling Berylium/Thalium normalized to element names; no numeric detection limit is supplied.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+### Process, flows and test outcome
+
+#### O191
+
+**Design brine throughput: 100 gpm.**
+
+Basis: **design/model estimate**; scale: 100 gpm demonstration design; boundary: CEC-funded historical demonstration. Date/basis: 2024-08 report; 2021–2023 tests.
+
+Source: [D058](#d058), [p. 11, Figure 2](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=18) (PDF page 18).
+
+Raw brine is shown as approximately 250 ppm lithium in this diagram, distinct from the 222 ppm measured laboratory average.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O192
+
+**Lithium concentration shown on process diagram: approximately 250 ppm.**
+
+Basis: **design/model estimate**; scale: 100 gpm demonstration design; boundary: CEC-funded historical demonstration. Date/basis: 2024-08 report; 2021–2023 tests.
+
+Source: [D058](#d058), [p. 11, Figure 2](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=18) (PDF page 18).
+
+A diagram annotation, not the Table 4 measured average.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O193
+
+**Expected incremental freshwater use: approximately 6 gpm.**
+
+Basis: **design/model estimate**; scale: 100 gpm demonstration design; boundary: CEC-funded historical demonstration. Date/basis: 2024-08 report; 2021–2023 tests.
+
+Source: [D058](#d058), [p. 7, Table 1](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=14) (PDF page 14).
+
+Source also gives approximately 10 acre-ft/year. The existing Region 1 plant use is about 530 gpm; do not treat it as DLE-only water consumption.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O194
+
+**Filtered water shown on diagram: 24 gpm.**
+
+Basis: **design/model estimate**; scale: 100 gpm demonstration design; boundary: CEC-funded historical demonstration. Date/basis: 2024-08 report; 2021–2023 tests.
+
+Source: [D058](#d058), [p. 11, Figure 2](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=18) (PDF page 18).
+
+Gross process input shown separately from the Table 1 incremental-water estimate; water reuse is shown but a closed balance is not provided.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O195
+
+**Spent brine shown on diagram: 106 gpm.**
+
+Basis: **design/model estimate**; scale: 100 gpm demonstration design; boundary: CEC-funded historical demonstration. Date/basis: 2024-08 report; 2021–2023 tests.
+
+Source: [D058](#d058), [p. 11, Figure 2](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=18) (PDF page 18).
+
+Return stream includes suspended solids and acidification; value does not prove achieved field throughput.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O196
+
+**Lithium chloride solution shown on diagram: 3.7 gpm.**
+
+Basis: **design/model estimate**; scale: 100 gpm demonstration design; boundary: CEC-funded historical demonstration. Date/basis: 2024-08 report; 2021–2023 tests.
+
+Source: [D058](#d058), [p. 11, Figure 2](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=18) (PDF page 18).
+
+Only sample volume goes to laboratory carbonate conversion; remainder joins return stream.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O197
+
+**Total sodium hydroxide reagent flow: 0.9 gpm at 32 wt%.**
+
+Basis: **design/model estimate**; scale: 100 gpm demonstration design; boundary: CEC-funded historical demonstration. Date/basis: 2024-08 report; 2021–2023 tests.
+
+Source: [D058](#d058), [p. 11, Figure 2](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=18) (PDF page 18).
+
+Figure total lists 0.9 gpm or 286 kg/hr, while branch labels read 0.9 and 0.1 gpm. Preserve the inconsistency; do not force balance closure.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O198
+
+**Total hydrochloric acid reagent flow: 0.9 gpm at 36 wt%.**
+
+Basis: **design/model estimate**; scale: 100 gpm demonstration design; boundary: CEC-funded historical demonstration. Date/basis: 2024-08 report; 2021–2023 tests.
+
+Source: [D058](#d058), [p. 11, Figure 2](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=18) (PDF page 18).
+
+Figure also lists 240 kg/hr; branches 0.5 and 0.4 gpm.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O199
+
+**Diagram electricity annotations: 3 and 10 kWh/hr.**
+
+Basis: **design/model estimate**; scale: 100 gpm demonstration design; boundary: CEC-funded historical demonstration. Date/basis: 2024-08 report; 2021–2023 tests.
+
+Source: [D058](#d058), [p. 11, Figure 2](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=18) (PDF page 18).
+
+Source labels geothermal power at pH adjustment and ion exchange; not a complete metered energy balance.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O200
+
+**Process diagram disclosure: simplified lithium recovery PFD.**
+
+Basis: **design description**; scale: 100 gpm demonstration design; boundary: CEC-funded historical demonstration. Date/basis: 2024-08 report; 2021–2023 tests.
+
+Source: [D058](#d058), [p. 11, Figure 2](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=18) (PDF page 18).
+
+Covers brine conditioning, ion exchange, washing/elution, acidification, return to geothermal facilities and sample-only lab carbonate conversion.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O201
+
+**Demonstration outcome: not successful at the stated one-tenth commercial scale.**
+
+Basis: **reported test outcome**; scale: 100 gpm demonstration design; boundary: CEC-funded historical demonstration. Date/basis: 2024-08 report; 2021–2023 tests.
+
+Source: [D058](#d058), [p. 22, Project Outcomes](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=29) (PDF page 29).
+
+Lithium-titanate media failed under field conditions. Provider termination acknowledged June 23, 2023. This outcome does not describe later technology programs.
+
+Review: AI source-text check; **human review pending**.
+
+#### O202
+
+**Sixth field test adsorption decline: 80 to 25 % over 30 cycles.**
+
+Basis: **reported measurement**; scale: 100 gpm demonstration design; boundary: CEC-funded historical demonstration. Date/basis: 2024-08 report; 2021–2023 tests.
+
+Source: [D058](#d058), [p. 21, Test #6 continuation](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=28) (PDF page 28).
+
+Last media formulation; field adsorption is not overall brine-to-product recovery. Trial in May 2023.
+
+Review: AI source-text check; **human review pending**.
+
+#### O203
+
+**Completed mass balance and techno-economic analysis: deliverables cancelled.**
+
+Basis: **reported project outcome**; scale: 100 gpm demonstration design; boundary: CEC-funded historical demonstration. Date/basis: 2024-08 report; 2021–2023 tests.
+
+Source: [D058](#d058), [p. 9, Task 2.4 and footnote 1](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=16) (PDF page 16).
+
+Cancelled due to technical challenges. Table 7 lists sampling locations and planned metrics, not a completed mass/energy balance.
+
+Review: AI source-text check; **human review pending**.
+
+#### O204
+
+**Production-cost objective: less than 4000 $/metric ton lithium carbonate.**
+
+Basis: **company target**; scale: 100 gpm demonstration design; boundary: CEC-funded historical demonstration. Date/basis: 2024-08 report; 2021–2023 tests.
+
+Source: [D058](#d058), [p. 2, Project Purpose](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=9) (PDF page 9).
+
+Goal, not achieved production cost. Currency convention and cost year not specified alongside the target.
+
+Review: AI source-text check; **human review pending**.
+
+### Development history
+
+#### O205
+
+**Later technology program: TerraLithium joint venture announced.**
+
+Basis: **issuer announcement**; scale: separate later development; boundary: BHE Renewables and Occidental. Date/basis: 2024-06-04.
+
+Source: [D082](#d082), [p. 1](https://www.oxy.com/siteassets/documents/news-releases/pr-060424_occidental-and-bhe-renewables-form-joint-venture-to-commercialize-terralithium-extraction-technology.pdf#page=1) (PDF page 1).
+
+Distinct technology program; the earlier CEC demonstration results must not be transferred to it.
+
+Review: AI source-text check; **human review pending**.
+
+## ATLiS evidence {#atlis-evidence}
+
+### Process and environmental demands
+
+#### O206
+
+**Brine processing rate: approximately 7000 gpm.**
+
+Basis: **design/model estimate**; scale: proposed ATLiS commercial plant; boundary: HR1 brine-to-lithium products. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 14, §2.2.2.1](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=20) (PDF page 20).
+
+HR1 geothermal brine entering impurity removal; 2021 EIR identifies post-secondary-clarifier feed. Actual processing rate remains to be optimized.
+
+Review: AI source-text check; **human review pending**.
+
+#### O207
+
+**Brine feed mass flow: approximately 4.0 million lb/hour.**
+
+Basis: **design/model estimate**; scale: proposed ATLiS commercial plant; boundary: HR1 brine-to-lithium products. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 34, §3.9](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=40) (PDF page 40).
+
+Retain separately from 7000 gpm; no density-based reconciliation attempted.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O208
+
+**Purchased cooling and process water: 3400 acre-feet/year.**
+
+Basis: **design/model estimate**; scale: proposed ATLiS commercial plant; boundary: HR1 brine-to-lithium products. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 15, §2.2.3.1](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=21) (PDF page 21).
+
+Source pairs this with 90000 gallons/hour. Continuous operation at that rate does not yield 3400 AFY; operating-time/basis reconciliation remains open. Water supply agreement described as executed in September 2023.
+
+Review: AI source-text check; **human review pending**.
+
+#### O209
+
+**Hourly water requirement: approximately 90000 gallons/hour.**
+
+Basis: **design/model estimate**; scale: proposed ATLiS commercial plant; boundary: HR1 brine-to-lithium products. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 15, §2.2.3.1](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=21) (PDF page 21).
+
+Kept in original units alongside 3400 AFY; these are not silently treated as exact equivalents.
+
+Review: AI source-text check; **human review pending**.
+
+#### O210
+
+**Electricity demand: up to 17 MW.**
+
+Basis: **design/model estimate**; scale: proposed ATLiS commercial plant; boundary: HR1 brine-to-lithium products. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 15, §2.2.3.3](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=21) (PDF page 21).
+
+Electricity to be purchased from IID; not the geothermal plant generating capacity.
+
+Review: AI source-text check; **human review pending**.
+
+#### O211
+
+**Fe-silica filter cake: 136200 metric tonnes/year dry.**
+
+Basis: **design/model estimate**; scale: proposed ATLiS commercial plant; boundary: HR1 brine-to-lithium products. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 14, §2.2.2.1](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=20) (PDF page 20).
+
+Waste initially; commercial coproduct market prospective. Source also gives a wet-weight estimate.
+
+Review: AI source-text check; **human review pending**.
+
+#### O212
+
+**Filter cake disposal: approximately 190000 tonnes/year wet.**
+
+Basis: **design/model estimate**; scale: proposed ATLiS commercial plant; boundary: HR1 brine-to-lithium products. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 16, §2.2.6](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=22) (PDF page 22).
+
+To Wellton, Arizona pending other viable uses; estimated water content 30–40%.
+
+Review: AI source-text check; **human review pending**.
+
+#### O213
+
+**Process diagram disclosure: four-stage block diagram.**
+
+Basis: **design description**; scale: proposed ATLiS commercial plant; boundary: HR1 brine-to-lithium products. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 9, Figure 4](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=15) (PDF page 15).
+
+Impurity removal, ILiAD, purification/crystallization, packaging; also return brine and filter-cake branches. No numerical stream balance.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O214
+
+**Full production timing in March 2025 EA: Q4 2027.**
+
+Basis: **company target**; scale: proposed ATLiS commercial plant; boundary: HR1 brine-to-lithium products. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 13, §2.1.2](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=19) (PDF page 19).
+
+Not evidence the schedule has been achieved. The 2021 EIR had expected Q2 2023 operations.
+
+Review: AI source-text check; **human review pending**.
+
+#### O215
+
+**Combined construction/operation GHG estimate: 16650.91 metric tonnes/year.**
+
+Basis: **design/model estimate**; scale: proposed ATLiS commercial plant; boundary: HR1 brine-to-lithium products. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 39, §3.11.1](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=45) (PDF page 45).
+
+EA incorporates 2021 EIR estimate with construction annualized over 30 years. Separately calculated avoided gasoline emissions are not a measured product carbon intensity.
+
+Review: AI source-text check; **human review pending**.
+
+#### O216
+
+**Production assumption used in avoided-emissions calculation: 20000 tons per annum.**
+
+Basis: **design/model estimate**; scale: proposed ATLiS commercial plant; boundary: HR1 brine-to-lithium products. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 39, §3.11.1](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=45) (PDF page 45).
+
+EA uses this as a lithium-production assumption; product and ton convention require clarification before comparison with the earlier 19000 metric tons Li product shipping estimate.
+
+Review: AI source-text check; **human review pending**.
+
+### Reagents
+
+#### O217
+
+**Limestone: 102.0 tons/day.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: ATLiS project chemical/material use. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 34, Table 13](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=40) (PDF page 40).
+
+Original mixed time units retained despite Annual in table title. Ton convention and reagent concentration not established here. This is chemical use, not brine composition.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O218
+
+**Quicklime: 158.0 tons/day.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: ATLiS project chemical/material use. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 34, Table 13](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=40) (PDF page 40).
+
+Original mixed time units retained despite Annual in table title. Ton convention and reagent concentration not established here. This is chemical use, not brine composition.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O219
+
+**Flocculant: 2256.0 pounds/day.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: ATLiS project chemical/material use. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 34, Table 13](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=40) (PDF page 40).
+
+Original mixed time units retained despite Annual in table title. Ton convention and reagent concentration not established here. This is chemical use, not brine composition.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O220
+
+**HCl: 208.4 tons/day.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: ATLiS project chemical/material use. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 34, Table 13](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=40) (PDF page 40).
+
+Original mixed time units retained despite Annual in table title. Ton convention and reagent concentration not established here. This is chemical use, not brine composition.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O221
+
+**Antifoam: 906.0 pounds/day.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: ATLiS project chemical/material use. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 34, Table 13](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=40) (PDF page 40).
+
+Original mixed time units retained despite Annual in table title. Ton convention and reagent concentration not established here. This is chemical use, not brine composition.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O222
+
+**Sodium hydroxide: 1356.1 tons/year.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: ATLiS project chemical/material use. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 34, Table 13](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=40) (PDF page 40).
+
+Original mixed time units retained despite Annual in table title. Ton convention and reagent concentration not established here. This is chemical use, not brine composition.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O223
+
+**Soda ash: 40589.5 tons/year.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: ATLiS project chemical/material use. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 34, Table 13](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=40) (PDF page 40).
+
+Original mixed time units retained despite Annual in table title. Ton convention and reagent concentration not established here. This is chemical use, not brine composition.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O224
+
+**EDTA: 0.8 tons/year.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: ATLiS project chemical/material use. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 34, Table 13](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=40) (PDF page 40).
+
+Original mixed time units retained despite Annual in table title. Ton convention and reagent concentration not established here. This is chemical use, not brine composition.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O225
+
+**Lithium coagulant: 549.0 pounds/day.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: ATLiS project chemical/material use. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 34, Table 13](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=40) (PDF page 40).
+
+Original mixed time units retained despite Annual in table title. Ton convention and reagent concentration not established here. This is chemical use, not brine composition.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O226
+
+**Canal coagulant: 10.0 pounds/day.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: ATLiS project chemical/material use. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 34, Table 13](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=40) (PDF page 40).
+
+Original mixed time units retained despite Annual in table title. Ton convention and reagent concentration not established here. This is chemical use, not brine composition.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O227
+
+**Sodium bisulfite: 2.8 tons/year.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: ATLiS project chemical/material use. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 34, Table 13](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=40) (PDF page 40).
+
+Original mixed time units retained despite Annual in table title. Ton convention and reagent concentration not established here. This is chemical use, not brine composition.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O228
+
+**Lithium biocide: 6.0 pounds/day.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: ATLiS project chemical/material use. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 34, Table 13](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=40) (PDF page 40).
+
+Original mixed time units retained despite Annual in table title. Ton convention and reagent concentration not established here. This is chemical use, not brine composition.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O229
+
+**Sodium hypochlorite: 0.2 tons/day.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: ATLiS project chemical/material use. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 34, Table 13](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=40) (PDF page 40).
+
+Original mixed time units retained despite Annual in table title. Ton convention and reagent concentration not established here. This is chemical use, not brine composition.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O230
+
+**Canal anti-scalant: 5000.0 pounds/year.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: ATLiS project chemical/material use. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 34, Table 13](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=40) (PDF page 40).
+
+Original mixed time units retained despite Annual in table title. Ton convention and reagent concentration not established here. This is chemical use, not brine composition.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O231
+
+**Lithium polymer: 25.00 pounds/day.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: ATLiS project chemical/material use. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 34, Table 13](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=40) (PDF page 40).
+
+Original mixed time units retained despite Annual in table title. Ton convention and reagent concentration not established here. This is chemical use, not brine composition.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O232
+
+**Actiflo polymer: 14.0 pounds/day.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: ATLiS project chemical/material use. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 34, Table 13](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=40) (PDF page 40).
+
+Original mixed time units retained despite Annual in table title. Ton convention and reagent concentration not established here. This is chemical use, not brine composition.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O233
+
+**Veolia lime: 19079.4 tons/year.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: ATLiS project chemical/material use. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 34, Table 13](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=40) (PDF page 40).
+
+Original mixed time units retained despite Annual in table title. Ton convention and reagent concentration not established here. This is chemical use, not brine composition.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O234
+
+**Cooling tower chemical: 8.5 tons/year.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: ATLiS project chemical/material use. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 34, Table 13](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=40) (PDF page 40).
+
+Original mixed time units retained despite Annual in table title. Ton convention and reagent concentration not established here. This is chemical use, not brine composition.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O235
+
+**CO2: 1008.0 tons/year.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: ATLiS project chemical/material use. Date/basis: 2025-03.
+
+Source: [D061](#d061), [p. 34, Table 13](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=40) (PDF page 40).
+
+Original mixed time units retained despite Annual in table title. Ton convention and reagent concentration not established here. This is chemical use, not brine composition.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+### Disclosure gaps
+
+#### O236
+
+**Complete geothermal feed and makeup-water analysis: not located in screened evidence.**
+
+Basis: **bounded search result**; scale: proposed commercial facility; boundary: ATLiS feed/makeup water. Date/basis: 2026-09-16 review of 2021/2025 documents.
+
+Source: [D085](#d085), [§2.4.2; EIR and appendices text screen; PDF pp. 1049–1089 groundwater context](https://ceqanet.lci.ca.gov/2020120143/3/Attachment/1WAuc8#page=52) (PDF page 52).
+
+No complete project-specific feed or makeup-water constituent table located in screened D085, D061, D077, D080 and D081. HR1 monitoring-well analyses are environmental groundwater observations, not the hot geothermal production feed. Image-only appendix pages were not exhaustively OCRed.
+
+Review: AI source-text check; **human review pending**.
+
+### Development history
+
+#### O237
+
+**DOE environmental decision: Final EA and signed FONSI announced.**
+
+Basis: **agency decision notice**; scale: proposed commercial facility; boundary: potential federal loan action. Date/basis: 2025-03-26.
+
+Source: [D093](#d093), [DOE publication notice, body](https://www.energy.gov/nepa/articles/doeea-2279-final-environmental-assessment-and-finding-no-significant-impact-march).
+
+DOE explicitly says the FONSI is not a final loan-issuance decision. Current construction/commercial-operation status and full financing were not independently established.
+
+Review: AI source-text check; **human review pending**.
+
+## Ogden / Great Salt Lake evidence {#ogden-evidence}
+
+### Lake brine composition
+
+#### O238
+
+**FB-2 Deep — Boron: 34.9 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; FB-2 Deep. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, FB-2 Deep](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O239
+
+**FB-2 Deep — Calcium: 314 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; FB-2 Deep. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, FB-2 Deep](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O240
+
+**FB-2 Deep — Potassium: 4642 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; FB-2 Deep. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, FB-2 Deep](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O241
+
+**FB-2 Deep — Lithium: 37.8 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; FB-2 Deep. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, FB-2 Deep](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O242
+
+**FB-2 Deep — Magnesium: 7293 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; FB-2 Deep. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, FB-2 Deep](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O243
+
+**FB-2 Deep Intermediate — Boron: 28 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; FB-2 Deep Intermediate. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, FB-2 Deep Intermediate](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O244
+
+**FB-2 Deep Intermediate — Calcium: 306 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; FB-2 Deep Intermediate. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, FB-2 Deep Intermediate](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O245
+
+**FB-2 Deep Intermediate — Potassium: 3908 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; FB-2 Deep Intermediate. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, FB-2 Deep Intermediate](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O246
+
+**FB-2 Deep Intermediate — Lithium: 30.7 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; FB-2 Deep Intermediate. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, FB-2 Deep Intermediate](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O247
+
+**FB-2 Deep Intermediate — Magnesium: 6102 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; FB-2 Deep Intermediate. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, FB-2 Deep Intermediate](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O248
+
+**FB-2 Deep Shallow — Boron: 24.5 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; FB-2 Deep Shallow. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, FB-2 Deep Shallow](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O249
+
+**FB-2 Deep Shallow — Calcium: 282 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; FB-2 Deep Shallow. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, FB-2 Deep Shallow](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O250
+
+**FB-2 Deep Shallow — Potassium: 3162 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; FB-2 Deep Shallow. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, FB-2 Deep Shallow](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O251
+
+**FB-2 Deep Shallow — Lithium: 25.9 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; FB-2 Deep Shallow. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, FB-2 Deep Shallow](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O252
+
+**FB-2 Deep Shallow — Magnesium: 5002 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; FB-2 Deep Shallow. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, FB-2 Deep Shallow](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O253
+
+**FB-2 Shallow — Boron: 23.8 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; FB-2 Shallow. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, FB-2 Shallow](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 5 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O254
+
+**FB-2 Shallow — Calcium: 280 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; FB-2 Shallow. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, FB-2 Shallow](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 5 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O255
+
+**FB-2 Shallow — Potassium: 3380 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; FB-2 Shallow. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, FB-2 Shallow](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 5 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O256
+
+**FB-2 Shallow — Lithium: 27.2 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; FB-2 Shallow. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, FB-2 Shallow](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 5 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O257
+
+**FB-2 Shallow — Magnesium: 5274 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; FB-2 Shallow. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, FB-2 Shallow](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 5 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O258
+
+**FB-2 Shallow Intermediate — Boron: 25 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; FB-2 Shallow Intermediate. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, FB-2 Shallow Intermediate](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O259
+
+**FB-2 Shallow Intermediate — Calcium: 275 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; FB-2 Shallow Intermediate. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, FB-2 Shallow Intermediate](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O260
+
+**FB-2 Shallow Intermediate — Potassium: 3442 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; FB-2 Shallow Intermediate. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, FB-2 Shallow Intermediate](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O261
+
+**FB-2 Shallow Intermediate — Lithium: 27.6 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; FB-2 Shallow Intermediate. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, FB-2 Shallow Intermediate](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O262
+
+**FB-2 Shallow Intermediate — Magnesium: 5347 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; FB-2 Shallow Intermediate. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, FB-2 Shallow Intermediate](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O263
+
+**LVG-4 Deep — Boron: 45.9 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; LVG-4 Deep. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, LVG-4 Deep](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O264
+
+**LVG-4 Deep — Calcium: 398 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; LVG-4 Deep. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, LVG-4 Deep](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O265
+
+**LVG-4 Deep — Potassium: 7870 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; LVG-4 Deep. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, LVG-4 Deep](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O266
+
+**LVG-4 Deep — Lithium: 58.6 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; LVG-4 Deep. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, LVG-4 Deep](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O267
+
+**LVG-4 Deep — Magnesium: 11877 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; LVG-4 Deep. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, LVG-4 Deep](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O268
+
+**LVG-4 Intermediate — Boron: 46.2 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; LVG-4 Intermediate. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, LVG-4 Intermediate](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O269
+
+**LVG-4 Intermediate — Calcium: 355 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; LVG-4 Intermediate. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, LVG-4 Intermediate](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O270
+
+**LVG-4 Intermediate — Potassium: 7475 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; LVG-4 Intermediate. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, LVG-4 Intermediate](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O271
+
+**LVG-4 Intermediate — Lithium: 56.8 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; LVG-4 Intermediate. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, LVG-4 Intermediate](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O272
+
+**LVG-4 Intermediate — Magnesium: 11448 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; LVG-4 Intermediate. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, LVG-4 Intermediate](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O273
+
+**LVG-4 Shallow — Boron: 45.8 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; LVG-4 Shallow. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, LVG-4 Shallow](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O274
+
+**LVG-4 Shallow — Calcium: 348 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; LVG-4 Shallow. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, LVG-4 Shallow](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O275
+
+**LVG-4 Shallow — Potassium: 7545 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; LVG-4 Shallow. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, LVG-4 Shallow](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O276
+
+**LVG-4 Shallow — Lithium: 57 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; LVG-4 Shallow. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, LVG-4 Shallow](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O277
+
+**LVG-4 Shallow — Magnesium: 11550 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; LVG-4 Shallow. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, LVG-4 Shallow](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O278
+
+**LVG-4 Surface — Boron: 42.8 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; LVG-4 Surface. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, LVG-4 Surface](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 4 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O279
+
+**LVG-4 Surface — Calcium: 342 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; LVG-4 Surface. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, LVG-4 Surface](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 4 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O280
+
+**LVG-4 Surface — Potassium: 7058 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; LVG-4 Surface. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, LVG-4 Surface](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 4 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O281
+
+**LVG-4 Surface — Lithium: 52.6 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; LVG-4 Surface. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, LVG-4 Surface](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 4 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O282
+
+**LVG-4 Surface — Magnesium: 10595 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; LVG-4 Surface. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, LVG-4 Surface](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 4 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O283
+
+**RD-2 Deep — Boron: 47.7 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; RD-2 Deep. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, RD-2 Deep](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O284
+
+**RD-2 Deep — Calcium: 349 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; RD-2 Deep. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, RD-2 Deep](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O285
+
+**RD-2 Deep — Potassium: 7305 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; RD-2 Deep. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, RD-2 Deep](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O286
+
+**RD-2 Deep — Lithium: 55.2 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; RD-2 Deep. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, RD-2 Deep](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O287
+
+**RD-2 Deep — Magnesium: 11073 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; RD-2 Deep. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, RD-2 Deep](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O288
+
+**RD-2 Intermediate — Boron: 46.6 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; RD-2 Intermediate. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, RD-2 Intermediate](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O289
+
+**RD-2 Intermediate — Calcium: 371 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; RD-2 Intermediate. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, RD-2 Intermediate](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O290
+
+**RD-2 Intermediate — Potassium: 7463 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; RD-2 Intermediate. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, RD-2 Intermediate](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O291
+
+**RD-2 Intermediate — Lithium: 56.8 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; RD-2 Intermediate. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, RD-2 Intermediate](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O292
+
+**RD-2 Intermediate — Magnesium: 11332 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; RD-2 Intermediate. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, RD-2 Intermediate](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O293
+
+**RD-2 Shallow — Boron: 48.5 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; RD-2 Shallow. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, RD-2 Shallow](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O294
+
+**RD-2 Shallow — Calcium: 401 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; RD-2 Shallow. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, RD-2 Shallow](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O295
+
+**RD-2 Shallow — Potassium: 7665 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; RD-2 Shallow. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, RD-2 Shallow](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O296
+
+**RD-2 Shallow — Lithium: 57.4 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; RD-2 Shallow. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, RD-2 Shallow](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O297
+
+**RD-2 Shallow — Magnesium: 11545 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; RD-2 Shallow. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, RD-2 Shallow](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 6 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O298
+
+**RD-2 Surface — Boron: 48.4 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; RD-2 Surface. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, RD-2 Surface](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 1 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O299
+
+**RD-2 Surface — Calcium: 266 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; RD-2 Surface. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, RD-2 Surface](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 1 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O300
+
+**RD-2 Surface — Potassium: 7380 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; RD-2 Surface. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, RD-2 Surface](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 1 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O301
+
+**RD-2 Surface — Lithium: 51.6 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; RD-2 Surface. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, RD-2 Surface](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 1 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O302
+
+**RD-2 Surface — Magnesium: 9920 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; RD-2 Surface. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, RD-2 Surface](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 1 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O303
+
+**Sub Total — Boron: 38.5 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; Sub Total. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, Sub Total](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 70 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O304
+
+**Sub Total — Calcium: 335 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; Sub Total. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, Sub Total](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 70 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O305
+
+**Sub Total — Potassium: 5934 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; Sub Total. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, Sub Total](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 70 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O306
+
+**Sub Total — Lithium: 45.4 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; Sub Total. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, Sub Total](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 70 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O307
+
+**Sub Total — Magnesium: 9058 mg/L.**
+
+Basis: **reported measurement**; scale: lake sampling; boundary: ambient lake; Sub Total. Date/basis: 2020–first half 2021.
+
+Source: [D073](#d073), [p. 45, Table 7.2, Sub Total](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=57) (PDF page 57).
+
+Source average over 70 samples. FB-2 is south arm; LVG-4 and RD-2 north arm. Sub Total is the source aggregate across locations, not a plant feed or a new independent sample. Table lists five cations only. Source narrative spells LVG-4 as LGV-4.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+### Pond brine composition
+
+#### O308
+
+**114TP01 — Lithium: 238 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP01](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 8.0 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O309
+
+**114TP01 — Potassium: 18400 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP01](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 8.0 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O310
+
+**114TP01 — Magnesium: 41400 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP01](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 8.0 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O311
+
+**114TP01 — Sodium: 63300 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP01](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 8.0 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O312
+
+**114TP01 — K:Li: 77:1 ratio.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP01](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 8.0 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O313
+
+**114TP01 — Mg:Li: 174:1 ratio.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP01](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 8.0 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O314
+
+**114TP02 — Lithium: 328 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP02](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O315
+
+**114TP02 — Potassium: 26700 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP02](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O316
+
+**114TP02 — Magnesium: 50100 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP02](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O317
+
+**114TP02 — Sodium: 51800 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP02](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O318
+
+**114TP02 — K:Li: 81:1 ratio.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP02](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O319
+
+**114TP02 — Mg:Li: 153:1 ratio.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP02](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O320
+
+**114TP03 — Lithium: 321 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP03](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O321
+
+**114TP03 — Potassium: 25300 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP03](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O322
+
+**114TP03 — Magnesium: 50900 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP03](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O323
+
+**114TP03 — Sodium: 52600 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP03](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O324
+
+**114TP03 — K:Li: 79:1 ratio.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP03](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O325
+
+**114TP03 — Mg:Li: 159:1 ratio.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP03](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O326
+
+**114TP04 — Lithium: 279 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP04](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O327
+
+**114TP04 — Potassium: 23800 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP04](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O328
+
+**114TP04 — Magnesium: 46100 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP04](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O329
+
+**114TP04 — Sodium: 52400 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP04](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O330
+
+**114TP04 — K:Li: 85:1 ratio.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP04](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O331
+
+**114TP04 — Mg:Li: 165:1 ratio.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP04](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O332
+
+**114TP05 — Lithium: 265 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP05](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 5.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O333
+
+**114TP05 — Potassium: 23100 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP05](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 5.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O334
+
+**114TP05 — Magnesium: 43000 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP05](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 5.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O335
+
+**114TP05 — Sodium: 46700 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP05](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 5.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O336
+
+**114TP05 — K:Li: 87:1 ratio.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP05](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 5.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O337
+
+**114TP05 — Mg:Li: 162:1 ratio.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP05](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 5.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O338
+
+**114TP06 — Lithium: 125 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP06](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O339
+
+**114TP06 — Potassium: 12900 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP06](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O340
+
+**114TP06 — Magnesium: 23400 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP06](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O341
+
+**114TP06 — Sodium: 89000 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP06](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O342
+
+**114TP06 — K:Li: 103:1 ratio.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP06](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O343
+
+**114TP06 — Mg:Li: 187:1 ratio.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP06](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O344
+
+**114TP07 — Lithium: 208 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP07](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O345
+
+**114TP07 — Potassium: 17400 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP07](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O346
+
+**114TP07 — Magnesium: 38400 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP07](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O347
+
+**114TP07 — Sodium: 68000 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP07](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O348
+
+**114TP07 — K:Li: 84:1 ratio.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP07](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O349
+
+**114TP07 — Mg:Li: 185:1 ratio.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, 114TP07](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness 6.5 ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O350
+
+**Average — Lithium: 252 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, Average](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness not applicable to aggregate ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O351
+
+**Average — Potassium: 21100 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, Average](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness not applicable to aggregate ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O352
+
+**Average — Magnesium: 41900 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, Average](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness not applicable to aggregate ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O353
+
+**Average — Sodium: 60500 mg/L.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, Average](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness not applicable to aggregate ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O354
+
+**Average — K:Li: 84:1 ratio.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, Average](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness not applicable to aggregate ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O355
+
+**Average — Mg:Li: 166:1 ratio.**
+
+Basis: **reported measurement**; scale: pond sampling; boundary: Pond 114 interstitial brine. Date/basis: 2020-03-03.
+
+Source: [D073](#d073), [p. 48, Table 7.3, Average](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=60) (PDF page 60).
+
+Halite thickness not applicable to aggregate ft. Sampling did not resolve vertical variation; source assumes full-thickness homogeneous mix. Ratios and averages retained as published, without recomputing or merging with lake samples.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+### Historical process and economics
+
+#### O356
+
+**Ambient north-arm lithium concentration: 51 mg/L.**
+
+Basis: **historical design / source estimate**; scale: 2022 initial assessment / supporting tests; boundary: Compass historical Ogden design. Date/basis: effective 2022-03-03; updated 2022-09-14.
+
+Source: [D073](#d073), [p. 84, economic-extraction discussion](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=96) (PDF page 96).
+
+Source resource/feedstock reference, not actual concentrated DLE feed.
+
+Review: AI source-text check; **human review pending**.
+
+#### O357
+
+**One-year concentrated brine lithium: 180 mg/L.**
+
+Basis: **historical design / source estimate**; scale: 2022 initial assessment / supporting tests; boundary: Compass historical Ogden design. Date/basis: effective 2022-03-03; updated 2022-09-14.
+
+Source: [D073](#d073), [p. 84, economic-extraction discussion](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=96) (PDF page 96).
+
+Average stated in narrative; distinct from lake and sampled interstitial brines.
+
+Review: AI source-text check; **human review pending**.
+
+#### O358
+
+**Final magnesium-chloride bittern lithium: &gt;1000 mg/L.**
+
+Basis: **historical design / source estimate**; scale: 2022 initial assessment / supporting tests; boundary: Compass historical Ogden design. Date/basis: effective 2022-03-03; updated 2022-09-14.
+
+Source: [D073](#d073), [p. 84, economic-extraction discussion](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=96) (PDF page 96).
+
+Two- to three-year evaporatively concentrated brine; distinct stream boundary.
+
+Review: AI source-text check; **human review pending**.
+
+#### O359
+
+**Process diagram disclosure: East/West project block flowsheets.**
+
+Basis: **design description**; scale: 2022 initial assessment / supporting tests; boundary: Compass historical Ogden design. Date/basis: effective 2022-03-03; updated 2022-09-14.
+
+Source: [D073](#d073), [p. 136, Figure 14-1](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=148) (PDF page 148).
+
+Includes upstream pond evaporation, DLE, purification, carbonate/hydroxide conversion, reagents and water recycle. Historical ILiAD design, not an EnergyX 2026 flowsheet.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O360
+
+**Projected East-plant freshwater: 487 AFY.**
+
+Basis: **historical design / source estimate**; scale: 2022 initial assessment / supporting tests; boundary: Compass historical Ogden design. Date/basis: effective 2022-03-03; updated 2022-09-14.
+
+Source: [D073](#d073), [p. 138, Table 14.2](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=150) (PDF page 150).
+
+Site-well supply; table footnote defines AFY but column heading only says Volume. Not measured use.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O361
+
+**Projected West-plant freshwater: 693 AFY.**
+
+Basis: **historical design / source estimate**; scale: 2022 initial assessment / supporting tests; boundary: Compass historical Ogden design. Date/basis: effective 2022-03-03; updated 2022-09-14.
+
+Source: [D073](#d073), [p. 138, Table 14.2](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=150) (PDF page 150).
+
+Site-well supply; keep separate East/West boundaries.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O362
+
+**East plant capital: 262.0 US$ million.**
+
+Basis: **historical design / source estimate**; scale: 2022 initial assessment / supporting tests; boundary: Compass historical Ogden design. Date/basis: effective 2022-03-03; updated 2022-09-14.
+
+Source: [D073](#d073), [p. 169, Table 18.5](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=181) (PDF page 181).
+
+Historical FEL-1 capital estimate including contingency. Report general convention is Q3 2021 USD; operating-cost section specifies Q1 2022 USD; Table 18.5 does not restate capital cost year. Excludes sustaining capital, land, sunk costs, working capital and financing. Not a current EnergyX budget.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O363
+
+**West plant capital: 710.1 US$ million.**
+
+Basis: **historical design / source estimate**; scale: 2022 initial assessment / supporting tests; boundary: Compass historical Ogden design. Date/basis: effective 2022-03-03; updated 2022-09-14.
+
+Source: [D073](#d073), [p. 169, Table 18.5](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=181) (PDF page 181).
+
+Historical FEL-1 capital estimate including contingency. Report general convention is Q3 2021 USD; operating-cost section specifies Q1 2022 USD; Table 18.5 does not restate capital cost year. Excludes sustaining capital, land, sunk costs, working capital and financing. Not a current EnergyX budget.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O364
+
+**Intended lithium-carbonate production: 10800 tonnes/year.**
+
+Basis: **historical design / source estimate**; scale: 2022 initial assessment / supporting tests; boundary: Compass historical Ogden design. Date/basis: effective 2022-03-03; updated 2022-09-14.
+
+Source: [D073](#d073), [p. 135, §14.1](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=147) (PDF page 147).
+
+85% overall equipment effectiveness assumption; historical design.
+
+Review: AI source-text check; **human review pending**.
+
+#### O365
+
+**Intended lithium-hydroxide-monohydrate production: 27800 tonnes/year.**
+
+Basis: **historical design / source estimate**; scale: 2022 initial assessment / supporting tests; boundary: Compass historical Ogden design. Date/basis: effective 2022-03-03; updated 2022-09-14.
+
+Source: [D073](#d073), [p. 135, §14.1](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=147) (PDF page 147).
+
+Product mass distinct from LCE; 85% equipment effectiveness assumption.
+
+Review: AI source-text check; **human review pending**.
+
+#### O366
+
+**Sustained pilot recovery reported: &gt;85 %.**
+
+Basis: **reported test result**; scale: 2022 initial assessment / supporting tests; boundary: Compass historical Ogden design. Date/basis: effective 2022-03-03; updated 2022-09-14.
+
+Source: [D073](#d073), [p. 81, §10.4](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=93) (PDF page 93).
+
+Test results across tested feeds; not demonstrated full-scale brine-to-finished-product recovery.
+
+Review: AI source-text check; **human review pending**.
+
+### Energy
+
+#### O367
+
+**East plant connected power: 2901 kW.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: East plant. Date/basis: 2022 study.
+
+Source: [D073](#d073), [p. 137, Table 14.1](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=149) (PDF page 149).
+
+Historical design connected load and annual consumption are distinct quantities.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O368
+
+**East plant annual energy: 21601 MWh/year.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: East plant. Date/basis: 2022 study.
+
+Source: [D073](#d073), [p. 137, Table 14.1](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=149) (PDF page 149).
+
+Historical design connected load and annual consumption are distinct quantities.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O369
+
+**West plant connected power: 5848 kW.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: West plant. Date/basis: 2022 study.
+
+Source: [D073](#d073), [p. 137, Table 14.1](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=149) (PDF page 149).
+
+Historical design connected load and annual consumption are distinct quantities.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O370
+
+**West plant annual energy: 43544 MWh/year.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: West plant. Date/basis: 2022 study.
+
+Source: [D073](#d073), [p. 137, Table 14.1](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=149) (PDF page 149).
+
+Historical design connected load and annual consumption are distinct quantities.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O371
+
+**Pond pumps connected power: 5000 kW.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: Pond pumps. Date/basis: 2022 study.
+
+Source: [D073](#d073), [p. 137, Table 14.1](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=149) (PDF page 149).
+
+Historical design connected load and annual consumption are distinct quantities.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O372
+
+**Pond pumps annual energy: 31050 MWh/year.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: Pond pumps. Date/basis: 2022 study.
+
+Source: [D073](#d073), [p. 137, Table 14.1](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=149) (PDF page 149).
+
+Historical design connected load and annual consumption are distinct quantities.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+### Reagents
+
+#### O373
+
+**East plant — Caustic: 24 tonnes/day.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: East plant. Date/basis: 2022 study.
+
+Source: [D073](#d073), [p. 166, Table 18.1](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=178) (PDF page 178).
+
+Historical design reagent utilization. Concentrations and consumptions at other plant boundaries cannot be inferred.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O374
+
+**East plant — Hydrochloric acid: 2 tonnes/day.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: East plant. Date/basis: 2022 study.
+
+Source: [D073](#d073), [p. 166, Table 18.1](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=178) (PDF page 178).
+
+Historical design reagent utilization. Concentrations and consumptions at other plant boundaries cannot be inferred.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O375
+
+**East plant — Soda ash: 58 tonnes/day.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: East plant. Date/basis: 2022 study.
+
+Source: [D073](#d073), [p. 166, Table 18.1](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=178) (PDF page 178).
+
+Historical design reagent utilization. Concentrations and consumptions at other plant boundaries cannot be inferred.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O376
+
+**East plant — Clarifier polymer: 2 tonnes/day.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: East plant. Date/basis: 2022 study.
+
+Source: [D073](#d073), [p. 166, Table 18.1](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=178) (PDF page 178).
+
+Historical design reagent utilization. Concentrations and consumptions at other plant boundaries cannot be inferred.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O377
+
+**West plant — Caustic: 43.3 tonnes/day.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: West plant. Date/basis: 2022 study.
+
+Source: [D073](#d073), [p. 166, Table 18.2](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=178) (PDF page 178).
+
+Historical design reagent utilization. Concentrations and consumptions at other plant boundaries cannot be inferred.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O378
+
+**West plant — Hydrochloric acid: 5.5 tonnes/day.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: West plant. Date/basis: 2022 study.
+
+Source: [D073](#d073), [p. 166, Table 18.2](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=178) (PDF page 178).
+
+Historical design reagent utilization. Concentrations and consumptions at other plant boundaries cannot be inferred.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O379
+
+**West plant — Soda ash: 107.5 tonnes/day.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: West plant. Date/basis: 2022 study.
+
+Source: [D073](#d073), [p. 166, Table 18.2](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=178) (PDF page 178).
+
+Historical design reagent utilization. Concentrations and consumptions at other plant boundaries cannot be inferred.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O380
+
+**West plant — Quicklime: 73.9 tonnes/day.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: West plant. Date/basis: 2022 study.
+
+Source: [D073](#d073), [p. 166, Table 18.2](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=178) (PDF page 178).
+
+Historical design reagent utilization. Concentrations and consumptions at other plant boundaries cannot be inferred.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O381
+
+**West plant — CO2: 3.3 tonnes/day.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: West plant. Date/basis: 2022 study.
+
+Source: [D073](#d073), [p. 166, Table 18.2](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=178) (PDF page 178).
+
+Historical design reagent utilization. Concentrations and consumptions at other plant boundaries cannot be inferred.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O382
+
+**West plant — Clarifier polymer: 3.1 tonnes/day.**
+
+Basis: **design/model estimate**; scale: proposed commercial facility; boundary: West plant. Date/basis: 2022 study.
+
+Source: [D073](#d073), [p. 166, Table 18.2](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=178) (PDF page 178).
+
+Historical design reagent utilization. Concentrations and consumptions at other plant boundaries cannot be inferred.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+### Development history
+
+#### O383
+
+**Historical project termination: 2024-01-23.**
+
+Basis: **company filing**; scale: proposed commercial facility; boundary: Compass lithium development. Date/basis: 2024-01-23.
+
+Source: [D066](#d066), [2025 Form 10-K, Note 2, Fiscal 2024 impairments](https://www.sec.gov/Archives/edgar/data/1227654/000122765425000199/cmp-20250930.htm).
+
+Company reports termination following its 2023 investment pause; US$74.8 million impairment recorded for fiscal 2024. SEC original unavailable; web text checked.
+
+Review: AI web-text check; original download unavailable; **human review pending**.
+
+#### O384
+
+**EnergyX proposed arrangement: largely non-binding MOU.**
+
+Basis: **company filing / proposed transaction**; scale: proposed commercial facility; boundary: EnergyX proposed Ogden development. Date/basis: 2026-03-19 MOU, disclosed 2026-07-13.
+
+Source: [D089](#d089), [Business Description — Great Salt Lake Lithium Project](https://www.sec.gov/Archives/edgar/data/1830166/000149315226032991/form253g2.htm).
+
+Definitive agreements and approvals remain conditions. Phase I target approximately 10000 tpa LCE; Phase II target approximately 20000 tpa. Old ILiAD performance and costs are not transferred to this proposal. No subsequent executed agreement established in this collection. July filing states 180-day MOU expiry after March 19 execution; no extension or definitive agreement established by cutoff. Do not assume MOU remains active.
+
+Review: AI web-text check; original download unavailable; **human review pending**.
+
+## Green River evidence {#green-river-evidence}
+
+### Draft permit brine composition
+
+#### O385
+
+**Lithium: 170–210 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green River DLE/reinjection; boundary: ambiguous production/spent brine label. Date/basis: 2023-11 draft; sample date not reported.
+
+Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
+
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O386
+
+**Bromine: 3500–4000 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green River DLE/reinjection; boundary: ambiguous production/spent brine label. Date/basis: 2023-11 draft; sample date not reported.
+
+Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
+
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O387
+
+**Boron: 1400–1700 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green River DLE/reinjection; boundary: ambiguous production/spent brine label. Date/basis: 2023-11 draft; sample date not reported.
+
+Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
+
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O388
+
+**Sodium: 18000–20000 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green River DLE/reinjection; boundary: ambiguous production/spent brine label. Date/basis: 2023-11 draft; sample date not reported.
+
+Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
+
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O389
+
+**Potassium: 25000–29000 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green River DLE/reinjection; boundary: ambiguous production/spent brine label. Date/basis: 2023-11 draft; sample date not reported.
+
+Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
+
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O390
+
+**Calcium: 45000–50000 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green River DLE/reinjection; boundary: ambiguous production/spent brine label. Date/basis: 2023-11 draft; sample date not reported.
+
+Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
+
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O391
+
+**Magnesium: 35000–40000 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green River DLE/reinjection; boundary: ambiguous production/spent brine label. Date/basis: 2023-11 draft; sample date not reported.
+
+Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
+
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O392
+
+**Chloride: 220000–260000 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green River DLE/reinjection; boundary: ambiguous production/spent brine label. Date/basis: 2023-11 draft; sample date not reported.
+
+Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
+
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O393
+
+**Iron: 200–250 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green River DLE/reinjection; boundary: ambiguous production/spent brine label. Date/basis: 2023-11 draft; sample date not reported.
+
+Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
+
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O394
+
+**Sulfate: 50–100 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green River DLE/reinjection; boundary: ambiguous production/spent brine label. Date/basis: 2023-11 draft; sample date not reported.
+
+Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
+
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O395
+
+**Strontium: 1500–1800 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green River DLE/reinjection; boundary: ambiguous production/spent brine label. Date/basis: 2023-11 draft; sample date not reported.
+
+Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
+
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O396
+
+**Barium: 1–4 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green River DLE/reinjection; boundary: ambiguous production/spent brine label. Date/basis: 2023-11 draft; sample date not reported.
+
+Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
+
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O397
+
+**Zinc: 3–4 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green River DLE/reinjection; boundary: ambiguous production/spent brine label. Date/basis: 2023-11 draft; sample date not reported.
+
+Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
+
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O398
+
+**Bicarbonate: 1200–1400 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green River DLE/reinjection; boundary: ambiguous production/spent brine label. Date/basis: 2023-11 draft; sample date not reported.
+
+Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
+
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O399
+
+**Fluoride: 30–35 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green River DLE/reinjection; boundary: ambiguous production/spent brine label. Date/basis: 2023-11 draft; sample date not reported.
+
+Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
+
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O400
+
+**TDS: 350000–400000 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green River DLE/reinjection; boundary: ambiguous production/spent brine label. Date/basis: 2023-11 draft; sample date not reported.
+
+Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
+
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O401
+
+**Density: 1.27–1.28 g/cm³.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green River DLE/reinjection; boundary: ambiguous production/spent brine label. Date/basis: 2023-11 draft; sample date not reported.
+
+Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
+
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O402
+
+**pH: 4.5–5.0 pH units.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green River DLE/reinjection; boundary: ambiguous production/spent brine label. Date/basis: 2023-11 draft; sample date not reported.
+
+Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
+
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+### Injection and development
+
+#### O403
+
+**Draft injection-flow ceiling: 2000 gpm.**
+
+Basis: **draft permit condition**; scale: proposed injection system; boundary: spent-brine injection. Date/basis: 2023-11.
+
+Source: [D079](#d079), [p. 16, Attachment D §2](https://www.utah.gov/pmn/files/1044667.pdf#page=16) (PDF page 16).
+
+Limit, not achieved throughput. Automatic shutdown within 5% of recommended maxima. Final permit original unavailable; no assertion that draft wording is current.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O404
+
+**Diagram disclosure: injection pump manifold only.**
+
+Basis: **permit attachment schematic**; scale: proposed commercial facility; boundary: injection plumbing. Date/basis: 2023-11 draft.
+
+Source: [D079](#d079), [pp. 26–27, Figure F-1 and Table F-1](https://www.utah.gov/pmn/files/1044667.pdf#page=26) (PDF page 26).
+
+The following component table credits ASARCO 1993 copper-mining technical report. This is a reused injection schematic, not a project-specific lithium extraction flowsheet or complete material balance.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O405
+
+**Project/subsidiary identity: Green River / wholly owned Blackstone subsidiary.**
+
+Basis: **issuer announcement**; scale: proposed commercial facility; boundary: Green River; not separate Paradox project. Date/basis: 2024-08-26.
+
+Source: [D088](#d088), [ASX announcement dated August 26, 2024, p. 1](https://wcsecure.weblink.com.au/pdf/ASN/02842937.pdf).
+
+Anson links the Utah UIC approval and its Blackstone subsidiary to Green River. Original download failed certificate validation; announcement web text checked.
+
+Review: AI web-text check; original download unavailable; **human review pending**.
+
+#### O406
+
+**Permit present in current agency index: UTU-19-F4-8F9143D.**
+
+Basis: **agency index**; scale: proposed commercial facility; boundary: Blackstone UIC authorization listing. Date/basis: index retrieved 2026-09-16.
+
+Source: [D087](#d087), [Underground Injection Control Permits (Current), Blackstone Minerals row](https://deq.utah.gov/dwq/ground-water-permits).
+
+The agency links a final permit and statement of basis, but both downloads returned HTML rather than PDFs. This establishes the listing, not verification of every final condition or commercial operation.
+
+Review: AI source-text check; **human review pending**.
+
 
 <!-- END EVIDENCE -->
 
@@ -2643,26 +6927,30 @@ Review: AI source-text check; **human review pending**.
 
 ## Discovery and coverage
 
-The pilot followed project names, legal entities, aliases, identifiers and cross-references through SEC filing indexes, DOE records, CEQAnet, Imperial County pages, and targeted searches for state permits and issuer copies. Both selected SEC submission-index responses contain empty historical-file lists; all entries exposed in those snapshots were inventoried. No lower filing-date cutoff was imposed. Searches stopped at the collection time on September 14, 2026.
+The collection follows project names, legal entities, aliases, agency identifiers and source cross-references through SEC, DOE, CEC, CEQAnet, county and state environmental records. US scope means project location, including foreign parents. Demonstration, proposed, suspended and discontinued phases are retained. No lower filing-date cutoff was imposed. Original-pilot collection stopped September 14, 2026; the four added profiles use September 16, 2026. Neither date establishes current operating performance.
 
-All five records linked from the Hell’s Kitchen commercial-project CEQAnet chronology were collected, with their listed attachments, alongside the separately identified 2020 pilot exemption. DOE's draft EA, reader letter, final EA and FONSI were collected. A manually assembled reference checklist tests the presence of these known documents; it is not an estimate of recall across the entire web. [D032](#d032), [D033](#d033), [D002](#d002).
+The original SWA/HK collection includes all five records and attachments exposed by the Hell’s Kitchen commercial CEQA chronology, its separate 2020 pilot exemption, and the SWA draft/final EA and FONSI sequence. The new collection adds the BHER CEC demonstration report and exemption, ATLiS's 2020/2021 CEQA chronology and 2024 circulated draft with their listed attachments, its 2025 DOE EA and decision notice, historical Ogden technical/securities evidence, and Green River draft injection-permit materials plus the current Utah permit index. Government hosting does not turn an applicant claim into an agency finding.
 
-Of 18 manually selected reference records, 13 originals were downloaded and five SEC originals remain unavailable. All 18 are represented in the document register. These are reference-list outcomes, not a claim of exhaustive historical coverage.
+The manual reference checklist contains **38 records: 25 downloaded originals and 13 unavailable originals**. Every reference has a document-register entry. This is a known-document presence check, not a web-wide recall estimate. The full manifest contains additional indexes, attachments and unsuccessful source routes beyond that checklist.
 
-Coverage remains incomplete in the following specific ways:
+All filing metadata exposed by the saved SEC indexes was inventoried, including the Compass historical index. There are **2,846 entries**, not 2,846 reviewed filings. The original Standard Lithium/Plum and new EnergyX index snapshots expose no additional historical-index files; the Compass index exposes one, which was collected. [D006](#d006), [D007](#d007), [D083](#d083), [D084](#d084), [D091](#d091).
 
-- Nine selected SEC document URLs returned HTTP 403 to the downloader. Accessible SEC web text informed the explicitly labeled newer HK securities observations, while the SWA DFS was acquired from its issuer. No inaccessible original has been reconstructed or counted as downloaded.
-- The current Arkansas draft-air-permit listing was saved, but did not establish a project-specific permit in this pass. Its absence from that changing list is not evidence of no application or no permit. Detailed AOGC orders, final air/water permits and complete application packages remain gaps. [D054](#d054).
-- The 298 SEC metadata rows have not all been evaluated for project relevance, nor have all possible corporate exhibits been acquired. Company-wide administrative filings are retained as inventory entries, not assumed project evidence.
-- An older 2019 TETRA-property resource report is referenced in the SWA technical history but was not acquired. The TETRA alias is included in the project map. [D044](#d044), §7.1.
-- Later permitting actions, litigation outcomes, undisclosed contracts, underlying HK financial/technical models, site-specific groundwater test results and actual commercial operating data are not established by this collection.
-- The 1,562-page HK appendix volume was text-screened, not read exhaustively page by page. Scanned pages and figures may contain additional information; low-text pages are flagged in the document register. Blank or image-only pages must not be treated as negative evidence.
+Specific gaps and exclusions remain:
+
+- Selected SEC originals denied direct download. Official-URL web text supports explicitly marked observations; issuer-hosted SWA and Ogden technical PDFs retain their separate provenance. Web text has no original-file hash or verified figure layout.
+- Utah final-permit and statement-of-basis URLs returned HTML viewers rather than PDFs. Anson's issuer announcement was readable via web text but failed direct TLS certificate validation. The early bare ATLiS CEQA URL and an old Utah archive route returned 404. No unavailable original is represented as a successful filing download. [D070](#d070), [D088](#d088), [D092](#d092), [D062](#d062), [D072](#d072).
+- SWA's detailed AOGC orders, complete air/water permit packages and an older 2019 TETRA-property resource report remain unacquired. The current Arkansas draft-air-permit list does not prove that no project permit exists. [D054](#d054), [D044](#d044), §7.1.
+- The 1,562-page HK appendix and 1,388-page ATLiS EIR package were text-screened, not exhaustively visually reviewed. Low-text pages are flagged for potential OCR; image-only content cannot support a categorical absence claim. ATLiS monitoring-well and soil chemistry were excluded from feed-water composition.
+- Ogden Tables 7.2 and 7.3 are fully transcribed; additional pond chemistry tables are identified for follow-up. The selected cation tables are not complete water analyses. Green River's draft production/spent-brine label conflict remains unresolved.
+- Current construction progress, full financing, executed contracts, litigation outcomes, final permit conditions and measured commercial operation are not established unless the profile identifies a supporting source. BHER's later technology program and EnergyX's later Ogden proposal do not inherit the historical designs' results.
+
+The supporting candidate register also retains **Lonestar, Exxon/Saltwerx, Franklin and LANXESS commercial history** as the next queue. These leads have not been promoted to additional project profiles. Neighboring facilities, unrelated corporate filings, technology vendors without a distinct site, and Anson's separate Paradox project were not silently merged into the six covered projects. This is a first expansion wave, not an exhaustive US industry census.
 
 ## Extraction and review
 
-Original bytes are stored under SHA-256 filenames. The manifest, document register and append-only retrieval log preserve URLs, source roles, timestamps, download outcomes and revisions. Repeated collection verifies the cached hash; explicit refresh preserves previous successful versions. Requests are paced, transient failures have bounded retries, and a denied request is not repeatedly retried.
+Original bytes are stored under SHA-256 filenames. Expected PDFs must pass PDF signature/content validation; an HTML viewer is not a filing. An initially misclassified Utah HTML response was corrected, with its earlier retrieval preserved for audit. The manifest, document register and append-only retrieval log preserve URLs, source roles, timestamps, download outcomes and revisions. Repeated collection verifies the cached hash; explicit refresh preserves previous successful versions. Requests are paced, transient failures have bounded retries, and a denied request is not repeatedly retried.
 
-PDF text is stored with one-based physical-page markers. Selected tables were rendered and checked against the extraction, including SWA process design, capital/economic data, reagents, water and power, and both projects' environmental estimates. OCR was tested on the scanned county determination; OCR is a derivative and never replaces the original. Full OCR of every image-only appendix page was not performed.
+PDF text is stored with one-based physical-page markers. Selected tables were rendered and checked against the extraction, including SWA process design, capital/economic data, reagents, water and power, and both projects' environmental estimates. OCR was tested on the scanned county determination; OCR is a derivative and never replaces the original. Full OCR of every image-only appendix page was not performed. Every newly reproduced chemistry table and process diagram was checked against rendered source pages. Individual source values remain linked to their document and locator; all observations remain pending human review.
 
 AI source checking and human acceptance are separate states. The observation CSV retains the source document, hash where available, locator, original value and unit, date, process boundary, scale, interpretation and review status. The human-reviewed export accepts only rows with an affirmative acceptance, reviewer name and review date. None have yet been accepted. Data not located and documents unavailable are distinguished from a reported zero.
 
@@ -2679,4 +6967,4 @@ AI source checking and human acceptance are separate states. The observation CSV
 
 The Markdown is the authored report. The catalog and evidence appendix are refreshed from the register and observations, then Pandoc generates an overview and separate project pages with embedded styling and source-figure images. A full-report HTML file retains all content on one page for ordinary browser search and printing. No server, scripts or remote fonts are required. Official-source links require internet access.
 
-Share the report-site.zip archive for the complete multipage report, or full-report.html for a single-file version. Keep the HTML pages together when using project navigation. The Markdown and its three figure images are included in the archive. Original documents, CSVs, manifest, source-review images, search log and rerunnable commands remain in the supporting research folder. Manual reruns are the default; no scheduled monitoring or publishing has been enabled. The composition/flowsheet review and presentation update occurred on September 16, 2026 using the existing September 14 collection snapshot.
+Share the report-site.zip archive for the complete multipage report, or full-report.html for a single-file version. Keep the HTML pages together when using project navigation. The Markdown and its six figure images are included in the archive. Original documents, CSVs, manifest, source-review images, search log and rerunnable commands remain in the supporting research folder. Manual reruns are the default; no scheduled monitoring or publishing has been enabled. The September 16 expansion added four project packages; original SWA/HK evidence remains tied to its September 14 collection snapshot. The supplied lab logo and all source figures are embedded in every HTML page where used.

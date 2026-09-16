@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Green River</title>
+  <style>
+
+html {
+color: #1a1a1a;
+background-color: #fdfdfd;
+}
+body {
+margin: 0 auto;
+max-width: 36em;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+hyphens: auto;
+overflow-wrap: break-word;
+text-rendering: optimizeLegibility;
+font-kerning: normal;
+}
+@media (max-width: 600px) {
+body {
+font-size: 0.9em;
+padding: 12px;
+}
+h1 {
+font-size: 1.8em;
+}
+}
+@media print {
+html {
+background-color: white;
+}
+body {
+background-color: transparent;
+color: black;
+font-size: 12pt;
+}
+p, h2, h3 {
+orphans: 3;
+widows: 3;
+}
+h2, h3, h4 {
+page-break-after: avoid;
+}
+}
+p {
+margin: 1em 0;
+}
+a {
+color: #1a1a1a;
+}
+a:visited {
+color: #1a1a1a;
+}
+img {
+max-width: 100%;
+}
+svg {
+height: auto;
+max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+margin-top: 1.4em;
+}
+h5, h6 {
+font-size: 1em;
+font-style: italic;
+}
+h6 {
+font-weight: normal;
+}
+ol, ul {
+padding-left: 1.7em;
+margin-top: 1em;
+}
+li > ol, li > ul {
+margin-top: 0;
+}
+blockquote {
+margin: 1em 0 1em 1.7em;
+padding-left: 1em;
+border-left: 2px solid #e6e6e6;
+color: #606060;
+}
+code {
+white-space: pre-wrap;
+font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+font-size: 85%;
+margin: 0;
+hyphens: manual;
+}
+pre {
+margin: 1em 0;
+overflow: auto;
+}
+pre code {
+padding: 0;
+overflow: visible;
+overflow-wrap: normal;
+}
+.sourceCode {
+background-color: transparent;
+overflow: visible;
+}
+hr {
+border: none;
+border-top: 1px solid #1a1a1a;
+height: 1px;
+margin: 1em 0;
+}
+table {
+margin: 1em 0;
+border-collapse: collapse;
+width: 100%;
+overflow-x: auto;
+display: block;
+font-variant-numeric: lining-nums tabular-nums;
+}
+table caption {
+margin-bottom: 0.75em;
+}
+tbody {
+margin-top: 0.5em;
+border-top: 1px solid #1a1a1a;
+border-bottom: 1px solid #1a1a1a;
+}
+th {
+border-top: 1px solid #1a1a1a;
+padding: 0.25em 0.5em 0.25em 0.5em;
+}
+td {
+padding: 0.125em 0.5em 0.25em 0.5em;
+}
+header {
+margin-bottom: 4em;
+text-align: center;
+}
+#TOC li {
+list-style: none;
+}
+#TOC ul {
+padding-left: 1.3em;
+}
+#TOC > ul {
+padding-left: 0;
+}
+#TOC a:not(:hover) {
+text-decoration: none;
+}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style>
+:root { color-scheme: light; --ink:#243339; --muted:#5a6d73; --accent:#15675f; --line:#dce5e3; --paper:#fff; }
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; scroll-padding-top:1.5rem; }
+body { margin:0; padding:3.5rem 4vw 5rem 20rem; max-width:1500px; font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color:var(--ink); background:var(--paper); }
+header { border-top:5px solid var(--accent); padding-top:1.8rem; margin-bottom:3rem; text-align:left; }
+.lab-logo { display:block; width:15rem; max-width:100%; height:auto; margin:0 0 1.5rem; }
+h1,h2,h3,h4 { line-height:1.2; letter-spacing:-.025em; color:#173e3a; }
+h1.title { font-size:clamp(2rem,3.5vw,3.3rem); max-width:850px; margin:.3rem 0; }
+p.subtitle { font-size:1.25rem; color:var(--muted); margin:.6rem 0; }
+p.date { font-size:.9rem; color:var(--muted); }
+h1:not(.title) { margin-top:3.5rem; border-top:1px solid var(--line); padding-top:1.8rem; font-size:1.85rem; }
+h2 { font-size:1.35rem; margin-top:2.3rem; }
+h3 { font-size:1.07rem; margin-top:1.8rem; }
+p,li { max-width:95ch; }
+a { color:var(--accent); text-decoration-thickness:1px; text-underline-offset:3px; overflow-wrap:anywhere; }
+a:hover { color:#093b36; }
+a:focus-visible { outline:3px solid #b57914; outline-offset:3px; }
+nav#TOC { position:fixed; inset:0 auto 0 0; width:17rem; overflow-y:auto; padding:2.5rem 1.6rem; background:#f4f8f7; border-right:1px solid var(--line); font-size:.87rem; }
+nav#TOC::before { content:"DLE / FILINGS PILOT"; display:block; margin-bottom:1.5rem; color:var(--accent); font-weight:750; letter-spacing:.12em; font-size:.72rem; }
+#TOC ul { list-style:none; padding:0; margin:.4rem 0; }
+#TOC li { margin:.55rem 0; }
+#TOC ul ul { padding-left:.9rem; font-size:.82rem; }
+#TOC a { text-decoration:none; }
+.project-nav { display:grid; gap:.35rem; margin-bottom:1.1rem; }
+.project-nav a { display:block; padding:.5rem .65rem; border-radius:4px; }
+.project-nav a[aria-current="page"] { background:var(--accent); color:white; font-weight:650; }
+.project-nav a:hover { background:#dfece8; color:#173e3a; }
+#TOC hr { margin:1rem 0; }
+.toc-label { text-transform:uppercase; font-size:.7rem; letter-spacing:.12em; color:var(--muted); }
+#project-reports ul { list-style:none; padding:0; }
+#project-reports li { background:#f4f8f7; border:1px solid var(--line); padding:1rem 1.2rem; margin:.7rem 0; }
+figure { margin:1.6rem 0; border:1px solid var(--line); padding:.6rem; }
+figure img { display:block; width:100%; height:auto; }
+figcaption { color:var(--muted); font-size:.85rem; padding:.5rem .3rem; }
+blockquote { background:#f2f7f6; border-left:4px solid var(--accent); margin:1.5rem 0; padding:.5rem 1.2rem; }
+table { border-collapse:collapse; width:100%; margin:1.4rem 0 2rem; font-size:.87rem; line-height:1.5; }
+th { background:#edf4f2; color:#173e3a; font-weight:650; text-align:left; }
+th,td { padding:.65rem .75rem; border-bottom:1px solid var(--line); vertical-align:top; overflow-wrap:anywhere; }
+tbody tr:nth-child(even) { background:#fafcfc; }
+code { font-size:.9em; background:#eff3f2; padding:.1rem .3rem; border-radius:3px; }
+pre { overflow-x:auto; padding:1rem; background:#eff3f2; }
+hr { border:0; border-top:1px solid var(--line); margin:2rem 0; }
+@media(max-width:900px) { body { padding:1.5rem 1.2rem 3rem; } nav#TOC { position:static; width:auto; border:1px solid var(--line); padding:1rem 1.2rem; margin:1rem 0 2rem; } header { margin-bottom:1.5rem; } table { display:block; overflow-x:auto; } th,td { min-width:180px; hyphens:none; overflow-wrap:normal; } }
+@media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+@media print { body { padding:0; max-width:none; font-size:10pt; } nav#TOC { display:none; } h1,h2,h3,h4 { break-after:avoid; } table { display:table; font-size:8pt; } th,td { min-width:0; overflow-wrap:anywhere; } tr { break-inside:avoid; } thead { display:table-header-group; } a { color:inherit; } header { border-top-width:2px; } @page { size:A4; margin:16mm; } }
+</style>
+</head>
+<body>
+<header id="title-block-header"><img class="lab-logo" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNzU4IDcwMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InRpdGxlIGRlc2MiPgogIDx0aXRsZSBpZD0idGl0bGUiPk1JVCBEZXZpY2UgUmVzZWFyY2ggTGFiIGxvZ288L3RpdGxlPgogIDxkZXNjIGlkPSJkZXNjIj5WZWN0b3IgcmVjb25zdHJ1Y3Rpb24gb2YgdGhlIERldmljZSBSZXNlYXJjaCBMYWIgbG9nbyBmcm9tIHRoZSBvZmZpY2lhbCBNSVQgbGFiIHdlYnNpdGUuPC9kZXNjPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJjaXJjbGUtZ3JhZGllbnQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjUwIiB5MT0iMCIgeDI9IjYwMCIgeTI9IjAiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZjhkNDIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjQ4NiIgc3RvcC1jb2xvcj0iI2ZmYWUzNiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNzE0IiBzdG9wLWNvbG9yPSIjZmZiZDMwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC45MTQiIHN0b3AtY29sb3I9IiNmZmM5MmMiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZmZjZTJiIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJkcm9wbGV0LWdyYWRpZW50IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjQwMCIgeTE9IjcwMCIgeDI9IjYwIiB5Mj0iNjAiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwZmIyZjMiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjE4IiBzdG9wLWNvbG9yPSIjMGZiMmYzIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC4zNSIgc3RvcC1jb2xvcj0iIzFlYTBlZiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNTciIHN0b3AtY29sb3I9IiMzODgwZTkiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjc2IiBzdG9wLWNvbG9yPSIjNGY2NGUzIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC44NyIgc3RvcC1jb2xvcj0iIzVjNTRlMCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM1YzU0ZTAiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9Im92ZXJsYXAtZ3JhZGllbnQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjUwIiB5MT0iMCIgeDI9IjUxMCIgeTI9IjAiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNkZjJjNjQiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjExNSIgc3RvcC1jb2xvcj0iI2RhMzI2YSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuMjY5IiBzdG9wLWNvbG9yPSIjZDAzYTc1Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC40MjMiIHN0b3AtY29sb3I9IiNjODQwN2UiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjU3NyIgc3RvcC1jb2xvcj0iI2JlNDg4OSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNzY5IiBzdG9wLWNvbG9yPSIjYjM1MTk2Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2E5NWFhMSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPGcgc2hhcGUtcmVuZGVyaW5nPSJnZW9tZXRyaWNQcmVjaXNpb24iPgogICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCA3MDApIHNjYWxlKDEgLTEpIj4KICAgICAgPHBhdGggZmlsbD0idXJsKCNjaXJjbGUtZ3JhZGllbnQpIiBkPSJNNDA4IDYwNyBjLTE4IC0yIC0zOCAtNyAtNTIgLTE0IC0xMCAtNCAtMjggLTE1IC0zOCAtMjMgLTMyIC0yNSAtNTQgLTYyIC02MyAtMTAzIC0zIC0xNCAtNCAtNDEgLTIgLTU3IDExIC03OSA3NSAtMTQwIDE1NCAtMTQ5IDI5IC0zIDYwIDIgODYgMTMgNSAyIDExIDUgMTMgNSAxMCA0IDI5IDE4IDQzIDMxIDE0IDE1IDI1IDMwIDM0IDUwIDMyIDY3IDE3IDE0OCAtMzcgMjAwIC0zNyAzNSAtODggNTIgLTEzOCA0N3oiLz4KICAgIDwvZz4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgNzAwKSBzY2FsZSgxIC0xKSI+CiAgICAgIDxwYXRoIGZpbGw9InVybCgjZHJvcGxldC1ncmFkaWVudCkiIGQ9Ik0yNTQgNjQ4IGMtNDEgLTQyIC05NiAtMTEwIC0xMzMgLTE2NSAtNDUgLTY4IC03MyAtMTI3IC04MyAtMTc0IC02IC0yOSAtNSAtNjEgMyAtOTQgMjEgLTg1IDkwIC0xNTMgMTc1IC0xNzMgMjAgLTUgMzAgLTUgNTUgLTUgMjcgMCAzNSAxIDU4IDYgODggMjIgMTU3IDk0IDE3NCAxODQgMTEgNTQgMiAxMDEgLTMyIDE2OSAtMjcgNTUgLTY1IDExMSAtMTIxIDE4MSAtMzEgMzggLTc1IDg3IC03OSA4NyAtMSAwIC05IC03IC0xNyAtMTZ6Ii8+CiAgICA8L2c+CiAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDcwMCkgc2NhbGUoMSAtMSkiPgogICAgICA8cGF0aCBmaWxsPSJ1cmwoI292ZXJsYXAtZ3JhZGllbnQpIiBkPSJNMzM0IDU4MSBjLTQxIC0yNiAtNjkgLTY2IC03OSAtMTE0IC0zIC0xNCAtNCAtNDEgLTIgLTU3IDE3IC0xMTYgMTQwIC0xODMgMjQ2IC0xMzMgbDggMyAwIDggYy0xIDQgLTEgNyAtMSA4IC0xIDEgLTEgNCAtMSA3IC0yIDEzIC0xMCAzNiAtMTggNTcgLTQgMTEgLTIyIDQ4IC0yNyA1OCAtMSAyIC00IDYgLTYgMTAgLTE4IDMxIC00NCA3MSAtNzEgMTA3IC0xNCAxOCAtNDAgNTEgLTQxIDUxIDAgMCAtNCAtMiAtOCAtNXoiLz4KICAgIDwvZz4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgNzAwKSBzY2FsZSgxIC0xKSI+CiAgICAgIDxwYXRoIGZpbGw9IiMyMzFmMjAiIGQ9Ik03MjQgMzgzIGwwIC0xOTIgODYgMCBjNTcgMSA4OCAxIDk0IDIgMjUgNCA0MCA4IDU5IDE3IDM5IDE5IDY2IDU1IDc3IDEwNSAxMiA1MSA5IDExNSAtOCAxNTggLTExIDI4IC0yOSA1MiAtNTIgNjkgLTE3IDExIC00MiAyMyAtNjMgMjcgLTI0IDUgLTI0IDUgLTExMSA2IGwtODIgMCAwIC0xOTJ6IG0xNTggMTIzIGMyNSAtNCA0NCAtMTMgNTkgLTI4IDE1IC0xNyAyNCAtMzggMjkgLTY4IDIgLTE0IDEgLTUzIC0xIC02NyAtNSAtMjkgLTE0IC00NyAtMjkgLTYxIC04IC04IC0yMSAtMTUgLTMyIC0xOCAtMTcgLTQgLTIxIC00IC02NyAtNSBsLTQ0IDAgMCAxMjQgMCAxMjQgMzkgMCBjMjMgMCA0MiAwIDQ2IC0xeiBNMTEyOSAzODMgbDAgLTE5MiAzNyAwIDM2IDAgMCA3MSAwIDcwIDM0IDAgMzUgMCAzNyAtNzEgMzcgLTcwIDQyIDAgYzIzIDAgNDIgMCA0MiAwIDAgMSAtMTkgMzUgLTQzIDc3IC0yMyA0MyAtNDIgNzggLTQxIDc4IDAgMSAxIDEgMSAxIDQgMCAyNiAxMiAzMyAxOCAxOCAxNSAzMiAzOCAzNyA2MiA3IDM1IDEgNzEgLTE1IDk2IC0xNCAyMiAtMzMgMzYgLTYwIDQ0IC0yMiA4IC0xOSA3IC0xMjEgOCBsLTkxIDAgMCAtMTkyeiBtMTUzIDEyNyBjMzIgLTMgNTEgLTE2IDU5IC00MCAyIC04IDIgLTI0IDAgLTMzIC01IC0xOSAtMjAgLTMzIC00MiAtMzggLTcgLTIgLTExIC0yIC01MiAtMiBsLTQ1IDAgMCA1NyAwIDU3IDM1IDAgYzE5IDAgMzkgMCA0NSAtMXogTTE0OTUgMzgzIGwwIC0xOTIgMTE0IDAgMTE0IDAgMCAzNCAwIDM0IC03NyAwIC03OCAwIDAgMTU4IDAgMTU4IC0zNiAwIC0zNyAwIDAgLTE5MnogTTk0MSAxNTAgYy0yIC0xIC02IC0yIC05IC0zIC0xMSAtNyAtMTQgLTI3IC02IC00MCA4IC0xMyAzMCAtMTQgNDAgLTIgMyAzIDYgMTAgNSAxMSAwIDEgLTIgMSAtNCAxIC00IDEgLTQgMSAtNCAtMiAtMSAtMSAtMiAtNCAtNCAtNiAtOCAtMTAgLTIzIC03IC0yOCA1IC0yIDcgLTEgMTggMyAyNCA2IDggMjEgOCAyNyAtMiAyIC0zIDMgLTMgNiAtMyAyIDEgMyAxIDQgMSAwIDEgLTEgMyAtMiA1IC0yIDQgLTcgOCAtMTEgMTAgLTQgMSAtMTIgMiAtMTcgMXogTTEyMDEgMTUwIGMtMTEgLTIgLTE2IC0xMSAtMTMgLTE5IDIgLTUgNSAtNyAxNiAtOSAxMiAtMyAxNSAtNSAxNSAtOSAwIC00IC0xIC03IC01IC04IC04IC01IC0xOSAwIC0yMSA4IDAgMyAwIDMgLTMgMyAtMiAtMSAtNCAtMSAtNCAtMSAtMiAwIC0xIC00IDEgLTggMyAtNiA3IC05IDE1IC0xMCAxMyAtMiAyNCAzIDI2IDE0IDAgNSAtMiAxMSAtNyAxNCAtMiAxIC03IDMgLTExIDQgLTEwIDIgLTE0IDQgLTE0IDggMCA0IDMgNiA5IDcgNyAwIDEyIC0zIDEzIC04IDEgLTIgMiAtMyAzIC0zIDEgMSAyIDEgNCAxIDIgMCAyIDAgMiAzIC0yIDUgLTUgOSAtOSAxMSAtNSAyIC0xMiAzIC0xNyAyeiBNMTQzMyAxNTAgYy03IC0yIC0xMyAtNiAtMTcgLTEzIC0yIC01IC0yIC0yMiAxIC0yNyA0IC05IDExIC0xMyAyMiAtMTMgOCAtMSAxNCAyIDE5IDcgMyA0IDcgMTIgNiAxMyAwIDAgLTIgMCAtNCAwIC00IDEgLTQgMSAtNSAtMyAtNiAtMTUgLTI2IC0xNCAtMzEgMSAtNSAxMyAxIDI3IDEyIDI5IDcgMSAxNCAtMiAxOCAtOCAyIC0zIDUgLTQgOCAtMiAzIDIgLTQgMTEgLTExIDE0IC01IDIgLTEzIDMgLTE4IDJ6IE03MjQgMTI0IGwwIC0yNiAxMyAwIGMxNCAwIDE4IDEgMjIgNiA2IDUgNyA4IDcgMjAgMCAxMCAtMSAxMSAtMyAxNiAtMiAzIC01IDUgLTggNyAtNCAyIC02IDIgLTE4IDIgbC0xMyAwIDAgLTI1eiBtMjggMTUgYzUgLTQgNiAtMTAgNiAtMTggLTEgLTEyIC02IC0xNiAtMTggLTE2IGwtOCAwIDAgMTkgMCAxOCA4IDAgYzggMCA5IDAgMTIgLTN6IE03ODUgMTI0IGwwIC0yNiAxOSAwIDE4IDAgMCA0IDAgMyAtMTQgMCAtMTUgMCAwIDggMCA4IDEzIDAgMTIgMCAwIDQgMCAzIC0xMiAwIC0xMyAwIDAgNyAwIDcgMTQgMCAxNCAwIDAgNCAwIDMgLTE4IDAgLTE4IDAgMCAtMjV6IE04MzUgMTQ3IGMxIC0xIDUgLTEyIDkgLTI1IGw4IC0yMyA0IC0xIGMyIDAgNCAwIDQgMCAwIDAgMiA1IDQgMTEgMiA1IDYgMTYgOSAyNSBsNSAxNSAtNCAwIC01IDAgLTYgLTE5IGMtNCAtMTEgLTcgLTIwIC03IC0yMCAwIDEgLTMgOSAtNyAyMCBsLTUgMTkgLTUgMCBjLTMgMCAtNCAwIC00IC0yeiBNODk0IDEyNCBsMCAtMjYgNCAwIDQgMCAwIDI2IDAgMjUgLTQgMCAtNCAwIDAgLTI1eiBNOTg5IDEyNCBsMCAtMjYgMTkgMCAxOCAwIDAgNCAwIDMgLTE0IDAgLTE1IDAgMCA4IDAgOCAxMyAwIDEyIDAgMCA0IDAgMyAtMTIgMCAtMTMgMCAwIDcgMCA3IDE1IDAgMTQgMCAwIDQgMCAzIC0xOCAwIC0xOSAwIDAgLTI1eiBNMTA3NCAxMjQgbDAgLTI2IDQgMCA0IDAgMCAxMSAwIDEwIDYgMCA2IDAgNiAtOSBjMyAtNSA2IC0xMCA3IC0xMSAwIC0xIDIgLTEgNSAtMSBsNSAxIC03IDEwIC03IDExIDQgMSBjNSAyIDcgNiA3IDE0IDAgNCAwIDYgLTIgOCAtNCA1IC03IDYgLTIzIDYgbC0xNSAwIDAgLTI1eiBtMzAgMTcgYzQgLTQgMyAtMTIgLTIgLTE0IC0xIDAgLTYgLTEgLTExIC0xIGwtOSAwIDAgOCAwIDggMTAgMCBjNyAwIDEwIDAgMTIgLTF6IE0xMTMzIDEyNCBsMCAtMjYgMTkgMCAxOCAwIDAgNCAwIDMgLTE1IDAgLTE1IDAgMCA4IDAgOCAxMyAwIDEyIDAgMCA0IDAgMyAtMTIgMCAtMTMgMCAwIDcgMCA3IDE1IDAgMTQgMCAwIDQgMCAzIC0xOCAwIC0xOCAwIDAgLTI1eiBNMTI0NSAxMjQgbDAgLTI2IDE5IDAgMTkgMCAwIDQgMCAzIC0xNSAwIC0xNSAwIDAgOCAwIDggMTMgMCAxMiAwIDAgNCAwIDMgLTEyIDAgLTEzIDAgMCA3IDAgNyAxNSAwIDE0IDAgMCA0IDAgMyAtMTggMCAtMTkgMCAwIC0yNXogTTEzMTQgMTQ2IGMtMSAtMiAtNSAtMTMgLTEwIC0yNSAtNCAtMTIgLTggLTIyIC05IC0yMiAwIC0xIDIgLTEgNCAtMSBsNSAwIDMgOCAyIDcgMTAgMCA5IDAgMiAtNyAzIC03IDQgLTEgYzIgMCA0IDAgNCAxIDAgMCAtNCAxMiAtOSAyNSBsLTkgMjUgLTQgMCBjLTQgMCAtNCAwIC01IC0zeiBtOCAtMTYgYzEgLTQgMiAtOCAzIC05IDAgLTEgLTIgLTEgLTYgLTEgLTQgMCAtNyAwIC03IDEgMCAwIDIgNCAzIDkgMiA0IDQgOCA0IDcgMCAwIDIgLTQgMyAtN3ogTTEzNTcgMTI0IGwwIC0yNiA0IDAgNCAwIDAgMTEgMCAxMCA2IDAgNiAwIDYgLTEwIDcgLTEwIDQgLTEgYzMgMCA1IDAgNSAwIDAgMSAtMyA2IC02IDExIGwtNyAxMCAzIDIgYzUgMiA3IDYgOCAxMiAwIDUgMCA3IC0yIDEwIC0zIDUgLTcgNiAtMjMgNiBsLTE1IDAgMCAtMjV6IG0zMCAxNiBjMyAtMyAzIC05IDAgLTEyIC0yIC0xIC00IC0yIC0xMiAtMiBsLTEwIDAgMCA4IDAgOCAxMCAwIGM5IDAgMTAgMCAxMiAtMnogTTE0ODIgMTI0IGwwIC0yNiA0IDAgMyAwIDAgMTIgMCAxMSAxNCAwIDEzIDAgMCAtMTEgMCAtMTIgNCAwIDQgMCAwIDI2IDAgMjUgLTQgMCAtNCAwIDAgLTEwIDAgLTExIC0xMyAwIC0xNCAwIDAgMTEgMCAxMCAtMyAwIC00IDAgMCAtMjV6IE0xNTc1IDEyNCBsMCAtMjYgMTYgMCAxNiAwIDAgNCAwIDMgLTEyIDAgLTEzIDAgMCAyMiAwIDIyIC0zIDAgLTQgMCAwIC0yNXogTTE2MzkgMTQ3IGMtMTEgLTMwIC0xOCAtNDggLTE4IC00OCAwIC0xIDIgLTEgNCAtMSBsNCAxIDMgNyAyIDcgMTAgMCA5IDAgMiAtNSBjMSAtMyAyIC03IDIgLTggMSAtMiAyIC0yIDUgLTIgMyAwIDQgMCA0IDEgMCAxIC00IDEyIC05IDI2IGwtOSAyNCAtNCAwIGMtMyAwIC00IDAgLTUgLTJ6IG04IC0xOCBjMiAtNCAzIC04IDMgLTkgLTEgMCAtMyAwIC03IDAgbC02IDEgMyA4IGMyIDQgNCA4IDQgOCAwIDAgMiAtNCAzIC04eiBNMTY4MiAxMjQgbDAgLTI2IDE2IDAgYzE2IDAgMTcgMCAyMCAyIDQgMyA2IDYgNiAxMiAwIDUgLTIgMTAgLTUgMTIgLTEgMSAtMSAxIDEgNCAzIDUgNCA5IDEgMTQgLTMgNiAtNiA3IC0yNCA3IGwtMTUgMCAwIC0yNXogbTMxIDE3IGMyIC0yIDIgLTkgLTEgLTExIC0yIC0yIC00IC0yIC0xMiAtMiBsLTEwIDAgMCA3IDAgNyAxMCAwIGM4IDAgMTEgMCAxMyAtMXogbTEgLTIzIGMzIC0zIDMgLTggMCAtMTEgLTIgLTIgLTMgLTIgLTEzIC0yIGwtMTEgMCAwIDggMCA4IDExIDAgYzEwIDAgMTEgLTEgMTMgLTN6Ii8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K" alt="MIT Device Research Lab" width="1758" height="700">
+<h1 class="title">Green River</h1>
+<p class="subtitle">Brine composition, flowsheets and filing
+evidence</p>
+<p class="date">Collection cutoff: 2026-09-16 · source studies have
+separate dates</p>
+</header>
+<nav id="TOC" role="doc-toc"><div class="project-nav" aria-label="Report pages"><a href="report.html">Overview</a><a href="south-west-arkansas.html">South West Arkansas</a><a href="hells-kitchen.html">Hell’s Kitchen</a><a href="bher.html">BHER demonstration</a><a href="atlis.html">ATLiS</a><a href="ogden.html">Ogden / Great Salt Lake</a><a href="green-river.html" aria-current="page">Green River</a><a href="full-report.html">Full report</a></div><hr><p class="toc-label">On this page</p>
+<ul>
+<li><a href="#green-river" id="toc-green-river">Anson / Blackstone Green
+River</a>
+<ul>
+<li><a href="#green-river-water-composition" id="toc-green-river-water-composition">Full published permit chemistry
+table</a></li>
+<li><a href="#green-river-process-flowsheets" id="toc-green-river-process-flowsheets">Injection flow and diagram
+limits</a></li>
+<li><a href="#permit-status-and-remaining-evidence" id="toc-permit-status-and-remaining-evidence">Permit status and
+remaining evidence</a></li>
+</ul></li>
+<li><a href="#green-river-sources" id="toc-green-river-sources">Green
+River sources</a></li>
+<li><a href="#green-river-evidence" id="toc-green-river-evidence">Green
+River evidence</a>
+<ul>
+<li><a href="#draft-permit-brine-composition" id="toc-draft-permit-brine-composition">Draft permit brine
+composition</a></li>
+<li><a href="#injection-and-development" id="toc-injection-and-development">Injection and development</a></li>
+</ul></li>
+</ul>
+</nav>
+<blockquote>
+<p><strong>Research draft for source review.</strong> The observations
+below have been checked by an AI assistant against source text, with
+selected source pages also inspected visually. No human review has yet
+been recorded. These observations remain provisional; the separate
+human-reviewed dataset contains no accepted rows. The report
+distinguishes technical-report estimates, company targets, reported test
+results, and agency decisions.</p>
+</blockquote>
+<section id="green-river" class="level1">
+<h1>Anson / Blackstone Green River</h1>
+<p><strong>Disclosure summary:</strong> an <strong>18-parameter brine
+table</strong> in a November 2023 draft injection-permit attachment,
+including lithium <strong>170–210 ppm</strong>, density and pH. The
+table’s stream label is ambiguous. An injection schematic is available,
+but a complete lithium-process flowsheet was not located in the reviewed
+package. Collection cutoff: <strong>September 16, 2026</strong>. <a href="#o385">O385</a>, <a href="#o404">O404</a>.</p>
+<p>Anson’s August 2024 announcement links its wholly owned Blackstone
+subsidiary and the Utah injection approval to <strong>Green
+River</strong>. The agency’s current index lists Blackstone under
+<strong>UTU-19-F4-8F9143D</strong>. Anson’s separately named Paradox
+project is not merged with this site. <a href="#o405">O405</a>, <a href="#o406">O406</a>.</p>
+<section id="green-river-water-composition" class="level2">
+<h2>Full published permit chemistry table</h2>
+<p><strong>Read this qualification first:</strong> Table D-1 calls the
+stream “production brine”; the preceding page calls it spent brine after
+lithium/bromide depletion and rinse-water dilution. No dated assay or
+lab method resolves the conflict. The ranges below are transcribed as
+proposed permit chemistry, <strong>not verified raw-feed or
+operating-effluent measurements</strong>. Ppm is retained without
+converting to mg/L. <a href="#d079">D079</a>, pp. 16–17.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Parameter</th>
+<th style="text-align: left;">Published minimum–maximum</th>
+<th style="text-align: left;">Unit</th>
+<th style="text-align: left;">Evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Lithium</td>
+<td style="text-align: left;">170–210</td>
+<td style="text-align: left;">ppm</td>
+<td style="text-align: left;"><a href="#o385">O385</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Bromine</td>
+<td style="text-align: left;">3500–4000</td>
+<td style="text-align: left;">ppm</td>
+<td style="text-align: left;"><a href="#o386">O386</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Boron</td>
+<td style="text-align: left;">1400–1700</td>
+<td style="text-align: left;">ppm</td>
+<td style="text-align: left;"><a href="#o387">O387</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Sodium</td>
+<td style="text-align: left;">18000–20000</td>
+<td style="text-align: left;">ppm</td>
+<td style="text-align: left;"><a href="#o388">O388</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Potassium</td>
+<td style="text-align: left;">25000–29000</td>
+<td style="text-align: left;">ppm</td>
+<td style="text-align: left;"><a href="#o389">O389</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Calcium</td>
+<td style="text-align: left;">45000–50000</td>
+<td style="text-align: left;">ppm</td>
+<td style="text-align: left;"><a href="#o390">O390</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Magnesium</td>
+<td style="text-align: left;">35000–40000</td>
+<td style="text-align: left;">ppm</td>
+<td style="text-align: left;"><a href="#o391">O391</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Chloride</td>
+<td style="text-align: left;">220000–260000</td>
+<td style="text-align: left;">ppm</td>
+<td style="text-align: left;"><a href="#o392">O392</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Iron</td>
+<td style="text-align: left;">200–250</td>
+<td style="text-align: left;">ppm</td>
+<td style="text-align: left;"><a href="#o393">O393</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Sulfate</td>
+<td style="text-align: left;">50–100</td>
+<td style="text-align: left;">ppm</td>
+<td style="text-align: left;"><a href="#o394">O394</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Strontium</td>
+<td style="text-align: left;">1500–1800</td>
+<td style="text-align: left;">ppm</td>
+<td style="text-align: left;"><a href="#o395">O395</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Barium</td>
+<td style="text-align: left;">1–4</td>
+<td style="text-align: left;">ppm</td>
+<td style="text-align: left;"><a href="#o396">O396</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Zinc</td>
+<td style="text-align: left;">3–4</td>
+<td style="text-align: left;">ppm</td>
+<td style="text-align: left;"><a href="#o397">O397</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Bicarbonate</td>
+<td style="text-align: left;">1200–1400</td>
+<td style="text-align: left;">ppm</td>
+<td style="text-align: left;"><a href="#o398">O398</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Fluoride</td>
+<td style="text-align: left;">30–35</td>
+<td style="text-align: left;">ppm</td>
+<td style="text-align: left;"><a href="#o399">O399</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">TDS</td>
+<td style="text-align: left;">350000–400000</td>
+<td style="text-align: left;">ppm</td>
+<td style="text-align: left;"><a href="#o400">O400</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Density</td>
+<td style="text-align: left;">1.27–1.28</td>
+<td style="text-align: left;">g/cm³</td>
+<td style="text-align: left;"><a href="#o401">O401</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">pH</td>
+<td style="text-align: left;">4.5–5.0</td>
+<td style="text-align: left;">pH units</td>
+<td style="text-align: left;"><a href="#o402">O402</a></td>
+</tr>
+</tbody>
+</table>
+<p><a href="https://www.utah.gov/pmn/files/1044667.pdf#page=17">Open
+Table D-1 at PDF page 17</a>. These are all listed parameters, including
+density and pH. Temperature, analytical methods, detection limits,
+sample dates and a complete charge-balanced analysis are not supplied.
+Separate raw-feed, eluate, spent-brine and fresh-water analyses would be
+needed to resolve the process balance.</p>
+</section>
+<section id="green-river-process-flowsheets" class="level2">
+<h2>Injection flow and diagram limits</h2>
+<p>The draft attachment sets an injection-flow ceiling of <strong>2,000
+gpm</strong>, with automatic shutdown near the maximum. This is a
+<strong>draft permit limit</strong>, not achieved DLE throughput or a
+current validated final-permit condition. <a href="#o403">O403</a>.</p>
+<p><a href="https://www.utah.gov/pmn/files/1044667.pdf#page=26">Figure
+F-1, PDF page 26</a> shows an <strong>injection pump manifold</strong>.
+Its following component table credits an ASARCO 1993 copper-mining
+report. The drawing is therefore not reproduced as if it were a
+project-specific lithium flowsheet. It does not disclose extraction,
+regeneration, purification, product conversion or a full material
+balance. <a href="#o404">O404</a>.</p>
+</section>
+<section id="permit-status-and-remaining-evidence" class="level2">
+<h2>Permit status and remaining evidence</h2>
+<p>The current agency index provides final permit and statement-of-basis
+links, but both returned HTML viewer/login responses to collection
+instead of the expected PDFs. They are recorded as unavailable
+originals. The November 2023 public-notice permit, fact sheet and
+attachments remain distinct historical drafts. <a href="#o406">O406</a>;
+<a href="#d069">D069</a>, <a href="#d070">D070</a>, <a href="#d078">D078</a>, <a href="#d092">D092</a>.</p>
+<p>An injection authorization listing does not demonstrate that every
+construction/operating approval is in place or that the plant is
+producing. Current recovery, product purity, reagent consumption, energy
+demand, freshwater consumption, emissions, costs, financing, offtake and
+commercial commissioning are not established by this selected permit
+package. Those gaps remain visible rather than being filled with figures
+from Anson’s separate Paradox project.</p>
+</section>
+</section>
+<section id="green-river-sources" class="level1">
+<h1>Green River sources</h1>
+<section id="d068" class="level2 unlisted">
+<h2 class="unlisted">D068</h2>
+<p><strong><a href="https://www.utah.gov/pmn/sitemap/notice/871019.html">Blackstone
+draft injection permit public notice</a></strong></p>
+<p>Public notice · Utah DEQ / Public Notice Website. Entity: Blackstone
+Minerals NV LLC.</p>
+<p>Published/filed: <strong>2023-11-08</strong>; effective/event date:
+<strong>not established</strong>. Source role: official agency
+record.</p>
+<p>Original saved.</p>
+<p>Blackstone draft injection permit public notice. Expansion source
+collected to document project history and chemistry/process
+disclosure.</p>
+</section>
+<section id="d069" class="level2 unlisted">
+<h2 class="unlisted">D069</h2>
+<p><strong><a href="https://www.utah.gov/pmn/files/1044663.pdf">Blackstone draft UIC
+permit UTU-19-F4-8F9143D</a></strong></p>
+<p>Draft injection permit · Utah Division of Water Quality. Entity:
+Blackstone Minerals NV LLC.</p>
+<p>Published/filed: <strong>2023-11</strong>; effective/event date:
+<strong>not established</strong>. Source role: official agency
+record.</p>
+<p>Original saved; 49 PDF pages.</p>
+<p>Blackstone draft UIC permit UTU-19-F4-8F9143D. Expansion source
+collected to document project history and chemistry/process
+disclosure.</p>
+</section>
+<section id="d070" class="level2 unlisted">
+<h2 class="unlisted">D070</h2>
+<p><strong><a href="https://lf-public.deq.utah.gov/WebLink/ElectronicFile.aspx?docid=444607&amp;eqdocs=DWQ-2024-005095">Blackstone
+UIC permit agency archive</a></strong></p>
+<p>Injection permit · Utah Division of Water Quality. Entity: Blackstone
+Minerals NV LLC.</p>
+<p>Published/filed: <strong>not established</strong>; effective/event
+date: <strong>not established</strong>. Source role: official agency
+record.</p>
+<p>Original download unavailable. Expected PDF, received HTML.</p>
+<p>Blackstone UIC permit agency archive. Expansion source collected to
+document project history and chemistry/process disclosure.</p>
+</section>
+<section id="d072" class="level2 unlisted">
+<h2 class="unlisted">D072</h2>
+<p><strong><a href="https://deq.utah.gov/public-notices-archive/water-quality-public-notices-archive-z">Utah
+water quality notices alphabetical archive</a></strong></p>
+<p>Agency index · Utah DEQ. Entity: Utah DEQ.</p>
+<p>Published/filed: <strong>not established</strong>; effective/event
+date: <strong>not established</strong>. Source role: official agency
+record.</p>
+<p>Original download unavailable. HTTP Error 404: Not Found.</p>
+<p>Utah water quality notices alphabetical archive. Expansion source
+collected to document project history and chemistry/process
+disclosure.</p>
+</section>
+<section id="d078" class="level2 unlisted">
+<h2 class="unlisted">D078</h2>
+<p><strong><a href="https://www.utah.gov/pmn/files/1044665.pdf">Blackstone November
+2023 draft fact sheet and statement of basis</a></strong></p>
+<p>Draft statement of basis · Utah Division of Water Quality. Entity:
+Blackstone Minerals NV LLC.</p>
+<p>Published/filed: <strong>2023-11-07</strong>; effective/event date:
+<strong>not established</strong>. Source role: official agency
+record.</p>
+<p>Original saved; 4 PDF pages.</p>
+<p>Blackstone November 2023 draft fact sheet and statement of basis.
+Preserved to distinguish source versions and project phases.</p>
+</section>
+<section id="d079" class="level2 unlisted">
+<h2 class="unlisted">D079</h2>
+<p><strong><a href="https://www.utah.gov/pmn/files/1044667.pdf">Blackstone November
+2023 draft permit attachments A-I</a></strong></p>
+<p>Draft permit attachments · Utah Division of Water Quality. Entity:
+Blackstone Minerals NV LLC.</p>
+<p>Published/filed: <strong>2023-11</strong>; effective/event date:
+<strong>not established</strong>. Source role: official agency
+record.</p>
+<p>Original saved; 45 PDF pages.</p>
+<p>Blackstone November 2023 draft permit attachments A-I. Preserved to
+distinguish source versions and project phases.</p>
+</section>
+<section id="d087" class="level2 unlisted">
+<h2 class="unlisted">D087</h2>
+<p><strong><a href="https://deq.utah.gov/dwq/ground-water-permits">Utah
+current groundwater and UIC permit index</a></strong></p>
+<p>Agency index · Utah DEQ. Entity: Blackstone Minerals NV LLC.</p>
+<p>Published/filed: <strong>not established</strong>; effective/event
+date: <strong>not established</strong>. Source role: official index.</p>
+<p>Original saved.</p>
+<p>Utah current groundwater and UIC permit index. Expansion source;
+dates and boundaries retained separately from earlier technical
+evidence.</p>
+</section>
+<section id="d088" class="level2 unlisted">
+<h2 class="unlisted">D088</h2>
+<p><strong><a href="https://wcsecure.weblink.com.au/pdf/ASN/02842937.pdf">Anson
+announces Green River UIC approval</a></strong></p>
+<p>Issuer announcement · Issuer / ASX announcement. Entity: Anson
+Resources Ltd..</p>
+<p>Published/filed: <strong>2024-08-26</strong>; effective/event date:
+<strong>not established</strong>. Source role: issuer supplement.</p>
+<p>Original download unavailable. &lt;urlopen error [SSL:
+CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get
+local issuer certificate (_ssl.c:1010)&gt;.</p>
+<p>Anson announces Green River UIC approval. Expansion source; dates and
+boundaries retained separately from earlier technical evidence.</p>
+</section>
+<section id="d092" class="level2 unlisted">
+<h2 class="unlisted">D092</h2>
+<p><strong><a href="https://lf-public.deq.utah.gov/WebLink/ElectronicFile.aspx?docid=444608&amp;eqdocs=DWQ-2024-005093">Blackstone
+final UIC statement of basis</a></strong></p>
+<p>Permit statement of basis · Utah DEQ. Entity: Blackstone Minerals NV
+LLC.</p>
+<p>Published/filed: <strong>2024</strong>; effective/event date:
+<strong>not established</strong>. Source role: official agency
+record.</p>
+<p>Original download unavailable. Expected PDF, received HTML.</p>
+<p>Blackstone final UIC statement of basis. Expansion source; dates and
+boundaries retained separately from earlier technical evidence.</p>
+<!-- END CATALOG -->
+</section>
+</section>
+<section id="green-river-evidence" class="level1">
+<h1>Green River evidence</h1>
+<section id="draft-permit-brine-composition" class="level2">
+<h2>Draft permit brine composition</h2>
+<section id="o385" class="level3">
+<h3>O385</h3>
+<p><strong>Lithium: 170–210 ppm.</strong></p>
+<p>Basis: <strong>proposed permit range; assay basis
+unspecified</strong>; scale: proposed Green River DLE/reinjection;
+boundary: ambiguous production/spent brine label. Date/basis: 2023-11
+draft; sample date not reported.</p>
+<p>Source: <a href="#d079">D079</a>, <a href="https://www.utah.gov/pmn/files/1044667.pdf#page=17">p. 17, Table
+D-1</a> (PDF page 17).</p>
+<p>Table title calls this production brine chemistry; p. 16 calls it
+spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do
+not assign the range to measured raw feed or measured raffinate. Ppm
+basis, analytical method and detection limits unspecified.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o386" class="level3">
+<h3>O386</h3>
+<p><strong>Bromine: 3500–4000 ppm.</strong></p>
+<p>Basis: <strong>proposed permit range; assay basis
+unspecified</strong>; scale: proposed Green River DLE/reinjection;
+boundary: ambiguous production/spent brine label. Date/basis: 2023-11
+draft; sample date not reported.</p>
+<p>Source: <a href="#d079">D079</a>, <a href="https://www.utah.gov/pmn/files/1044667.pdf#page=17">p. 17, Table
+D-1</a> (PDF page 17).</p>
+<p>Table title calls this production brine chemistry; p. 16 calls it
+spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do
+not assign the range to measured raw feed or measured raffinate. Ppm
+basis, analytical method and detection limits unspecified.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o387" class="level3">
+<h3>O387</h3>
+<p><strong>Boron: 1400–1700 ppm.</strong></p>
+<p>Basis: <strong>proposed permit range; assay basis
+unspecified</strong>; scale: proposed Green River DLE/reinjection;
+boundary: ambiguous production/spent brine label. Date/basis: 2023-11
+draft; sample date not reported.</p>
+<p>Source: <a href="#d079">D079</a>, <a href="https://www.utah.gov/pmn/files/1044667.pdf#page=17">p. 17, Table
+D-1</a> (PDF page 17).</p>
+<p>Table title calls this production brine chemistry; p. 16 calls it
+spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do
+not assign the range to measured raw feed or measured raffinate. Ppm
+basis, analytical method and detection limits unspecified.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o388" class="level3">
+<h3>O388</h3>
+<p><strong>Sodium: 18000–20000 ppm.</strong></p>
+<p>Basis: <strong>proposed permit range; assay basis
+unspecified</strong>; scale: proposed Green River DLE/reinjection;
+boundary: ambiguous production/spent brine label. Date/basis: 2023-11
+draft; sample date not reported.</p>
+<p>Source: <a href="#d079">D079</a>, <a href="https://www.utah.gov/pmn/files/1044667.pdf#page=17">p. 17, Table
+D-1</a> (PDF page 17).</p>
+<p>Table title calls this production brine chemistry; p. 16 calls it
+spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do
+not assign the range to measured raw feed or measured raffinate. Ppm
+basis, analytical method and detection limits unspecified.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o389" class="level3">
+<h3>O389</h3>
+<p><strong>Potassium: 25000–29000 ppm.</strong></p>
+<p>Basis: <strong>proposed permit range; assay basis
+unspecified</strong>; scale: proposed Green River DLE/reinjection;
+boundary: ambiguous production/spent brine label. Date/basis: 2023-11
+draft; sample date not reported.</p>
+<p>Source: <a href="#d079">D079</a>, <a href="https://www.utah.gov/pmn/files/1044667.pdf#page=17">p. 17, Table
+D-1</a> (PDF page 17).</p>
+<p>Table title calls this production brine chemistry; p. 16 calls it
+spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do
+not assign the range to measured raw feed or measured raffinate. Ppm
+basis, analytical method and detection limits unspecified.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o390" class="level3">
+<h3>O390</h3>
+<p><strong>Calcium: 45000–50000 ppm.</strong></p>
+<p>Basis: <strong>proposed permit range; assay basis
+unspecified</strong>; scale: proposed Green River DLE/reinjection;
+boundary: ambiguous production/spent brine label. Date/basis: 2023-11
+draft; sample date not reported.</p>
+<p>Source: <a href="#d079">D079</a>, <a href="https://www.utah.gov/pmn/files/1044667.pdf#page=17">p. 17, Table
+D-1</a> (PDF page 17).</p>
+<p>Table title calls this production brine chemistry; p. 16 calls it
+spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do
+not assign the range to measured raw feed or measured raffinate. Ppm
+basis, analytical method and detection limits unspecified.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o391" class="level3">
+<h3>O391</h3>
+<p><strong>Magnesium: 35000–40000 ppm.</strong></p>
+<p>Basis: <strong>proposed permit range; assay basis
+unspecified</strong>; scale: proposed Green River DLE/reinjection;
+boundary: ambiguous production/spent brine label. Date/basis: 2023-11
+draft; sample date not reported.</p>
+<p>Source: <a href="#d079">D079</a>, <a href="https://www.utah.gov/pmn/files/1044667.pdf#page=17">p. 17, Table
+D-1</a> (PDF page 17).</p>
+<p>Table title calls this production brine chemistry; p. 16 calls it
+spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do
+not assign the range to measured raw feed or measured raffinate. Ppm
+basis, analytical method and detection limits unspecified.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o392" class="level3">
+<h3>O392</h3>
+<p><strong>Chloride: 220000–260000 ppm.</strong></p>
+<p>Basis: <strong>proposed permit range; assay basis
+unspecified</strong>; scale: proposed Green River DLE/reinjection;
+boundary: ambiguous production/spent brine label. Date/basis: 2023-11
+draft; sample date not reported.</p>
+<p>Source: <a href="#d079">D079</a>, <a href="https://www.utah.gov/pmn/files/1044667.pdf#page=17">p. 17, Table
+D-1</a> (PDF page 17).</p>
+<p>Table title calls this production brine chemistry; p. 16 calls it
+spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do
+not assign the range to measured raw feed or measured raffinate. Ppm
+basis, analytical method and detection limits unspecified.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o393" class="level3">
+<h3>O393</h3>
+<p><strong>Iron: 200–250 ppm.</strong></p>
+<p>Basis: <strong>proposed permit range; assay basis
+unspecified</strong>; scale: proposed Green River DLE/reinjection;
+boundary: ambiguous production/spent brine label. Date/basis: 2023-11
+draft; sample date not reported.</p>
+<p>Source: <a href="#d079">D079</a>, <a href="https://www.utah.gov/pmn/files/1044667.pdf#page=17">p. 17, Table
+D-1</a> (PDF page 17).</p>
+<p>Table title calls this production brine chemistry; p. 16 calls it
+spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do
+not assign the range to measured raw feed or measured raffinate. Ppm
+basis, analytical method and detection limits unspecified.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o394" class="level3">
+<h3>O394</h3>
+<p><strong>Sulfate: 50–100 ppm.</strong></p>
+<p>Basis: <strong>proposed permit range; assay basis
+unspecified</strong>; scale: proposed Green River DLE/reinjection;
+boundary: ambiguous production/spent brine label. Date/basis: 2023-11
+draft; sample date not reported.</p>
+<p>Source: <a href="#d079">D079</a>, <a href="https://www.utah.gov/pmn/files/1044667.pdf#page=17">p. 17, Table
+D-1</a> (PDF page 17).</p>
+<p>Table title calls this production brine chemistry; p. 16 calls it
+spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do
+not assign the range to measured raw feed or measured raffinate. Ppm
+basis, analytical method and detection limits unspecified.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o395" class="level3">
+<h3>O395</h3>
+<p><strong>Strontium: 1500–1800 ppm.</strong></p>
+<p>Basis: <strong>proposed permit range; assay basis
+unspecified</strong>; scale: proposed Green River DLE/reinjection;
+boundary: ambiguous production/spent brine label. Date/basis: 2023-11
+draft; sample date not reported.</p>
+<p>Source: <a href="#d079">D079</a>, <a href="https://www.utah.gov/pmn/files/1044667.pdf#page=17">p. 17, Table
+D-1</a> (PDF page 17).</p>
+<p>Table title calls this production brine chemistry; p. 16 calls it
+spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do
+not assign the range to measured raw feed or measured raffinate. Ppm
+basis, analytical method and detection limits unspecified.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o396" class="level3">
+<h3>O396</h3>
+<p><strong>Barium: 1–4 ppm.</strong></p>
+<p>Basis: <strong>proposed permit range; assay basis
+unspecified</strong>; scale: proposed Green River DLE/reinjection;
+boundary: ambiguous production/spent brine label. Date/basis: 2023-11
+draft; sample date not reported.</p>
+<p>Source: <a href="#d079">D079</a>, <a href="https://www.utah.gov/pmn/files/1044667.pdf#page=17">p. 17, Table
+D-1</a> (PDF page 17).</p>
+<p>Table title calls this production brine chemistry; p. 16 calls it
+spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do
+not assign the range to measured raw feed or measured raffinate. Ppm
+basis, analytical method and detection limits unspecified.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o397" class="level3">
+<h3>O397</h3>
+<p><strong>Zinc: 3–4 ppm.</strong></p>
+<p>Basis: <strong>proposed permit range; assay basis
+unspecified</strong>; scale: proposed Green River DLE/reinjection;
+boundary: ambiguous production/spent brine label. Date/basis: 2023-11
+draft; sample date not reported.</p>
+<p>Source: <a href="#d079">D079</a>, <a href="https://www.utah.gov/pmn/files/1044667.pdf#page=17">p. 17, Table
+D-1</a> (PDF page 17).</p>
+<p>Table title calls this production brine chemistry; p. 16 calls it
+spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do
+not assign the range to measured raw feed or measured raffinate. Ppm
+basis, analytical method and detection limits unspecified.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o398" class="level3">
+<h3>O398</h3>
+<p><strong>Bicarbonate: 1200–1400 ppm.</strong></p>
+<p>Basis: <strong>proposed permit range; assay basis
+unspecified</strong>; scale: proposed Green River DLE/reinjection;
+boundary: ambiguous production/spent brine label. Date/basis: 2023-11
+draft; sample date not reported.</p>
+<p>Source: <a href="#d079">D079</a>, <a href="https://www.utah.gov/pmn/files/1044667.pdf#page=17">p. 17, Table
+D-1</a> (PDF page 17).</p>
+<p>Table title calls this production brine chemistry; p. 16 calls it
+spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do
+not assign the range to measured raw feed or measured raffinate. Ppm
+basis, analytical method and detection limits unspecified.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o399" class="level3">
+<h3>O399</h3>
+<p><strong>Fluoride: 30–35 ppm.</strong></p>
+<p>Basis: <strong>proposed permit range; assay basis
+unspecified</strong>; scale: proposed Green River DLE/reinjection;
+boundary: ambiguous production/spent brine label. Date/basis: 2023-11
+draft; sample date not reported.</p>
+<p>Source: <a href="#d079">D079</a>, <a href="https://www.utah.gov/pmn/files/1044667.pdf#page=17">p. 17, Table
+D-1</a> (PDF page 17).</p>
+<p>Table title calls this production brine chemistry; p. 16 calls it
+spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do
+not assign the range to measured raw feed or measured raffinate. Ppm
+basis, analytical method and detection limits unspecified.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o400" class="level3">
+<h3>O400</h3>
+<p><strong>TDS: 350000–400000 ppm.</strong></p>
+<p>Basis: <strong>proposed permit range; assay basis
+unspecified</strong>; scale: proposed Green River DLE/reinjection;
+boundary: ambiguous production/spent brine label. Date/basis: 2023-11
+draft; sample date not reported.</p>
+<p>Source: <a href="#d079">D079</a>, <a href="https://www.utah.gov/pmn/files/1044667.pdf#page=17">p. 17, Table
+D-1</a> (PDF page 17).</p>
+<p>Table title calls this production brine chemistry; p. 16 calls it
+spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do
+not assign the range to measured raw feed or measured raffinate. Ppm
+basis, analytical method and detection limits unspecified.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o401" class="level3">
+<h3>O401</h3>
+<p><strong>Density: 1.27–1.28 g/cm³.</strong></p>
+<p>Basis: <strong>proposed permit range; assay basis
+unspecified</strong>; scale: proposed Green River DLE/reinjection;
+boundary: ambiguous production/spent brine label. Date/basis: 2023-11
+draft; sample date not reported.</p>
+<p>Source: <a href="#d079">D079</a>, <a href="https://www.utah.gov/pmn/files/1044667.pdf#page=17">p. 17, Table
+D-1</a> (PDF page 17).</p>
+<p>Table title calls this production brine chemistry; p. 16 calls it
+spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do
+not assign the range to measured raw feed or measured raffinate. Ppm
+basis, analytical method and detection limits unspecified.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o402" class="level3">
+<h3>O402</h3>
+<p><strong>pH: 4.5–5.0 pH units.</strong></p>
+<p>Basis: <strong>proposed permit range; assay basis
+unspecified</strong>; scale: proposed Green River DLE/reinjection;
+boundary: ambiguous production/spent brine label. Date/basis: 2023-11
+draft; sample date not reported.</p>
+<p>Source: <a href="#d079">D079</a>, <a href="https://www.utah.gov/pmn/files/1044667.pdf#page=17">p. 17, Table
+D-1</a> (PDF page 17).</p>
+<p>Table title calls this production brine chemistry; p. 16 calls it
+spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do
+not assign the range to measured raw feed or measured raffinate. Ppm
+basis, analytical method and detection limits unspecified.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+</section>
+<section id="injection-and-development" class="level2">
+<h2>Injection and development</h2>
+<section id="o403" class="level3">
+<h3>O403</h3>
+<p><strong>Draft injection-flow ceiling: 2000 gpm.</strong></p>
+<p>Basis: <strong>draft permit condition</strong>; scale: proposed
+injection system; boundary: spent-brine injection. Date/basis:
+2023-11.</p>
+<p>Source: <a href="#d079">D079</a>, <a href="https://www.utah.gov/pmn/files/1044667.pdf#page=16">p. 16,
+Attachment D §2</a> (PDF page 16).</p>
+<p>Limit, not achieved throughput. Automatic shutdown within 5% of
+recommended maxima. Final permit original unavailable; no assertion that
+draft wording is current.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o404" class="level3">
+<h3>O404</h3>
+<p><strong>Diagram disclosure: injection pump manifold
+only.</strong></p>
+<p>Basis: <strong>permit attachment schematic</strong>; scale: proposed
+commercial facility; boundary: injection plumbing. Date/basis: 2023-11
+draft.</p>
+<p>Source: <a href="#d079">D079</a>, <a href="https://www.utah.gov/pmn/files/1044667.pdf#page=26">pp. 26–27,
+Figure F-1 and Table F-1</a> (PDF page 26).</p>
+<p>The following component table credits ASARCO 1993 copper-mining
+technical report. This is a reused injection schematic, not a
+project-specific lithium extraction flowsheet or complete material
+balance.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o405" class="level3">
+<h3>O405</h3>
+<p><strong>Project/subsidiary identity: Green River / wholly owned
+Blackstone subsidiary.</strong></p>
+<p>Basis: <strong>issuer announcement</strong>; scale: proposed
+commercial facility; boundary: Green River; not separate Paradox
+project. Date/basis: 2024-08-26.</p>
+<p>Source: <a href="#d088">D088</a>, <a href="https://wcsecure.weblink.com.au/pdf/ASN/02842937.pdf">ASX
+announcement dated August 26, 2024, p. 1</a>.</p>
+<p>Anson links the Utah UIC approval and its Blackstone subsidiary to
+Green River. Original download failed certificate validation;
+announcement web text checked.</p>
+<p>Review: AI web-text check; original download unavailable;
+<strong>human review pending</strong>.</p>
+</section>
+<section id="o406" class="level3">
+<h3>O406</h3>
+<p><strong>Permit present in current agency index:
+UTU-19-F4-8F9143D.</strong></p>
+<p>Basis: <strong>agency index</strong>; scale: proposed commercial
+facility; boundary: Blackstone UIC authorization listing. Date/basis:
+index retrieved 2026-09-16.</p>
+<p>Source: <a href="#d087">D087</a>, <a href="https://deq.utah.gov/dwq/ground-water-permits">Underground
+Injection Control Permits (Current), Blackstone Minerals row</a>.</p>
+<p>The agency links a final permit and statement of basis, but both
+downloads returned HTML rather than PDFs. This establishes the listing,
+not verification of every final condition or commercial operation.</p>
+<p>Review: AI source-text check; <strong>human review
+pending</strong>.</p>
+<!-- END EVIDENCE -->
+</section>
+</section>
+</section>
+</body>
+</html>
