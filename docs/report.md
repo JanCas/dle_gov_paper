@@ -37,7 +37,7 @@ This research draft brings together project-specific securities disclosures and 
 
 <!-- BEGIN COUNTS -->
 
-**Collection:** 124 source records; 100 successful original-file downloads; 24 failed original-file downloads. The saved PDFs contain 6,562 pages. **Evidence:** 586 observations; 0 accepted after human review.
+**Collection:** 124 source records; 100 successful original-file downloads; 24 failed original-file downloads. The saved PDFs contain 6,562 pages. **Evidence:** 815 observations; 0 accepted after human review.
 
 <!-- END COUNTS -->
 
@@ -55,7 +55,7 @@ Research profiles are grouped by project location, including foreign parent comp
 | [ATLiS](#atlis) · Imperial County, California | DOE block flowsheet, brine/water flows, reagent use and explicit chemistry gaps. | [Chemistry](atlis-chemistry.html) · [Process](atlis-process.html) · [Evidence](atlis-evidence.html) |
 | [Ogden / Great Salt Lake](#ogden) · Utah | lake and pond chemistry, historical process design, and separate EnergyX proposal. | [Chemistry](ogden-chemistry.html) · [Process](ogden-process.html) · [Evidence](ogden-evidence.html) |
 | [Green River](#green-river) · Utah | Anson/Blackstone permit chemistry, injection limits and stream-label discrepancy. | [Chemistry](green-river-chemistry.html) · [Process](green-river-process.html) · [Evidence](green-river-evidence.html) |
-| [Waterleaf / Lilac](#waterleaf) · Box Elder County, Utah | pilot raw-brine/eluate chemistry, groundwater laboratory results, flowsheet and public water balance. | [Chemistry](waterleaf-chemistry.html) · [Process](waterleaf-process.html) · [Evidence](waterleaf-evidence.html) |
+| [Waterleaf / Lilac](#waterleaf) · Box Elder County, Utah | pilot and 12-stream design chemistry, groundwater laboratory results, numbered flowsheet and public water summaries. | [Chemistry](waterleaf-chemistry.html) · [Process](waterleaf-process.html) · [Evidence](waterleaf-evidence.html) |
 | [Franklin](#franklin) · Hopkins, Franklin and Titus counties, Texas | 2023 exploration-average chemistry, expected flowsheet and separate 2026 PEA assumptions. | [Chemistry](franklin-chemistry.html) · [Process](franklin-process.html) · [Evidence](franklin-evidence.html) |
 | [Wellspring](#wellspring) · North Dakota | North Dakota produced-water field program; grant records and high-level diagram. | [Chemistry](wellspring-chemistry.html) · [Process](wellspring-process.html) · [Evidence](wellspring-evidence.html) |
 | [Paradox](#paradox) · West of Moab, Grand County, Utah | draft permit chemistry with reused Green River ranges and unresolved stream labels. | [Chemistry](paradox-chemistry.html) · [Process](paradox-process.html) · [Evidence](paradox-evidence.html) |
@@ -72,9 +72,9 @@ Research profiles are grouped by project location, including foreign parent comp
 
 - **Pretreatment now has a dedicated comparison.** The [all-project matrix](#pretreatment-by-project) distinguishes selected designs, tested alternatives and disclosure gaps; the [method inventory](#pretreatment-methods) and [stream-boundary check](#pretreatment-boundaries) keep feed preparation separate from eluate purification and discharge treatment.
 
-- **The expanded report contains 18 profiles with uneven evidence.** Waterleaf adds six measured brine/eluate constituents and a separate groundwater laboratory panel; Franklin adds ten exploration-average brine constituents. Several additions establish project identity or history only, and Magnolia remains an explicitly issuer-supported profile. [Disclosure comparison](#composition-and-flowsheet-availability).
+- **The expanded report contains 18 profiles with uneven evidence.** Waterleaf adds six measured brine/eluate constituents, eleven design-ion rows across twelve numbered streams, and a separate groundwater laboratory panel; Franklin adds ten exploration-average brine constituents. Several additions establish project identity or history only, and Magnolia remains an explicitly issuer-supported profile. [Disclosure comparison](#composition-and-flowsheet-availability).
 - **New concentrations retain their stream and date.** Waterleaf reports 69 mg/L raw-brine lithium and 2,044 mg/L in pilot eluate. Franklin reports 668 mg/L in 2023 exploration averages versus 515 mg/L as a 2026 PEA lifetime model average. Paradox repeats Green River’s proposed 170–210 ppm range; those tables are not independent assays. [Waterleaf](#waterleaf-water-composition), [Franklin](#franklin-water-composition), [Paradox](#paradox-water-composition).
-- **A process diagram is not a complete water balance.** Source diagrams cover BHER, ATLiS, historical Ogden, Waterleaf, Franklin and Wellspring. Waterleaf publishes a design water-summary table but redacts detailed stream balances. BHER cancelled its completed-balance deliverable; none of these packages establishes all numbered streams with measured flows and compositions. [BHER](#bher-process-flowsheets), [ATLiS](#atlis-process-flowsheets), [Ogden](#ogden-process-flowsheets).
+- **A process diagram is not a complete water balance.** Source diagrams cover BHER, ATLiS, historical Ogden, Waterleaf, Franklin and Wellspring. Waterleaf publishes a design water-summary table and a 12-stream chemistry/flow excerpt, while the full Appendix D.4 balance is redacted. BHER cancelled its completed-balance deliverable; none of these packages establishes all numbered streams with measured flows and compositions. [BHER](#bher-process-flowsheets), [ATLiS](#atlis-process-flowsheets), [Ogden](#ogden-process-flowsheets).
 
 - **The original pilot’s brine concentration figures have different bases.** SWA's September 2025 plant-design table uses 439.9 mg/L lithium; HK's August 2023 EIR gives 250 mg/L as expected geothermal brine composition. Neither is a directly comparable dated well assay. SWA separately reports well-sample results and changing concentrations in its production model. [O009](#o009), [O051](#o051), [brine chemistry comparison](#brine-concentration-and-chemistry).
 - **Recovery needs a process boundary.** South West Arkansas reports greater than 95% lithium extraction in demonstration/pilot testing, while the commercial process design uses 89.25% overall brine-to-product recovery. These are different quantities. [O002](#o002), [O003](#o003).
@@ -154,7 +154,7 @@ These figures cover the major process stages. They do **not** supply a complete 
 
 ### Pretreatment {#south-west-arkansas-pretreatment}
 
-Well-pad phase separation → air stripping/scrubbing → cooling → pH/ORP conditioning → multimedia filtration → UF. Gases, oils, precipitated iron and suspended solids; NaOH/H2O2 for conditioning. Selected commercial design with supporting trials; no stage-by-stage outlet assay or removal efficiency established here. [O561](#o561), [O562](#o562), [O563](#o563), [O564](#o564)
+Well-pad phase separation → air stripping/scrubbing → cooling → pH/ORP conditioning → multimedia filtration → UF. Gases, oils, precipitated iron and suspended solids; NaOH/H2O2 for conditioning. Figure 17-1 also shows HCl entering the combined pretreatment block, but its precise duty is unresolved. Selected commercial design with supporting trials; no stage-by-stage outlet assay or removal efficiency established here. [O561](#o561), [O562](#o562), [O563](#o563), [O564](#o564)
 
 [Compare pretreatment methods across all projects](#pretreatment-comparison).
 
@@ -417,7 +417,7 @@ Capacity also needs a product basis: the 2021 EIR estimates shipments of 19,000 
 
 ### Pretreatment {#atlis-pretreatment}
 
-HR1 post-secondary-clarifier brine → Fe/silica removal → Mn/Zn removal → filter-press dewatering → ILiAD. HCl pH control disclosed; limestone/CaO facilities listed. Detailed chemical sequence not disclosed. Commercial proposal; Fe/silica cake initially a waste, Mn/Zn intended products. No verified operating efficiency. [O573](#o573), [O574](#o574); [O211](#o211).
+HR1 post-secondary-clarifier brine → Fe/silica removal → Mn/Zn removal → ILiAD. Separated solids → filter-press dewatering. HCl pH control disclosed; limestone/CaO facilities listed. Detailed chemical sequence not disclosed. Commercial proposal; Fe/silica cake initially a waste, Mn/Zn intended products. No verified operating efficiency. [O573](#o573), [O574](#o574); [O211](#o211).
 
 [Compare pretreatment methods across all projects](#pretreatment-comparison).
 
@@ -497,7 +497,7 @@ The latest Compass June-quarter filing was inventoried and web-screened without 
 
 ### Pretreatment {#ogden-pretreatment}
 
-Evaporation ponds and prior salt recovery → brine filtration → ILiAD. Different concentrated feed streams; specific filter type and outlet specifications not given in reviewed process section. Historical Compass design; not the later EnergyX configuration. No assumed raw-brine Mg-softening step. [O575](#o575), [O576](#o576)
+Evaporation ponds and prior salt recovery → brine filtration / pretreatment with a disclosed HCl input → ILiAD. Figure 14-1 shows HCl entering pretreatment in both plants; its purpose, dose, pH and order relative to filtration are unspecified. Total HCl consumption also includes downstream uses. Different concentrated feed streams; specific filter type and outlet specifications are not given in the reviewed process section. Historical Compass design; not the later EnergyX configuration. No assumed raw-brine Mg-softening step. [O575](#o575), [O576](#o576)
 
 [Compare pretreatment methods across all projects](#pretreatment-comparison).
 
@@ -558,7 +558,7 @@ No upstream DLE pretreatment train established in reviewed injection package. In
 
 ## Waterleaf / Lilac Great Salt Lake Phase 1 {#waterleaf}
 
-**Disclosure summary:** six-constituent measured raw-brine/eluate table, a separate groundwater laboratory package, a readable process flowsheet and a commercial water-balance summary. Detailed stream tables are redacted. **Cutoff: September 16, 2026.**
+**Disclosure summary:** measured pilot raw-brine/eluate chemistry; a separate groundwater laboratory panel; and public commercial-design chemistry, flows, density and solids for 12 numbered streams. Figure 33 links the outfall/waste streams. Full Appendix D.4 is redacted; its public Table 23 excerpt is available. **Cutoff: September 16, 2026.**
 
 Waterleaf Phase 1 LLC proposes Lilac ion-exchange DLE on Gunnison Bay, the north arm of Great Salt Lake, in Box Elder County, Utah. This is separate from Compass/EnergyX Ogden and US Magnesium. The agency draft identifies commercial UPDES **UT0026352**, replacing demonstration permit **UT0026280**. The June 30, 2026 fact sheet and July public notice are drafts, not evidence of final authorization or completed construction. [D111](#d111), [D112](#d112); [D116](#d116), PDF p. 22.
 
@@ -576,9 +576,68 @@ Table 11 covers selected stable periods in optimal pilot weeks 16–28, excludin
 | Boron | 50 | 0.9 | [O417](#o417), [O418](#o418) |
 
 
-Reported pilot DLE recovery is **87%** ([O419](#o419)). Commercial whole-process recovery is **78.8%**, combining 84.5% DLE and 93.3% downstream recovery ([O421](#o421)). Commercial design is **5,000 mt/yr lithium carbonate** at 90% nominal availability, with rounded raw-brine intake of approximately **11,300 gpm**. These are design assumptions, not achieved commercial output. [O420](#o420), [O422](#o422).
+Reported pilot DLE recovery is **87%** ([O419](#o419)). Commercial whole-process recovery is **78.8%**, combining 84.5% DLE and 93.3% downstream recovery ([O421](#o421)). Commercial design is **5,000 mt/yr lithium carbonate** at 90% nominal availability. The rounded **11,300 gpm** intake is the equipment-design case; Table 23 separately gives nominal intake **33,347 L/min** and design intake **42,610 L/min**. Keep those bases separate when calculating an intensity. These are design assumptions, not achieved commercial output. [O420](#o420), [O422](#o422), [O587](#o587), [O599](#o599).
 
 Pilot crystallization occurred in batches at Lilac's Oakland laboratory; the commercial design puts it on site and recovers water differently. Pilot potable water came from Geneva Rock, while commercial makeup is proposed from groundwater. Those boundaries prevent treating pilot and commercial effluents as interchangeable. [D113](#d113), p. 84.
+
+### Commercial design stream chemistry {#waterleaf-design-water-composition}
+
+**Table 23 is public.** It reports eleven aqueous-ion rows for twelve numbered streams, with nominal/design flows, density and solids. These are **rounded commercial model values**, separate from the measured pilot Table 11. The source identifies the composition block as nominal. [D113](#d113), [Table 23, PDF pp. 130–131](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130).
+
+Stream **3101 is raw brine** and **3501 is total depleted-brine outfall**. The source's stream names are reproduced below; MMF means multimedia filtration and RO means reverse osmosis. The [numbered diagram and flow tables](#waterleaf-numbered-flowsheet) link these compositions to process location.
+
+| Stream | Source description |
+|:--|:--|
+| 3101 | Raw Brine |
+| 3501 | Total Depl. Brine Outfall |
+| 4103 | Raw Brine MMF Backwash |
+| 4601 | Depl. Brine |
+| 4603 | Fresh NaOH for Brine Neut. |
+| 4607 | Dilute Flocc. |
+| 4609 | Depl. Brine MMF Feed |
+| 4611 | Depl. Brine |
+| 4624 | 12% NaClO |
+| 4625 | Depl. Brine MMF Filtrate |
+| 4626 | 15% Na2SO3 Depl. Brine MMF Filtrate |
+| 4704 | Water Recovery RO Retentate |
+
+The long stream 4626 header is retained as printed; Figure 33 identifies its reagent as **Na₂SO₃ (sodium sulfite)**. Source dashes mean **not reported in this table**, not zero or a detection limit. The printed ionic labels below are source notation, not independently verified speciation.
+
+#### Major cations {#waterleaf-design-cations}
+
+| Stream | Li+ (mg/L) | Na+ (mg/L) | Mg2+ (mg/L) | Ca2+ (mg/L) | K+ (mg/L) |
+|:--|--:|--:|--:|--:|--:|
+| 3101 | 68.0 [O683](#o683) | 98,464 [O695](#o695) | 14,633 [O707](#o707) | 309 [O719](#o719) | 8,721 [O731](#o731) |
+| 3501 | 14.2 [O684](#o684) | 97,872 [O696](#o696) | 14,482 [O708](#o708) | 300 [O720](#o720) | 8,638 [O732](#o732) |
+| 4103 | 77.4 [O685](#o685) | 98,327 [O697](#o697) | 14,576 [O709](#o709) | 307 [O721](#o721) | 8,691 [O733](#o733) |
+| 4601 | 12.1 [O686](#o686) | 98,190 [O698](#o698) | 14,539 [O710](#o710) | 300 [O722](#o722) | 8,672 [O734](#o734) |
+| 4603 | 0.0 [O687](#o687) | 140,135 [O699](#o699) | 3.8 [O711](#o711) | 1.1 [O723](#o723) | 2.3 [O735](#o735) |
+| 4607 | 0.0 [O688](#o688) | 34.5 [O700](#o700) | 3.9 [O712](#o712) | 1.2 [O724](#o724) | 2.4 [O736](#o736) |
+| 4609 | 12.0 [O689](#o689) | 97,842 [O701](#o701) | 14,479 [O713](#o713) | 300 [O725](#o725) | 8,637 [O737](#o737) |
+| 4611 | 12.0 [O690](#o690) | 97,700 [O702](#o702) | 14,455 [O714](#o714) | 300 [O726](#o726) | 8,623 [O738](#o738) |
+| 4624 | - [O691](#o691) | 42,805 [O703](#o703) | - [O715](#o715) | - [O727](#o727) | - [O739](#o739) |
+| 4625 | 12.0 [O692](#o692) | 97,844 [O704](#o704) | 14,479 [O716](#o716) | 300 [O728](#o728) | 8,637 [O740](#o740) |
+| 4626 | 0.0 [O693](#o693) | 64,299 [O705](#o705) | 3.8 [O717](#o717) | 1.1 [O729](#o729) | 2.4 [O741](#o741) |
+| 4704 | 11.0 [O694](#o694) | 17,548 [O706](#o706) | 2,219 [O718](#o718) | 374 [O730](#o730) | 1,350 [O742](#o742) |
+
+#### Other constituents and anions {#waterleaf-design-anions}
+
+| Stream | B3+ (mg/L) | Sr2+ (mg/L) | Fe2+ (mg/L) | Mn2+/Mn4+ (mg/L) | Cl− (mg/L) | SO4²− (mg/L) |
+|:--|--:|--:|--:|--:|--:|--:|
+| 3101 | 62.0 [O743](#o743) | 4.0 [O755](#o755) | 0.6 [O767](#o767) | 0.0 [O779](#o779) | 183,942 [O791](#o791) | 26,976 [O803](#o803) |
+| 3501 | 61.4 [O744](#o744) | 3.4 [O756](#o756) | 0.6 [O768](#o768) | 0.0 [O780](#o780) | 182,249 [O792](#o792) | 27,240 [O804](#o804) |
+| 4103 | 61.8 [O745](#o745) | 4.0 [O757](#o757) | 0.6 [O769](#o769) | 0.0 [O781](#o781) | 183,226 [O793](#o793) | 27,331 [O805](#o805) |
+| 4601 | 61.6 [O746](#o746) | 3.4 [O758](#o758) | 0.6 [O770](#o770) | 0.2 [O782](#o782) | 182,943 [O794](#o794) | 27,317 [O806](#o806) |
+| 4603 | 0.0 [O747](#o747) | 0.0 [O759](#o759) | 0.0 [O771](#o771) | 0.0 [O783](#o783) | 92.8 [O795](#o795) | 82.8 [O807](#o807) |
+| 4607 | 0.0 [O748](#o748) | 0.0 [O760](#o760) | 0.0 [O772](#o772) | 0.0 [O784](#o784) | 62.0 [O796](#o796) | 7.5 [O808](#o808) |
+| 4609 | 61.4 [O749](#o749) | 3.4 [O761](#o761) | 0.6 [O773](#o773) | 0.0 [O785](#o785) | 182,207 [O797](#o797) | 27,205 [O809](#o809) |
+| 4611 | 61.3 [O750](#o750) | 3.4 [O762](#o762) | 0.6 [O774](#o774) | 0.0 [O786](#o786) | 181,926 [O798](#o798) | 27,193 [O810](#o810) |
+| 4624 | - [O751](#o751) | - [O763](#o763) | - [O775](#o775) | - [O787](#o787) | 4,280.1 [O799](#o799) | - [O811](#o811) |
+| 4625 | 61.4 [O752](#o752) | 3.4 [O764](#o764) | 0.6 [O776](#o776) | 0.0 [O788](#o788) | 182,210 [O800](#o800) | 27,206 [O812](#o812) |
+| 4626 | 0.0 [O753](#o753) | 0.0 [O765](#o765) | 1.8 [O777](#o777) | 0.0 [O789](#o789) | 96.6 [O801](#o801) | 1,039 [O813](#o813) |
+| 4704 | 8.8 [O754](#o754) | 0.6 [O766](#o766) | 0.1 [O778](#o778) | 0.3 [O790](#o790) | 32,024 [O802](#o802) | 4,234 [O814](#o814) |
+
+This reproduces all listed chemistry cells, including dashes. It is not an exhaustive chemical characterization or a measured operating balance. The underlying full Appendix D.4 remains redacted. Do not substitute design raw-brine **68.0 mg/L Li** for the **69 mg/L pilot average**, or treat design outfall **14.2 mg/L Li** as a lithium-rich product stream.
 
 ### Groundwater: full listed sample results {#waterleaf-groundwater}
 
@@ -662,6 +721,52 @@ Both radiochemistry results are below their reported lower limits of detection (
 
 [O423](#o423). [Open Figure 2 at PDF page 39](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=39). The diagram connects intake filtration, lithium ion exchange, eluate purification/concentration, carbonate crystallization and depleted-brine return. The later DWQ fact sheet describes off-site further processing and lists three main stages, while its attachment depicts carbonate production. The application and discharge-permit boundaries need reconciliation. [D112](#d112), pp. 1–2 and 19.
 
+#### Numbered outfall and waste flowsheet {#waterleaf-numbered-flowsheet}
+
+![Waterleaf Figure 33: numbered streams contributing to outfall and solid waste. Source diagram, commercial design.](assets/D113-figure33.png)
+
+[O815](#o815). [Open Figure 33 at PDF page 128](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=128). Raw-brine backwash, depleted-brine treatment, RO retentate and reagent additions feed the outfall branch. Eluate neutralization and its solids are separate. The diagram maps to [Table 23 chemistry](#waterleaf-design-water-composition); it does not cover the complete carbonate-conversion balance.
+
+#### Table 23: nominal and design stream flows {#waterleaf-stream-flows}
+
+All twelve source columns are retained. **Nominal** is the 90%-uptime case without margin; **Design** is the 100%-uptime equipment case with 15% margin. These rounded total-stream flows differ from Table 12's water-content masses. The two volumetric units and mass unit are preserved as printed, without forcing their rounded values or densities to agree exactly. [D113](#d113), PDF p. 130; operating bases on p. 89.
+
+| Stream / source description | Nominal flow (L/min) | Design flow (L/min) | Density (kg/L) | Solids (w%) |
+|:--|--:|--:|--:|--:|
+| 3101 · Raw brine | 33,347 [O587](#o587) | 42,610 [O599](#o599) | 1.2 [O659](#o659) | 0.007 [O671](#o671) |
+| 3501 · Total outfall | 33,666 [O588](#o588) | 43,017 [O600](#o600) | 1.2 [O660](#o660) | 0.006 [O672](#o672) |
+| 4103 · Raw-brine MMF backwash | 1,129 [O589](#o589) | 1,443 [O601](#o601) | 1.2 [O661](#o661) | 0.2 [O673](#o673) |
+| 4601 · Depleted brine | 32,370 [O590](#o590) | 41,361 [O602](#o602) | 1.2 [O662](#o662) | 0 [O674](#o674) |
+| 4603 · Fresh NaOH | 8.2 [O591](#o591) | 10.5 [O603](#o603) | 1.2 [O663](#o663) | 0 [O675](#o675) |
+| 4607 · Dilute flocculant | 21.7 [O592](#o592) | 27.7 [O604](#o604) | 1.0 [O664](#o664) | 0.3 [O676](#o676) |
+| 4609 · Depleted-brine MMF feed | 33,143 [O593](#o593) | 42,349 [O605](#o605) | 1.2 [O665](#o665) | 0.002 [O677](#o677) |
+| 4611 · Depleted brine | 32,590 [O594](#o594) | 41,643 [O606](#o606) | 1.2 [O666](#o666) | 0.001 [O678](#o678) |
+| 4624 · 12% NaClO | 5.8 [O595](#o595) | 7.5 [O607](#o607) | 1.2 [O667](#o667) | 0 [O679](#o679) |
+| 4625 · Depleted-brine MMF filtrate | 32,537 [O596](#o596) | 41,575 [O608](#o608) | 1.2 [O668](#o668) | 0.001 [O680](#o680) |
+| 4626 · 15% Na2SO3 (source label) | 7.8 [O597](#o597) | 9.9 [O609](#o609) | 1.2 [O669](#o669) | 0 [O681](#o681) |
+| 4704 · Water-recovery RO retentate | 139 [O598](#o598) | 178 [O610](#o610) | 1.1 [O670](#o670) | 0 [O682](#o682) |
+
+#### Table 23: source volume and solution-mass units {#waterleaf-stream-mass}
+
+| Stream | Nominal flow (m³/hr) | Design flow (m³/hr) | Nominal mass (mt/hr) | Design mass (mt/hr) |
+|:--|--:|--:|--:|--:|
+| 3101 | 2,001 [O611](#o611) | 2,557 [O623](#o623) | 2,438 [O635](#o635) | 3,115 [O647](#o647) |
+| 3501 | 2,020 [O612](#o612) | 2,581 [O624](#o624) | 2,464 [O636](#o636) | 3,149 [O648](#o648) |
+| 4103 | 67.8 [O613](#o613) | 87 [O625](#o625) | 82.6 [O637](#o637) | 105 [O649](#o649) |
+| 4601 | 1,943 [O614](#o614) | 2,483 [O626](#o626) | 2,370 [O638](#o638) | 3,029 [O650](#o650) |
+| 4603 | 0.5 [O615](#o615) | 0.6 [O627](#o627) | 0.6 [O639](#o639) | 0.8 [O651](#o651) |
+| 4607 | 1.3 [O616](#o616) | 1.7 [O628](#o628) | 1.3 [O640](#o640) | 1.7 [O652](#o652) |
+| 4609 | 1,989 [O617](#o617) | 2,541 [O629](#o629) | 2,426 [O641](#o641) | 3,100 [O653](#o653) |
+| 4611 | 1,955 [O618](#o618) | 2,499 [O630](#o630) | 2,382 [O642](#o642) | 3,044 [O654](#o654) |
+| 4624 | 0.4 [O619](#o619) | 0.4 [O631](#o631) | 0.4 [O643](#o643) | 0.5 [O655](#o655) |
+| 4625 | 1,952 [O620](#o620) | 2,494 [O632](#o632) | 2,381 [O644](#o644) | 3,043 [O656](#o656) |
+| 4626 | 0.5 [O621](#o621) | 0.6 [O633](#o633) | 0.5 [O645](#o645) | 0.7 [O657](#o657) |
+| 4704 | 8.3 [O622](#o622) | 10.7 [O634](#o634) | 8.8 [O646](#o646) | 11.2 [O658](#o658) |
+
+The solids values retain the source's weight-percent magnitude. Nominal solution mass is **2,438 mt/hr** at raw-brine intake and **2,464 mt/hr** at the combined outfall; those are not freshwater demand. All flows and compositions remain design estimates pending human source review.
+
+#### Table 12: water-content summary {#waterleaf-water-summary}
+
 Table 12's complete public summary follows. Negative signs indicate water leaving or consumed. **Nominal** is the stated 90%-uptime operating case without margin; **Design** is the stated 100%-uptime equipment case with a 15% margin. These are water masses, not total saline-solution flows. [D113](#d113), pp. 85, 89.
 
 |Direction | Water stream | Nominal (mt/hr) | Design (mt/hr) | Evidence |
@@ -688,7 +793,7 @@ Table 12's complete public summary follows. Negative signs indicate water leavin
 | Net | Printed net | 0.000 | 0.000 | [O462](#o462), [O463](#o463) |
 
 
-The printed totals differ by 0.2 and 0.3 mt/hr, although the source prints zero net. Preserve this rounding/closure discrepancy; do not silently force closure. The public summary does not disclose every stream's chemistry. Detailed appendices D.1–D.4 include blacked-out schematic/balance pages (for example PDF pp. 584, 597 and 628). Commercial energy, annual reagent demand, waste chemistry, costs, binding offtake and final approvals were not comprehensively extracted in this addition.
+The printed totals differ by 0.2 and 0.3 mt/hr, although the source prints zero net. Preserve this rounding/closure discrepancy; do not silently force closure. Table 12 is a water-content summary. The separate public [Table 23 excerpt](#waterleaf-design-water-composition) discloses chemistry and nominal/design flows for twelve streams, linked by [Figure 33](#waterleaf-numbered-flowsheet). It is not a complete measured plant balance. The full Appendix D.4 and inspected detailed appendix pages are redacted (for example PDF pp. 584, 597 and 628). Commercial energy, annual reagent demand, waste chemistry, costs, binding offtake and final approvals were not comprehensively extracted in this addition.
 
 ### Pretreatment {#waterleaf-pretreatment}
 
@@ -765,7 +870,7 @@ The application describes a tenfold LiCl concentration step but does not establi
 
 ![Wellspring high-level process drawing from the North Dakota grant application, PDF page 21.](assets/D115-process-flow.png)
 
-[O529](#o529). [Open the source at PDF page 21](https://www.ndic.nd.gov/sites/www/files/documents/Renewable-Energy-Program/Grant-Rounds--Final-Reports/Proposals/Grant-Rounds-59-50/R-56-A-Unlocking-Lithium-Carbonate-in-Produced-Wat.pdf#page=21). The drawing shows brine treatment, DLE and carbonate conversion; it labels trial refining as off site. Its approximate 1,000+ gal/day feed and 10,000+ bbl/day disposal labels use different scales and do not form a closed balance. “Up to 99%” is an applicant illustration claim without the supporting test series needed to accept it as project recovery. Current permitting, measured outcomes, construction, economics and offtake need follow-up.
+[O529](#o529). [Open the source at PDF page 21](https://www.ndic.nd.gov/sites/www/files/documents/Renewable-Energy-Program/Grant-Rounds--Final-Reports/Proposals/Grant-Rounds-59-50/R-56-A-Unlocking-Lithium-Carbonate-in-Produced-Wat.pdf#page=21). The drawing shows brine treatment, DLE and carbonate conversion; it labels trial refining as off site. Its approximate 1,000+ gal/day feed and 10,000+ bbl/day disposal labels use different scales and do not form a closed balance. The drawing makes two separate “up to 99%” claims: Stage 1 contaminant removal and Stage 2 lithium extraction. Neither is supported here by the species-specific or recovery test series needed to accept it as project performance. [O585](#o585). Current permitting, measured outcomes, construction, economics and offtake need follow-up.
 
 ### Pretreatment {#wellspring-pretreatment}
 
@@ -991,7 +1096,7 @@ Post-bromine feed with upstream phase separation/vacuum degassing; pH/ORP, tempe
 
 Each row retains its own stream, date and evidence basis. **Li (mg/L) and Li (ppm) are separate source units.** A blank entry is not zero. Product eluate is shown separately; values are not ranked as project performance.
 
-## Reported feed measurements {#feed-chemistry-comparison}
+## Reported brine measurements {#feed-chemistry-comparison}
 
 | Project | Stream / basis | Li (mg/L) | Li (ppm) | Sample or study date / source |
 |:--|:--|--:|--:|:--|
@@ -1011,6 +1116,7 @@ Each row retains its own stream, date and evidence basis. **Li (mg/L) and Li (pp
 | [BHER](#bher-process-flowsheets) | Process-diagram brine value · separate approximate basis | — | approximately 250 | 2024 report · [O192](#o192) |
 | [Mandrake Utah](#utah-lithium-water-composition) | Resource-horizon average grades · not delivered DLE-test feed | 69–142 | — | 2024 resource summary · [O552](#o552) |
 | [SWA](#swa-water-composition) | Commercial process-design feed | 439.9 | — | 2025 DFS · [O009](#o009) |
+| [Waterleaf](#waterleaf-design-water-composition) | Raw-brine stream 3101 · commercial model | 68.0 | — | February 2026 application · [O683](#o683) |
 | [Franklin](#franklin-pea) | Plant-life average · economic/resource model | 515 | — | September 2026 PEA · [O523](#o523) |
 | [Franklin](#franklin-pea) | Year-one concentration · economic/resource model | 562 | — | September 2026 PEA · [O524](#o524) |
 | [Green River](#green-river-water-composition) | Proposed permit chemistry · production/spent-brine label unresolved | — | 170–210 | November 2023 draft · [O385](#o385) |
@@ -1074,6 +1180,12 @@ Source figures from eight project profiles. These are block/process drawings wit
 
 [Process, original source and limitations](#waterleaf-process-flowsheets)
 
+## Waterleaf numbered outfall streams {#gallery-waterleaf-streams}
+
+![Waterleaf Figure 33, numbered outfall and waste streams; commercial design, linked to Table 23.](assets/D113-figure33.png)
+
+[Numbered flowsheet, flows and chemistry](#waterleaf-numbered-flowsheet)
+
 ## Franklin {#gallery-8}
 
 ![Franklin expected lithium process block flow diagram, Figure 13.1 of the 2025 resource report.](assets/D117-figure13-1.png)
@@ -1115,7 +1227,7 @@ This original-pilot engineering comparison covers SWA and Hell’s Kitchen. The 
 | [ATLiS](atlis.html) · 2021/2025 environmental studies | — | — | Complete project-specific feed assay not located | Monitoring-well chemistry is a different stream. [Scope](#atlis-water-composition) | Four-stage block diagram; brine and water estimates, no closed balance. [Figure](#atlis-process-flowsheets) |
 | [Ogden](ogden.html) · 2022 initial assessment | Lake: 25.9–58.6; Pond: 125–328 | — | Lake Table 7.2 location/depth averages; Pond 114 individual samples | Five-cation lake table and four-cation pond table; not complete water analyses. [Tables](#ogden-water-composition) | Historical East/West block flowsheets include pond evaporation. [Figure](#ogden-process-flowsheets) |
 | [Green River](green-river.html) · 2023 draft permit | — | 170–210 | Production/spent-brine label unresolved | 18 proposed parameters, including density and pH. [Table](#green-river-water-composition) | Injection manifold only, with reused copper-project provenance. [Limits](#green-river-process-flowsheets) |
-| [Waterleaf](waterleaf.html) · 2025 pilot / 2026 application | 69 raw; 2044 eluate | — | Selected stable pilot averages | Six brine/eluate constituents; separate broad groundwater panel. [Details](#waterleaf-water-composition) | Public process diagram and design water summary; detailed balances redacted. [Scope](#waterleaf-process-flowsheets) |
+| [Waterleaf](waterleaf.html) · 2025 pilot / 2026 application | Pilot: 69 raw, 2044 eluate; design: 68.0 raw, 14.2 outfall | — | Selected pilot averages; separate commercial model | Six pilot constituents; eleven design-ion rows for twelve streams; separate groundwater panel. [Design table](#waterleaf-design-water-composition) | Numbered outfall/waste diagram, nominal/design stream flows and water summary; full Appendix D.4 redacted. [Scope](#waterleaf-numbered-flowsheet) |
 | [Franklin](franklin.html) · 2023 samples / 2025 report; 2026 PEA | 668 samples; 515 model average | — | Exploration average vs separate lifetime model | Ten-constituent table; no complete makeup-water analysis. [Details](#franklin-water-composition) | Expected lithium block flowsheet; no measured complete balance. [Scope](#franklin-process-flowsheets) |
 | [Wellspring](wellspring.html) · 2025 grant application | — | — | Distributed produced-water program | Full site-specific feed assay not established. [Details](#wellspring-water-composition) | High-level drawing mixes scales; no closed balance. [Scope](#wellspring-process-flowsheets) |
 | [Paradox](paradox.html) · 2024 draft permit | — | 170–210 | Production/spent label unresolved; repeats Green River | 18 proposed parameters, not an independent measured assay. [Details](#paradox-water-composition) | Injection package; full DLE flowsheet not located. [Scope](#paradox-process-flowsheets) |
@@ -1146,14 +1258,14 @@ This inventory includes selected methods and tested alternatives. It is a synthe
 |:--|:--|:--|:--|
 | Phase separation; gas stripping/scrubbing | Separate oil/gas phases and dissolved gases. | SWA design: well-pad separation, then air stripping and H2S scrubber. LANXESS test history and Franklin co-product concept: vacuum degassing. [O561](#o561), [O562](#o562), [O567](#o567), [O584](#o584) | These are different gas-handling arrangements; no matched removal/cost data. |
 | Temperature conditioning | Bring brine to the chosen extraction/process conditions. | SWA heat exchanger; HK vacuum-flash cooling. [O563](#o563), [O568](#o568) | Cooling is not itself proof of contaminant removal. |
-| pH / oxidation-reduction adjustment | Condition brine; where stated, form removable iron solids. | SWA NaOH/H2O2; BHER NaOH pH elevation. ATLiS identifies HCl for pH control. [O563](#o563), [O570](#o570), [O574](#o574) | Different purposes and feed chemistry; do not infer equal pH, dose or iron removal. |
+| pH / oxidation-reduction adjustment | Condition brine; where stated, form removable iron solids. | SWA NaOH/H2O2; BHER NaOH pH elevation. ATLiS identifies HCl for pH control. Ogden Figure 14-1 shows pre-DLE HCl input, with duty unresolved. [O576](#o576). [O563](#o563), [O570](#o570), [O574](#o574) | Different purposes and feed chemistry; do not infer equal pH, dose or iron removal. |
 | Screening, clarification and weir separation | Remove or intercept suspended/coarse material. | Waterleaf intake screens; pre-existing geothermal clarification at BHER/ATLiS; BHER added weir tank after clogging. [O577](#o577), [O571](#o571), [O573](#o573) | Solids separation alone does not establish removal of dissolved salts. |
 | Solar evaporation and salt precipitation | Concentrate brine and remove salts before it reaches the DLE plant. | Ogden’s historical pond and salt-recovery operations prepare distinct feed streams. [O575](#o575) | Existing upstream operations, not a dedicated DLE pretreatment unit; pond history changes the inlet chemistry. |
 | Multimedia filtration | Filter suspended matter; SWA also names residual oil droplets. | Selected for Waterleaf; precedes UF in SWA. [O577](#o577), [O564](#o564) | Waterleaf’s short cold-brine test is not a universal advantage over UF. |
 | Ultrafiltration: pressurized/submerged, polymeric/ceramic options | Membrane solid–liquid separation before extraction. | SWA selects UF after multimedia; LANXESS tests pressurized/submerged UF; Waterleaf tests polymeric/ceramic UF. [O564](#o564), [O566](#o566), [O578](#o578) | Plant selection differs. Waterleaf reports winter flux penalties; SWA retains UF in its own design. |
 | Precoat filtration | An evaluated filtration alternative. | Waterleaf lists it among tested incoming-brine options. [O578](#o578) | Not selected as its main raw-brine filter; a separate downstream filter press must not be mistaken for the same stage. |
 | Activated carbon, walnut-shell filters and iron guard beds | Hydrocarbon-removal / residual-iron options in the test program. | Listed in LANXESS-site demonstration tests supporting SWA. [O566](#o566) | No like-for-like performance table; source says many tested options were sub-optimal. |
-| Staged mineral removal with solids dewatering | Remove targeted non-lithium minerals before DLE. | ATLiS: Fe/silica then Mn/Zn and filter presses. HK: proprietary silica/polymetallic removal and filtration. [O573](#o573), [O569](#o569) | Detailed reaction recipes are incomplete; waste versus potential product disposition differs. |
+| Staged mineral removal with solids dewatering | Remove targeted non-lithium minerals before DLE. | ATLiS: Fe/silica then Mn/Zn removal on the brine path; separated solids go to filter presses. HK: proprietary silica/polymetallic removal and filtration. [O573](#o573), [O569](#o569) | Detailed reaction recipes are incomplete; waste versus potential product disposition differs. |
 | Conditional dehalogenation / neutralization | Prepare bromine-depleted brine for lithium extraction. | Franklin co-product concept: sodium bisulfite after bromine extraction, then partial neutralization with anhydrous ammonia. [O584](#o584) | Optional bromine pathway, not a confirmed requirement for the lithium-only project. |
 
 
@@ -1166,8 +1278,8 @@ This inventory includes selected methods and tested alternatives. It is a synthe
 | [SWA · 2025 DFS / 2026 EA](#south-west-arkansas-pretreatment) | Well-pad phase separation → air stripping/scrubbing → cooling → pH/ORP conditioning → multimedia filtration → UF. | Selected commercial design; supporting trials |
 | [Hell’s Kitchen · 2023 EIR](#hells-kitchen-pretreatment) | Vacuum-flash cooling → proprietary silica/polymetallic recovery and filtration → lithium extraction. | Proposed sequence; proprietary chemistry |
 | [BHER demonstration · 2022–2023](#bher-pretreatment) | Existing secondary clarification → NaOH pH adjustment; weir tank acquired after initial solids clogging. | Field-test response; later media degradation also observed |
-| [ATLiS · 2021 EIR / 2025 EA](#atlis-pretreatment) | HR1 post-secondary-clarifier brine → Fe/silica removal → Mn/Zn removal → filter-press dewatering → ILiAD. | Commercial proposal; no verified operating efficiency |
-| [Ogden · historical 2022 design](#ogden-pretreatment) | Evaporation ponds and prior salt recovery → brine filtration → ILiAD. | Historical 2022 Compass design |
+| [ATLiS · 2021 EIR / 2025 EA](#atlis-pretreatment) | HR1 post-secondary-clarifier brine → Fe/silica removal → Mn/Zn removal → ILiAD. Separated solids → filter-press dewatering. | Commercial proposal; no verified operating efficiency |
+| [Ogden · historical 2022 design](#ogden-pretreatment) | Evaporation ponds and prior salt recovery → brine filtration / pretreatment with a disclosed HCl input → ILiAD. | Historical 2022 Compass design |
 | [Green River · 2023 draft UIC](#green-river-pretreatment) | No upstream DLE pretreatment train established in reviewed injection package. | Not established in collected draft injection package |
 | [Waterleaf · 2025 tests / 2026 application](#waterleaf-pretreatment) | Intake screening → surge storage → raw-brine multimedia filtration. | Selected design; pilot and short cold-brine tests |
 | [Franklin · 2025 report / 2026 PEA](#franklin-pretreatment) | H2S removal if applicable → iron precipitation → suspended-solids filtration recommended for testing. | Recommended tests; optional bromine route is separate |
@@ -1247,6 +1359,8 @@ The practical research fields are therefore: lithium concentration; other brine 
 
 ## Discrepancies requiring review
 
+SWA Figure 17-1 shows an HCl input to the combined pretreatment block whose duty is unresolved in the conditioning prose. [O563](#o563).
+
 New-profile discrepancies: Paradox/Green River repeat the same chemistry with production/spent labels; Waterleaf’s rounded totals do not reproduce its printed zero water balance, and its two agency packages describe differing processing boundaries; Mandrake resource totals differ between the survey and issuer update. These remain explicit in their profiles.
 
 1. **SWA freshwater:** the annual DFS estimate and later EA flow estimates are not reconciled. Their differing dates and plant boundaries may matter. No annualization assumption has been imposed. [O016](#o016), [O017](#o017).
@@ -1258,136 +1372,136 @@ New-profile discrepancies: Paradox/Green River repeat the same chemistry with pr
 
 # Source directory {#source-directory}
 
-Find a document by ID, project, agency or title. Follow its catalog entry for source provenance, dates and retrieval limitations.
+Find a document by ID, associated project, agency or title. Shared documents retain one catalog record and list all project associations established by the profile source lists and observation register. Follow the catalog entry for source provenance, distinct issue/filing/effective dates and retrieval limitations.
 
 <!-- BEGIN SOURCEINDEX -->
 
-| Document | Project | Agency / type | Published |
+| Document | Associated projects | Agency / type | Published / filed |
 |:--|:--|:--|:--|
-| [D001 — South West Arkansas NI 43-101 definitive feasibility study](#d001) | South West Arkansas | SEC · Technical report / EX-99.1 | 2025-10-14 |
-| [D002 — DOE EA-2304 project record](#d002) | South West Arkansas | DOE · Agency index | Not established |
-| [D003 — Hell's Kitchen notice of preparation and initial study record](#d003) | Hell’s Kitchen | Imperial County / CEQAnet · NOP | 2022-03-25 |
-| [D004 — Hell's Kitchen draft EIR record](#d004) | Hell’s Kitchen | Imperial County / CEQAnet · Draft EIR index | 2023-08-30 |
-| [D005 — Hell's Kitchen notice of determination](#d005) | Hell’s Kitchen | Imperial County / CEQAnet · NOD | 2024-01-24 |
-| [D006 — Standard Lithium filing-history API](#d006) | South West Arkansas | SEC · Filing index | Not established |
-| [D007 — Plum Acquisition Corp. IV filing-history API](#d007) | Hell’s Kitchen | SEC · Filing index | Not established |
-| [D008 — DOE final EA landing page](#d008) | South West Arkansas | DOE · Final EA index | 2026-05-13 |
-| [D009 — DOE FONSI landing page](#d009) | South West Arkansas | DOE · Decision index | 2026-05-13 |
-| [D010 — Hell's Kitchen final EIR county index](#d010) | Hell’s Kitchen | Imperial County · Final EIR index | Not established |
-| [D011 — Hell's Kitchen notice of preparation and scoping meeting](#d011) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: NOP | Not established |
-| [D012 — Hell's Kitchen initial study](#d012) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: NOP | 2022-03 |
-| [D013 — Hell's Kitchen NOP notice of completion](#d013) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: NOP | Not established |
-| [D014 — CDFW scoping comment letter](#d014) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: NOP | 2022-05-10 |
-| [D015 — NAHC scoping comment letter](#d015) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: NOP | 2022-04-14 |
-| [D016 — Memo: additional draft-EIR documents](#d016) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: Draft EIR index | 2023-10-04 |
-| [D017 — County letter: addition of draft-EIR chapters](#d017) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: Draft EIR index | 2023-10-03 |
-| [D018 — Hell's Kitchen draft EIR: Chapters 6 and 7](#d018) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: Draft EIR index | Not established |
-| [D019 — Memo: draft-EIR review-period modification](#d019) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: Draft EIR index | 2023-09-06 |
-| [D020 — County letter: draft-EIR circulation modification](#d020) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: Draft EIR index | 2023-09-06 |
-| [D021 — Hell's Kitchen draft EIR: combined appendices](#d021) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: Draft EIR index | 2023 |
-| [D022 — Hell's Kitchen draft environmental impact report](#d022) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: Draft EIR index | 2023-08 |
-| [D023 — Hell's Kitchen electronic-submittal summary form](#d023) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: Draft EIR index | Not established |
-| [D024 — Hell's Kitchen notice of intent](#d024) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: Draft EIR index | Not established |
-| [D025 — Hell's Kitchen draft-EIR notice of completion](#d025) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: Draft EIR index | Not established |
-| [D026 — CDFW draft-EIR comment letter](#d026) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: Draft EIR index | 2023-10-23 |
-| [D027 — State Lands Commission draft-EIR comment letter](#d027) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: Draft EIR index | 2023-10-23 |
-| [D028 — Hell's Kitchen county determination: January 2024](#d028) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: NOD | 2024-01-24 |
-| [D029 — DOE/EA-2304: Final Environmental Assessment (May 2026)](#d029) | South West Arkansas | DOE · Attachment: Final EA index | 2026-05-13 |
-| [D030 — DOE/EA-2304: Finding of No Significant Impact (May 2026)](#d030) | South West Arkansas | DOE · Attachment: Decision index | 2026-05-13 |
-| [D031 — Hell's Kitchen final EIR: responses and revisions](#d031) | Hell’s Kitchen | Imperial County · Attachment: Final EIR index | 2023-12 |
-| [D032 — CEQAnet project chronology](#d032) | Hell’s Kitchen | Imperial County / CEQAnet · Project index | Not established |
-| [D033 — Hell's Kitchen geothermal lithium extraction pilot](#d033) | Hell’s Kitchen | California Energy Commission / CEQAnet · Pilot exemption | 2020-08-05 |
-| [D034 — DOE draft EA landing page](#d034) | South West Arkansas | DOE · Draft EA index | 2026-03-11 |
-| [D035 — South West Arkansas official issuer project page](#d035) | South West Arkansas | Standard Lithium · Issuer project index | Not established |
-| [D036 — CTR / Plum March 2026 investor presentation](#d036) | Hell’s Kitchen | SEC · Investor presentation | 2026-03-09 |
-| [D037 — CTR / Plum August 2026 investor presentation](#d037) | Hell’s Kitchen | SEC · Investor presentation | 2026-08-20 |
-| [D038 — 2021 SW Arkansas preliminary economic assessment](#d038) | South West Arkansas | SEC · Technical report | 2021-11-26 |
-| [D039 — Amended and restated SW Arkansas PFS](#d039) | South West Arkansas | SEC · Technical report | 2025-07-30 |
-| [D040 — Standard Lithium June 2026 management discussion](#d040) | South West Arkansas | SEC · Management discussion | 2026-08-10 |
-| [D041 — CTR / Plum merger announcement](#d041) | Hell’s Kitchen | SEC · Merger announcement | 2026-03-09 |
-| [D042 — Plum June 2026 quarterly report](#d042) | Hell’s Kitchen | SEC · Quarterly report | 2026-08-14 |
-| [D043 — CTR / Plum presentation supersession notice](#d043) | Hell’s Kitchen | SEC · 8-K | 2026-08-20 |
-| [D044 — South West Arkansas DFS - issuer PDF copy](#d044) | South West Arkansas | Standard Lithium · Technical report (issuer copy of D001) | 2025-10-14 |
-| [D045 — Hell's Kitchen pilot: CEC notice of exemption](#d045) | Hell’s Kitchen | California Energy Commission / CEQAnet · Attachment: Pilot exemption | 2020-08-05 |
-| [D046 — DOE/EA-2304: Draft Environmental Assessment](#d046) | South West Arkansas | DOE · Attachment: Draft EA index | 2026-03-11 |
-| [D047 — DOE/EA-2304: Dear Reader Letter](#d047) | South West Arkansas | DOE · Attachment: Draft EA index | 2026-03-11 |
-| [D048 — Hell's Kitchen December 2023 NOD](#d048) | Hell’s Kitchen | CEQAnet · NOD | 2023-12-18 |
-| [D049 — Hell's Kitchen subsequent NOD](#d049) | Hell’s Kitchen | CEQAnet · NOD | 2025-06-18 |
-| [D050 — Hell's Kitchen county determination: December 2023](#d050) | Hell’s Kitchen | CEQAnet · Attachment: NOD | 2023-12-15 |
-| [D051 — Materials Research LLC: CEC determination EPC-24-043](#d051) | Hell’s Kitchen | CEQAnet · Attachment: NOD | 2025-06-13 |
-| [D052 — 2023 SWA preliminary feasibility results (issuer supplement)](#d052) | South West Arkansas | Standard Lithium · PFS announcement | 2023-08-08 |
-| [D053 — SWA LG Energy Solution offtake announcement](#d053) | South West Arkansas | Arkansas Department of Commerce · Offtake announcement | 2026-08-31 |
-| [D054 — Arkansas DEQ draft air permits index](#d054) | South West Arkansas | Arkansas DEQ · Permit search index | Not established |
-| [D055 — CTR issuer homepage](#d055) | Hell’s Kitchen | Controlled Thermal Resources · Issuer index | Not established |
-| [D056 — CTR August 2026 presentation issuer notice](#d056) | Hell’s Kitchen | Controlled Thermal Resources · Presentation index | 2026-08-20 |
-| [D057 — BHERM final project report index](#d057) | BHER demonstration | California Energy Commission · Report index | 2024-08-30 |
-| [D058 — BHERM lithium recovery demonstration final report CEC-500-2024-094](#d058) | BHER demonstration | California Energy Commission · Grant final report | 2024-08 |
-| [D059 — Salton Sea geothermal lithium recovery demonstration exemption](#d059) | BHER demonstration | CEQAnet / CEC · Notice of exemption | 2020-06-17 |
-| [D060 — DOE EA-2279 ATLiS project index](#d060) | ATLiS | DOE · Environmental review index | Not established |
-| [D061 — ATLiS final environmental assessment and FONSI](#d061) | ATLiS | DOE · Final EA and FONSI | 2025-03 |
-| [D062 — ATLiS early CEQA project record SCH 2020120143](#d062) | ATLiS | CEQAnet / Imperial County · Environmental review index | Not established |
-| [D063 — ATLiS federal environmental review in state clearinghouse](#d063) | ATLiS | CEQAnet / DOE · Draft EA index | 2024-11-07 |
-| [D064 — Ogden lithium updated technical report summary](#d064) | Ogden / Great Salt Lake | SEC · Technical report / EX-96.1 | 2022-09-14 |
-| [D065 — Compass Minerals 2023 annual report](#d065) | Ogden / Great Salt Lake | SEC · 10-K | Not established |
-| [D066 — Compass Minerals 2025 annual report](#d066) | Ogden / Great Salt Lake | SEC · 10-K | Not established |
-| [D067 — EnergyX June 2026 offering amendment](#d067) | Ogden / Great Salt Lake | SEC · Regulation A offering amendment | 2026-06-16 |
-| [D068 — Blackstone draft injection permit public notice](#d068) | Green River | Utah DEQ / Public Notice Website · Public notice | 2023-11-08 |
-| [D069 — Blackstone draft UIC permit UTU-19-F4-8F9143D](#d069) | Green River | Utah Division of Water Quality · Draft injection permit | 2023-11 |
-| [D070 — Blackstone UIC permit agency archive](#d070) | Green River | Utah Division of Water Quality · Injection permit | Not established |
-| [D071 — Compass September 2022 technology and economics announcement](#d071) | Ogden / Great Salt Lake | Issuer · Issuer announcement | 2022-09-14 |
-| [D072 — Utah water quality notices alphabetical archive](#d072) | Green River | Utah DEQ · Agency index | Not established |
-| [D073 — Ogden September 2022 technical report issuer PDF](#d073) | Ogden / Great Salt Lake | Issuer · Technical report / issuer-hosted copy | 2022-09-14 |
-| [D074 — ATLiS June 2021 draft EIR archive](#d074) | ATLiS | CEQAnet / Imperial County · Draft EIR index | 2021-06-28 |
-| [D075 — ATLiS December 2020 scoping record](#d075) | ATLiS | CEQAnet / Imperial County · NOP index | 2020-12-08 |
-| [D076 — BHER demonstration CEC exemption original](#d076) | BHER demonstration | CEQAnet / CEC · Notice of exemption | 2020-06-17 |
-| [D077 — ATLiS November 2024 draft environmental assessment](#d077) | ATLiS | CEQAnet / DOE · Draft EA | 2024-11 |
-| [D078 — Blackstone November 2023 draft fact sheet and statement of basis](#d078) | Green River | Utah Division of Water Quality · Draft statement of basis | 2023-11-07 |
-| [D079 — Blackstone November 2023 draft permit attachments A-I](#d079) | Green River | Utah Division of Water Quality · Draft permit attachments | 2023-11 |
-| [D080 — ATLiS county final EIR introduction](#d080) | ATLiS | Imperial County · Final EIR chapter | 2021 |
-| [D081 — ATLiS county final EIR responses to comments](#d081) | ATLiS | Imperial County · Final EIR chapter | 2021 |
-| [D082 — Occidental and BHE TerraLithium joint venture announcement](#d082) | BHER demonstration | Issuer · Issuer announcement | 2024-06-04 |
-| [D083 — Compass Minerals SEC submissions index](#d083) | Ogden / Great Salt Lake | SEC · Filing index | Not established |
-| [D084 — EnergyX SEC submissions index](#d084) | Ogden / Great Salt Lake | SEC · Filing index | Not established |
-| [D085 — ATLiS full 2021 draft EIR and appendices](#d085) | ATLiS | Imperial County / CEQAnet · Draft EIR | 2021-06-28 |
-| [D086 — ATLiS CEQA historical project index](#d086) | ATLiS | CEQAnet · Agency index | Not established |
-| [D087 — Utah current groundwater and UIC permit index](#d087) | Green River | Utah DEQ · Agency index | Not established |
-| [D088 — Anson announces Green River UIC approval](#d088) | Green River | Issuer / ASX announcement · Issuer announcement | 2024-08-26 |
-| [D089 — EnergyX July 2026 offering circular](#d089) | Ogden / Great Salt Lake | SEC · 253G2 | 2026-07-13 |
-| [D090 — Compass Minerals June 2026 quarterly report](#d090) | Ogden / Great Salt Lake | SEC · 10-Q | 2026-08-06 |
-| [D091 — Compass Minerals historical SEC submissions index](#d091) | Ogden / Great Salt Lake | SEC · Filing index | Not established |
-| [D092 — Blackstone final UIC statement of basis](#d092) | Green River | Utah DEQ · Permit statement of basis | 2024 |
-| [D093 — DOE ATLiS final EA and FONSI publication notice](#d093) | ATLiS | DOE · Agency decision notice | 2025-03-26 |
-| [D094 — ATLiS_Notice_of_Availability](#d094) | ATLiS | CEQAnet / DOE · Attachment: Draft EA index | Not established |
-| [D095 — ATLiS_Summary_Form](#d095) | ATLiS | CEQAnet / DOE · Attachment: Draft EA index | Not established |
-| [D096 — ATLiS_Notice_of_Completion](#d096) | ATLiS | CEQAnet / DOE · Attachment: Draft EA index | Not established |
-| [D097 — 2024110237_CDFW Comment](#d097) | ATLiS | CEQAnet / DOE · Attachment: Draft EA index | Not established |
-| [D098 — 2024110237_DOT Comment](#d098) | ATLiS | CEQAnet / DOE · Attachment: Draft EA index | Not established |
-| [D099 — 2024110237_DTSC Comment](#d099) | ATLiS | CEQAnet / DOE · Attachment: Draft EA index | Not established |
-| [D100 — Notice of Availability-ATLiS-DEIR](#d100) | ATLiS | CEQAnet / Imperial County · Attachment: Draft EIR index | Not established |
-| [D101 — Respond to Mitigation Measures](#d101) | ATLiS | CEQAnet / Imperial County · Attachment: Draft EIR index | Not established |
-| [D102 — Summary Form](#d102) | ATLiS | CEQAnet / Imperial County · Attachment: Draft EIR index | Not established |
-| [D103 — Revised-NOC-ATLiS](#d103) | ATLiS | CEQAnet / Imperial County · Attachment: Draft EIR index | Not established |
-| [D104 — 2020120143_Conservation Comment](#d104) | ATLiS | CEQAnet / Imperial County · Attachment: Draft EIR index | Not established |
-| [D105 — 2020120143_Conservation Comment](#d105) | ATLiS | CEQAnet / Imperial County · Attachment: Draft EIR index | Not established |
-| [D106 — CUP20-0008 Initial Study Energy Source ATLiS](#d106) | ATLiS | CEQAnet / Imperial County · Attachment: NOP index | Not established |
-| [D107 — CUP20-0008 NOC](#d107) | ATLiS | CEQAnet / Imperial County · Attachment: NOP index | Not established |
-| [D108 — CUP20-0008 NOP](#d108) | ATLiS | CEQAnet / Imperial County · Attachment: NOP index | Not established |
-| [D109 — 2020120143_Caltrans comment](#d109) | ATLiS | CEQAnet / Imperial County · Attachment: NOP index | Not established |
-| [D110 — 2020120143_NAHC Comment](#d110) | ATLiS | CEQAnet / Imperial County · Attachment: NOP index | Not established |
-| [D111 — Great Salt Lake Phase 1 public notice](#d111) | Waterleaf / Lilac | Utah DWQ · Public notice | 2026-07-01 |
-| [D112 — Phase 1 draft fact sheet and flow diagram](#d112) | Waterleaf / Lilac | Utah DWQ · Draft UPDES fact sheet | 2026-06-30 |
-| [D113 — Phase 1 operations application, redacted](#d113) | Waterleaf / Lilac | Utah FFSL · Redacted operations application | 2026-02-20 |
-| [D114 — A1 Lithium draft UIC permit and attachments](#d114) | Paradox | Utah DWQ · Draft UIC permit and attachments | 2024-05 |
-| [D115 — R-56-A lithium carbonate grant application](#d115) | Wellspring | North Dakota Industrial Commission · Grant application | 2025-08-31 |
-| [D116 — Utah Mining 2024](#d116) | US Magnesium | Utah Geological Survey · Government survey | 2025 |
-| [D117 — Maiden inferred resource technical report](#d117) | Franklin | Issuer website · NI 43-101 technical report | 2025-11-05 |
-| [D118 — September 8 2026 PEA announcement, SEC exhibit](#d118) | Franklin | SEC · SEC EX-99.1 | 2026-09-08 |
-| [D119 — Annual information form, 2025 year](#d119) | LANXESS history | SEC · Annual information form | Not established |
-| [D120 — North Dakota renewable grant rounds 50-59](#d120) | Wellspring | NDIC · Agency grant index | Not established |
-| [D121 — TETRA 2025 annual report](#d121) | Evergreen | SEC · Form 10-K | Not established |
-| [D122 — Albemarle 2024 Sustainability Report](#d122) | Magnolia | Issuer website · Sustainability report | Not established |
-| [D123 — A1 Lithium UIC notice](#d123) | Paradox | Utah DWQ · UIC public notice | 2024-05-23 |
-| [D124 — Bulk Brine Production Complete at Utah Lithium Project](#d124) | Mandrake Utah | Issuer website · Issuer-hosted ASX announcement | 2026-09-15 |
+| [D001 — South West Arkansas NI 43-101 definitive feasibility study](#d001) | [South West Arkansas](south-west-arkansas.html), [Evergreen](evergreen.html), [Pine / Exxon](pine.html), [Magnolia](magnolia.html) | SEC · Technical report / EX-99.1 | 2025-10-14 |
+| [D002 — DOE EA-2304 project record](#d002) | [South West Arkansas](south-west-arkansas.html) | DOE · Agency index | Not established |
+| [D003 — Hell's Kitchen notice of preparation and initial study record](#d003) | [Hell’s Kitchen](hells-kitchen.html) | Imperial County / CEQAnet · NOP | 2022-03-25 |
+| [D004 — Hell's Kitchen draft EIR record](#d004) | [Hell’s Kitchen](hells-kitchen.html) | Imperial County / CEQAnet · Draft EIR index | 2023-08-30 |
+| [D005 — Hell's Kitchen notice of determination](#d005) | [Hell’s Kitchen](hells-kitchen.html) | Imperial County / CEQAnet · NOD | 2024-01-24 |
+| [D006 — Standard Lithium filing-history API](#d006) | [South West Arkansas](south-west-arkansas.html) | SEC · Filing index | Not established |
+| [D007 — Plum Acquisition Corp. IV filing-history API](#d007) | [Hell’s Kitchen](hells-kitchen.html) | SEC · Filing index | Not established |
+| [D008 — DOE final EA landing page](#d008) | [South West Arkansas](south-west-arkansas.html) | DOE · Final EA index | 2026-05-13 |
+| [D009 — DOE FONSI landing page](#d009) | [South West Arkansas](south-west-arkansas.html) | DOE · Decision index | 2026-05-13 |
+| [D010 — Hell's Kitchen final EIR county index](#d010) | [Hell’s Kitchen](hells-kitchen.html) | Imperial County · Final EIR index | Not established |
+| [D011 — Hell's Kitchen notice of preparation and scoping meeting](#d011) | [Hell’s Kitchen](hells-kitchen.html) | Imperial County / CEQAnet · Attachment: NOP | Not established |
+| [D012 — Hell's Kitchen initial study](#d012) | [Hell’s Kitchen](hells-kitchen.html) | Imperial County / CEQAnet · Attachment: NOP | 2022-03 |
+| [D013 — Hell's Kitchen NOP notice of completion](#d013) | [Hell’s Kitchen](hells-kitchen.html) | Imperial County / CEQAnet · Attachment: NOP | Not established |
+| [D014 — CDFW scoping comment letter](#d014) | [Hell’s Kitchen](hells-kitchen.html) | Imperial County / CEQAnet · Attachment: NOP | 2022-05-10 |
+| [D015 — NAHC scoping comment letter](#d015) | [Hell’s Kitchen](hells-kitchen.html) | Imperial County / CEQAnet · Attachment: NOP | 2022-04-14 |
+| [D016 — Memo: additional draft-EIR documents](#d016) | [Hell’s Kitchen](hells-kitchen.html) | Imperial County / CEQAnet · Attachment: Draft EIR index | 2023-10-04 |
+| [D017 — County letter: addition of draft-EIR chapters](#d017) | [Hell’s Kitchen](hells-kitchen.html) | Imperial County / CEQAnet · Attachment: Draft EIR index | 2023-10-03 |
+| [D018 — Hell's Kitchen draft EIR: Chapters 6 and 7](#d018) | [Hell’s Kitchen](hells-kitchen.html) | Imperial County / CEQAnet · Attachment: Draft EIR index | Not established |
+| [D019 — Memo: draft-EIR review-period modification](#d019) | [Hell’s Kitchen](hells-kitchen.html) | Imperial County / CEQAnet · Attachment: Draft EIR index | 2023-09-06 |
+| [D020 — County letter: draft-EIR circulation modification](#d020) | [Hell’s Kitchen](hells-kitchen.html) | Imperial County / CEQAnet · Attachment: Draft EIR index | 2023-09-06 |
+| [D021 — Hell's Kitchen draft EIR: combined appendices](#d021) | [Hell’s Kitchen](hells-kitchen.html) | Imperial County / CEQAnet · Attachment: Draft EIR index | 2023 |
+| [D022 — Hell's Kitchen draft environmental impact report](#d022) | [Hell’s Kitchen](hells-kitchen.html) | Imperial County / CEQAnet · Attachment: Draft EIR index | 2023-08 |
+| [D023 — Hell's Kitchen electronic-submittal summary form](#d023) | [Hell’s Kitchen](hells-kitchen.html) | Imperial County / CEQAnet · Attachment: Draft EIR index | Not established |
+| [D024 — Hell's Kitchen notice of intent](#d024) | [Hell’s Kitchen](hells-kitchen.html) | Imperial County / CEQAnet · Attachment: Draft EIR index | Not established |
+| [D025 — Hell's Kitchen draft-EIR notice of completion](#d025) | [Hell’s Kitchen](hells-kitchen.html) | Imperial County / CEQAnet · Attachment: Draft EIR index | Not established |
+| [D026 — CDFW draft-EIR comment letter](#d026) | [Hell’s Kitchen](hells-kitchen.html) | Imperial County / CEQAnet · Attachment: Draft EIR index | 2023-10-23 |
+| [D027 — State Lands Commission draft-EIR comment letter](#d027) | [Hell’s Kitchen](hells-kitchen.html) | Imperial County / CEQAnet · Attachment: Draft EIR index | 2023-10-23 |
+| [D028 — Hell's Kitchen county determination: January 2024](#d028) | [Hell’s Kitchen](hells-kitchen.html) | Imperial County / CEQAnet · Attachment: NOD | 2024-01-24 |
+| [D029 — DOE/EA-2304: Final Environmental Assessment (May 2026)](#d029) | [South West Arkansas](south-west-arkansas.html) | DOE · Attachment: Final EA index | 2026-05-13 |
+| [D030 — DOE/EA-2304: Finding of No Significant Impact (May 2026)](#d030) | [South West Arkansas](south-west-arkansas.html) | DOE · Attachment: Decision index | 2026-05-13 |
+| [D031 — Hell's Kitchen final EIR: responses and revisions](#d031) | [Hell’s Kitchen](hells-kitchen.html) | Imperial County · Attachment: Final EIR index | 2023-12 |
+| [D032 — CEQAnet project chronology](#d032) | [Hell’s Kitchen](hells-kitchen.html) | Imperial County / CEQAnet · Project index | Not established |
+| [D033 — Hell's Kitchen geothermal lithium extraction pilot](#d033) | [Hell’s Kitchen](hells-kitchen.html) | California Energy Commission / CEQAnet · Pilot exemption | 2020-08-05 |
+| [D034 — DOE draft EA landing page](#d034) | [South West Arkansas](south-west-arkansas.html) | DOE · Draft EA index | 2026-03-11 |
+| [D035 — South West Arkansas official issuer project page](#d035) | [South West Arkansas](south-west-arkansas.html) | Standard Lithium · Issuer project index | Not established |
+| [D036 — CTR / Plum March 2026 investor presentation](#d036) | [Hell’s Kitchen](hells-kitchen.html) | SEC · Investor presentation | 2026-03-09 |
+| [D037 — CTR / Plum August 2026 investor presentation](#d037) | [Hell’s Kitchen](hells-kitchen.html) | SEC · Investor presentation | 2026-08-20 |
+| [D038 — 2021 SW Arkansas preliminary economic assessment](#d038) | [South West Arkansas](south-west-arkansas.html) | SEC · Technical report | 2021-11-26 |
+| [D039 — Amended and restated SW Arkansas PFS](#d039) | [South West Arkansas](south-west-arkansas.html) | SEC · Technical report | 2025-07-31 |
+| [D040 — Standard Lithium June 2026 management discussion](#d040) | [South West Arkansas](south-west-arkansas.html) | SEC · Management discussion | 2026-08-10 |
+| [D041 — CTR / Plum merger announcement](#d041) | [Hell’s Kitchen](hells-kitchen.html) | SEC · Merger announcement | 2026-03-09 |
+| [D042 — Plum June 2026 quarterly report](#d042) | [Hell’s Kitchen](hells-kitchen.html) | SEC · Quarterly report | 2026-08-14 |
+| [D043 — CTR / Plum presentation supersession notice](#d043) | [Hell’s Kitchen](hells-kitchen.html) | SEC · 8-K | 2026-08-20 |
+| [D044 — South West Arkansas DFS - issuer PDF copy](#d044) | [South West Arkansas](south-west-arkansas.html), [Evergreen](evergreen.html), [Pine / Exxon](pine.html), [Magnolia](magnolia.html), [LANXESS history](lanxess.html) | Standard Lithium · Technical report (issuer copy of D001) | 2025-10-14 |
+| [D045 — Hell's Kitchen pilot: CEC notice of exemption](#d045) | [Hell’s Kitchen](hells-kitchen.html) | California Energy Commission / CEQAnet · Attachment: Pilot exemption | 2020-08-05 |
+| [D046 — DOE/EA-2304: Draft Environmental Assessment](#d046) | [South West Arkansas](south-west-arkansas.html) | DOE · Attachment: Draft EA index | 2026-03-11 |
+| [D047 — DOE/EA-2304: Dear Reader Letter](#d047) | [South West Arkansas](south-west-arkansas.html) | DOE · Attachment: Draft EA index | 2026-03-11 |
+| [D048 — Hell's Kitchen December 2023 NOD](#d048) | [Hell’s Kitchen](hells-kitchen.html) | CEQAnet · NOD | 2023-12-18 |
+| [D049 — Hell's Kitchen subsequent NOD](#d049) | [Hell’s Kitchen](hells-kitchen.html) | CEQAnet · NOD | 2025-06-18 |
+| [D050 — Hell's Kitchen county determination: December 2023](#d050) | [Hell’s Kitchen](hells-kitchen.html) | CEQAnet · Attachment: NOD | 2023-12-15 |
+| [D051 — Materials Research LLC: CEC determination EPC-24-043](#d051) | [Hell’s Kitchen](hells-kitchen.html) | CEQAnet · Attachment: NOD | 2025-06-13 |
+| [D052 — 2023 SWA preliminary feasibility results (issuer supplement)](#d052) | [South West Arkansas](south-west-arkansas.html) | Standard Lithium · PFS announcement | 2023-08-08 |
+| [D053 — SWA LG Energy Solution offtake announcement](#d053) | [South West Arkansas](south-west-arkansas.html) | Arkansas Department of Commerce · Offtake announcement | 2026-08-31 |
+| [D054 — Arkansas DEQ draft air permits index](#d054) | [South West Arkansas](south-west-arkansas.html) | Arkansas DEQ · Permit search index | Not established |
+| [D055 — CTR issuer homepage](#d055) | [Hell’s Kitchen](hells-kitchen.html) | Controlled Thermal Resources · Issuer index | Not established |
+| [D056 — CTR August 2026 presentation issuer notice](#d056) | [Hell’s Kitchen](hells-kitchen.html) | Controlled Thermal Resources · Presentation index | 2026-08-20 |
+| [D057 — BHERM final project report index](#d057) | [BHER demonstration](bher.html) | California Energy Commission · Report index | 2024-08-30 |
+| [D058 — BHERM lithium recovery demonstration final report CEC-500-2024-094](#d058) | [BHER demonstration](bher.html) | California Energy Commission · Grant final report | 2024-08 |
+| [D059 — Salton Sea geothermal lithium recovery demonstration exemption](#d059) | [BHER demonstration](bher.html) | CEQAnet / CEC · Notice of exemption | 2020-06-17 |
+| [D060 — DOE EA-2279 ATLiS project index](#d060) | [ATLiS](atlis.html) | DOE · Environmental review index | Not established |
+| [D061 — ATLiS final environmental assessment and FONSI](#d061) | [ATLiS](atlis.html) | DOE · Final EA and FONSI | 2025-03 |
+| [D062 — ATLiS early CEQA project record SCH 2020120143](#d062) | [ATLiS](atlis.html) | CEQAnet / Imperial County · Environmental review index | Not established |
+| [D063 — ATLiS federal environmental review in state clearinghouse](#d063) | [ATLiS](atlis.html) | CEQAnet / DOE · Draft EA index | 2024-11-07 |
+| [D064 — Ogden lithium updated technical report summary](#d064) | [Ogden / Great Salt Lake](ogden.html) | SEC · Technical report / EX-96.1 | 2022-09-14 |
+| [D065 — Compass Minerals 2023 annual report](#d065) | [Ogden / Great Salt Lake](ogden.html) | SEC · 10-K | 2023-11-29 |
+| [D066 — Compass Minerals 2025 annual report](#d066) | [Ogden / Great Salt Lake](ogden.html) | SEC · 10-K | 2025-12-12 |
+| [D067 — EnergyX June 2026 offering amendment](#d067) | [Ogden / Great Salt Lake](ogden.html) | SEC · Regulation A offering amendment | 2026-06-16 |
+| [D068 — Blackstone draft injection permit public notice](#d068) | [Green River](green-river.html) | Utah DEQ / Public Notice Website · Public notice | 2023-11-08 |
+| [D069 — Blackstone draft UIC permit UTU-19-F4-8F9143D](#d069) | [Green River](green-river.html) | Utah Division of Water Quality · Draft injection permit | 2023-11 |
+| [D070 — Blackstone UIC permit agency archive](#d070) | [Green River](green-river.html) | Utah Division of Water Quality · Injection permit | Not established |
+| [D071 — Compass September 2022 technology and economics announcement](#d071) | [Ogden / Great Salt Lake](ogden.html) | Issuer · Issuer announcement | 2022-09-14 |
+| [D072 — Utah water quality notices alphabetical archive](#d072) | [Green River](green-river.html) | Utah DEQ · Agency index | Not established |
+| [D073 — Ogden September 2022 technical report issuer PDF](#d073) | [Ogden / Great Salt Lake](ogden.html) | Issuer · Technical report / issuer-hosted copy | 2022-09-14 |
+| [D074 — ATLiS June 2021 draft EIR archive](#d074) | [ATLiS](atlis.html) | CEQAnet / Imperial County · Draft EIR index | 2021-06-28 |
+| [D075 — ATLiS December 2020 scoping record](#d075) | [ATLiS](atlis.html) | CEQAnet / Imperial County · NOP index | 2020-12-08 |
+| [D076 — BHER demonstration CEC exemption original](#d076) | [BHER demonstration](bher.html) | CEQAnet / CEC · Notice of exemption | 2020-06-17 |
+| [D077 — ATLiS November 2024 draft environmental assessment](#d077) | [ATLiS](atlis.html) | CEQAnet / DOE · Draft EA | 2024-11 |
+| [D078 — Blackstone November 2023 draft fact sheet and statement of basis](#d078) | [Green River](green-river.html) | Utah Division of Water Quality · Draft statement of basis | 2023-11-07 |
+| [D079 — Blackstone November 2023 draft permit attachments A-I](#d079) | [Green River](green-river.html) | Utah Division of Water Quality · Draft permit attachments | 2023-11 |
+| [D080 — ATLiS county final EIR introduction](#d080) | [ATLiS](atlis.html) | Imperial County · Final EIR chapter | 2021 |
+| [D081 — ATLiS county final EIR responses to comments](#d081) | [ATLiS](atlis.html) | Imperial County · Final EIR chapter | 2021 |
+| [D082 — Occidental and BHE TerraLithium joint venture announcement](#d082) | [BHER demonstration](bher.html) | Issuer · Issuer announcement | 2024-06-04 |
+| [D083 — Compass Minerals SEC submissions index](#d083) | [Ogden / Great Salt Lake](ogden.html) | SEC · Filing index | Not established |
+| [D084 — EnergyX SEC submissions index](#d084) | [Ogden / Great Salt Lake](ogden.html) | SEC · Filing index | Not established |
+| [D085 — ATLiS full 2021 draft EIR and appendices](#d085) | [ATLiS](atlis.html) | Imperial County / CEQAnet · Draft EIR | 2021-06-28 |
+| [D086 — ATLiS CEQA historical project index](#d086) | [ATLiS](atlis.html) | CEQAnet · Agency index | Not established |
+| [D087 — Utah current groundwater and UIC permit index](#d087) | [Green River](green-river.html) | Utah DEQ · Agency index | Not established |
+| [D088 — Anson announces Green River UIC approval](#d088) | [Green River](green-river.html) | Issuer / ASX announcement · Issuer announcement | 2024-08-26 |
+| [D089 — EnergyX July 2026 offering circular](#d089) | [Ogden / Great Salt Lake](ogden.html), [Lonestar](lonestar.html), [Daytona / Folsom Point](daytona.html) | SEC · 253G2 | 2026-07-13 |
+| [D090 — Compass Minerals June 2026 quarterly report](#d090) | [Ogden / Great Salt Lake](ogden.html) | SEC · 10-Q | 2026-08-06 |
+| [D091 — Compass Minerals historical SEC submissions index](#d091) | [Ogden / Great Salt Lake](ogden.html) | SEC · Filing index | Not established |
+| [D092 — Blackstone final UIC statement of basis](#d092) | [Green River](green-river.html) | Utah DEQ · Permit statement of basis | 2024 |
+| [D093 — DOE ATLiS final EA and FONSI publication notice](#d093) | [ATLiS](atlis.html) | DOE · Agency decision notice | 2025-03-26 |
+| [D094 — ATLiS_Notice_of_Availability](#d094) | [ATLiS](atlis.html) | CEQAnet / DOE · Attachment: Draft EA index | Not established |
+| [D095 — ATLiS_Summary_Form](#d095) | [ATLiS](atlis.html) | CEQAnet / DOE · Attachment: Draft EA index | Not established |
+| [D096 — ATLiS_Notice_of_Completion](#d096) | [ATLiS](atlis.html) | CEQAnet / DOE · Attachment: Draft EA index | Not established |
+| [D097 — 2024110237_CDFW Comment](#d097) | [ATLiS](atlis.html) | CEQAnet / DOE · Attachment: Draft EA index | Not established |
+| [D098 — 2024110237_DOT Comment](#d098) | [ATLiS](atlis.html) | CEQAnet / DOE · Attachment: Draft EA index | Not established |
+| [D099 — 2024110237_DTSC Comment](#d099) | [ATLiS](atlis.html) | CEQAnet / DOE · Attachment: Draft EA index | Not established |
+| [D100 — Notice of Availability-ATLiS-DEIR](#d100) | [ATLiS](atlis.html) | CEQAnet / Imperial County · Attachment: Draft EIR index | Not established |
+| [D101 — Respond to Mitigation Measures](#d101) | [ATLiS](atlis.html) | CEQAnet / Imperial County · Attachment: Draft EIR index | Not established |
+| [D102 — Summary Form](#d102) | [ATLiS](atlis.html) | CEQAnet / Imperial County · Attachment: Draft EIR index | Not established |
+| [D103 — Revised-NOC-ATLiS](#d103) | [ATLiS](atlis.html) | CEQAnet / Imperial County · Attachment: Draft EIR index | Not established |
+| [D104 — 2020120143_Conservation Comment](#d104) | [ATLiS](atlis.html) | CEQAnet / Imperial County · Attachment: Draft EIR index | Not established |
+| [D105 — 2020120143_Conservation Comment](#d105) | [ATLiS](atlis.html) | CEQAnet / Imperial County · Attachment: Draft EIR index | Not established |
+| [D106 — CUP20-0008 Initial Study Energy Source ATLiS](#d106) | [ATLiS](atlis.html) | CEQAnet / Imperial County · Attachment: NOP index | Not established |
+| [D107 — CUP20-0008 NOC](#d107) | [ATLiS](atlis.html) | CEQAnet / Imperial County · Attachment: NOP index | Not established |
+| [D108 — CUP20-0008 NOP](#d108) | [ATLiS](atlis.html) | CEQAnet / Imperial County · Attachment: NOP index | Not established |
+| [D109 — 2020120143_Caltrans comment](#d109) | [ATLiS](atlis.html) | CEQAnet / Imperial County · Attachment: NOP index | Not established |
+| [D110 — 2020120143_NAHC Comment](#d110) | [ATLiS](atlis.html) | CEQAnet / Imperial County · Attachment: NOP index | Not established |
+| [D111 — Great Salt Lake Phase 1 public notice](#d111) | [Waterleaf / Lilac](waterleaf.html) | Utah DWQ · Public notice | 2026-07-01 |
+| [D112 — Phase 1 draft fact sheet and flow diagram](#d112) | [Waterleaf / Lilac](waterleaf.html) | Utah DWQ · Draft UPDES fact sheet | 2026-06-30 |
+| [D113 — Phase 1 operations application, redacted](#d113) | [Waterleaf / Lilac](waterleaf.html) | Utah FFSL · Redacted operations application | 2026-02-20 |
+| [D114 — A1 Lithium draft UIC permit and attachments](#d114) | [Paradox](paradox.html) | Utah DWQ · Draft UIC permit and attachments | 2024-05 |
+| [D115 — R-56-A lithium carbonate grant application](#d115) | [Wellspring](wellspring.html) | North Dakota Industrial Commission · Grant application | 2025-08-31 |
+| [D116 — Utah Mining 2024](#d116) | [Waterleaf / Lilac](waterleaf.html), [US Magnesium](us-magnesium.html), [Mandrake Utah](utah-lithium.html) | Utah Geological Survey · Government survey | 2025 |
+| [D117 — Maiden inferred resource technical report](#d117) | [Franklin](franklin.html), [LANXESS history](lanxess.html) | Issuer website · NI 43-101 technical report | 2025-11-05 |
+| [D118 — September 8 2026 PEA announcement, SEC exhibit](#d118) | [Franklin](franklin.html) | SEC · SEC EX-99.1 | 2026-09-08 |
+| [D119 — Annual information form, 2025 year](#d119) | [Franklin](franklin.html), [LANXESS history](lanxess.html) | SEC · Annual information form | 2026-03-30 |
+| [D120 — North Dakota renewable grant rounds 50-59](#d120) | [Wellspring](wellspring.html) | NDIC · Agency grant index | Not established |
+| [D121 — TETRA 2025 annual report](#d121) | [Evergreen](evergreen.html) | SEC · Form 10-K | Not established |
+| [D122 — Albemarle 2024 Sustainability Report](#d122) | [Magnolia](magnolia.html) | Issuer website · Sustainability report | Not established |
+| [D123 — A1 Lithium UIC notice](#d123) | [Paradox](paradox.html) | Utah DWQ · UIC public notice | 2024-05-23 |
+| [D124 — Bulk Brine Production Complete at Utah Lithium Project](#d124) | [Mandrake Utah](utah-lithium.html) | Issuer website · Issuer-hosted ASX announcement | 2026-09-15 |
 
 
 <!-- END SOURCEINDEX -->
@@ -1532,11 +1646,11 @@ Historical preliminary economic assessment; original SEC download unavailable.
 
 Technical report · SEC. Entity: Standard Lithium Ltd. / SWA Lithium LLC.
 
-Published/filed: **2025-07-30**; effective/event date: **2023-08-08**. Source role: official record.
+Published/filed: **2025-07-31**; effective/event date: **2023-08-08**. Source role: official record.
 
 Original download unavailable. HTTP Error 403: Forbidden.
 
-Amended July 23, 2025; effective August 8, 2023. Distinguish report date from SEC filing date.
+Amended July 23, 2025; effective August 8, 2023. Distinguish report date from SEC filing date. Report issue date July 23, 2025; SEC accession filing date July 31, 2025, from the saved SEC submissions inventory. The study effective date remains August 8, 2023.
 
 ### D040
 
@@ -2596,11 +2710,11 @@ Ogden lithium updated technical report summary. Expansion source collected to do
 
 10-K · SEC. Entity: Compass Minerals International Inc..
 
-Published/filed: **not established**; effective/event date: **not established**. Source role: official filing.
+Published/filed: **2023-11-29**; effective/event date: **not established**. Source role: official filing.
 
 Original download unavailable. HTTP Error 403: Forbidden.
 
-Compass Minerals 2023 annual report. Expansion source collected to document project history and chemistry/process disclosure.
+Compass Minerals 2023 annual report. Expansion source collected to document project history and chemistry/process disclosure. SEC filing date November 29, 2023, from the saved accession inventory; the fiscal reporting period is distinct.
 
 ### D066
 
@@ -2608,11 +2722,11 @@ Compass Minerals 2023 annual report. Expansion source collected to document proj
 
 10-K · SEC. Entity: Compass Minerals International Inc..
 
-Published/filed: **not established**; effective/event date: **not established**. Source role: official filing.
+Published/filed: **2025-12-12**; effective/event date: **not established**. Source role: official filing.
 
 Original download unavailable. HTTP Error 403: Forbidden.
 
-Compass Minerals 2025 annual report. Expansion source collected to document project history and chemistry/process disclosure.
+Compass Minerals 2025 annual report. Expansion source collected to document project history and chemistry/process disclosure. SEC filing date December 12, 2025, from the saved accession inventory; the fiscal reporting period is distinct.
 
 ### D067
 
@@ -2644,11 +2758,11 @@ Compass September 2022 technology and economics announcement. Expansion source c
 
 Technical report / issuer-hosted copy · Issuer. Entity: Compass Minerals International Inc..
 
-Published/filed: **2022-09-14**; effective/event date: **not established**. Source role: issuer supplement.
+Published/filed: **2022-09-14**; effective/event date: **2022-03-03**. Source role: issuer supplement.
 
 Original saved; 200 PDF pages.
 
-Ogden September 2022 technical report issuer PDF. Preserved to distinguish source versions and project phases.
+Ogden September 2022 technical report issuer PDF. Preserved to distinguish source versions and project phases. Study effective date March 3, 2022; updated report date September 14, 2022, as printed on the source cover.
 
 ### D083
 
@@ -2860,7 +2974,7 @@ Published/filed: **2026-02-20**; effective/event date: **2026-02**. Source role:
 
 Original saved; 1197 PDF pages.
 
-FFSL-hosted application, February 2026 revision (Appendix H; submission footer February 20). Public pilot chemistry, simplified flowsheet, water-balance summary and groundwater laboratory package; detailed process appendices redacted.
+FFSL-hosted application, February 2026 revision (Appendix H; submission footer February 20). Public pilot chemistry, groundwater laboratory package, Table 12 water summary, Table 23 twelve-stream design chemistry/flows, and Figures 2/33. Full Appendix D.4 and inspected detailed appendix pages are redacted.
 
 ## Franklin sources {#franklin-sources}
 
@@ -3034,11 +3148,11 @@ Shared source: [D117](#d117) — Maiden inferred resource technical report.
 
 Annual information form · SEC. Entity: Standard Lithium Ltd..
 
-Published/filed: **not established**; effective/event date: **2025-12-31**. Source role: official filing.
+Published/filed: **2026-03-30**; effective/event date: **2025-12-31**. Source role: official filing.
 
 Original download unavailable. HTTP Error 403: Forbidden.
 
-SEC-filed annual information form distinguishes discontinued LANXESS commercial development from continuing demonstration and describes Franklin ownership; web text only.
+SEC-filed annual information form distinguishes discontinued LANXESS commercial development from continuing demonstration and describes Franklin ownership; web text only. SEC filing date March 30, 2026, from the saved accession inventory; the annual information form concerns the year ended December 31, 2025.
 
 
 <!-- END CATALOG -->
@@ -4113,7 +4227,7 @@ Basis: **design description**; scale: proposed commercial plant; boundary: befor
 
 Source: [D044](#d044), [Printed p. 125, §17.4.1.2; test context §13.3.1 p. 84](https://www.standardlithium.com/_resources/reports/South-West-Arkansas-NI-43-101-DFS.pdf?v=120808%3Fv%3D1761065229#page=147) (PDF page 147).
 
-Test section on PDF p. 106 links pH/ORP adjustment to iron precipitation ahead of filtration. Exact residual-iron specification and stage-specific chemical dose not established in these passages.
+Test section on PDF p. 106 links pH/ORP adjustment to iron precipitation ahead of filtration. Exact residual-iron specification and stage-specific chemical dose not established in these passages. Figure 17-1 (PDF p. 142) additionally shows HCl entering the combined brine-degassing/conditioning/filtration block. Its exact duty is not resolved by this conditioning prose; no acid dose or sequence inferred.
 
 Review: AI source-text check; **human review pending**.
 
@@ -6071,13 +6185,13 @@ Review: AI source-text check; **human review pending**.
 
 #### O573
 
-**Pre-DLE impurity-removal sequence: Fe/silica removal, then Mn/Zn removal, followed by filter-press dewatering.**
+**Pre-DLE impurity-removal sequence: Fe/silica removal, then Mn/Zn removal; mineral-depleted brine proceeds to ILiAD; separated solids go to filter-press dewatering.**
 
 Basis: **design description**; scale: proposed commercial plant; boundary: before DLE. Date/basis: 2025-03.
 
 Source: [D061](#d061), [Printed p. 14, §2.2.2.1; upstream secondary clarifiers PDF p. 43](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=20) (PDF page 20).
 
-Receives HR1 post-secondary-clarifier brine. Same detailed sequence in D085 PDF pp. 52–53 (2021 EIR). 2021 later Zn/Mn product refining is a separate step; not a reversal of pre-DLE impurity removal.
+Receives HR1 post-secondary-clarifier brine. Same detailed sequence in D085 PDF pp. 52–53 (2021 EIR). 2021 later Zn/Mn product refining is a separate step; not a reversal of pre-DLE impurity removal. Filter-press dewatering is a separated-solids branch, not a serial operation on the full brine flow.
 
 Review: AI text and rendered-page check; **human review pending**.
 
@@ -7887,15 +8001,15 @@ Review: AI source-text check; **human review pending**.
 
 #### O576
 
-**Historical plant-inlet treatment: Brine filtration after pond evaporation, before ILiAD.**
+**Historical plant-inlet treatment: Brine filtration after pond evaporation; HCl input shown in the pre-DLE pretreatment block.**
 
 Basis: **design description**; scale: proposed commercial plant; boundary: before DLE. Date/basis: 2022-09.
 
-Source: [D073](#d073), [Printed pp. 135–137, §§14.1–14.2; Figure 14-1 PDF p. 148](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=147) (PDF page 147).
+Source: [D073](#d073), [Printed pp. 135–137, §§14.1–14.2; Figure 14-1 PDF p. 148](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=148) (PDF page 148).
 
-East: DustGard/interstitial-brine filtration; West: interstitial/two-year-brine filtration. Filter type, cutoff, outlet composition and measured pretreatment performance not specified in these sections. Do not infer upstream bulk-Mg softening from carbonate-conversion reagents.
+East: DustGard/interstitial-brine filtration; West: interstitial/two-year-brine filtration. Filter type, cutoff, outlet composition and measured pretreatment performance not specified in these sections. Do not infer upstream bulk-Mg softening from carbonate-conversion reagents. Figure 14-1 shows HCl entering pretreatment in both East and West plants. Its exact purpose, dose, pH and order relative to filtration are unspecified. The West diagram also has downstream HCl use; total HCl demand cannot be allocated wholly to pretreatment.
 
-Review: AI source-text check; **human review pending**.
+Review: AI text and rendered-page check; **human review pending**.
 
 ## Green River evidence {#green-river-evidence}
 
@@ -8363,7 +8477,7 @@ Basis: **design estimate**; scale: commercial Phase 1; boundary: raw lake-brine 
 
 Source: [D113](#d113), [§4.1.4](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=85) (PDF page 85).
 
-Rounded narrative; exact stream tables in Appendix D.4 are redacted.
+Rounded equipment-design intake, approximately 11,300 gpm. Public Table 23 (PDF pp. 130–131) separately gives raw-brine nominal flow 33,347 L/min and design flow 42,610 L/min. Full Appendix D.4 is redacted, but this 12-stream design excerpt is public.
 
 Review: AI source-text check; **human review pending**.
 
@@ -8377,7 +8491,19 @@ Basis: **proposed process design**; scale: commercial Phase 1; boundary: intake,
 
 Source: [D113](#d113), [Figure 2](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=39) (PDF page 39).
 
-Faithful source figure; not a full numbered-stream balance. Detailed D.1–D.4 pages inspected are redacted.
+Faithful source Figure 2; not a full numbered-stream balance. Full Appendix D.4 and inspected detailed appendix pages are redacted, but public Figure 33 (p. 128) and Table 23 (pp. 130–131) connect numbered outfall/waste streams and design chemistry/flows.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O815
+
+**Numbered outfall and solid-waste flowsheet: Public diagram with numbered streams.**
+
+Basis: **proposed process design**; scale: commercial Phase 1; boundary: outfall and solid-waste handling. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Figure 33](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=128) (PDF page 128).
+
+Links raw-brine stream 3101, backwash 4103, depleted brine 4601/4611, outfall 3501, RO retentate 4704 and reagent/solids streams. Table 23 supplies a 12-stream public design excerpt. Does not cover the complete carbonate-conversion balance.
 
 Review: AI text and rendered-page check; **human review pending**.
 
@@ -9517,6 +9643,2746 @@ Eluate: limestone/hydrated-lime neutralization and subsequent purification. Depl
 
 Review: AI source-text check; **human review pending**.
 
+### Commercial stream flows and properties
+
+#### O587
+
+**Stream 3101 (Raw Brine) — Nominal volumetric flow: 33,347 L/min.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3101: Raw Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3101, Nominal volumetric flow (L/min)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O588
+
+**Stream 3501 (Total Depl. Brine Outfall) — Nominal volumetric flow: 33,666 L/min.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3501: Total Depl. Brine Outfall. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3501, Nominal volumetric flow (L/min)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O589
+
+**Stream 4103 (Raw Brine MMF Backwash) — Nominal volumetric flow: 1,129 L/min.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4103: Raw Brine MMF Backwash. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4103, Nominal volumetric flow (L/min)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O590
+
+**Stream 4601 (Depl. Brine) — Nominal volumetric flow: 32,370 L/min.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4601: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4601, Nominal volumetric flow (L/min)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O591
+
+**Stream 4603 (Fresh NaOH for Brine Neut.) — Nominal volumetric flow: 8.2 L/min.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4603: Fresh NaOH for Brine Neut.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4603, Nominal volumetric flow (L/min)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O592
+
+**Stream 4607 (Dilute Flocc.) — Nominal volumetric flow: 21.7 L/min.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4607: Dilute Flocc.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4607, Nominal volumetric flow (L/min)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O593
+
+**Stream 4609 (Depl. Brine MMF Feed) — Nominal volumetric flow: 33,143 L/min.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4609: Depl. Brine MMF Feed. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4609, Nominal volumetric flow (L/min)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O594
+
+**Stream 4611 (Depl. Brine) — Nominal volumetric flow: 32,590 L/min.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4611: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4611, Nominal volumetric flow (L/min)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O595
+
+**Stream 4624 (12% NaClO) — Nominal volumetric flow: 5.8 L/min.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4624: 12% NaClO. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4624, Nominal volumetric flow (L/min)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O596
+
+**Stream 4625 (Depl. Brine MMF Filtrate) — Nominal volumetric flow: 32,537 L/min.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4625: Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4625, Nominal volumetric flow (L/min)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O597
+
+**Stream 4626 (15% Na2SO3 Depl. Brine MMF Filtrate) — Nominal volumetric flow: 7.8 L/min.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4626: 15% Na2SO3 Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4626, Nominal volumetric flow (L/min)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Full source header: "15% Na2SO3 Depl. Brine MMF Filtrate". Figure 33 also identifies sodium sulfite (Na2SO3); the table header wording is retained verbatim.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O598
+
+**Stream 4704 (Water Recovery RO Retentate) — Nominal volumetric flow: 139 L/min.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4704: Water Recovery RO Retentate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4704, Nominal volumetric flow (L/min)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O599
+
+**Stream 3101 (Raw Brine) — Design volumetric flow: 42,610 L/min.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3101: Raw Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3101, Design volumetric flow (L/min)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O600
+
+**Stream 3501 (Total Depl. Brine Outfall) — Design volumetric flow: 43,017 L/min.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3501: Total Depl. Brine Outfall. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3501, Design volumetric flow (L/min)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O601
+
+**Stream 4103 (Raw Brine MMF Backwash) — Design volumetric flow: 1,443 L/min.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4103: Raw Brine MMF Backwash. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4103, Design volumetric flow (L/min)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O602
+
+**Stream 4601 (Depl. Brine) — Design volumetric flow: 41,361 L/min.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4601: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4601, Design volumetric flow (L/min)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O603
+
+**Stream 4603 (Fresh NaOH for Brine Neut.) — Design volumetric flow: 10.5 L/min.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4603: Fresh NaOH for Brine Neut.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4603, Design volumetric flow (L/min)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O604
+
+**Stream 4607 (Dilute Flocc.) — Design volumetric flow: 27.7 L/min.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4607: Dilute Flocc.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4607, Design volumetric flow (L/min)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O605
+
+**Stream 4609 (Depl. Brine MMF Feed) — Design volumetric flow: 42,349 L/min.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4609: Depl. Brine MMF Feed. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4609, Design volumetric flow (L/min)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O606
+
+**Stream 4611 (Depl. Brine) — Design volumetric flow: 41,643 L/min.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4611: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4611, Design volumetric flow (L/min)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O607
+
+**Stream 4624 (12% NaClO) — Design volumetric flow: 7.5 L/min.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4624: 12% NaClO. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4624, Design volumetric flow (L/min)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O608
+
+**Stream 4625 (Depl. Brine MMF Filtrate) — Design volumetric flow: 41,575 L/min.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4625: Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4625, Design volumetric flow (L/min)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O609
+
+**Stream 4626 (15% Na2SO3 Depl. Brine MMF Filtrate) — Design volumetric flow: 9.9 L/min.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4626: 15% Na2SO3 Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4626, Design volumetric flow (L/min)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Full source header: "15% Na2SO3 Depl. Brine MMF Filtrate". Figure 33 also identifies sodium sulfite (Na2SO3); the table header wording is retained verbatim.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O610
+
+**Stream 4704 (Water Recovery RO Retentate) — Design volumetric flow: 178 L/min.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4704: Water Recovery RO Retentate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4704, Design volumetric flow (L/min)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O611
+
+**Stream 3101 (Raw Brine) — Nominal volumetric flow: 2,001 m³/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3101: Raw Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3101, Nominal volumetric flow (m³/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O612
+
+**Stream 3501 (Total Depl. Brine Outfall) — Nominal volumetric flow: 2,020 m³/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3501: Total Depl. Brine Outfall. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3501, Nominal volumetric flow (m³/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O613
+
+**Stream 4103 (Raw Brine MMF Backwash) — Nominal volumetric flow: 67.8 m³/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4103: Raw Brine MMF Backwash. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4103, Nominal volumetric flow (m³/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O614
+
+**Stream 4601 (Depl. Brine) — Nominal volumetric flow: 1,943 m³/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4601: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4601, Nominal volumetric flow (m³/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O615
+
+**Stream 4603 (Fresh NaOH for Brine Neut.) — Nominal volumetric flow: 0.5 m³/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4603: Fresh NaOH for Brine Neut.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4603, Nominal volumetric flow (m³/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O616
+
+**Stream 4607 (Dilute Flocc.) — Nominal volumetric flow: 1.3 m³/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4607: Dilute Flocc.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4607, Nominal volumetric flow (m³/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O617
+
+**Stream 4609 (Depl. Brine MMF Feed) — Nominal volumetric flow: 1,989 m³/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4609: Depl. Brine MMF Feed. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4609, Nominal volumetric flow (m³/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O618
+
+**Stream 4611 (Depl. Brine) — Nominal volumetric flow: 1,955 m³/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4611: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4611, Nominal volumetric flow (m³/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O619
+
+**Stream 4624 (12% NaClO) — Nominal volumetric flow: 0.4 m³/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4624: 12% NaClO. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4624, Nominal volumetric flow (m³/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O620
+
+**Stream 4625 (Depl. Brine MMF Filtrate) — Nominal volumetric flow: 1,952 m³/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4625: Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4625, Nominal volumetric flow (m³/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O621
+
+**Stream 4626 (15% Na2SO3 Depl. Brine MMF Filtrate) — Nominal volumetric flow: 0.5 m³/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4626: 15% Na2SO3 Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4626, Nominal volumetric flow (m³/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Full source header: "15% Na2SO3 Depl. Brine MMF Filtrate". Figure 33 also identifies sodium sulfite (Na2SO3); the table header wording is retained verbatim.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O622
+
+**Stream 4704 (Water Recovery RO Retentate) — Nominal volumetric flow: 8.3 m³/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4704: Water Recovery RO Retentate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4704, Nominal volumetric flow (m³/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O623
+
+**Stream 3101 (Raw Brine) — Design volumetric flow: 2,557 m³/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3101: Raw Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3101, Design volumetric flow (m³/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O624
+
+**Stream 3501 (Total Depl. Brine Outfall) — Design volumetric flow: 2,581 m³/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3501: Total Depl. Brine Outfall. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3501, Design volumetric flow (m³/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O625
+
+**Stream 4103 (Raw Brine MMF Backwash) — Design volumetric flow: 87 m³/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4103: Raw Brine MMF Backwash. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4103, Design volumetric flow (m³/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O626
+
+**Stream 4601 (Depl. Brine) — Design volumetric flow: 2,483 m³/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4601: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4601, Design volumetric flow (m³/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O627
+
+**Stream 4603 (Fresh NaOH for Brine Neut.) — Design volumetric flow: 0.6 m³/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4603: Fresh NaOH for Brine Neut.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4603, Design volumetric flow (m³/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O628
+
+**Stream 4607 (Dilute Flocc.) — Design volumetric flow: 1.7 m³/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4607: Dilute Flocc.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4607, Design volumetric flow (m³/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O629
+
+**Stream 4609 (Depl. Brine MMF Feed) — Design volumetric flow: 2,541 m³/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4609: Depl. Brine MMF Feed. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4609, Design volumetric flow (m³/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O630
+
+**Stream 4611 (Depl. Brine) — Design volumetric flow: 2,499 m³/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4611: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4611, Design volumetric flow (m³/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O631
+
+**Stream 4624 (12% NaClO) — Design volumetric flow: 0.4 m³/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4624: 12% NaClO. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4624, Design volumetric flow (m³/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O632
+
+**Stream 4625 (Depl. Brine MMF Filtrate) — Design volumetric flow: 2,494 m³/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4625: Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4625, Design volumetric flow (m³/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O633
+
+**Stream 4626 (15% Na2SO3 Depl. Brine MMF Filtrate) — Design volumetric flow: 0.6 m³/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4626: 15% Na2SO3 Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4626, Design volumetric flow (m³/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Full source header: "15% Na2SO3 Depl. Brine MMF Filtrate". Figure 33 also identifies sodium sulfite (Na2SO3); the table header wording is retained verbatim.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O634
+
+**Stream 4704 (Water Recovery RO Retentate) — Design volumetric flow: 10.7 m³/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4704: Water Recovery RO Retentate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4704, Design volumetric flow (m³/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O635
+
+**Stream 3101 (Raw Brine) — Nominal solution mass flow: 2,438 mt/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3101: Raw Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3101, Nominal solution mass flow (mt/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. These are total stream solution masses, distinct from Table 12 water-content masses.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O636
+
+**Stream 3501 (Total Depl. Brine Outfall) — Nominal solution mass flow: 2,464 mt/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3501: Total Depl. Brine Outfall. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3501, Nominal solution mass flow (mt/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. These are total stream solution masses, distinct from Table 12 water-content masses.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O637
+
+**Stream 4103 (Raw Brine MMF Backwash) — Nominal solution mass flow: 82.6 mt/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4103: Raw Brine MMF Backwash. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4103, Nominal solution mass flow (mt/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. These are total stream solution masses, distinct from Table 12 water-content masses.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O638
+
+**Stream 4601 (Depl. Brine) — Nominal solution mass flow: 2,370 mt/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4601: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4601, Nominal solution mass flow (mt/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. These are total stream solution masses, distinct from Table 12 water-content masses.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O639
+
+**Stream 4603 (Fresh NaOH for Brine Neut.) — Nominal solution mass flow: 0.6 mt/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4603: Fresh NaOH for Brine Neut.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4603, Nominal solution mass flow (mt/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. These are total stream solution masses, distinct from Table 12 water-content masses.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O640
+
+**Stream 4607 (Dilute Flocc.) — Nominal solution mass flow: 1.3 mt/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4607: Dilute Flocc.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4607, Nominal solution mass flow (mt/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. These are total stream solution masses, distinct from Table 12 water-content masses.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O641
+
+**Stream 4609 (Depl. Brine MMF Feed) — Nominal solution mass flow: 2,426 mt/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4609: Depl. Brine MMF Feed. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4609, Nominal solution mass flow (mt/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. These are total stream solution masses, distinct from Table 12 water-content masses.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O642
+
+**Stream 4611 (Depl. Brine) — Nominal solution mass flow: 2,382 mt/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4611: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4611, Nominal solution mass flow (mt/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. These are total stream solution masses, distinct from Table 12 water-content masses.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O643
+
+**Stream 4624 (12% NaClO) — Nominal solution mass flow: 0.4 mt/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4624: 12% NaClO. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4624, Nominal solution mass flow (mt/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. These are total stream solution masses, distinct from Table 12 water-content masses.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O644
+
+**Stream 4625 (Depl. Brine MMF Filtrate) — Nominal solution mass flow: 2,381 mt/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4625: Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4625, Nominal solution mass flow (mt/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. These are total stream solution masses, distinct from Table 12 water-content masses.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O645
+
+**Stream 4626 (15% Na2SO3 Depl. Brine MMF Filtrate) — Nominal solution mass flow: 0.5 mt/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4626: 15% Na2SO3 Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4626, Nominal solution mass flow (mt/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. These are total stream solution masses, distinct from Table 12 water-content masses. Full source header: "15% Na2SO3 Depl. Brine MMF Filtrate". Figure 33 also identifies sodium sulfite (Na2SO3); the table header wording is retained verbatim.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O646
+
+**Stream 4704 (Water Recovery RO Retentate) — Nominal solution mass flow: 8.8 mt/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4704: Water Recovery RO Retentate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4704, Nominal solution mass flow (mt/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. These are total stream solution masses, distinct from Table 12 water-content masses.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O647
+
+**Stream 3101 (Raw Brine) — Design solution mass flow: 3,115 mt/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3101: Raw Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3101, Design solution mass flow (mt/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. These are total stream solution masses, distinct from Table 12 water-content masses.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O648
+
+**Stream 3501 (Total Depl. Brine Outfall) — Design solution mass flow: 3,149 mt/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3501: Total Depl. Brine Outfall. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3501, Design solution mass flow (mt/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. These are total stream solution masses, distinct from Table 12 water-content masses.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O649
+
+**Stream 4103 (Raw Brine MMF Backwash) — Design solution mass flow: 105 mt/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4103: Raw Brine MMF Backwash. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4103, Design solution mass flow (mt/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. These are total stream solution masses, distinct from Table 12 water-content masses.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O650
+
+**Stream 4601 (Depl. Brine) — Design solution mass flow: 3,029 mt/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4601: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4601, Design solution mass flow (mt/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. These are total stream solution masses, distinct from Table 12 water-content masses.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O651
+
+**Stream 4603 (Fresh NaOH for Brine Neut.) — Design solution mass flow: 0.8 mt/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4603: Fresh NaOH for Brine Neut.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4603, Design solution mass flow (mt/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. These are total stream solution masses, distinct from Table 12 water-content masses.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O652
+
+**Stream 4607 (Dilute Flocc.) — Design solution mass flow: 1.7 mt/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4607: Dilute Flocc.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4607, Design solution mass flow (mt/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. These are total stream solution masses, distinct from Table 12 water-content masses.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O653
+
+**Stream 4609 (Depl. Brine MMF Feed) — Design solution mass flow: 3,100 mt/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4609: Depl. Brine MMF Feed. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4609, Design solution mass flow (mt/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. These are total stream solution masses, distinct from Table 12 water-content masses.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O654
+
+**Stream 4611 (Depl. Brine) — Design solution mass flow: 3,044 mt/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4611: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4611, Design solution mass flow (mt/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. These are total stream solution masses, distinct from Table 12 water-content masses.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O655
+
+**Stream 4624 (12% NaClO) — Design solution mass flow: 0.5 mt/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4624: 12% NaClO. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4624, Design solution mass flow (mt/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. These are total stream solution masses, distinct from Table 12 water-content masses.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O656
+
+**Stream 4625 (Depl. Brine MMF Filtrate) — Design solution mass flow: 3,043 mt/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4625: Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4625, Design solution mass flow (mt/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. These are total stream solution masses, distinct from Table 12 water-content masses.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O657
+
+**Stream 4626 (15% Na2SO3 Depl. Brine MMF Filtrate) — Design solution mass flow: 0.7 mt/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4626: 15% Na2SO3 Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4626, Design solution mass flow (mt/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. These are total stream solution masses, distinct from Table 12 water-content masses. Full source header: "15% Na2SO3 Depl. Brine MMF Filtrate". Figure 33 also identifies sodium sulfite (Na2SO3); the table header wording is retained verbatim.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O658
+
+**Stream 4704 (Water Recovery RO Retentate) — Design solution mass flow: 11.2 mt/hr.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4704: Water Recovery RO Retentate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4704, Design solution mass flow (mt/hr)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. These are total stream solution masses, distinct from Table 12 water-content masses.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O659
+
+**Stream 3101 (Raw Brine) — Density: 1.2 kg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3101: Raw Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3101, Density (kg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O660
+
+**Stream 3501 (Total Depl. Brine Outfall) — Density: 1.2 kg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3501: Total Depl. Brine Outfall. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3501, Density (kg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O661
+
+**Stream 4103 (Raw Brine MMF Backwash) — Density: 1.2 kg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4103: Raw Brine MMF Backwash. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4103, Density (kg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O662
+
+**Stream 4601 (Depl. Brine) — Density: 1.2 kg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4601: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4601, Density (kg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O663
+
+**Stream 4603 (Fresh NaOH for Brine Neut.) — Density: 1.2 kg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4603: Fresh NaOH for Brine Neut.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4603, Density (kg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O664
+
+**Stream 4607 (Dilute Flocc.) — Density: 1.0 kg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4607: Dilute Flocc.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4607, Density (kg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O665
+
+**Stream 4609 (Depl. Brine MMF Feed) — Density: 1.2 kg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4609: Depl. Brine MMF Feed. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4609, Density (kg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O666
+
+**Stream 4611 (Depl. Brine) — Density: 1.2 kg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4611: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4611, Density (kg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O667
+
+**Stream 4624 (12% NaClO) — Density: 1.2 kg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4624: 12% NaClO. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4624, Density (kg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O668
+
+**Stream 4625 (Depl. Brine MMF Filtrate) — Density: 1.2 kg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4625: Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4625, Density (kg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O669
+
+**Stream 4626 (15% Na2SO3 Depl. Brine MMF Filtrate) — Density: 1.2 kg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4626: 15% Na2SO3 Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4626, Density (kg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Full source header: "15% Na2SO3 Depl. Brine MMF Filtrate". Figure 33 also identifies sodium sulfite (Na2SO3); the table header wording is retained verbatim.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O670
+
+**Stream 4704 (Water Recovery RO Retentate) — Density: 1.1 kg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4704: Water Recovery RO Retentate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4704, Density (kg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O671
+
+**Stream 3101 (Raw Brine) — Solids content: 0.007 w%.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3101: Raw Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3101, Solids content (w%)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source prints percent signs in cells as well as w% in the unit header; numeric value retains the reported weight-percent magnitude.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O672
+
+**Stream 3501 (Total Depl. Brine Outfall) — Solids content: 0.006 w%.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3501: Total Depl. Brine Outfall. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3501, Solids content (w%)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source prints percent signs in cells as well as w% in the unit header; numeric value retains the reported weight-percent magnitude.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O673
+
+**Stream 4103 (Raw Brine MMF Backwash) — Solids content: 0.2 w%.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4103: Raw Brine MMF Backwash. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4103, Solids content (w%)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source prints percent signs in cells as well as w% in the unit header; numeric value retains the reported weight-percent magnitude.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O674
+
+**Stream 4601 (Depl. Brine) — Solids content: 0 w%.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4601: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4601, Solids content (w%)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source prints percent signs in cells as well as w% in the unit header; numeric value retains the reported weight-percent magnitude.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O675
+
+**Stream 4603 (Fresh NaOH for Brine Neut.) — Solids content: 0 w%.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4603: Fresh NaOH for Brine Neut.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4603, Solids content (w%)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source prints percent signs in cells as well as w% in the unit header; numeric value retains the reported weight-percent magnitude.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O676
+
+**Stream 4607 (Dilute Flocc.) — Solids content: 0.3 w%.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4607: Dilute Flocc.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4607, Solids content (w%)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source prints percent signs in cells as well as w% in the unit header; numeric value retains the reported weight-percent magnitude.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O677
+
+**Stream 4609 (Depl. Brine MMF Feed) — Solids content: 0.002 w%.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4609: Depl. Brine MMF Feed. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4609, Solids content (w%)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source prints percent signs in cells as well as w% in the unit header; numeric value retains the reported weight-percent magnitude.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O678
+
+**Stream 4611 (Depl. Brine) — Solids content: 0.001 w%.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4611: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4611, Solids content (w%)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source prints percent signs in cells as well as w% in the unit header; numeric value retains the reported weight-percent magnitude.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O679
+
+**Stream 4624 (12% NaClO) — Solids content: 0 w%.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4624: 12% NaClO. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4624, Solids content (w%)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source prints percent signs in cells as well as w% in the unit header; numeric value retains the reported weight-percent magnitude.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O680
+
+**Stream 4625 (Depl. Brine MMF Filtrate) — Solids content: 0.001 w%.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4625: Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4625, Solids content (w%)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source prints percent signs in cells as well as w% in the unit header; numeric value retains the reported weight-percent magnitude.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O681
+
+**Stream 4626 (15% Na2SO3 Depl. Brine MMF Filtrate) — Solids content: 0 w%.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4626: 15% Na2SO3 Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4626, Solids content (w%)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source prints percent signs in cells as well as w% in the unit header; numeric value retains the reported weight-percent magnitude. Full source header: "15% Na2SO3 Depl. Brine MMF Filtrate". Figure 33 also identifies sodium sulfite (Na2SO3); the table header wording is retained verbatim.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O682
+
+**Stream 4704 (Water Recovery RO Retentate) — Solids content: 0 w%.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4704: Water Recovery RO Retentate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4704, Solids content (w%)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source prints percent signs in cells as well as w% in the unit header; numeric value retains the reported weight-percent magnitude.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+### Commercial stream chemistry
+
+#### O683
+
+**Stream 3101 (Raw Brine) — Li+: 68.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3101: Raw Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3101, Li+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O684
+
+**Stream 3501 (Total Depl. Brine Outfall) — Li+: 14.2 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3501: Total Depl. Brine Outfall. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3501, Li+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O685
+
+**Stream 4103 (Raw Brine MMF Backwash) — Li+: 77.4 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4103: Raw Brine MMF Backwash. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4103, Li+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O686
+
+**Stream 4601 (Depl. Brine) — Li+: 12.1 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4601: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4601, Li+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O687
+
+**Stream 4603 (Fresh NaOH for Brine Neut.) — Li+: 0.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4603: Fresh NaOH for Brine Neut.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4603, Li+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O688
+
+**Stream 4607 (Dilute Flocc.) — Li+: 0.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4607: Dilute Flocc.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4607, Li+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O689
+
+**Stream 4609 (Depl. Brine MMF Feed) — Li+: 12.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4609: Depl. Brine MMF Feed. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4609, Li+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O690
+
+**Stream 4611 (Depl. Brine) — Li+: 12.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4611: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4611, Li+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O691
+
+**Stream 4624 (12% NaClO) — Li+: - mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4624: 12% NaClO. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4624, Li+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation. Source dash retained: not reported in this table, not zero or a detection limit.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O692
+
+**Stream 4625 (Depl. Brine MMF Filtrate) — Li+: 12.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4625: Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4625, Li+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O693
+
+**Stream 4626 (15% Na2SO3 Depl. Brine MMF Filtrate) — Li+: 0.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4626: 15% Na2SO3 Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4626, Li+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation. Full source header: "15% Na2SO3 Depl. Brine MMF Filtrate". Figure 33 also identifies sodium sulfite (Na2SO3); the table header wording is retained verbatim.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O694
+
+**Stream 4704 (Water Recovery RO Retentate) — Li+: 11.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4704: Water Recovery RO Retentate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4704, Li+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O695
+
+**Stream 3101 (Raw Brine) — Na+: 98,464 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3101: Raw Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3101, Na+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O696
+
+**Stream 3501 (Total Depl. Brine Outfall) — Na+: 97,872 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3501: Total Depl. Brine Outfall. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3501, Na+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O697
+
+**Stream 4103 (Raw Brine MMF Backwash) — Na+: 98,327 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4103: Raw Brine MMF Backwash. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4103, Na+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O698
+
+**Stream 4601 (Depl. Brine) — Na+: 98,190 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4601: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4601, Na+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O699
+
+**Stream 4603 (Fresh NaOH for Brine Neut.) — Na+: 140,135 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4603: Fresh NaOH for Brine Neut.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4603, Na+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O700
+
+**Stream 4607 (Dilute Flocc.) — Na+: 34.5 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4607: Dilute Flocc.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4607, Na+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O701
+
+**Stream 4609 (Depl. Brine MMF Feed) — Na+: 97,842 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4609: Depl. Brine MMF Feed. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4609, Na+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O702
+
+**Stream 4611 (Depl. Brine) — Na+: 97,700 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4611: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4611, Na+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O703
+
+**Stream 4624 (12% NaClO) — Na+: 42,805 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4624: 12% NaClO. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4624, Na+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O704
+
+**Stream 4625 (Depl. Brine MMF Filtrate) — Na+: 97,844 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4625: Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4625, Na+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O705
+
+**Stream 4626 (15% Na2SO3 Depl. Brine MMF Filtrate) — Na+: 64,299 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4626: 15% Na2SO3 Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4626, Na+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation. Full source header: "15% Na2SO3 Depl. Brine MMF Filtrate". Figure 33 also identifies sodium sulfite (Na2SO3); the table header wording is retained verbatim.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O706
+
+**Stream 4704 (Water Recovery RO Retentate) — Na+: 17,548 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4704: Water Recovery RO Retentate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4704, Na+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O707
+
+**Stream 3101 (Raw Brine) — Mg2+: 14,633 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3101: Raw Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3101, Mg2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O708
+
+**Stream 3501 (Total Depl. Brine Outfall) — Mg2+: 14,482 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3501: Total Depl. Brine Outfall. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3501, Mg2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O709
+
+**Stream 4103 (Raw Brine MMF Backwash) — Mg2+: 14,576 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4103: Raw Brine MMF Backwash. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4103, Mg2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O710
+
+**Stream 4601 (Depl. Brine) — Mg2+: 14,539 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4601: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4601, Mg2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O711
+
+**Stream 4603 (Fresh NaOH for Brine Neut.) — Mg2+: 3.8 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4603: Fresh NaOH for Brine Neut.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4603, Mg2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O712
+
+**Stream 4607 (Dilute Flocc.) — Mg2+: 3.9 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4607: Dilute Flocc.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4607, Mg2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O713
+
+**Stream 4609 (Depl. Brine MMF Feed) — Mg2+: 14,479 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4609: Depl. Brine MMF Feed. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4609, Mg2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O714
+
+**Stream 4611 (Depl. Brine) — Mg2+: 14,455 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4611: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4611, Mg2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O715
+
+**Stream 4624 (12% NaClO) — Mg2+: - mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4624: 12% NaClO. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4624, Mg2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation. Source dash retained: not reported in this table, not zero or a detection limit.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O716
+
+**Stream 4625 (Depl. Brine MMF Filtrate) — Mg2+: 14,479 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4625: Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4625, Mg2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O717
+
+**Stream 4626 (15% Na2SO3 Depl. Brine MMF Filtrate) — Mg2+: 3.8 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4626: 15% Na2SO3 Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4626, Mg2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation. Full source header: "15% Na2SO3 Depl. Brine MMF Filtrate". Figure 33 also identifies sodium sulfite (Na2SO3); the table header wording is retained verbatim.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O718
+
+**Stream 4704 (Water Recovery RO Retentate) — Mg2+: 2,219 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4704: Water Recovery RO Retentate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4704, Mg2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O719
+
+**Stream 3101 (Raw Brine) — Ca2+: 309 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3101: Raw Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3101, Ca2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O720
+
+**Stream 3501 (Total Depl. Brine Outfall) — Ca2+: 300 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3501: Total Depl. Brine Outfall. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3501, Ca2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O721
+
+**Stream 4103 (Raw Brine MMF Backwash) — Ca2+: 307 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4103: Raw Brine MMF Backwash. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4103, Ca2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O722
+
+**Stream 4601 (Depl. Brine) — Ca2+: 300 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4601: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4601, Ca2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O723
+
+**Stream 4603 (Fresh NaOH for Brine Neut.) — Ca2+: 1.1 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4603: Fresh NaOH for Brine Neut.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4603, Ca2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O724
+
+**Stream 4607 (Dilute Flocc.) — Ca2+: 1.2 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4607: Dilute Flocc.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4607, Ca2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O725
+
+**Stream 4609 (Depl. Brine MMF Feed) — Ca2+: 300 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4609: Depl. Brine MMF Feed. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4609, Ca2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O726
+
+**Stream 4611 (Depl. Brine) — Ca2+: 300 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4611: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4611, Ca2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O727
+
+**Stream 4624 (12% NaClO) — Ca2+: - mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4624: 12% NaClO. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4624, Ca2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation. Source dash retained: not reported in this table, not zero or a detection limit.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O728
+
+**Stream 4625 (Depl. Brine MMF Filtrate) — Ca2+: 300 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4625: Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4625, Ca2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O729
+
+**Stream 4626 (15% Na2SO3 Depl. Brine MMF Filtrate) — Ca2+: 1.1 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4626: 15% Na2SO3 Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4626, Ca2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation. Full source header: "15% Na2SO3 Depl. Brine MMF Filtrate". Figure 33 also identifies sodium sulfite (Na2SO3); the table header wording is retained verbatim.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O730
+
+**Stream 4704 (Water Recovery RO Retentate) — Ca2+: 374 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4704: Water Recovery RO Retentate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4704, Ca2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=130) (PDF page 130).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O731
+
+**Stream 3101 (Raw Brine) — K+: 8,721 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3101: Raw Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3101, K+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O732
+
+**Stream 3501 (Total Depl. Brine Outfall) — K+: 8,638 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3501: Total Depl. Brine Outfall. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3501, K+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O733
+
+**Stream 4103 (Raw Brine MMF Backwash) — K+: 8,691 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4103: Raw Brine MMF Backwash. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4103, K+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O734
+
+**Stream 4601 (Depl. Brine) — K+: 8,672 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4601: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4601, K+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O735
+
+**Stream 4603 (Fresh NaOH for Brine Neut.) — K+: 2.3 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4603: Fresh NaOH for Brine Neut.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4603, K+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O736
+
+**Stream 4607 (Dilute Flocc.) — K+: 2.4 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4607: Dilute Flocc.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4607, K+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O737
+
+**Stream 4609 (Depl. Brine MMF Feed) — K+: 8,637 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4609: Depl. Brine MMF Feed. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4609, K+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O738
+
+**Stream 4611 (Depl. Brine) — K+: 8,623 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4611: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4611, K+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O739
+
+**Stream 4624 (12% NaClO) — K+: - mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4624: 12% NaClO. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4624, K+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation. Source dash retained: not reported in this table, not zero or a detection limit.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O740
+
+**Stream 4625 (Depl. Brine MMF Filtrate) — K+: 8,637 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4625: Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4625, K+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O741
+
+**Stream 4626 (15% Na2SO3 Depl. Brine MMF Filtrate) — K+: 2.4 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4626: 15% Na2SO3 Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4626, K+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation. Full source header: "15% Na2SO3 Depl. Brine MMF Filtrate". Figure 33 also identifies sodium sulfite (Na2SO3); the table header wording is retained verbatim.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O742
+
+**Stream 4704 (Water Recovery RO Retentate) — K+: 1,350 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4704: Water Recovery RO Retentate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4704, K+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O743
+
+**Stream 3101 (Raw Brine) — B3+: 62.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3101: Raw Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3101, B3+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O744
+
+**Stream 3501 (Total Depl. Brine Outfall) — B3+: 61.4 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3501: Total Depl. Brine Outfall. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3501, B3+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O745
+
+**Stream 4103 (Raw Brine MMF Backwash) — B3+: 61.8 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4103: Raw Brine MMF Backwash. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4103, B3+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O746
+
+**Stream 4601 (Depl. Brine) — B3+: 61.6 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4601: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4601, B3+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O747
+
+**Stream 4603 (Fresh NaOH for Brine Neut.) — B3+: 0.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4603: Fresh NaOH for Brine Neut.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4603, B3+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O748
+
+**Stream 4607 (Dilute Flocc.) — B3+: 0.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4607: Dilute Flocc.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4607, B3+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O749
+
+**Stream 4609 (Depl. Brine MMF Feed) — B3+: 61.4 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4609: Depl. Brine MMF Feed. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4609, B3+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O750
+
+**Stream 4611 (Depl. Brine) — B3+: 61.3 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4611: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4611, B3+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O751
+
+**Stream 4624 (12% NaClO) — B3+: - mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4624: 12% NaClO. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4624, B3+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation. Source dash retained: not reported in this table, not zero or a detection limit.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O752
+
+**Stream 4625 (Depl. Brine MMF Filtrate) — B3+: 61.4 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4625: Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4625, B3+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O753
+
+**Stream 4626 (15% Na2SO3 Depl. Brine MMF Filtrate) — B3+: 0.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4626: 15% Na2SO3 Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4626, B3+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation. Full source header: "15% Na2SO3 Depl. Brine MMF Filtrate". Figure 33 also identifies sodium sulfite (Na2SO3); the table header wording is retained verbatim.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O754
+
+**Stream 4704 (Water Recovery RO Retentate) — B3+: 8.8 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4704: Water Recovery RO Retentate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4704, B3+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O755
+
+**Stream 3101 (Raw Brine) — Sr2+: 4.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3101: Raw Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3101, Sr2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O756
+
+**Stream 3501 (Total Depl. Brine Outfall) — Sr2+: 3.4 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3501: Total Depl. Brine Outfall. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3501, Sr2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O757
+
+**Stream 4103 (Raw Brine MMF Backwash) — Sr2+: 4.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4103: Raw Brine MMF Backwash. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4103, Sr2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O758
+
+**Stream 4601 (Depl. Brine) — Sr2+: 3.4 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4601: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4601, Sr2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O759
+
+**Stream 4603 (Fresh NaOH for Brine Neut.) — Sr2+: 0.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4603: Fresh NaOH for Brine Neut.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4603, Sr2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O760
+
+**Stream 4607 (Dilute Flocc.) — Sr2+: 0.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4607: Dilute Flocc.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4607, Sr2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O761
+
+**Stream 4609 (Depl. Brine MMF Feed) — Sr2+: 3.4 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4609: Depl. Brine MMF Feed. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4609, Sr2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O762
+
+**Stream 4611 (Depl. Brine) — Sr2+: 3.4 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4611: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4611, Sr2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O763
+
+**Stream 4624 (12% NaClO) — Sr2+: - mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4624: 12% NaClO. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4624, Sr2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation. Source dash retained: not reported in this table, not zero or a detection limit.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O764
+
+**Stream 4625 (Depl. Brine MMF Filtrate) — Sr2+: 3.4 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4625: Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4625, Sr2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O765
+
+**Stream 4626 (15% Na2SO3 Depl. Brine MMF Filtrate) — Sr2+: 0.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4626: 15% Na2SO3 Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4626, Sr2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation. Full source header: "15% Na2SO3 Depl. Brine MMF Filtrate". Figure 33 also identifies sodium sulfite (Na2SO3); the table header wording is retained verbatim.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O766
+
+**Stream 4704 (Water Recovery RO Retentate) — Sr2+: 0.6 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4704: Water Recovery RO Retentate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4704, Sr2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O767
+
+**Stream 3101 (Raw Brine) — Fe2+: 0.6 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3101: Raw Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3101, Fe2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O768
+
+**Stream 3501 (Total Depl. Brine Outfall) — Fe2+: 0.6 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3501: Total Depl. Brine Outfall. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3501, Fe2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O769
+
+**Stream 4103 (Raw Brine MMF Backwash) — Fe2+: 0.6 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4103: Raw Brine MMF Backwash. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4103, Fe2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O770
+
+**Stream 4601 (Depl. Brine) — Fe2+: 0.6 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4601: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4601, Fe2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O771
+
+**Stream 4603 (Fresh NaOH for Brine Neut.) — Fe2+: 0.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4603: Fresh NaOH for Brine Neut.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4603, Fe2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O772
+
+**Stream 4607 (Dilute Flocc.) — Fe2+: 0.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4607: Dilute Flocc.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4607, Fe2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O773
+
+**Stream 4609 (Depl. Brine MMF Feed) — Fe2+: 0.6 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4609: Depl. Brine MMF Feed. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4609, Fe2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O774
+
+**Stream 4611 (Depl. Brine) — Fe2+: 0.6 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4611: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4611, Fe2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O775
+
+**Stream 4624 (12% NaClO) — Fe2+: - mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4624: 12% NaClO. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4624, Fe2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation. Source dash retained: not reported in this table, not zero or a detection limit.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O776
+
+**Stream 4625 (Depl. Brine MMF Filtrate) — Fe2+: 0.6 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4625: Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4625, Fe2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O777
+
+**Stream 4626 (15% Na2SO3 Depl. Brine MMF Filtrate) — Fe2+: 1.8 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4626: 15% Na2SO3 Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4626, Fe2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation. Full source header: "15% Na2SO3 Depl. Brine MMF Filtrate". Figure 33 also identifies sodium sulfite (Na2SO3); the table header wording is retained verbatim.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O778
+
+**Stream 4704 (Water Recovery RO Retentate) — Fe2+: 0.1 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4704: Water Recovery RO Retentate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4704, Fe2+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O779
+
+**Stream 3101 (Raw Brine) — Mn2+/Mn4+: 0.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3101: Raw Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3101, Mn2+/Mn4+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O780
+
+**Stream 3501 (Total Depl. Brine Outfall) — Mn2+/Mn4+: 0.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3501: Total Depl. Brine Outfall. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3501, Mn2+/Mn4+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O781
+
+**Stream 4103 (Raw Brine MMF Backwash) — Mn2+/Mn4+: 0.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4103: Raw Brine MMF Backwash. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4103, Mn2+/Mn4+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O782
+
+**Stream 4601 (Depl. Brine) — Mn2+/Mn4+: 0.2 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4601: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4601, Mn2+/Mn4+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O783
+
+**Stream 4603 (Fresh NaOH for Brine Neut.) — Mn2+/Mn4+: 0.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4603: Fresh NaOH for Brine Neut.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4603, Mn2+/Mn4+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O784
+
+**Stream 4607 (Dilute Flocc.) — Mn2+/Mn4+: 0.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4607: Dilute Flocc.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4607, Mn2+/Mn4+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O785
+
+**Stream 4609 (Depl. Brine MMF Feed) — Mn2+/Mn4+: 0.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4609: Depl. Brine MMF Feed. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4609, Mn2+/Mn4+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O786
+
+**Stream 4611 (Depl. Brine) — Mn2+/Mn4+: 0.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4611: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4611, Mn2+/Mn4+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O787
+
+**Stream 4624 (12% NaClO) — Mn2+/Mn4+: - mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4624: 12% NaClO. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4624, Mn2+/Mn4+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation. Source dash retained: not reported in this table, not zero or a detection limit.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O788
+
+**Stream 4625 (Depl. Brine MMF Filtrate) — Mn2+/Mn4+: 0.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4625: Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4625, Mn2+/Mn4+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O789
+
+**Stream 4626 (15% Na2SO3 Depl. Brine MMF Filtrate) — Mn2+/Mn4+: 0.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4626: 15% Na2SO3 Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4626, Mn2+/Mn4+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation. Full source header: "15% Na2SO3 Depl. Brine MMF Filtrate". Figure 33 also identifies sodium sulfite (Na2SO3); the table header wording is retained verbatim.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O790
+
+**Stream 4704 (Water Recovery RO Retentate) — Mn2+/Mn4+: 0.3 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4704: Water Recovery RO Retentate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4704, Mn2+/Mn4+ (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O791
+
+**Stream 3101 (Raw Brine) — Cl-: 183,942 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3101: Raw Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3101, Cl- (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O792
+
+**Stream 3501 (Total Depl. Brine Outfall) — Cl-: 182,249 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3501: Total Depl. Brine Outfall. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3501, Cl- (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O793
+
+**Stream 4103 (Raw Brine MMF Backwash) — Cl-: 183,226 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4103: Raw Brine MMF Backwash. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4103, Cl- (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O794
+
+**Stream 4601 (Depl. Brine) — Cl-: 182,943 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4601: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4601, Cl- (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O795
+
+**Stream 4603 (Fresh NaOH for Brine Neut.) — Cl-: 92.8 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4603: Fresh NaOH for Brine Neut.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4603, Cl- (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O796
+
+**Stream 4607 (Dilute Flocc.) — Cl-: 62.0 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4607: Dilute Flocc.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4607, Cl- (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O797
+
+**Stream 4609 (Depl. Brine MMF Feed) — Cl-: 182,207 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4609: Depl. Brine MMF Feed. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4609, Cl- (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O798
+
+**Stream 4611 (Depl. Brine) — Cl-: 181,926 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4611: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4611, Cl- (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O799
+
+**Stream 4624 (12% NaClO) — Cl-: 4,280.1 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4624: 12% NaClO. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4624, Cl- (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O800
+
+**Stream 4625 (Depl. Brine MMF Filtrate) — Cl-: 182,210 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4625: Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4625, Cl- (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O801
+
+**Stream 4626 (15% Na2SO3 Depl. Brine MMF Filtrate) — Cl-: 96.6 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4626: 15% Na2SO3 Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4626, Cl- (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation. Full source header: "15% Na2SO3 Depl. Brine MMF Filtrate". Figure 33 also identifies sodium sulfite (Na2SO3); the table header wording is retained verbatim.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O802
+
+**Stream 4704 (Water Recovery RO Retentate) — Cl-: 32,024 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4704: Water Recovery RO Retentate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4704, Cl- (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O803
+
+**Stream 3101 (Raw Brine) — SO42-: 26,976 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3101: Raw Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3101, SO42- (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O804
+
+**Stream 3501 (Total Depl. Brine Outfall) — SO42-: 27,240 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 3501: Total Depl. Brine Outfall. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 3501, SO42- (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O805
+
+**Stream 4103 (Raw Brine MMF Backwash) — SO42-: 27,331 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4103: Raw Brine MMF Backwash. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4103, SO42- (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O806
+
+**Stream 4601 (Depl. Brine) — SO42-: 27,317 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4601: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4601, SO42- (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O807
+
+**Stream 4603 (Fresh NaOH for Brine Neut.) — SO42-: 82.8 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4603: Fresh NaOH for Brine Neut.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4603, SO42- (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O808
+
+**Stream 4607 (Dilute Flocc.) — SO42-: 7.5 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4607: Dilute Flocc.. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4607, SO42- (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O809
+
+**Stream 4609 (Depl. Brine MMF Feed) — SO42-: 27,205 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4609: Depl. Brine MMF Feed. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4609, SO42- (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O810
+
+**Stream 4611 (Depl. Brine) — SO42-: 27,193 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4611: Depl. Brine. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4611, SO42- (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O811
+
+**Stream 4624 (12% NaClO) — SO42-: - mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4624: 12% NaClO. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4624, SO42- (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation. Source dash retained: not reported in this table, not zero or a detection limit.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O812
+
+**Stream 4625 (Depl. Brine MMF Filtrate) — SO42-: 27,206 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4625: Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4625, SO42- (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O813
+
+**Stream 4626 (15% Na2SO3 Depl. Brine MMF Filtrate) — SO42-: 1,039 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4626: 15% Na2SO3 Depl. Brine MMF Filtrate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4626, SO42- (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation. Full source header: "15% Na2SO3 Depl. Brine MMF Filtrate". Figure 33 also identifies sodium sulfite (Na2SO3); the table header wording is retained verbatim.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O814
+
+**Stream 4704 (Water Recovery RO Retentate) — SO42-: 4,234 mg/L.**
+
+Basis: **design/model estimate**; scale: commercial Phase 1; boundary: Table 23 stream 4704: Water Recovery RO Retentate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 23, stream 4704, SO42- (mg/L)](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=131) (PDF page 131).
+
+Table 23 is a rounded commercial design excerpt, not a measured stream assay. Stream numbers link to Figure 33 and the redacted full Appendix D.4. Nominal is the 90%-uptime case without margin; design is the 100%-uptime equipment case with 15% margin. No density or rounding reconciliation imposed. Source block is headed "Mass Flow, Nominal / Aqueous Ion Composition"; values are concentrations in mg/L. Ionic labels are transcribed, not independently established chemical speciation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
 ## Franklin evidence {#franklin-evidence}
 
 ### Brine chemistry
@@ -10269,6 +13135,11 @@ The September 16 follow-up promotes all 12 screened candidates as **bounded prov
 
 ## Extraction and review
 
+The September 16 source-audit correction pass added the complete public Waterleaf Table 23 excerpt and Figure 33, corrected ATLiS liquid/solids routing and Ogden's disclosed HCl input, reconciled source dates, and exposed shared document/project associations. Pilot measurements remain separate from commercial models. Observation totals count extracted parameters, including multiple constituents from the same table; they are not counts of independent tests. No human acceptance was inferred from AI review.
+
+Seven original-file rechecks still failed. Separately labeled, timestamped web-reader excerpts were recaptured for those documents and hashed in the local supporting files. These are partial derivative views, not original bytes and not reconstructions of the exact earlier web session. Original-file status and the existing provisional evidence labels remain unchanged.
+
+
 The September 16 pretreatment review reused the saved filings without advancing project collection cutoffs. It compared process sections, test histories and diagrams and added source-located observations for treatment stages and their boundaries. Missing methods are bounded to the cited project packages; no chemical train was inferred solely from raw-water composition, company ownership or a generic technology claim.
 
 Original bytes are stored under SHA-256 filenames. Expected PDFs must pass PDF signature/content validation; an HTML viewer is not a filing. An initially misclassified Utah HTML response was corrected, with its earlier retrieval preserved for audit. The manifest, document register and append-only retrieval log preserve URLs, source roles, timestamps, download outcomes and revisions. Repeated collection verifies the cached hash; explicit refresh preserves previous successful versions. Requests are paced, transient failures have bounded retries, and a denied request is not repeatedly retried.
@@ -10290,4 +13161,4 @@ AI source checking and human acceptance are separate states. The observation CSV
 
 The Markdown is the authored report. The catalog and evidence appendix are refreshed from the register and observations, then Pandoc generates a short research-library homepage, dedicated comparison pages, and separate Summary, Chemistry, Process and Evidence views for every project. Styling and source-figure images are embedded. A full-report HTML file retains all content on one page for ordinary browser search and printing. Reading and navigation require no server, JavaScript or remote fonts. A small optional script forwards previously shared section links to their new pages; ordinary fallback links remain available without it. Official-source links require internet access.
 
-Share the report-site.zip archive for the complete multipage report, or full-report.html for a single-file version. Keep the HTML pages together when using project navigation. The Markdown and its nine figure images are included in the archive. Original documents, CSVs, manifest, source-review images, search log and rerunnable commands remain in the supporting research folder. Manual reruns are the default; no scheduled monitoring or publishing has been enabled. The September 16 expansions added 16 profiles; original SWA/HK evidence remains tied to its September 14 collection snapshot. The supplied lab logo and all source figures are embedded in every HTML page where used.
+Share the report-site.zip archive for the complete multipage report, or full-report.html for a single-file version. Keep the HTML pages together when using project navigation. The Markdown and its ten figure images are included in the archive. Original documents, CSVs, manifest, source-review images, search log and rerunnable commands remain in the supporting research folder. Manual reruns are the default; no scheduled monitoring or publishing has been enabled. The September 16 expansions added 16 profiles; original SWA/HK evidence remains tied to its September 14 collection snapshot. The supplied lab logo and all source figures are embedded in every HTML page where used.
