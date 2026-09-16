@@ -192,6 +192,7 @@ nav#TOC::before { content:"DLE / FILINGS PILOT"; display:block; margin-bottom:1.
 #TOC ul ul { padding-left:.9rem; font-size:.82rem; }
 #TOC a { text-decoration:none; }
 .project-nav { display:grid; gap:.35rem; margin-bottom:1.1rem; }
+.project-menu summary { cursor:pointer; font-weight:650; margin-bottom:.7rem; }
 .project-nav a { display:block; padding:.5rem .65rem; border-radius:4px; }
 .project-nav a[aria-current="page"] { background:var(--accent); color:white; font-weight:650; }
 .project-nav a:hover { background:#dfece8; color:#173e3a; }
@@ -210,7 +211,7 @@ tbody tr:nth-child(even) { background:#fafcfc; }
 code { font-size:.9em; background:#eff3f2; padding:.1rem .3rem; border-radius:3px; }
 pre { overflow-x:auto; padding:1rem; background:#eff3f2; }
 hr { border:0; border-top:1px solid var(--line); margin:2rem 0; }
-@media(max-width:900px) { body { padding:1.5rem 1.2rem 3rem; } nav#TOC { position:static; width:auto; border:1px solid var(--line); padding:1rem 1.2rem; margin:1rem 0 2rem; } header { margin-bottom:1.5rem; } table { display:block; overflow-x:auto; } th,td { min-width:180px; hyphens:none; overflow-wrap:normal; } }
+@media(max-width:900px) { body { padding:1.5rem 1.2rem 3rem; } nav#TOC { position:static; width:auto; border:1px solid var(--line); padding:1rem 1.2rem; margin:1rem 0 2rem; } .project-nav { grid-template-columns:repeat(2,minmax(0,1fr)); } header { margin-bottom:1.5rem; } table { display:block; overflow-x:auto; } th,td { min-width:180px; hyphens:none; overflow-wrap:normal; } }
 @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
 @media print { body { padding:0; max-width:none; font-size:10pt; } nav#TOC { display:none; } h1,h2,h3,h4 { break-after:avoid; } table { display:table; font-size:8pt; } th,td { min-width:0; overflow-wrap:anywhere; } tr { break-inside:avoid; } thead { display:table-header-group; } a { color:inherit; } header { border-top-width:2px; } @page { size:A4; margin:16mm; } }
 </style>
@@ -223,7 +224,7 @@ evidence</p>
 <p class="date">Collection cutoff: 2026-09-14 · source studies have
 separate dates</p>
 </header>
-<nav id="TOC" role="doc-toc"><div class="project-nav" aria-label="Report pages"><a href="report.html">Overview</a><a href="south-west-arkansas.html" aria-current="page">South West Arkansas</a><a href="hells-kitchen.html">Hell’s Kitchen</a><a href="bher.html">BHER demonstration</a><a href="atlis.html">ATLiS</a><a href="ogden.html">Ogden / Great Salt Lake</a><a href="green-river.html">Green River</a><a href="full-report.html">Full report</a></div><hr><p class="toc-label">On this page</p>
+<nav id="TOC" role="doc-toc"><details class="project-menu" open><summary>Project pages (18)</summary><div class="project-nav" aria-label="Report pages"><a href="report.html">Overview</a><a href="south-west-arkansas.html" aria-current="page">South West Arkansas</a><a href="hells-kitchen.html">Hell’s Kitchen</a><a href="bher.html">BHER demonstration</a><a href="atlis.html">ATLiS</a><a href="ogden.html">Ogden / Great Salt Lake</a><a href="green-river.html">Green River</a><a href="waterleaf.html">Waterleaf / Lilac</a><a href="franklin.html">Franklin</a><a href="wellspring.html">Wellspring</a><a href="paradox.html">Paradox</a><a href="us-magnesium.html">US Magnesium</a><a href="utah-lithium.html">Mandrake Utah</a><a href="evergreen.html">Evergreen</a><a href="pine.html">Pine / Exxon</a><a href="lonestar.html">Lonestar</a><a href="daytona.html">Daytona / Folsom Point</a><a href="magnolia.html">Magnolia</a><a href="lanxess.html">LANXESS history</a><a href="full-report.html">Full report</a></div></details><hr><p class="toc-label">On this page</p>
 <ul>
 <li><a href="#south-west-arkansas" id="toc-south-west-arkansas">South
 West Arkansas</a>

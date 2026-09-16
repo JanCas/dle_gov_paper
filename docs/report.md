@@ -1,5 +1,5 @@
 ---
-title: "DLE filings: six US project records"
+title: "DLE filings: 18 US project profiles"
 subtitle: "Brine composition, process flowsheets and project evidence"
 date: "Expanded September 16, 2026 · project-specific cutoffs below"
 lang: en
@@ -9,11 +9,11 @@ lang: en
 
 # Overview
 
-This research draft brings together project-specific securities disclosures and environmental records for six US direct lithium extraction (DLE) developments, including historical demonstrations and suspended designs. Its purpose is to make the evidence findable and comparable **where the definitions allow it**, while preserving disagreements and gaps. It does not establish present operating performance. **South West Arkansas and Hell’s Kitchen retain their September 14, 2026 collection cutoff; the four new profiles use September 16, 2026.** A collection date is not the date of the underlying study.
+This research draft brings together project-specific securities disclosures and environmental records for 18 US direct lithium extraction (DLE) project profiles, including development programs, historical demonstrations and suspended designs. The count is a set of research profiles, not 18 operating plants or independent companies. Its purpose is to make the evidence findable and comparable **where the definitions allow it**, while preserving disagreements and gaps. It does not establish present operating performance. **South West Arkansas and Hell’s Kitchen retain their September 14, 2026 collection cutoff; the other profiles use September 16, 2026.** A collection date is not the date of the underlying study.
 
 <!-- BEGIN COUNTS -->
 
-**Collection:** 110 source records; 89 successful original-file downloads; 21 failed original-file downloads. The saved PDFs contain 5,026 pages. **Evidence:** 406 observations; 0 accepted after human review.
+**Collection:** 124 source records; 100 successful original-file downloads; 24 failed original-file downloads. The saved PDFs contain 6,562 pages. **Evidence:** 560 observations; 0 accepted after human review.
 
 <!-- END COUNTS -->
 
@@ -27,12 +27,25 @@ The source manifest covers official agency pages, submitted reports and attachme
 - [ATLiS](atlis.html): DOE block flowsheet, brine/water flows, reagent use and explicit chemistry gaps.
 - [Ogden / Great Salt Lake](ogden.html): lake and pond chemistry, historical process design, and separate EnergyX proposal.
 - [Green River](green-river.html): Anson/Blackstone permit chemistry, injection limits and stream-label discrepancy.
+- [Waterleaf / Lilac](waterleaf.html): pilot raw-brine/eluate chemistry, groundwater laboratory results, flowsheet and public water balance.
+- [Franklin](franklin.html): 2023 exploration-average chemistry, expected flowsheet and separate 2026 PEA assumptions.
+- [Wellspring](wellspring.html): North Dakota produced-water field program; grant records and high-level diagram.
+- [Paradox](paradox.html): draft permit chemistry with reused Green River ranges and unresolved stream labels.
+- [US Magnesium](us-magnesium.html): historical DLE installation and idling; limited government-survey evidence.
+- [Mandrake Utah](utah-lithium.html): resource-horizon concentrations and September 2026 bulk-sample appraisal update.
+- [Evergreen](evergreen.html): TETRA/Saltwerx unit history; direct lithium engineering records still needed.
+- [Pine / Exxon](pine.html): Exxon/Saltwerx unit identity; neighboring-property evidence with technical gaps.
+- [Lonestar](lonestar.html): Texas demonstration and mineral-option disclosures; chemistry package not established.
+- [Daytona / Folsom Point](daytona.html): EnergyX Arkansas acquisition/development record; no dated feed assay established.
+- [Magnolia](magnolia.html): issuer-supported pilot record; direct project government package still needed.
+- [LANXESS history](lanxess.html): ended commercial arrangement and separate continuing demonstration evidence.
 - [Full report](full-report.html): all projects on one page for browser search and printing.
 
 ## Principal findings
 
-- **Chemistry coverage now spans six projects, with different levels of detail.** BHER publishes measured brine and utility-water tables; Ogden reports selected cation analyses; Green River supplies proposed chemistry ranges with a stream-label conflict. A complete ATLiS geothermal-feed assay was not located in the screened records. [Disclosure comparison](#composition-and-flowsheet-availability).
-- **A process diagram is not a complete water balance.** New source diagrams cover BHER, ATLiS and historical Ogden. BHER cancelled its completed-balance deliverable; none of the new packages establishes all numbered streams with measured flows and compositions. [BHER](#bher-process-flowsheets), [ATLiS](#atlis-process-flowsheets), [Ogden](#ogden-process-flowsheets).
+- **The expanded report contains 18 profiles with uneven evidence.** Waterleaf adds six measured brine/eluate constituents and a separate groundwater laboratory panel; Franklin adds ten exploration-average brine constituents. Several additions establish project identity or history only, and Magnolia remains an explicitly issuer-supported profile. [Disclosure comparison](#composition-and-flowsheet-availability).
+- **New concentrations retain their stream and date.** Waterleaf reports 69 mg/L raw-brine lithium and 2,044 mg/L in pilot eluate. Franklin reports 668 mg/L in 2023 exploration averages versus 515 mg/L as a 2026 PEA lifetime model average. Paradox repeats Green River’s proposed 170–210 ppm range; those tables are not independent assays. [Waterleaf](#waterleaf-water-composition), [Franklin](#franklin-water-composition), [Paradox](#paradox-water-composition).
+- **A process diagram is not a complete water balance.** Source diagrams cover BHER, ATLiS, historical Ogden, Waterleaf, Franklin and Wellspring. Waterleaf publishes a design water-summary table but redacts detailed stream balances. BHER cancelled its completed-balance deliverable; none of these packages establishes all numbered streams with measured flows and compositions. [BHER](#bher-process-flowsheets), [ATLiS](#atlis-process-flowsheets), [Ogden](#ogden-process-flowsheets).
 
 - **The original pilot’s brine concentration figures have different bases.** SWA's September 2025 plant-design table uses 439.9 mg/L lithium; HK's August 2023 EIR gives 250 mg/L as expected geothermal brine composition. Neither is a directly comparable dated well assay. SWA separately reports well-sample results and changing concentrations in its production model. [O009](#o009), [O051](#o051), [brine chemistry comparison](#brine-concentration-and-chemistry).
 - **Recovery needs a process boundary.** South West Arkansas reports greater than 95% lithium extraction in demonstration/pilot testing, while the commercial process design uses 89.25% overall brine-to-product recovery. These are different quantities. [O002](#o002), [O003](#o003).
@@ -462,6 +475,8 @@ Anson's August 2024 announcement links its wholly owned Blackstone subsidiary an
 |--:|--:|:--|
 | 1.27–1.28 | 4.5–5.0 | [O401](#o401), [O402](#o402) |
 
+**Cross-project reuse:** all ranges also occur in [Paradox’s 2024 draft](#paradox-water-composition). Their common sample/design provenance is unresolved, so they are not counted as independent assays.
+
 [Open Table D-1 at PDF page 17](https://www.utah.gov/pmn/files/1044667.pdf#page=17). These are all listed parameters, including density and pH. Temperature, analytical methods, detection limits, sample dates and a complete charge-balanced analysis are not supplied. Separate raw-feed, eluate, spent-brine and fresh-water analyses would be needed to resolve the process balance.
 
 ### Injection flow and diagram limits {#green-river-process-flowsheets}
@@ -476,9 +491,368 @@ The current agency index provides final permit and statement-of-basis links, but
 
 An injection authorization listing does not demonstrate that every construction/operating approval is in place or that the plant is producing. Current recovery, product purity, reagent consumption, energy demand, freshwater consumption, emissions, costs, financing, offtake and commercial commissioning are not established by this selected permit package. Those gaps remain visible rather than being filled with figures from Anson's separate Paradox project.
 
+## Waterleaf / Lilac Great Salt Lake Phase 1 {#waterleaf}
+
+**Disclosure summary:** six-constituent measured raw-brine/eluate table, a separate groundwater laboratory package, a readable process flowsheet and a commercial water-balance summary. Detailed stream tables are redacted. **Cutoff: September 16, 2026.**
+
+Waterleaf Phase 1 LLC proposes Lilac ion-exchange DLE on Gunnison Bay, the north arm of Great Salt Lake, in Box Elder County, Utah. This is separate from Compass/EnergyX Ogden and US Magnesium. The agency draft identifies commercial UPDES **UT0026352**, replacing demonstration permit **UT0026280**. The June 30, 2026 fact sheet and July public notice are drafts, not evidence of final authorization or completed construction. [D111](#d111), [D112](#d112); [D116](#d116), PDF p. 22.
+
+### Pilot brine and eluate composition {#waterleaf-water-composition}
+
+Table 11 covers selected stable periods in optimal pilot weeks 16–28, excluding ramp-up and transitions. It is a measured pilot average, not the whole commercial design feed. All six listed constituents are reproduced; anions, TDS and charge balance are absent from this table. [D113](#d113), pp. 83–84.
+
+|Constituent | Raw brine (mg/L) | DLE eluate (mg/L) | Evidence |
+|:--|:--|:--|:--|
+| Lithium | 69 | 2044 | [O407](#o407), [O408](#o408) |
+| Sodium | 85774 | 603 | [O409](#o409), [O410](#o410) |
+| Magnesium | 13290 | 293 | [O411](#o411), [O412](#o412) |
+| Calcium | 300 | 97 | [O413](#o413), [O414](#o414) |
+| Potassium | 8362 | 203 | [O415](#o415), [O416](#o416) |
+| Boron | 50 | 0.9 | [O417](#o417), [O418](#o418) |
+
+
+Reported pilot DLE recovery is **87%** ([O419](#o419)). Commercial whole-process recovery is **78.8%**, combining 84.5% DLE and 93.3% downstream recovery ([O421](#o421)). Commercial design is **5,000 mt/yr lithium carbonate** at 90% nominal availability, with rounded raw-brine intake of approximately **11,300 gpm**. These are design assumptions, not achieved commercial output. [O420](#o420), [O422](#o422).
+
+Pilot crystallization occurred in batches at Lilac's Oakland laboratory; the commercial design puts it on site and recovers water differently. Pilot potable water came from Geneva Rock, while commercial makeup is proposed from groundwater. Those boundaries prevent treating pilot and commercial effluents as interchangeable. [D113](#d113), p. 84.
+
+### Groundwater: full listed sample results {#waterleaf-groundwater}
+
+Appendix E.2 contains an ACZ laboratory package for **sample L94016-01, well 13-4110, collected April 11, 2025 at 08:45**. This tested an existing well to investigate the aquifer for a potential new supply well roughly five miles away. It is **not lake brine or a confirmed final production-well assay**. The following tables reproduce all environmental-sample result entries on lab pages 2, 3, 12 and 17, including calculated parameters; preparation records, surrogate recovery, QC spikes and the trip blank remain in the linked original. **Lithium is not listed in this groundwater panel.** [O511](#o511).
+
+Dissolved metals were laboratory filtered at 0.45 µm. **MDL** is the method detection limit; **PQL** is the practical quantitation limit. **U** means not detected above the stated limit; **B** marks an estimated result between MDL and PQL. A nondetect is not zero.
+
+|Dissolved constituent | Result (mg/L) | MDL (mg/L) | PQL (mg/L) | Qualifier | Method | Evidence |
+|:--|:--|:--|:--|:--|:--|:--|
+| Aluminum | &lt;0.14 | 0.14 | 0.5 | U | EPA 200.7 | [O464](#o464) |
+| Arsenic | 0.00133 | 0.0002 | 0.001 | — | EPA 200.8 | [O465](#o465) |
+| Barium | 0.0573 | 0.009 | 0.035 | — | EPA 200.7 | [O466](#o466) |
+| Boron | 0.295 | 0.03 | 0.1 | — | EPA 200.7 | [O467](#o467) |
+| Cadmium | &lt;0.00005 | 0.00005 | 0.00025 | U | EPA 200.8 | [O468](#o468) |
+| Calcium | 82.9 | 0.1 | 0.5 | — | EPA 200.7 | [O469](#o469) |
+| Chromium | 0.00108 | 0.0005 | 0.002 | B | EPA 200.8 | [O470](#o470) |
+| Copper | 0.00812 | 0.0016 | 0.004 | — | EPA 200.8 | [O471](#o471) |
+| Iron | &lt;0.06 | 0.06 | 0.15 | U | EPA 200.7 | [O472](#o472) |
+| Lead | &lt;0.0001 | 0.0001 | 0.0005 | U | EPA 200.8 | [O473](#o473) |
+| Magnesium | 35.2 | 0.2 | 1 | — | EPA 200.7 | [O474](#o474) |
+| Manganese | 0.065 | 0.01 | 0.05 | — | EPA 200.7 | [O475](#o475) |
+| Mercury | &lt;0.0002 | 0.0002 | 0.001 | U | EPA 245.1 | [O476](#o476) |
+| Molybdenum | 0.00240 | 0.0002 | 0.0005 | — | EPA 200.8 | [O477](#o477) |
+| Nickel | &lt;0.008 | 0.008 | 0.04 | U | EPA 200.7 | [O478](#o478) |
+| Potassium | 27.6 | 0.5 | 1 | — | EPA 200.7 | [O479](#o479) |
+| Selenium | 0.00244 | 0.0001 | 0.00025 | — | EPA 200.8 | [O480](#o480) |
+| Silver | &lt;0.0001 | 0.0001 | 0.0005 | U | EPA 200.8 | [O481](#o481) |
+| Sodium | 884 | 0.2 | 1 | — | EPA 200.7 | [O482](#o482) |
+| Uranium | 0.00274 | 0.0001 | 0.0005 | — | EPA 200.8 | [O483](#o483) |
+| Zinc | 0.119 | 0.02 | 0.05 | — | EPA 200.7 | [O484](#o484) |
+
+
+|Wet-chemistry parameter | Result (mg/L) | MDL (mg/L) | PQL (mg/L) | Qualifier | Evidence |
+|:--|:--|:--|:--|:--|:--|
+| Bicarbonate as CaCO3 | 174 | 2 | 20 | — | [O485](#o485) |
+| Carbonate as CaCO3 | 7.1 | 2 | 20 | B | [O486](#o486) |
+| Hydroxide as CaCO3 | &lt;2 | 2 | 20 | U | [O487](#o487) |
+| Total alkalinity as CaCO3 | 181 | 2 | 20 | — | [O488](#o488) |
+| Chloride | 1700 | 100 | 200 | — | [O489](#o489) |
+| Fluoride | 0.70 | 0.15 | 0.35 | — | [O490](#o490) |
+| Dissolved hardness as CaCO3 | 352 | 0.2 | 5 | — | [O491](#o491) |
+| Nitrate as N | 1.31 | 0.02 | 0.1 | — | [O492](#o492) |
+| Nitrate/nitrite as N | 1.31 | 0.02 | 0.1 | RA; ZU | [O493](#o493) |
+| Nitrite as N | &lt;0.01 | 0.01 | 0.05 | U; RA; ZU | [O494](#o494) |
+| Ammonia nitrogen | &lt;0.1 | 0.1 | 0.2 | U; RA | [O495](#o495) |
+| Filterable residue (TDS), 180°C | 2890 | 20 | 40 | — | [O496](#o496) |
+| Sulfate | 105 | 5 | 25 | M3 | [O497](#o497) |
+
+Extended qualifiers: **RA** means a duplicate difference was not used because concentration was too low; **ZU** records analysis/filter-workgroup timing; **M3** means the spike recovery was unusable because of the sample/spike concentration ratio, while the control sample was acceptable. The lab pH has **H**, indicating exceeded holding time. [D113](#d113), PDF pp. 813, 820.
+
+|Other parameter | Result | Unit | Qualification | Evidence |
+|:--|:--|:--|:--|:--|
+| Cation–anion balance | -6.9 | % | Calculated, source sign retained. | [O498](#o498) |
+| Sum of anions | 54 | meq/L | Calculated. | [O499](#o499) |
+| Sum of cations | 47 | meq/L | Calculated. | [O500](#o500) |
+| Laboratory pH | 8.2 | pH units | H: method hold time exceeded; pH is an immediate field test. This is not field pH. | [O501](#o501) |
+| Temperature at laboratory pH measurement | 21.6 | °C | Not reservoir or field temperature. | [O502](#o502) |
+| Sodium adsorption ratio | 21 | dimensionless | USGS I1738-78. | [O503](#o503) |
+
+
+|Organic constituent | Result (µg/L) | MDL (µg/L) | PQL (µg/L) | Qualifier | Evidence |
+|:--|:--|:--|:--|:--|:--|
+| Benzene | &lt;1 | 1 | 5 | U; Q9 | [O504](#o504) |
+| Ethylbenzene | &lt;1 | 1 | 5 | U; Q9 | [O505](#o505) |
+| m,p-Xylene | &lt;2 | 2 | 10 | U; Q9 | [O506](#o506) |
+| o-Xylene | &lt;1 | 1 | 5 | U; Q9 | [O507](#o507) |
+| Toluene | &lt;1 | 1 | 5 | U; Q9 | [O508](#o508) |
+
+All five organic results carry **Q9**: insufficient sample to meet method QC requirements. [D113](#d113), PDF p. 825.
+
+|Radiochemistry | Printed result (pCi/L) | Error ± (pCi/L) | LLD (pCi/L) | Evidence |
+|:--|:--|:--|:--|:--|
+| Gross alpha | 18 | 20 | 51 | [O509](#o509) |
+| Gross beta | 21 | 15 | 40 | [O510](#o510) |
+
+Both radiochemistry results are below their reported lower limits of detection (LLD); they are not quantified detections. Gross alpha also carries the lab's RG precision qualifier. This is a broad published analytical panel, not proof that every dissolved species has been characterized. [D113](#d113), PDF pp. 826, 829.
+
+### Public flowsheet and commercial water balance {#waterleaf-process-flowsheets}
+
+![Waterleaf simplified commercial process flow diagram, Figure 2 of the operations application.](assets/D113-figure2.png)
+
+[O423](#o423). [Open Figure 2 at PDF page 39](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=39). The diagram connects intake filtration, lithium ion exchange, eluate purification/concentration, carbonate crystallization and depleted-brine return. The later DWQ fact sheet describes off-site further processing and lists three main stages, while its attachment depicts carbonate production. The application and discharge-permit boundaries need reconciliation. [D112](#d112), pp. 1–2 and 19.
+
+Table 12's complete public summary follows. Negative signs indicate water leaving or consumed. **Nominal** is the stated 90%-uptime operating case without margin; **Design** is the stated 100%-uptime equipment case with a 15% margin. These are water masses, not total saline-solution flows. [D113](#d113), pp. 85, 89.
+
+|Direction | Water stream | Nominal (mt/hr) | Design (mt/hr) | Evidence |
+|:--|:--|:--|:--|:--|
+| In | Brine water content | 1769.8 | 2261.4 | [O424](#o424), [O425](#o425) |
+| In | Groundwater makeup | 33.79 | 43.18 | [O426](#o426), [O427](#o427) |
+| In | Water in reagents | 1.10 | 1.41 | [O428](#o428), [O429](#o429) |
+| In | Generated: depleted-brine water addition | 0.456 | 0.583 | [O430](#o430), [O431](#o431) |
+| In | Generated: eluate-system water addition | 0.060 | 0.076 | [O432](#o432), [O433](#o433) |
+| In | Total | 1805.2 | 2306.6 | [O434](#o434), [O435](#o435) |
+| Out | Brine solids: free moisture | -0.037 | -0.047 | [O436](#o436), [O437](#o437) |
+| Out | Eluate solids: free moisture | -0.697 | -0.890 | [O438](#o438), [O439](#o439) |
+| Out | Depleted-brine water content | -1795.2 | -2293.9 | [O440](#o440), [O441](#o441) |
+| Out | Evaporation | -0.968 | -1.24 | [O442](#o442), [O443](#o443) |
+| Out | Potable/fire water | -0.270 | -0.345 | [O444](#o444), [O445](#o445) |
+| Out | Laboratory operations | -0.038 | -0.048 | [O446](#o446), [O447](#o447) |
+| Out | Seal water | -6.48 | -8.29 | [O448](#o448), [O449](#o449) |
+| Out | Cooling tower blowdown and makeup | -0.198 | -0.253 | [O450](#o450), [O451](#o451) |
+| Out | Boiler blowdown and makeup | -0.725 | -0.927 | [O452](#o452), [O453](#o453) |
+| Out | Liquid process waste | -0.304 | -0.389 | [O454](#o454), [O455](#o455) |
+| Out | Consumed: gypsum formation | -0.134 | -0.171 | [O456](#o456), [O457](#o457) |
+| Out | Consumed: depleted-brine carbonate | -0.087 | -0.111 | [O458](#o458), [O459](#o459) |
+| Out | Total | -1805.0 | -2306.3 | [O460](#o460), [O461](#o461) |
+| Net | Printed net | 0.000 | 0.000 | [O462](#o462), [O463](#o463) |
+
+
+The printed totals differ by 0.2 and 0.3 mt/hr, although the source prints zero net. Preserve this rounding/closure discrepancy; do not silently force closure. The public summary does not disclose every stream's chemistry. Detailed appendices D.1–D.4 include blacked-out schematic/balance pages (for example PDF pp. 584, 597 and 628). Commercial energy, annual reagent demand, waste chemistry, costs, binding offtake and final approvals were not comprehensively extracted in this addition.
+
+## Standard Lithium / Equinor Franklin {#franklin}
+
+**Disclosure summary:** all ten constituents in a published exploration-average brine table and an expected lithium process flowsheet. A September 2026 PEA announcement supplies newer model assumptions. **Cutoff: September 16, 2026.**
+
+Franklin lies in Hopkins, Franklin and Titus counties, Texas. Standard Lithium and Equinor hold 55% and 45% of the Texas partnership; this is separate from SWA and LANXESS commercial history. The 2025 technical report is an issuer-hosted supplement; the newer PEA announcement is SEC-filed but its original download was denied. [D117](#d117), [D118](#d118), [D119](#d119).
+
+### Full published brine table {#franklin-water-composition}
+
+Table 13.1 reports **2023 exploration-sample averages tested by WETLAB**. All ten Franklin entries follow. The source also repeats SWA and LANXESS comparison columns, which are not counted as new independent measurements here.
+
+|Constituent | Franklin feed (mg/L) | Evidence |
+|:--|:--|:--|
+| Lithium | 668 | [O512](#o512) |
+| Sodium | 94560 | [O513](#o513) |
+| Calcium | 32760 | [O514](#o514) |
+| Magnesium | 1735 | [O515](#o515) |
+| Potassium | 13286 | [O516](#o516) |
+| Strontium | 2522 | [O517](#o517) |
+| Boron | 486 | [O518](#o518) |
+| Silicon | 29 | [O519](#o519) |
+| Chlorides | 210000 | [O520](#o520) |
+| Bromides | 4343 | [O521](#o521) |
+
+
+This table omits alkalinity, TDS, pH and a charge-balance result; “full published table” does not mean an exhaustive water analysis. No full makeup-water assay was extracted. [D117](#d117), printed p. 62 / PDF p. 69.
+
+### Expected process flowsheet {#franklin-process-flowsheets}
+
+![Franklin expected lithium process block flow diagram, Figure 13.1 of the 2025 resource report.](assets/D117-figure13-1.png)
+
+[O522](#o522). [Open Figure 13.1 at PDF page 69](https://www.standardlithium.com/_resources/reports/Franklin-Project-NI-43-101-MRE.pdf?v=110803#page=69). The SWA-derived sequence includes brine pretreatment, DLE, purification/concentration and carbonate conversion. The next section recommends project-specific DLE, pretreatment and downstream test work. It supplies no complete measured stream balance. Potential bromine/potash circuits are discussed separately in §13.6; they should not be assumed part of a validated lithium plant.
+
+### Newer PEA basis {#franklin-pea}
+
+The September 8, 2026 announcement models 20 years on a 100%-project basis. **668 mg/L** above remains the older exploration average; **515 mg/L** below is a modelled lifetime average.
+
+|Year-one Li (mg/L) | Lifetime-average Li (mg/L) | Average brine flow (bbl/d) | Capacity (tpa carbonate) | Average output (tpa carbonate) |
+|:--|:--|:--|:--|:--|
+| 562 [O524](#o524) | 515 [O523](#o523) | 455000 [O525](#o525) | 70000 [O526](#o526) | 64600 [O527](#o527) |
+
+
+The PEA is preliminary and includes inferred resources. The announcement says a supporting report will follow; that later report was not collected in this pass. It reports preliminary vendor testing without numerical recovery/rejection results sufficient for this comparison. Project-specific full water, energy and reagent balances, binding offtake and completed permitting remain gaps. [D118](#d118), “Processing Overview” and technical-report statement.
+
+## Wellspring Hydro / LibertyStream, North Dakota {#wellspring}
+
+**Disclosure summary:** government-hosted applicant proposal and high-level process drawing; no complete project-feed composition established. This profile covers a **distributed field program**, not a single fully identified commercial plant. **Cutoff: September 16, 2026.**
+
+Triple 8 LLC, doing business as Wellspring Hydro, proposes produced-water DLE and carbonate validation with LibertyStream Infrastructure Partners. The August 31, 2025 application names more than ten North Dakota saltwater-disposal facilities but offers site details upon request. Earlier R-50-67 Prairie Lithium work is separate from the R-56-78 LibertyStream program. [O528](#o528); [D120](#d120).
+
+### Chemistry and validation {#wellspring-water-composition}
+
+The application describes a tenfold LiCl concentration step but does not establish a full feed assay with major ions, dated samples and detection limits. Its “Lithium Value of Basins” graphic is not a site-specific feed-water analysis. The **99.5% carbonate purity** is a validation objective, not an accepted product assay. [O530](#o530); [D115](#d115), pp. 1, 20.
+
+| Item | Source basis | Interpretation |
+|:--|:--|:--|
+| Grant listing | US$500,000, R-56-78. [O531](#o531) | Award, not proof of disbursement or completed performance |
+| Water/waste balance | Requested output in application p. 10 | Completed results not supplied in the selected proposal |
+| Site-specific feed, recovery, energy and cost | Not established from this package | Do not substitute generic basin or technology claims |
+
+### High-level process drawing {#wellspring-process-flowsheets}
+
+![Wellspring high-level process drawing from the North Dakota grant application, PDF page 21.](assets/D115-process-flow.png)
+
+[O529](#o529). [Open the source at PDF page 21](https://www.ndic.nd.gov/sites/www/files/documents/Renewable-Energy-Program/Grant-Rounds--Final-Reports/Proposals/Grant-Rounds-59-50/R-56-A-Unlocking-Lithium-Carbonate-in-Produced-Wat.pdf#page=21). The drawing shows brine treatment, DLE and carbonate conversion; it labels trial refining as off site. Its approximate 1,000+ gal/day feed and 10,000+ bbl/day disposal labels use different scales and do not form a closed balance. “Up to 99%” is an applicant illustration claim without the supporting test series needed to accept it as project recovery. Current permitting, measured outcomes, construction, economics and offtake need follow-up.
+
+## Anson / A1 Lithium Paradox {#paradox}
+
+**Disclosure summary:** 18 proposed chemistry parameters in a May 2024 draft UIC package. The ranges match Green River exactly and have an unresolved stream label. **Cutoff: September 16, 2026.**
+
+A1 Lithium's Paradox development west of Moab in Grand County, Utah, is separate from Anson/Blackstone Green River. The agency notice identifies **UTU-37-AP-1D61E74**. “A1 Lithium LLC” and “A1 Lithium Inc.” occur as source-name variants. The collected public notice and permit are draft-stage evidence; final authorization was not verified. [D114](#d114), [D123](#d123).
+
+### Full published permit chemistry {#paradox-water-composition}
+
+The Table D-1 heading calls this production brine, while the operating plan calls it spent brine after lithium/bromide removal and rinse-water dilution. All values repeat [Green River's draft table](#green-river-water-composition). These are **proposed permit ranges**, not two independent feed-water assays. Retain ppm without converting it to mg/L.
+
+|Parameter | Published range (ppm) | Evidence |
+|:--|:--|:--|
+| Lithium | 170–210 | [O532](#o532) |
+| Bromine | 3500–4000 | [O533](#o533) |
+| Boron | 1400–1700 | [O534](#o534) |
+| Sodium | 18000–20000 | [O535](#o535) |
+| Potassium | 25000–29000 | [O536](#o536) |
+| Calcium | 45000–50000 | [O537](#o537) |
+| Magnesium | 35000–40000 | [O538](#o538) |
+| Chloride | 220000–260000 | [O539](#o539) |
+| Iron | 200–250 | [O540](#o540) |
+| Sulfate | 50–100 | [O541](#o541) |
+| Strontium | 1500–1800 | [O542](#o542) |
+| Barium | 1–4 | [O543](#o543) |
+| Zinc | 3–4 | [O544](#o544) |
+| Bicarbonate | 1200–1400 | [O545](#o545) |
+| Fluoride | 30–35 | [O546](#o546) |
+| TDS | 350000–400000 | [O547](#o547) |
+
+
+|Density (g/cm³) | pH (dimensionless) | Evidence |
+|:--|:--|:--|
+| 1.27–1.28 | 4.5–5.0 | [O548](#o548), [O549](#o549) |
+
+
+[Open Table D-1 at PDF page 48](https://www.utah.gov/pmn/files/1126711.pdf#page=48). Sample dates, methods, detection limits and separately identified feed/eluate/effluent analyses are missing from this table.
+
+### Injection scope and process gaps {#paradox-process-flowsheets}
+
+The draft operating plan gives **2,000 gpm overall and 300 gpm per well** as injection ceilings. These are proposed limits, not achieved plant throughput; the combined-flow and well-count basis require confirmation. [O550](#o550).
+
+A complete DLE-to-product flowsheet and measured water balance were not located in the reviewed injection-permit package. Recovery, purity, utility demand, reagents, emissions, costs, funding, offtake and commissioning were not established in this focused addition. Wider Anson corporate/project studies remain to collect; the draft chemistry is not a substitute for them.
+
+## US Magnesium / International Battery Metals {#us-magnesium}
+
+**Historical profile; cutoff September 16, 2026.** Utah Geological Survey's *Utah Mining 2024* records DLE installation in mid-2024 using International Battery Metals technology, followed by idling of US Magnesium operations in late 2024. This is a separate Great Salt Lake operation from Ogden and Waterleaf. The survey draws partly on company information and does not establish a current restart. [O551](#o551).
+
+### Chemistry and process evidence {#us-magnesium-water-composition}
+
+| Question | Located evidence | Limit |
+|:--|:--|:--|
+| Lithium source | Byproduct material from magnesium production | Not equivalent to untreated lake water |
+| DLE product | Intended high-grade lithium chloride | No project-specific product assay in this survey passage |
+| Capacity | Approximately 10,000 t/year carbonate target for the operation | Not measured output of the IBAT installation |
+| Full water composition / flowsheet | Not located in selected survey | Operator technical package and permits still needed |
+
+The agency summary identifies a historical installation, not a complete engineering record. No direct feed assay, full numbered-stream balance, validated recovery, consumption data, economics or current offtake was established in this addition. [D116](#d116), printed p. 15 / PDF p. 21.
+
+## Mandrake Utah Lithium Project {#utah-lithium}
+
+**Exploration/testing profile; cutoff September 16, 2026.** Mandrake's Lisbon Valley project in San Juan County, Utah, is separate from Anson's projects. Electroflow is a DLE testing partner, not a second mineral project counted here. [D116](#d116), PDF p. 22; [D124](#d124).
+
+### Concentration and test status {#utah-lithium-water-composition}
+
+| Li (mg/L) | Basis | Evidence |
+|:--|:--|:--|
+| 69–142 | Estimated average grades across resource horizons; not a current DLE-feed assay | [O552](#o552) |
+
+The September 15, 2026 issuer announcement reports approximately **8,000 L** collected from Evelyn Chambers #1's existing Leadville perforations and transferred to Electroflow for appraisal. Purity, recovery and costing results are future outputs in that announcement. The wording “bulk brine production complete” refers to sample collection, not commercial lithium production. [O553](#o553).
+
+No full chemistry panel for that delivered brine, complete process flowsheet or measured water/energy balance was found in these selected records. UGS summarizes a 3.6 Mt LCE resource, whereas the issuer update says 3.3 Mt; the discrepancy needs the underlying dated resource reports. These figures are not used to rank projects. [D116](#d116), [D124](#d124).
+
+## TETRA / Saltwerx Evergreen {#evergreen}
+
+**Limited development profile; cutoff September 16, 2026.** Evergreen is distinct from Exxon/Saltwerx Pine and SWA's Reynolds unit. TETRA's SEC annual report describes the unit and potential bromine/lithium development. The neighboring-property section of SWA's DFS reports TETRA as operator with 65% working interest and Saltwerx with 35%. [O554](#o554), [O555](#o555).
+
+### Unit history and chemistry gaps {#evergreen-water-composition}
+
+| Record | Reported scope | Limit |
+|:--|:--|:--|
+| 2023 unit history | Approximately 6,138 acres, described in TETRA's 10-K | Direct AOGC orders not collected |
+| April 2025 expansion | 6,953 acres in SWA DFS §23.3 | Later footprint, not a contradictory measurement of the same vintage |
+| Development | Bromine plant work; lithium validation still prospective in the 10-K | Bromine progress is not achieved lithium output |
+| Full feed chemistry / lithium flowsheet | Not extracted in this addition | Underlying TETRA technical studies and unit-specific permits are priority follow-up |
+
+No unit-specific concentration is presented here. The 10-K refers to updated technical studies, but those studies were not collected for this addition. Do not assign SWA brine chemistry or recovery to Evergreen merely because TETRA and Saltwerx appear in both regional histories. [D121](#d121), mineral-resource discussion; [D044](#d044), §23.3.
+
+## ExxonMobil / Saltwerx Pine {#pine}
+
+**Limited identity/permitting-history profile; cutoff September 16, 2026.** The SEC-filed SWA DFS and its saved issuer PDF identify Saltwerx, acquired by ExxonMobil, and the **Pine brine unit** in Miller and Lafayette counties, Arkansas. The record reports April 2025 unitization of **56,245.58 acres**. The direct AOGC order was not collected. [O556](#o556); [D001](#d001), [D044](#d044), §23.2.
+
+### Project boundary and disclosure gaps {#pine-water-composition}
+
+| Question | Evidence boundary |
+|:--|:--|
+| Which project? | Pine unit, separate from TETRA-operated Evergreen and SWA Reynolds |
+| Historical acreage | Earlier 120,000 gross mineral acres describes a larger Saltwerx lease position |
+| Brine concentration / full composition | No Pine-specific table extracted from this neighboring-property record |
+| DLE flowsheet / water balance | No Pine-specific engineering package collected in this addition |
+
+This profile establishes a distinct development record. It does not establish measured recovery, product purity, commercial operation or all required approvals. Direct Exxon technical disclosures, unit orders and environmental submissions remain the next evidence targets. Historical ownership or aliases are not counted as extra projects.
+
+## EnergyX / EXSO Lonestar, Texas {#lonestar}
+
+**Limited securities profile; cutoff September 16, 2026.** The July 2026 SEC circular identifies EXSO's Northeast Texas options and a commissioned demonstration plant in leased industrial space. Option rights are conditional; commissioning does not establish commercial production. [O557](#o557).
+
+### Chemistry and scope {#lonestar-water-composition}
+
+| Evidence sought | Result of this addition |
+|:--|:--|
+| Project-specific dated feed assay | Not established |
+| Full water composition | Not established |
+| Site-specific flowsheet and closed balance | Not established |
+| Source | SEC circular, “Project Lonestar,” printed p. 46; web text only |
+
+Some corporate wording uses Lonestar across Texas and Arkansas; this page follows the Texas assets, while [Daytona](daytona.html) follows the acquired Arkansas leases. Generic technology tests and combined production ambitions are not assigned to either site's measured performance. Local permit and technical packages remain to collect. [D089](#d089).
+
+## EnergyX Daytona / Folsom Point, Arkansas {#daytona}
+
+**Limited acquisition/development profile; cutoff September 16, 2026.** EnergyX's SEC circular reports the October 1, 2025 acquisition of Daytona Lithium Pty. Ltd. from Pantera, including Folsom Point Energy LLC and its Southwest Arkansas mineral leases. This page separates those assets from Texas Lonestar; it does not imply a wholly independent technology platform. [O558](#o558).
+
+### Chemistry and process disclosure {#daytona-water-composition}
+
+| Evidence sought | Result of this addition |
+|:--|:--|
+| Measured project-feed lithium | No dated assay established; regional targeting language is insufficient |
+| Full water composition / flowsheet | Not established in the selected filing sections |
+| Development status | Acquisition and development disclosure, not commercial operating evidence |
+| Direct permits and technical studies | Not collected |
+
+The filing identifies LiTAS as the intended technology but does not supply a site-specific closed water balance. Recovery, consumptions, costs and offtake require project-specific records. [D089](#d089), “Daytona Lithium Pty. Ltd. Acquisition,” printed p. 46.
+
+## Albemarle Magnolia DLE pilot {#magnolia}
+
+**Issuer-supported profile; direct government package still needed. Cutoff: September 16, 2026.** Albemarle's 2024 sustainability report says DLE piloting began at Magnolia, Arkansas, in 2024, using a different brine and extraction technology from its La Negra pilot in Chile. [O559](#o559).
+
+### Chemistry and evidence limits {#magnolia-water-composition}
+
+| Question | Located evidence | Limit |
+|:--|:--|:--|
+| Pilot identity | Magnolia, Arkansas; 2024 piloting statement | Issuer report, not an agency approval |
+| Brine concentration / full composition | Not located in the cited pilot passage | Regional or other-site chemistry is not substituted |
+| Full flowsheet / water balance | Not located in this source | Direct technical and permit records still needed |
+
+The Chile recovery claim on the same source page is not a Magnolia result. Regional bromine production and site-wide sustainability metrics likewise cannot establish DLE water or emissions intensity. The SWA DFS's neighboring-property description supplies context but not direct Magnolia engineering evidence. [D122](#d122), PDF p. 46; [D044](#d044), §23.1.
+
+## Standard Lithium / LANXESS commercial history {#lanxess}
+
+**Historical commercial profile with separate demonstration evidence. Cutoff: September 16, 2026.** Standard Lithium's 2025 annual information form says the LANXESS commercial MOU ended by mutual agreement in 2025 and the company stopped pursuing that property development. It separately describes continued demonstration work near the South plant in El Dorado, Arkansas. [O560](#o560).
+
+### Existing demonstration chemistry {#lanxess-water-composition}
+
+| Li (mg/L) | Stream / date | Evidence |
+|:--|:--|:--|
+| 237 | Post-bromine-extraction demonstration feed, May 4–June 30, 2023 average | Existing [O120](#o120), [full 11-parameter column](#swa-water-composition) |
+
+The same demonstration table is already included under SWA as supporting process research; it is linked here without creating a duplicate measurement set. Its chemistry is not representative of SWA raw brine and does not prove commercial LANXESS 1A operation. [D044](#d044), Table 13-1; [D117](#d117), Table 13.1 note 2.
+
+Historical standalone commercial studies and a complete current demonstration stream balance were not added in this pass. Project cessation and continued pilot work are different events; preserve both when interpreting schedules, capacity, economics and offtake. [D119](#d119), “Other Projects.”
+
 # Cross-project comparison
 
-The following original-pilot comparison covers SWA and Hell’s Kitchen; the six-project disclosure comparison follows it. The table preserves source definitions. It does not convert products, normalize water intensity, or calculate a comparative environmental ranking.
+The following original-pilot comparison covers SWA and Hell’s Kitchen; the 18-profile disclosure comparison follows it. The table preserves source definitions. It does not convert products, normalize water intensity, or calculate a comparative environmental ranking.
 
 | Topic | South West Arkansas | Hell’s Kitchen | Comparability |
 |:--|:--|:--|:--|
@@ -493,7 +867,7 @@ The following original-pilot comparison covers SWA and Hell’s Kitchen; the six
 
 ## Composition and flowsheet availability
 
-“Full table” means all rows of a named published table, not an exhaustive chemical characterization. No complete measured stream-by-stream material/energy balance was established for these six projects.
+“Full table” means all rows of a named published table, not an exhaustive chemical characterization. No complete measured stream-by-stream material/energy balance was established for the covered profiles.
 
 | Project / technical vintage | Li (mg/L) | Li (ppm) | Stream basis | Broader chemistry | Diagram and balance coverage |
 |:--|:--|:--|:--|:--|:--|
@@ -503,6 +877,18 @@ The following original-pilot comparison covers SWA and Hell’s Kitchen; the six
 | [ATLiS](atlis.html) · 2021/2025 environmental studies | — | — | Complete project-specific feed assay not located | Monitoring-well chemistry is a different stream. [Scope](#atlis-water-composition) | Four-stage block diagram; brine and water estimates, no closed balance. [Figure](#atlis-process-flowsheets) |
 | [Ogden](ogden.html) · 2022 initial assessment | Lake: 25.9–58.6; Pond: 125–328 | — | Lake Table 7.2 location/depth averages; Pond 114 individual samples | Five-cation lake table and four-cation pond table; not complete water analyses. [Tables](#ogden-water-composition) | Historical East/West block flowsheets include pond evaporation. [Figure](#ogden-process-flowsheets) |
 | [Green River](green-river.html) · 2023 draft permit | — | 170–210 | Production/spent-brine label unresolved | 18 proposed parameters, including density and pH. [Table](#green-river-water-composition) | Injection manifold only, with reused copper-project provenance. [Limits](#green-river-process-flowsheets) |
+| [Waterleaf](waterleaf.html) · 2025 pilot / 2026 application | 69 raw; 2044 eluate | — | Selected stable pilot averages | Six brine/eluate constituents; separate broad groundwater panel. [Details](#waterleaf-water-composition) | Public process diagram and design water summary; detailed balances redacted. [Scope](#waterleaf-process-flowsheets) |
+| [Franklin](franklin.html) · 2023 samples / 2025 report; 2026 PEA | 668 samples; 515 model average | — | Exploration average vs separate lifetime model | Ten-constituent table; no complete makeup-water analysis. [Details](#franklin-water-composition) | Expected lithium block flowsheet; no measured complete balance. [Scope](#franklin-process-flowsheets) |
+| [Wellspring](wellspring.html) · 2025 grant application | — | — | Distributed produced-water program | Full site-specific feed assay not established. [Details](#wellspring-water-composition) | High-level drawing mixes scales; no closed balance. [Scope](#wellspring-process-flowsheets) |
+| [Paradox](paradox.html) · 2024 draft permit | — | 170–210 | Production/spent label unresolved; repeats Green River | 18 proposed parameters, not an independent measured assay. [Details](#paradox-water-composition) | Injection package; full DLE flowsheet not located. [Scope](#paradox-process-flowsheets) |
+| [US Magnesium](us-magnesium.html) · 2024 historical events | — | — | Magnesium-operation byproduct | Feed chemistry not established in survey. [Details](#us-magnesium-water-composition) | Historical installation; engineering package missing. [Scope](#us-magnesium-water-composition) |
+| [Mandrake Utah](utah-lithium.html) · 2024 resource / 2026 sample collection | 69–142 | — | Resource-horizon averages; not delivered test-feed assay | Bulk-sample composition not established. [Details](#utah-lithium-water-composition) | Electroflow appraisal prospective; no full PFD located. [Scope](#utah-lithium-water-composition) |
+| [Evergreen](evergreen.html) · 2025 annual disclosure | — | — | Distinct TETRA/Saltwerx unit | Direct technical-report chemistry not yet extracted. [Details](#evergreen-water-composition) | Bromine development does not establish lithium operation. [Scope](#evergreen-water-composition) |
+| [Pine](pine.html) · 2025 neighboring-property disclosure | — | — | Saltwerx/Exxon unit identity | Pine-specific assay not established. [Details](#pine-water-composition) | Direct unit/process package not collected. [Scope](#pine-water-composition) |
+| [Lonestar](lonestar.html) · July 2026 SEC circular | — | — | Texas demo and mineral options | Dated feed panel not established. [Details](#lonestar-water-composition) | Site-specific full PFD not located. [Scope](#lonestar-water-composition) |
+| [Daytona / Folsom Point](daytona.html) · July 2026 SEC circular | — | — | Acquired Arkansas leases | Regional target range excluded as a measured assay. [Details](#daytona-water-composition) | Site-specific full PFD not located. [Scope](#daytona-water-composition) |
+| [Magnolia](magnolia.html) · 2024 issuer pilot statement | — | — | Issuer-supported lead; government package missing | Magnolia-specific assay not located. [Details](#magnolia-water-composition) | Do not transfer La Negra performance to this pilot. [Scope](#magnolia-water-composition) |
+| [LANXESS history](lanxess.html) · 2023 demo chemistry; 2025 commercial cessation | 237 demo | — | Post-bromine demonstration feed, already counted under SWA | Existing 11-parameter column; no duplicate observations. [Details](#lanxess-water-composition) | Historical commercial studies not added in this pass. [Scope](#lanxess-water-composition) |
 
 A dash means no value is presented in that unit. Do not rank these lithium values directly: ppm and mg/L are retained as distinct source units; lake, concentrated pond brine, geothermal feed and proposed injection chemistry are different boundaries. The earlier two-project engineering comparison above retains its original scope.
 
@@ -541,6 +927,8 @@ The **economic summary uses 481 mg/L**, whereas the reserve-production schedule 
 The practical research fields are therefore: lithium concentration; other brine constituents and TDS; well and sampled interval; sample date and method; stream location; design or measurement basis; and any forecast change through time. The expected HK composition table leaves several of those assay and stream details unspecified.
 
 ## Discrepancies requiring review
+
+New-profile discrepancies: Paradox/Green River repeat the same chemistry with production/spent labels; Waterleaf’s rounded totals do not reproduce its printed zero water balance, and its two agency packages describe differing processing boundaries; Mandrake resource totals differ between the survey and issuer update. These remain explicit in their profiles.
 
 1. **SWA freshwater:** the annual DFS estimate and later EA flow estimates are not reconciled. Their differing dates and plant boundaries may matter. No annualization assumption has been imposed. [O016](#o016), [O017](#o017).
 2. **SWA lithium concentration:** Table 17-1 and Table 1-6 use different bases. Preserve both until the engineering and reservoir-model relationship is resolved. [O009](#o009), [O014](#o014).
@@ -1978,6 +2366,224 @@ Published/filed: **2024**; effective/event date: **not established**. Source rol
 Original download unavailable. Expected PDF, received HTML.
 
 Blackstone final UIC statement of basis. Expansion source; dates and boundaries retained separately from earlier technical evidence.
+
+## Waterleaf / Lilac sources {#waterleaf-sources}
+
+Shared source: [D116](#d116) — Utah Mining 2024.
+
+### D111
+
+**[Great Salt Lake Phase 1 public notice](https://www.utah.gov/pmn/sitemap/notice/1092617.html)**
+
+Public notice · Utah DWQ. Entity: Waterleaf Phase 1 LLC.
+
+Published/filed: **2026-07-01**; effective/event date: **not established**. Source role: official agency record.
+
+Original saved.
+
+Public consultation for UPDES UT0026352; record updated July 27, 2026. Draft stage, not proof of final authorization.
+
+### D112
+
+**[Phase 1 draft fact sheet and flow diagram](https://www.utah.gov/pmn/files/1456475.pdf)**
+
+Draft UPDES fact sheet · Utah DWQ. Entity: Waterleaf Phase 1 LLC.
+
+Published/filed: **2026-06-30**; effective/event date: **not established**. Source role: official agency draft.
+
+Original saved; 19 PDF pages.
+
+Commercial Phase 1 discharge proposal and schematic; off-site further-processing narrative needs reconciliation with carbonate process drawing.
+
+### D113
+
+**[Phase 1 operations application, redacted](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf)**
+
+Redacted operations application · Utah FFSL. Entity: Waterleaf Phase 1 LLC.
+
+Published/filed: **2026-02-20**; effective/event date: **2026-02**. Source role: government-hosted applicant submission.
+
+Original saved; 1197 PDF pages.
+
+FFSL-hosted application, February 2026 revision (Appendix H; submission footer February 20). Public pilot chemistry, simplified flowsheet, water-balance summary and groundwater laboratory package; detailed process appendices redacted.
+
+## Franklin sources {#franklin-sources}
+
+Shared source: [D119](#d119) — Annual information form, 2025 year.
+
+### D117
+
+**[Maiden inferred resource technical report](https://www.standardlithium.com/_resources/reports/Franklin-Project-NI-43-101-MRE.pdf?v=110803)**
+
+NI 43-101 technical report · Issuer website. Entity: Standard Lithium Ltd. / Texas Lithium.
+
+Published/filed: **2025-11-05**; effective/event date: **2025-09-24**. Source role: issuer-hosted supplement; not SEC original.
+
+Original saved; 105 PDF pages.
+
+Issuer-hosted Franklin resource report with 2023 exploration-average composition and an expected lithium process flowsheet; not a current operating plant assay.
+
+### D118
+
+**[September 8 2026 PEA announcement, SEC exhibit](https://www.sec.gov/Archives/edgar/data/1537137/000117184326005911/exh_991.htm)**
+
+SEC EX-99.1 · SEC. Entity: Standard Lithium Ltd. / Smackover Lithium.
+
+Published/filed: **2026-09-08**; effective/event date: **2026-09-08**. Source role: official filing.
+
+Original download unavailable. HTTP Error 403: Forbidden.
+
+Franklin PEA announcement updates modelled concentration and production basis; web text accessible but original download denied.
+
+## Wellspring sources {#wellspring-sources}
+
+### D115
+
+**[R-56-A lithium carbonate grant application](https://www.ndic.nd.gov/sites/www/files/documents/Renewable-Energy-Program/Grant-Rounds--Final-Reports/Proposals/Grant-Rounds-59-50/R-56-A-Unlocking-Lithium-Carbonate-in-Produced-Wat.pdf)**
+
+Grant application · North Dakota Industrial Commission. Entity: Triple 8 LLC dba Wellspring Hydro.
+
+Published/filed: **2025-08-31**; effective/event date: **not established**. Source role: government-hosted applicant submission.
+
+Original saved; 23 PDF pages.
+
+Applicant proposal for produced-water DLE and lithium carbonate validation with LibertyStream; includes a high-level flow drawing, not a completed measured balance.
+
+### D120
+
+**[North Dakota renewable grant rounds 50-59](https://www.ndic.nd.gov/research-grant-programs/renewable-energy-program/renewable-energy-program-grant-rounds/renewable)**
+
+Agency grant index · NDIC. Entity: North Dakota Industrial Commission.
+
+Published/filed: **not established**; effective/event date: **not established**. Source role: official grant index.
+
+Original saved.
+
+Official grant index includes Wellspring R-50-67 and R-56-78; awards and applications are separate records, not proof of completed technical outcomes.
+
+## Paradox sources {#paradox-sources}
+
+### D114
+
+**[A1 Lithium draft UIC permit and attachments](https://www.utah.gov/pmn/files/1126711.pdf)**
+
+Draft UIC permit and attachments · Utah DWQ. Entity: A1 Lithium Inc..
+
+Published/filed: **2024-05**; effective/event date: **not established**. Source role: official agency draft.
+
+Original saved; 77 PDF pages.
+
+Draft UTU-37-AP-1D61E74 and technical attachments; chemistry repeats Green River ranges with unresolved production/spent-brine labeling.
+
+### D123
+
+**[A1 Lithium UIC notice](https://www.utah.gov/pmn/sitemap/notice/915809.html)**
+
+UIC public notice · Utah DWQ. Entity: A1 Lithium Inc. / A1 Lithium LLC (notice variant).
+
+Published/filed: **2024-05-23**; effective/event date: **not established**. Source role: official agency record.
+
+Original saved.
+
+Agency consultation record for A1 Lithium Class V injection permit; distinct from Blackstone Green River.
+
+## US Magnesium sources {#us-magnesium-sources}
+
+### D116
+
+**[Utah Mining 2024](https://ugspub.nr.utah.gov/publications/circular/c-139.pdf)**
+
+Government survey · Utah Geological Survey. Entity: Utah Geological Survey.
+
+Published/filed: **2025**; effective/event date: **2024**. Source role: official government survey.
+
+Original saved; 32 PDF pages.
+
+Circular 139, Utah Mining 2024; historical US Magnesium DLE/idling and Utah exploration summaries, including Mandrake. Agency compilation draws on company information.
+
+## Mandrake Utah sources {#utah-lithium-sources}
+
+Shared source: [D116](#d116) — Utah Mining 2024.
+
+### D124
+
+**[Bulk Brine Production Complete at Utah Lithium Project](https://www.mandrakeresources.com.au/wp-content/uploads/2026/09/Bulk-Brine-Production-Complete-at-Utah-Lithium-Project.pdf)**
+
+Issuer-hosted ASX announcement · Issuer website. Entity: Mandrake Resources Ltd..
+
+Published/filed: **2026-09-15**; effective/event date: **2026-09-15**. Source role: issuer-hosted ASX announcement supplement.
+
+Original saved; 4 PDF pages.
+
+Evelyn Chambers #1 bulk brine delivered to Electroflow for technical/commercial appraisal. Delivery is not completed DLE validation or commercial lithium production.
+
+## Evergreen sources {#evergreen-sources}
+
+Shared source: [D001](#d001) — South West Arkansas NI 43-101 definitive feasibility study.
+
+Shared source: [D044](#d044) — South West Arkansas DFS - issuer PDF copy.
+
+### D121
+
+**[TETRA 2025 annual report](https://www.sec.gov/Archives/edgar/data/844965/000084496526000015/tti-20251231.htm)**
+
+Form 10-K · SEC. Entity: TETRA Technologies Inc..
+
+Published/filed: **not established**; effective/event date: **2025-12-31**. Source role: official filing.
+
+Original download unavailable. HTTP Error 403: Forbidden.
+
+SEC annual report identifies Evergreen unit history and bromine development; lithium technology validation remains prospective in this filing. Web text only.
+
+## Pine / Exxon sources {#pine-sources}
+
+Shared source: [D001](#d001) — South West Arkansas NI 43-101 definitive feasibility study.
+
+Shared source: [D044](#d044) — South West Arkansas DFS - issuer PDF copy.
+
+## Lonestar sources {#lonestar-sources}
+
+Shared source: [D089](#d089) — EnergyX July 2026 offering circular.
+
+## Daytona / Folsom Point sources {#daytona-sources}
+
+Shared source: [D089](#d089) — EnergyX July 2026 offering circular.
+
+## Magnolia sources {#magnolia-sources}
+
+Shared source: [D001](#d001) — South West Arkansas NI 43-101 definitive feasibility study.
+
+Shared source: [D044](#d044) — South West Arkansas DFS - issuer PDF copy.
+
+### D122
+
+**[Albemarle 2024 Sustainability Report](https://www.albemarle.com/sites/default/files/2025-05/albemarle-sustainability-report-2024.pdf)**
+
+Sustainability report · Issuer website. Entity: Albemarle Corporation.
+
+Published/filed: **not established**; effective/event date: **2024**. Source role: issuer-hosted supplement.
+
+Original saved; 79 PDF pages.
+
+Issuer supplement reports Magnolia DLE piloting during 2024 using different brine/technology from La Negra; no project-specific government permit package established.
+
+## LANXESS history sources {#lanxess-sources}
+
+Shared source: [D044](#d044) — South West Arkansas DFS - issuer PDF copy.
+
+Shared source: [D117](#d117) — Maiden inferred resource technical report.
+
+### D119
+
+**[Annual information form, 2025 year](https://www.sec.gov/Archives/edgar/data/1537137/000119312526130448/ck0001537137-ex99_1.htm)**
+
+Annual information form · SEC. Entity: Standard Lithium Ltd..
+
+Published/filed: **not established**; effective/event date: **2025-12-31**. Source role: official filing.
+
+Original download unavailable. HTTP Error 403: Forbidden.
+
+SEC-filed annual information form distinguishes discontinued LANXESS commercial development from continuing demonstration and describes Franklin ownership; web text only.
 
 
 <!-- END CATALOG -->
@@ -6670,7 +7276,7 @@ Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green
 
 Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
 
-Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified. The same values recur in A1 Lithium/Paradox draft D114 Table D-1; do not count as independent project assays.
 
 Review: AI text and rendered-page check; **human review pending**.
 
@@ -6682,7 +7288,7 @@ Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green
 
 Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
 
-Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified. The same values recur in A1 Lithium/Paradox draft D114 Table D-1; do not count as independent project assays.
 
 Review: AI text and rendered-page check; **human review pending**.
 
@@ -6694,7 +7300,7 @@ Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green
 
 Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
 
-Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified. The same values recur in A1 Lithium/Paradox draft D114 Table D-1; do not count as independent project assays.
 
 Review: AI text and rendered-page check; **human review pending**.
 
@@ -6706,7 +7312,7 @@ Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green
 
 Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
 
-Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified. The same values recur in A1 Lithium/Paradox draft D114 Table D-1; do not count as independent project assays.
 
 Review: AI text and rendered-page check; **human review pending**.
 
@@ -6718,7 +7324,7 @@ Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green
 
 Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
 
-Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified. The same values recur in A1 Lithium/Paradox draft D114 Table D-1; do not count as independent project assays.
 
 Review: AI text and rendered-page check; **human review pending**.
 
@@ -6730,7 +7336,7 @@ Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green
 
 Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
 
-Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified. The same values recur in A1 Lithium/Paradox draft D114 Table D-1; do not count as independent project assays.
 
 Review: AI text and rendered-page check; **human review pending**.
 
@@ -6742,7 +7348,7 @@ Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green
 
 Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
 
-Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified. The same values recur in A1 Lithium/Paradox draft D114 Table D-1; do not count as independent project assays.
 
 Review: AI text and rendered-page check; **human review pending**.
 
@@ -6754,7 +7360,7 @@ Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green
 
 Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
 
-Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified. The same values recur in A1 Lithium/Paradox draft D114 Table D-1; do not count as independent project assays.
 
 Review: AI text and rendered-page check; **human review pending**.
 
@@ -6766,7 +7372,7 @@ Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green
 
 Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
 
-Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified. The same values recur in A1 Lithium/Paradox draft D114 Table D-1; do not count as independent project assays.
 
 Review: AI text and rendered-page check; **human review pending**.
 
@@ -6778,7 +7384,7 @@ Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green
 
 Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
 
-Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified. The same values recur in A1 Lithium/Paradox draft D114 Table D-1; do not count as independent project assays.
 
 Review: AI text and rendered-page check; **human review pending**.
 
@@ -6790,7 +7396,7 @@ Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green
 
 Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
 
-Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified. The same values recur in A1 Lithium/Paradox draft D114 Table D-1; do not count as independent project assays.
 
 Review: AI text and rendered-page check; **human review pending**.
 
@@ -6802,7 +7408,7 @@ Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green
 
 Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
 
-Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified. The same values recur in A1 Lithium/Paradox draft D114 Table D-1; do not count as independent project assays.
 
 Review: AI text and rendered-page check; **human review pending**.
 
@@ -6814,7 +7420,7 @@ Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green
 
 Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
 
-Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified. The same values recur in A1 Lithium/Paradox draft D114 Table D-1; do not count as independent project assays.
 
 Review: AI text and rendered-page check; **human review pending**.
 
@@ -6826,7 +7432,7 @@ Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green
 
 Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
 
-Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified. The same values recur in A1 Lithium/Paradox draft D114 Table D-1; do not count as independent project assays.
 
 Review: AI text and rendered-page check; **human review pending**.
 
@@ -6838,7 +7444,7 @@ Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green
 
 Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
 
-Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified. The same values recur in A1 Lithium/Paradox draft D114 Table D-1; do not count as independent project assays.
 
 Review: AI text and rendered-page check; **human review pending**.
 
@@ -6850,7 +7456,7 @@ Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green
 
 Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
 
-Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified. The same values recur in A1 Lithium/Paradox draft D114 Table D-1; do not count as independent project assays.
 
 Review: AI text and rendered-page check; **human review pending**.
 
@@ -6862,7 +7468,7 @@ Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green
 
 Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
 
-Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified. The same values recur in A1 Lithium/Paradox draft D114 Table D-1; do not count as independent project assays.
 
 Review: AI text and rendered-page check; **human review pending**.
 
@@ -6874,7 +7480,7 @@ Basis: **proposed permit range; assay basis unspecified**; scale: proposed Green
 
 Source: [D079](#d079), [p. 17, Table D-1](https://www.utah.gov/pmn/files/1044667.pdf#page=17) (PDF page 17).
 
-Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified.
+Table title calls this production brine chemistry; p. 16 calls it spent-brine chemistry after Li/Br depletion and rinse-water dilution. Do not assign the range to measured raw feed or measured raffinate. Ppm basis, analytical method and detection limits unspecified. The same values recur in A1 Lithium/Paradox draft D114 Table D-1; do not count as independent project assays.
 
 Review: AI text and rendered-page check; **human review pending**.
 
@@ -6928,6 +7534,1928 @@ The agency links a final permit and statement of basis, but both downloads retur
 
 Review: AI source-text check; **human review pending**.
 
+## Waterleaf / Lilac evidence {#waterleaf-evidence}
+
+### Pilot brine and eluate chemistry
+
+#### O407
+
+**Lithium: 69 mg/L.**
+
+Basis: **reported measurement; selected stable pilot periods**; scale: Great Salt Lake pilot; boundary: Raw brine. Date/basis: 2025 pilot; optimal operating weeks 16–28.
+
+Source: [D113](#d113), [Table 11; §4.1.3.2, pp. 83–84](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84) (PDF page 84).
+
+Average of stable operating periods; transitions and ramp-up excluded. Six listed constituents only; pilot crystallization was off-site, unlike commercial design. Not a complete ionic analysis.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O408
+
+**Lithium: 2044 mg/L.**
+
+Basis: **reported measurement; selected stable pilot periods**; scale: Great Salt Lake pilot; boundary: DLE eluate. Date/basis: 2025 pilot; optimal operating weeks 16–28.
+
+Source: [D113](#d113), [Table 11; §4.1.3.2, pp. 83–84](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84) (PDF page 84).
+
+Average of stable operating periods; transitions and ramp-up excluded. Six listed constituents only; pilot crystallization was off-site, unlike commercial design. Not a complete ionic analysis.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O409
+
+**Sodium: 85774 mg/L.**
+
+Basis: **reported measurement; selected stable pilot periods**; scale: Great Salt Lake pilot; boundary: Raw brine. Date/basis: 2025 pilot; optimal operating weeks 16–28.
+
+Source: [D113](#d113), [Table 11; §4.1.3.2, pp. 83–84](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84) (PDF page 84).
+
+Average of stable operating periods; transitions and ramp-up excluded. Six listed constituents only; pilot crystallization was off-site, unlike commercial design. Not a complete ionic analysis.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O410
+
+**Sodium: 603 mg/L.**
+
+Basis: **reported measurement; selected stable pilot periods**; scale: Great Salt Lake pilot; boundary: DLE eluate. Date/basis: 2025 pilot; optimal operating weeks 16–28.
+
+Source: [D113](#d113), [Table 11; §4.1.3.2, pp. 83–84](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84) (PDF page 84).
+
+Average of stable operating periods; transitions and ramp-up excluded. Six listed constituents only; pilot crystallization was off-site, unlike commercial design. Not a complete ionic analysis.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O411
+
+**Magnesium: 13290 mg/L.**
+
+Basis: **reported measurement; selected stable pilot periods**; scale: Great Salt Lake pilot; boundary: Raw brine. Date/basis: 2025 pilot; optimal operating weeks 16–28.
+
+Source: [D113](#d113), [Table 11; §4.1.3.2, pp. 83–84](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84) (PDF page 84).
+
+Average of stable operating periods; transitions and ramp-up excluded. Six listed constituents only; pilot crystallization was off-site, unlike commercial design. Not a complete ionic analysis.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O412
+
+**Magnesium: 293 mg/L.**
+
+Basis: **reported measurement; selected stable pilot periods**; scale: Great Salt Lake pilot; boundary: DLE eluate. Date/basis: 2025 pilot; optimal operating weeks 16–28.
+
+Source: [D113](#d113), [Table 11; §4.1.3.2, pp. 83–84](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84) (PDF page 84).
+
+Average of stable operating periods; transitions and ramp-up excluded. Six listed constituents only; pilot crystallization was off-site, unlike commercial design. Not a complete ionic analysis.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O413
+
+**Calcium: 300 mg/L.**
+
+Basis: **reported measurement; selected stable pilot periods**; scale: Great Salt Lake pilot; boundary: Raw brine. Date/basis: 2025 pilot; optimal operating weeks 16–28.
+
+Source: [D113](#d113), [Table 11; §4.1.3.2, pp. 83–84](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84) (PDF page 84).
+
+Average of stable operating periods; transitions and ramp-up excluded. Six listed constituents only; pilot crystallization was off-site, unlike commercial design. Not a complete ionic analysis.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O414
+
+**Calcium: 97 mg/L.**
+
+Basis: **reported measurement; selected stable pilot periods**; scale: Great Salt Lake pilot; boundary: DLE eluate. Date/basis: 2025 pilot; optimal operating weeks 16–28.
+
+Source: [D113](#d113), [Table 11; §4.1.3.2, pp. 83–84](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84) (PDF page 84).
+
+Average of stable operating periods; transitions and ramp-up excluded. Six listed constituents only; pilot crystallization was off-site, unlike commercial design. Not a complete ionic analysis.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O415
+
+**Potassium: 8362 mg/L.**
+
+Basis: **reported measurement; selected stable pilot periods**; scale: Great Salt Lake pilot; boundary: Raw brine. Date/basis: 2025 pilot; optimal operating weeks 16–28.
+
+Source: [D113](#d113), [Table 11; §4.1.3.2, pp. 83–84](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84) (PDF page 84).
+
+Average of stable operating periods; transitions and ramp-up excluded. Six listed constituents only; pilot crystallization was off-site, unlike commercial design. Not a complete ionic analysis.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O416
+
+**Potassium: 203 mg/L.**
+
+Basis: **reported measurement; selected stable pilot periods**; scale: Great Salt Lake pilot; boundary: DLE eluate. Date/basis: 2025 pilot; optimal operating weeks 16–28.
+
+Source: [D113](#d113), [Table 11; §4.1.3.2, pp. 83–84](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84) (PDF page 84).
+
+Average of stable operating periods; transitions and ramp-up excluded. Six listed constituents only; pilot crystallization was off-site, unlike commercial design. Not a complete ionic analysis.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O417
+
+**Boron: 50 mg/L.**
+
+Basis: **reported measurement; selected stable pilot periods**; scale: Great Salt Lake pilot; boundary: Raw brine. Date/basis: 2025 pilot; optimal operating weeks 16–28.
+
+Source: [D113](#d113), [Table 11; §4.1.3.2, pp. 83–84](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84) (PDF page 84).
+
+Average of stable operating periods; transitions and ramp-up excluded. Six listed constituents only; pilot crystallization was off-site, unlike commercial design. Not a complete ionic analysis.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O418
+
+**Boron: 0.9 mg/L.**
+
+Basis: **reported measurement; selected stable pilot periods**; scale: Great Salt Lake pilot; boundary: DLE eluate. Date/basis: 2025 pilot; optimal operating weeks 16–28.
+
+Source: [D113](#d113), [Table 11; §4.1.3.2, pp. 83–84](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84) (PDF page 84).
+
+Average of stable operating periods; transitions and ramp-up excluded. Six listed constituents only; pilot crystallization was off-site, unlike commercial design. Not a complete ionic analysis.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+### Recovery
+
+#### O419
+
+**Pilot DLE lithium recovery: 87 %.**
+
+Basis: **reported measurement; selected stable pilot periods**; scale: Great Salt Lake pilot; boundary: DLE stage. Date/basis: 2025 pilot; weeks 16–28.
+
+Source: [D113](#d113), [Table 11](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84) (PDF page 84).
+
+Not whole-process product recovery. Table 10 rounds FEL-3 target to 84%; commercial §4.1.4 uses 84.5%.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+### Commercial design
+
+#### O420
+
+**Nominal commercial lithium-carbonate production: 5000 mt/yr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: lithium carbonate product. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [§4.1.4](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=85) (PDF page 85).
+
+90% nominal plant availability; minimum 15% equipment design margin.
+
+Review: AI source-text check; **human review pending**.
+
+#### O421
+
+**Overall facility lithium recovery: 78.8 %.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: brine to lithium carbonate. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [§4.1.4](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=85) (PDF page 85).
+
+DLE IX recovery 84.5%, downstream balance-of-plant recovery 93.3%; distinct from reported pilot DLE recovery of 87%.
+
+Review: AI source-text check; **human review pending**.
+
+#### O422
+
+**Rounded raw-brine intake: approximately 11300 gpm.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: raw lake-brine intake. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [§4.1.4](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=85) (PDF page 85).
+
+Rounded narrative; exact stream tables in Appendix D.4 are redacted.
+
+Review: AI source-text check; **human review pending**.
+
+### Process diagrams
+
+#### O423
+
+**Simplified process flowsheet: Published.**
+
+Basis: **proposed process design**; scale: commercial Phase 1; boundary: intake, DLE, eluate purification, carbonate production and depleted-brine return. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Figure 2](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=39) (PDF page 39).
+
+Faithful source figure; not a full numbered-stream balance. Detailed D.1–D.4 pages inspected are redacted.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+### Commercial water balance
+
+#### O424
+
+**Nominal: In — Brine water content: 1769.8 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, nominal case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O425
+
+**Design: In — Brine water content: 2261.4 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, design case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O426
+
+**Nominal: In — Groundwater makeup: 33.79 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, nominal case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O427
+
+**Design: In — Groundwater makeup: 43.18 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, design case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O428
+
+**Nominal: In — Water in reagents: 1.10 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, nominal case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O429
+
+**Design: In — Water in reagents: 1.41 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, design case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O430
+
+**Nominal: In — Generated: depleted-brine water addition: 0.456 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, nominal case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O431
+
+**Design: In — Generated: depleted-brine water addition: 0.583 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, design case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O432
+
+**Nominal: In — Generated: eluate-system water addition: 0.060 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, nominal case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O433
+
+**Design: In — Generated: eluate-system water addition: 0.076 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, design case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O434
+
+**Nominal: In — Total: 1805.2 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, nominal case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O435
+
+**Design: In — Total: 2306.6 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, design case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O436
+
+**Nominal: Out — Brine solids: free moisture: -0.037 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, nominal case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O437
+
+**Design: Out — Brine solids: free moisture: -0.047 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, design case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O438
+
+**Nominal: Out — Eluate solids: free moisture: -0.697 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, nominal case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O439
+
+**Design: Out — Eluate solids: free moisture: -0.890 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, design case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O440
+
+**Nominal: Out — Depleted-brine water content: -1795.2 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, nominal case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O441
+
+**Design: Out — Depleted-brine water content: -2293.9 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, design case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O442
+
+**Nominal: Out — Evaporation: -0.968 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, nominal case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O443
+
+**Design: Out — Evaporation: -1.24 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, design case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O444
+
+**Nominal: Out — Potable/fire water: -0.270 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, nominal case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O445
+
+**Design: Out — Potable/fire water: -0.345 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, design case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O446
+
+**Nominal: Out — Laboratory operations: -0.038 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, nominal case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O447
+
+**Design: Out — Laboratory operations: -0.048 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, design case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O448
+
+**Nominal: Out — Seal water: -6.48 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, nominal case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O449
+
+**Design: Out — Seal water: -8.29 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, design case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O450
+
+**Nominal: Out — Cooling tower blowdown and makeup: -0.198 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, nominal case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O451
+
+**Design: Out — Cooling tower blowdown and makeup: -0.253 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, design case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O452
+
+**Nominal: Out — Boiler blowdown and makeup: -0.725 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, nominal case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O453
+
+**Design: Out — Boiler blowdown and makeup: -0.927 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, design case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O454
+
+**Nominal: Out — Liquid process waste: -0.304 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, nominal case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O455
+
+**Design: Out — Liquid process waste: -0.389 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, design case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O456
+
+**Nominal: Out — Consumed: gypsum formation: -0.134 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, nominal case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O457
+
+**Design: Out — Consumed: gypsum formation: -0.171 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, design case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O458
+
+**Nominal: Out — Consumed: depleted-brine carbonate: -0.087 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, nominal case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O459
+
+**Design: Out — Consumed: depleted-brine carbonate: -0.111 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, design case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O460
+
+**Nominal: Out — Total: -1805.0 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, nominal case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O461
+
+**Design: Out — Total: -2306.3 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, design case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O462
+
+**Nominal: Net — Printed net: 0.000 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, nominal case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O463
+
+**Design: Net — Printed net: 0.000 mt/hr.**
+
+Basis: **design estimate**; scale: commercial Phase 1; boundary: facility water, design case. Date/basis: 2026-02 application.
+
+Source: [D113](#d113), [Table 12, pp. 85–89](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89) (PDF page 89).
+
+Table signs and printed totals retained. Printed rounded totals do not reproduce printed zero net; unredacted detailed balance unavailable. Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin. These are water masses, not total brine solution mass.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+### Groundwater laboratory chemistry
+
+#### O464
+
+**Aluminum (dissolved): &lt;0.14 mg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 2 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811) (PDF page 811).
+
+EPA 200.7; dilution 2; MDL 0.14 mg/L, PQL 0.5 mg/L; qualifier U. U: not detected above stated limit; B: estimated between MDL and PQL. 0.45 µm lab filtration. Not lake brine, pilot delivered water, or demonstrated future production-well quality.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O465
+
+**Arsenic (dissolved): 0.00133 mg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 2 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811) (PDF page 811).
+
+EPA 200.8; dilution 1; MDL 0.0002 mg/L, PQL 0.001 mg/L; qualifier —. U: not detected above stated limit; B: estimated between MDL and PQL. 0.45 µm lab filtration. Not lake brine, pilot delivered water, or demonstrated future production-well quality.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O466
+
+**Barium (dissolved): 0.0573 mg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 2 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811) (PDF page 811).
+
+EPA 200.7; dilution 1; MDL 0.009 mg/L, PQL 0.035 mg/L; qualifier —. U: not detected above stated limit; B: estimated between MDL and PQL. 0.45 µm lab filtration. Not lake brine, pilot delivered water, or demonstrated future production-well quality.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O467
+
+**Boron (dissolved): 0.295 mg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 2 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811) (PDF page 811).
+
+EPA 200.7; dilution 1; MDL 0.03 mg/L, PQL 0.1 mg/L; qualifier —. U: not detected above stated limit; B: estimated between MDL and PQL. 0.45 µm lab filtration. Not lake brine, pilot delivered water, or demonstrated future production-well quality.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O468
+
+**Cadmium (dissolved): &lt;0.00005 mg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 2 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811) (PDF page 811).
+
+EPA 200.8; dilution 1; MDL 0.00005 mg/L, PQL 0.00025 mg/L; qualifier U. U: not detected above stated limit; B: estimated between MDL and PQL. 0.45 µm lab filtration. Not lake brine, pilot delivered water, or demonstrated future production-well quality.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O469
+
+**Calcium (dissolved): 82.9 mg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 2 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811) (PDF page 811).
+
+EPA 200.7; dilution 1; MDL 0.1 mg/L, PQL 0.5 mg/L; qualifier —. U: not detected above stated limit; B: estimated between MDL and PQL. 0.45 µm lab filtration. Not lake brine, pilot delivered water, or demonstrated future production-well quality.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O470
+
+**Chromium (dissolved): 0.00108 mg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 2 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811) (PDF page 811).
+
+EPA 200.8; dilution 1; MDL 0.0005 mg/L, PQL 0.002 mg/L; qualifier B. U: not detected above stated limit; B: estimated between MDL and PQL. 0.45 µm lab filtration. Not lake brine, pilot delivered water, or demonstrated future production-well quality.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O471
+
+**Copper (dissolved): 0.00812 mg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 2 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811) (PDF page 811).
+
+EPA 200.8; dilution 2; MDL 0.0016 mg/L, PQL 0.004 mg/L; qualifier —. U: not detected above stated limit; B: estimated between MDL and PQL. 0.45 µm lab filtration. Not lake brine, pilot delivered water, or demonstrated future production-well quality.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O472
+
+**Iron (dissolved): &lt;0.06 mg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 2 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811) (PDF page 811).
+
+EPA 200.7; dilution 1; MDL 0.06 mg/L, PQL 0.15 mg/L; qualifier U. U: not detected above stated limit; B: estimated between MDL and PQL. 0.45 µm lab filtration. Not lake brine, pilot delivered water, or demonstrated future production-well quality.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O473
+
+**Lead (dissolved): &lt;0.0001 mg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 2 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811) (PDF page 811).
+
+EPA 200.8; dilution 1; MDL 0.0001 mg/L, PQL 0.0005 mg/L; qualifier U. U: not detected above stated limit; B: estimated between MDL and PQL. 0.45 µm lab filtration. Not lake brine, pilot delivered water, or demonstrated future production-well quality.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O474
+
+**Magnesium (dissolved): 35.2 mg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 2 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811) (PDF page 811).
+
+EPA 200.7; dilution 1; MDL 0.2 mg/L, PQL 1 mg/L; qualifier —. U: not detected above stated limit; B: estimated between MDL and PQL. 0.45 µm lab filtration. Not lake brine, pilot delivered water, or demonstrated future production-well quality.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O475
+
+**Manganese (dissolved): 0.065 mg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 2 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811) (PDF page 811).
+
+EPA 200.7; dilution 1; MDL 0.01 mg/L, PQL 0.05 mg/L; qualifier —. U: not detected above stated limit; B: estimated between MDL and PQL. 0.45 µm lab filtration. Not lake brine, pilot delivered water, or demonstrated future production-well quality.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O476
+
+**Mercury (dissolved): &lt;0.0002 mg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 2 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811) (PDF page 811).
+
+EPA 245.1; dilution 1; MDL 0.0002 mg/L, PQL 0.001 mg/L; qualifier U. U: not detected above stated limit; B: estimated between MDL and PQL. 0.45 µm lab filtration. Not lake brine, pilot delivered water, or demonstrated future production-well quality.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O477
+
+**Molybdenum (dissolved): 0.00240 mg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 2 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811) (PDF page 811).
+
+EPA 200.8; dilution 1; MDL 0.0002 mg/L, PQL 0.0005 mg/L; qualifier —. U: not detected above stated limit; B: estimated between MDL and PQL. 0.45 µm lab filtration. Not lake brine, pilot delivered water, or demonstrated future production-well quality.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O478
+
+**Nickel (dissolved): &lt;0.008 mg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 2 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811) (PDF page 811).
+
+EPA 200.7; dilution 1; MDL 0.008 mg/L, PQL 0.04 mg/L; qualifier U. U: not detected above stated limit; B: estimated between MDL and PQL. 0.45 µm lab filtration. Not lake brine, pilot delivered water, or demonstrated future production-well quality.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O479
+
+**Potassium (dissolved): 27.6 mg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 2 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811) (PDF page 811).
+
+EPA 200.7; dilution 1; MDL 0.5 mg/L, PQL 1 mg/L; qualifier —. U: not detected above stated limit; B: estimated between MDL and PQL. 0.45 µm lab filtration. Not lake brine, pilot delivered water, or demonstrated future production-well quality.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O480
+
+**Selenium (dissolved): 0.00244 mg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 2 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811) (PDF page 811).
+
+EPA 200.8; dilution 1; MDL 0.0001 mg/L, PQL 0.00025 mg/L; qualifier —. U: not detected above stated limit; B: estimated between MDL and PQL. 0.45 µm lab filtration. Not lake brine, pilot delivered water, or demonstrated future production-well quality.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O481
+
+**Silver (dissolved): &lt;0.0001 mg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 2 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811) (PDF page 811).
+
+EPA 200.8; dilution 1; MDL 0.0001 mg/L, PQL 0.0005 mg/L; qualifier U. U: not detected above stated limit; B: estimated between MDL and PQL. 0.45 µm lab filtration. Not lake brine, pilot delivered water, or demonstrated future production-well quality.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O482
+
+**Sodium (dissolved): 884 mg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 2 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811) (PDF page 811).
+
+EPA 200.7; dilution 1; MDL 0.2 mg/L, PQL 1 mg/L; qualifier —. U: not detected above stated limit; B: estimated between MDL and PQL. 0.45 µm lab filtration. Not lake brine, pilot delivered water, or demonstrated future production-well quality.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O483
+
+**Uranium (dissolved): 0.00274 mg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 2 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811) (PDF page 811).
+
+EPA 200.8; dilution 1; MDL 0.0001 mg/L, PQL 0.0005 mg/L; qualifier —. U: not detected above stated limit; B: estimated between MDL and PQL. 0.45 µm lab filtration. Not lake brine, pilot delivered water, or demonstrated future production-well quality.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O484
+
+**Zinc (dissolved): 0.119 mg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 2 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811) (PDF page 811).
+
+EPA 200.7; dilution 1; MDL 0.02 mg/L, PQL 0.05 mg/L; qualifier —. U: not detected above stated limit; B: estimated between MDL and PQL. 0.45 µm lab filtration. Not lake brine, pilot delivered water, or demonstrated future production-well quality.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O485
+
+**Bicarbonate as CaCO3: 174 mg/L.**
+
+Basis: **reported laboratory result or calculation**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 3 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812) (PDF page 812).
+
+SM 2320 B-2011; MDL 2, PQL 20 mg/L; qualifier —. Qualifiers on pp. 813/820: U not detected; B estimated between MDL and PQL; RA replicate difference not used below 10×MDL; ZU sample partly filtered/analyzed before filter workgroup creation; M3 spike recovery unusable because of sample/spike disproportion, control sample acceptable.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O486
+
+**Carbonate as CaCO3: 7.1 mg/L.**
+
+Basis: **reported laboratory result or calculation**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 3 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812) (PDF page 812).
+
+SM 2320 B-2011; MDL 2, PQL 20 mg/L; qualifier B. Qualifiers on pp. 813/820: U not detected; B estimated between MDL and PQL; RA replicate difference not used below 10×MDL; ZU sample partly filtered/analyzed before filter workgroup creation; M3 spike recovery unusable because of sample/spike disproportion, control sample acceptable.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O487
+
+**Hydroxide as CaCO3: &lt;2 mg/L.**
+
+Basis: **reported laboratory result or calculation**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 3 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812) (PDF page 812).
+
+SM 2320 B-2011; MDL 2, PQL 20 mg/L; qualifier U. Qualifiers on pp. 813/820: U not detected; B estimated between MDL and PQL; RA replicate difference not used below 10×MDL; ZU sample partly filtered/analyzed before filter workgroup creation; M3 spike recovery unusable because of sample/spike disproportion, control sample acceptable.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O488
+
+**Total alkalinity as CaCO3: 181 mg/L.**
+
+Basis: **reported laboratory result or calculation**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 3 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812) (PDF page 812).
+
+SM 2320 B-2011; MDL 2, PQL 20 mg/L; qualifier —. Qualifiers on pp. 813/820: U not detected; B estimated between MDL and PQL; RA replicate difference not used below 10×MDL; ZU sample partly filtered/analyzed before filter workgroup creation; M3 spike recovery unusable because of sample/spike disproportion, control sample acceptable.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O489
+
+**Chloride: 1700 mg/L.**
+
+Basis: **reported laboratory result or calculation**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 3 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812) (PDF page 812).
+
+SM 4500-Cl E-2011; MDL 100, PQL 200 mg/L; qualifier —. Qualifiers on pp. 813/820: U not detected; B estimated between MDL and PQL; RA replicate difference not used below 10×MDL; ZU sample partly filtered/analyzed before filter workgroup creation; M3 spike recovery unusable because of sample/spike disproportion, control sample acceptable.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O490
+
+**Fluoride: 0.70 mg/L.**
+
+Basis: **reported laboratory result or calculation**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 3 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812) (PDF page 812).
+
+SM 4500-F C-2011; MDL 0.15, PQL 0.35 mg/L; qualifier —. Qualifiers on pp. 813/820: U not detected; B estimated between MDL and PQL; RA replicate difference not used below 10×MDL; ZU sample partly filtered/analyzed before filter workgroup creation; M3 spike recovery unusable because of sample/spike disproportion, control sample acceptable.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O491
+
+**Dissolved hardness as CaCO3: 352 mg/L.**
+
+Basis: **reported laboratory result or calculation**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 3 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812) (PDF page 812).
+
+Calculated, SM 2340 B-2011; MDL 0.2, PQL 5 mg/L; qualifier —. Qualifiers on pp. 813/820: U not detected; B estimated between MDL and PQL; RA replicate difference not used below 10×MDL; ZU sample partly filtered/analyzed before filter workgroup creation; M3 spike recovery unusable because of sample/spike disproportion, control sample acceptable.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O492
+
+**Nitrate as N: 1.31 mg/L.**
+
+Basis: **reported laboratory result or calculation**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 3 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812) (PDF page 812).
+
+Calculated NO3NO2 minus NO2; MDL 0.02, PQL 0.1 mg/L; qualifier —. Qualifiers on pp. 813/820: U not detected; B estimated between MDL and PQL; RA replicate difference not used below 10×MDL; ZU sample partly filtered/analyzed before filter workgroup creation; M3 spike recovery unusable because of sample/spike disproportion, control sample acceptable.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O493
+
+**Nitrate/nitrite as N: 1.31 mg/L.**
+
+Basis: **reported laboratory result or calculation**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 3 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812) (PDF page 812).
+
+EPA 353.2; MDL 0.02, PQL 0.1 mg/L; qualifier RA; ZU. Qualifiers on pp. 813/820: U not detected; B estimated between MDL and PQL; RA replicate difference not used below 10×MDL; ZU sample partly filtered/analyzed before filter workgroup creation; M3 spike recovery unusable because of sample/spike disproportion, control sample acceptable.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O494
+
+**Nitrite as N: &lt;0.01 mg/L.**
+
+Basis: **reported laboratory result or calculation**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 3 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812) (PDF page 812).
+
+EPA 353.2; MDL 0.01, PQL 0.05 mg/L; qualifier U; RA; ZU. Qualifiers on pp. 813/820: U not detected; B estimated between MDL and PQL; RA replicate difference not used below 10×MDL; ZU sample partly filtered/analyzed before filter workgroup creation; M3 spike recovery unusable because of sample/spike disproportion, control sample acceptable.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O495
+
+**Ammonia nitrogen: &lt;0.1 mg/L.**
+
+Basis: **reported laboratory result or calculation**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 3 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812) (PDF page 812).
+
+EPA 350.1; MDL 0.1, PQL 0.2 mg/L; qualifier U; RA. Qualifiers on pp. 813/820: U not detected; B estimated between MDL and PQL; RA replicate difference not used below 10×MDL; ZU sample partly filtered/analyzed before filter workgroup creation; M3 spike recovery unusable because of sample/spike disproportion, control sample acceptable.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O496
+
+**Filterable residue (TDS), 180°C: 2890 mg/L.**
+
+Basis: **reported laboratory result or calculation**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 3 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812) (PDF page 812).
+
+SM 2540 C-2011; MDL 20, PQL 40 mg/L; qualifier —. Qualifiers on pp. 813/820: U not detected; B estimated between MDL and PQL; RA replicate difference not used below 10×MDL; ZU sample partly filtered/analyzed before filter workgroup creation; M3 spike recovery unusable because of sample/spike disproportion, control sample acceptable.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O497
+
+**Sulfate: 105 mg/L.**
+
+Basis: **reported laboratory result or calculation**; scale: single groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential supply aquifer test. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 3 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812) (PDF page 812).
+
+ASTM D516-07/-11/-16; MDL 5, PQL 25 mg/L; qualifier M3. Qualifiers on pp. 813/820: U not detected; B estimated between MDL and PQL; RA replicate difference not used below 10×MDL; ZU sample partly filtered/analyzed before filter workgroup creation; M3 spike recovery unusable because of sample/spike disproportion, control sample acceptable.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O498
+
+**Cation–anion balance: -6.9 %.**
+
+Basis: **reported laboratory result or calculation**; scale: single groundwater sample; boundary: well 13-4110. Date/basis: 2025-04-11 sample; lab analyses April 2025.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 3 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812) (PDF page 812).
+
+Calculated, source sign retained.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O499
+
+**Sum of anions: 54 meq/L.**
+
+Basis: **reported laboratory result or calculation**; scale: single groundwater sample; boundary: well 13-4110. Date/basis: 2025-04-11 sample; lab analyses April 2025.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 3 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812) (PDF page 812).
+
+Calculated.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O500
+
+**Sum of cations: 47 meq/L.**
+
+Basis: **reported laboratory result or calculation**; scale: single groundwater sample; boundary: well 13-4110. Date/basis: 2025-04-11 sample; lab analyses April 2025.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 3 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812) (PDF page 812).
+
+Calculated.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O501
+
+**Laboratory pH: 8.2 pH units.**
+
+Basis: **reported laboratory result or calculation**; scale: single groundwater sample; boundary: well 13-4110. Date/basis: 2025-04-11 sample; lab analyses April 2025.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 3 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812) (PDF page 812).
+
+H: method hold time exceeded; pH is an immediate field test. This is not field pH.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O502
+
+**Temperature at laboratory pH measurement: 21.6 °C.**
+
+Basis: **reported laboratory result or calculation**; scale: single groundwater sample; boundary: well 13-4110. Date/basis: 2025-04-11 sample; lab analyses April 2025.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 3 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812) (PDF page 812).
+
+Not reservoir or field temperature.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O503
+
+**Sodium adsorption ratio: 21 dimensionless.**
+
+Basis: **reported laboratory result or calculation**; scale: single groundwater sample; boundary: well 13-4110. Date/basis: 2025-04-11 sample; lab analyses April 2025.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 3 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812) (PDF page 812).
+
+USGS I1738-78.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O504
+
+**Benzene: &lt;1 µg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: well 13-4110. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 12 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=821) (PDF page 821).
+
+EPA 8021B, extraction 5030C, analysis April 22. MDL 1, PQL 5 µg/L. U not detected. Extended qualifier Q9 on p. 825: insufficient sample for method QC requirements. Separate trip blank L94016-02 is not another groundwater sample.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O505
+
+**Ethylbenzene: &lt;1 µg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: well 13-4110. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 12 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=821) (PDF page 821).
+
+EPA 8021B, extraction 5030C, analysis April 22. MDL 1, PQL 5 µg/L. U not detected. Extended qualifier Q9 on p. 825: insufficient sample for method QC requirements. Separate trip blank L94016-02 is not another groundwater sample.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O506
+
+**m,p-Xylene: &lt;2 µg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: well 13-4110. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 12 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=821) (PDF page 821).
+
+EPA 8021B, extraction 5030C, analysis April 22. MDL 2, PQL 10 µg/L. U not detected. Extended qualifier Q9 on p. 825: insufficient sample for method QC requirements. Separate trip blank L94016-02 is not another groundwater sample.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O507
+
+**o-Xylene: &lt;1 µg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: well 13-4110. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 12 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=821) (PDF page 821).
+
+EPA 8021B, extraction 5030C, analysis April 22. MDL 1, PQL 5 µg/L. U not detected. Extended qualifier Q9 on p. 825: insufficient sample for method QC requirements. Separate trip blank L94016-02 is not another groundwater sample.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O508
+
+**Toluene: &lt;1 µg/L.**
+
+Basis: **reported laboratory result**; scale: single groundwater sample; boundary: well 13-4110. Date/basis: 2025-04-11 08:45.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 12 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=821) (PDF page 821).
+
+EPA 8021B, extraction 5030C, analysis April 22. MDL 1, PQL 5 µg/L. U not detected. Extended qualifier Q9 on p. 825: insufficient sample for method QC requirements. Separate trip blank L94016-02 is not another groundwater sample.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O509
+
+**Gross alpha: 18 pCi/L.**
+
+Basis: **reported radiochemistry result below LLD**; scale: single groundwater sample; boundary: well 13-4110; total gross alpha/beta. Date/basis: 2025-04-11 sample; 2025-04-21 measurement.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 17 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=826) (PDF page 826).
+
+EPA 900.0; error ±20 pCi/L, LLD 51 pCi/L. Do not treat the printed estimate as a quantified detection. Gross alpha carries RG: replicate error ratio &lt;2, precision judged in control; see p. 829.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O510
+
+**Gross beta: 21 pCi/L.**
+
+Basis: **reported radiochemistry result below LLD**; scale: single groundwater sample; boundary: well 13-4110; total gross alpha/beta. Date/basis: 2025-04-11 sample; 2025-04-21 measurement.
+
+Source: [D113](#d113), [Appendix E.2, ACZ L94016-01, lab p. 17 of 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=826) (PDF page 826).
+
+EPA 900.0; error ±15 pCi/L, LLD 40 pCi/L. Do not treat the printed estimate as a quantified detection. Gross alpha carries RG: replicate error ratio &lt;2, precision judged in control; see p. 829.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+### Disclosure limits
+
+#### O511
+
+**Groundwater analysis scope: Full listed environmental-sample results transcribed; lithium not listed.**
+
+Basis: **source coverage finding**; scale: groundwater investigation; boundary: well 13-4110, about five miles from proposed new supply well. Date/basis: 2025-05-05 memorandum.
+
+Source: [D113](#d113), [Appendix E.2; pp. 777, 811–829](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=775) (PDF page 775).
+
+Source includes lab methods and QC. This aquifer test does not establish final commercial supply composition or an exhaustive analysis of every dissolved species.
+
+Review: AI source-text check; **human review pending**.
+
+## Franklin evidence {#franklin-evidence}
+
+### Brine chemistry
+
+#### O512
+
+**Lithium: 668 mg/L.**
+
+Basis: **reported measurement; exploration sample average**; scale: 2023 exploration program; boundary: Franklin feed brine column. Date/basis: 2023 samples; report effective 2025-09-24.
+
+Source: [D117](#d117), [Printed p. 62, Table 13.1](https://www.standardlithium.com/_resources/reports/Franklin-Project-NI-43-101-MRE.pdf?v=110803#page=69) (PDF page 69).
+
+WETLAB-tested average. Other table columns repeat LANXESS demonstration and SWA pilot data, not new independent trials.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O513
+
+**Sodium: 94560 mg/L.**
+
+Basis: **reported measurement; exploration sample average**; scale: 2023 exploration program; boundary: Franklin feed brine column. Date/basis: 2023 samples; report effective 2025-09-24.
+
+Source: [D117](#d117), [Printed p. 62, Table 13.1](https://www.standardlithium.com/_resources/reports/Franklin-Project-NI-43-101-MRE.pdf?v=110803#page=69) (PDF page 69).
+
+WETLAB-tested average. Other table columns repeat LANXESS demonstration and SWA pilot data, not new independent trials.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O514
+
+**Calcium: 32760 mg/L.**
+
+Basis: **reported measurement; exploration sample average**; scale: 2023 exploration program; boundary: Franklin feed brine column. Date/basis: 2023 samples; report effective 2025-09-24.
+
+Source: [D117](#d117), [Printed p. 62, Table 13.1](https://www.standardlithium.com/_resources/reports/Franklin-Project-NI-43-101-MRE.pdf?v=110803#page=69) (PDF page 69).
+
+WETLAB-tested average. Other table columns repeat LANXESS demonstration and SWA pilot data, not new independent trials.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O515
+
+**Magnesium: 1735 mg/L.**
+
+Basis: **reported measurement; exploration sample average**; scale: 2023 exploration program; boundary: Franklin feed brine column. Date/basis: 2023 samples; report effective 2025-09-24.
+
+Source: [D117](#d117), [Printed p. 62, Table 13.1](https://www.standardlithium.com/_resources/reports/Franklin-Project-NI-43-101-MRE.pdf?v=110803#page=69) (PDF page 69).
+
+WETLAB-tested average. Other table columns repeat LANXESS demonstration and SWA pilot data, not new independent trials.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O516
+
+**Potassium: 13286 mg/L.**
+
+Basis: **reported measurement; exploration sample average**; scale: 2023 exploration program; boundary: Franklin feed brine column. Date/basis: 2023 samples; report effective 2025-09-24.
+
+Source: [D117](#d117), [Printed p. 62, Table 13.1](https://www.standardlithium.com/_resources/reports/Franklin-Project-NI-43-101-MRE.pdf?v=110803#page=69) (PDF page 69).
+
+WETLAB-tested average. Other table columns repeat LANXESS demonstration and SWA pilot data, not new independent trials.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O517
+
+**Strontium: 2522 mg/L.**
+
+Basis: **reported measurement; exploration sample average**; scale: 2023 exploration program; boundary: Franklin feed brine column. Date/basis: 2023 samples; report effective 2025-09-24.
+
+Source: [D117](#d117), [Printed p. 62, Table 13.1](https://www.standardlithium.com/_resources/reports/Franklin-Project-NI-43-101-MRE.pdf?v=110803#page=69) (PDF page 69).
+
+WETLAB-tested average. Other table columns repeat LANXESS demonstration and SWA pilot data, not new independent trials.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O518
+
+**Boron: 486 mg/L.**
+
+Basis: **reported measurement; exploration sample average**; scale: 2023 exploration program; boundary: Franklin feed brine column. Date/basis: 2023 samples; report effective 2025-09-24.
+
+Source: [D117](#d117), [Printed p. 62, Table 13.1](https://www.standardlithium.com/_resources/reports/Franklin-Project-NI-43-101-MRE.pdf?v=110803#page=69) (PDF page 69).
+
+WETLAB-tested average. Other table columns repeat LANXESS demonstration and SWA pilot data, not new independent trials.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O519
+
+**Silicon: 29 mg/L.**
+
+Basis: **reported measurement; exploration sample average**; scale: 2023 exploration program; boundary: Franklin feed brine column. Date/basis: 2023 samples; report effective 2025-09-24.
+
+Source: [D117](#d117), [Printed p. 62, Table 13.1](https://www.standardlithium.com/_resources/reports/Franklin-Project-NI-43-101-MRE.pdf?v=110803#page=69) (PDF page 69).
+
+WETLAB-tested average. Other table columns repeat LANXESS demonstration and SWA pilot data, not new independent trials.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O520
+
+**Chlorides: 210000 mg/L.**
+
+Basis: **reported measurement; exploration sample average**; scale: 2023 exploration program; boundary: Franklin feed brine column. Date/basis: 2023 samples; report effective 2025-09-24.
+
+Source: [D117](#d117), [Printed p. 62, Table 13.1](https://www.standardlithium.com/_resources/reports/Franklin-Project-NI-43-101-MRE.pdf?v=110803#page=69) (PDF page 69).
+
+WETLAB-tested average. Other table columns repeat LANXESS demonstration and SWA pilot data, not new independent trials.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O521
+
+**Bromides: 4343 mg/L.**
+
+Basis: **reported measurement; exploration sample average**; scale: 2023 exploration program; boundary: Franklin feed brine column. Date/basis: 2023 samples; report effective 2025-09-24.
+
+Source: [D117](#d117), [Printed p. 62, Table 13.1](https://www.standardlithium.com/_resources/reports/Franklin-Project-NI-43-101-MRE.pdf?v=110803#page=69) (PDF page 69).
+
+WETLAB-tested average. Other table columns repeat LANXESS demonstration and SWA pilot data, not new independent trials.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+### Process diagrams
+
+#### O522
+
+**Expected lithium process flowsheet: Published.**
+
+Basis: **expected process design**; scale: resource-stage project; boundary: lithium circuit. Date/basis: 2025-09-24.
+
+Source: [D117](#d117), [Printed p. 62, Figure 13.1 and §13.3](https://www.standardlithium.com/_resources/reports/Franklin-Project-NI-43-101-MRE.pdf?v=110803#page=69) (PDF page 69).
+
+SWA-derived process concept. §13.4 on following page recommends Franklin-specific DLE and downstream testing; not operating validation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+### 2026 PEA
+
+#### O523
+
+**Average lithium concentration over plant operating life: 515 mg/L.**
+
+Basis: **preliminary model estimate**; scale: 20-year model; boundary: lithium-only case; 100% project basis. Date/basis: 2026-09-08.
+
+Source: [D118](#d118), [Table 1, PEA Highlights: Lithium](https://www.sec.gov/Archives/edgar/data/1537137/000117184326005911/exh_991.htm).
+
+Preliminary assessment includes inferred resources; no certainty of realization. Original download unavailable. Concentration is not the older 2023 sample average.
+
+Review: AI web-text check; original download unavailable; **human review pending**.
+
+#### O524
+
+**Year-one lithium concentration: 562 mg/L.**
+
+Basis: **preliminary model estimate**; scale: 20-year model; boundary: lithium-only case; 100% project basis. Date/basis: 2026-09-08.
+
+Source: [D118](#d118), [Table 1, PEA Highlights: Lithium](https://www.sec.gov/Archives/edgar/data/1537137/000117184326005911/exh_991.htm).
+
+Preliminary assessment includes inferred resources; no certainty of realization. Original download unavailable. Concentration is not the older 2023 sample average.
+
+Review: AI web-text check; original download unavailable; **human review pending**.
+
+#### O525
+
+**Average brine flow over plant operating life: 455000 bbl/d.**
+
+Basis: **preliminary model estimate**; scale: 20-year model; boundary: lithium-only case; 100% project basis. Date/basis: 2026-09-08.
+
+Source: [D118](#d118), [Table 1, PEA Highlights: Lithium](https://www.sec.gov/Archives/edgar/data/1537137/000117184326005911/exh_991.htm).
+
+Preliminary assessment includes inferred resources; no certainty of realization. Original download unavailable. Concentration is not the older 2023 sample average.
+
+Review: AI web-text check; original download unavailable; **human review pending**.
+
+#### O526
+
+**Lithium-carbonate annual capacity: 70000 tpa.**
+
+Basis: **preliminary model estimate**; scale: 20-year model; boundary: lithium-only case; 100% project basis. Date/basis: 2026-09-08.
+
+Source: [D118](#d118), [Table 1, PEA Highlights: Lithium](https://www.sec.gov/Archives/edgar/data/1537137/000117184326005911/exh_991.htm).
+
+Preliminary assessment includes inferred resources; no certainty of realization. Original download unavailable. Concentration is not the older 2023 sample average.
+
+Review: AI web-text check; original download unavailable; **human review pending**.
+
+#### O527
+
+**Average lithium-carbonate annual production: 64600 tpa.**
+
+Basis: **preliminary model estimate**; scale: 20-year model; boundary: lithium-only case; 100% project basis. Date/basis: 2026-09-08.
+
+Source: [D118](#d118), [Table 1, PEA Highlights: Lithium](https://www.sec.gov/Archives/edgar/data/1537137/000117184326005911/exh_991.htm).
+
+Preliminary assessment includes inferred resources; no certainty of realization. Original download unavailable. Concentration is not the older 2023 sample average.
+
+Review: AI web-text check; original download unavailable; **human review pending**.
+
+## Wellspring evidence {#wellspring-evidence}
+
+### Development and disclosure
+
+#### O528
+
+**Produced-water carbonate validation proposal: Wellspring Hydro / LibertyStream.**
+
+Basis: **applicant proposal**; scale: field trial and proposed scale-up; boundary: North Dakota produced water. Date/basis: 2025-08-31.
+
+Source: [D115](#d115), [Cover letter dated August 31, 2025](https://www.ndic.nd.gov/sites/www/files/documents/Renewable-Energy-Program/Grant-Rounds--Final-Reports/Proposals/Grant-Rounds-59-50/R-56-A-Unlocking-Lithium-Carbonate-in-Produced-Wat.pdf#page=1) (PDF page 1).
+
+Triple 8 LLC dba Wellspring Hydro; ten or more disposal facilities mentioned on p. 9, details available on request. Not one fully identified commercial plant.
+
+Review: AI source-text check; **human review pending**.
+
+### Process diagrams
+
+#### O529
+
+**Process drawing: Published.**
+
+Basis: **applicant illustration and performance claims**; scale: field trial/proposed scale-up; boundary: pretreatment, DLE, carbonate conversion and disposal. Date/basis: 2025-08-31.
+
+Source: [D115](#d115), [High Level Process Flow](https://www.ndic.nd.gov/sites/www/files/documents/Renewable-Energy-Program/Grant-Rounds--Final-Reports/Proposals/Grant-Rounds-59-50/R-56-A-Unlocking-Lithium-Carbonate-in-Produced-Wat.pdf#page=21) (PDF page 21).
+
+Diagram mixes ~1,000+ gal/day feed and ~10,000+ bbl/day disposal. Off-site trial refining is labeled; up-to-99% extraction claim is not a validated complete material balance.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+### Targets
+
+#### O530
+
+**Lithium-carbonate sample purity objective: 99.5 %.**
+
+Basis: **company target**; scale: proposed product validation; boundary: lithium carbonate. Date/basis: 2025-08-31.
+
+Source: [D115](#d115), [Cover letter, project objective](https://www.ndic.nd.gov/sites/www/files/documents/Renewable-Energy-Program/Grant-Rounds--Final-Reports/Proposals/Grant-Rounds-59-50/R-56-A-Unlocking-Lithium-Carbonate-in-Produced-Wat.pdf#page=1) (PDF page 1).
+
+Target for technical validation, not achieved assay; binding offtake not established.
+
+Review: AI source-text check; **human review pending**.
+
+### Funding
+
+#### O531
+
+**Grant award listed: 500000 USD.**
+
+Basis: **agency grant-index entry**; scale: grant program; boundary: R-56-78 Wellspring. Date/basis: 2025 grant round.
+
+Source: [D120](#d120), [Grant rounds 50–59, R-56-78](https://www.ndic.nd.gov/research-grant-programs/renewable-energy-program/renewable-energy-program-grant-rounds/renewable).
+
+Award listing, not proof of payment or technical completion. R-50-67 earlier Prairie Lithium work remains separate.
+
+Review: AI source-text check; **human review pending**.
+
+## Paradox evidence {#paradox-evidence}
+
+### Permit chemistry
+
+#### O532
+
+**Lithium: 170–210 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Paradox DLE/reinjection; boundary: ambiguous production/spent-brine label. Date/basis: 2024-05 draft; sample date not reported.
+
+Source: [D114](#d114), [Printed p. 43, Table D-1; operating plan p. 41](https://www.utah.gov/pmn/files/1126711.pdf#page=48) (PDF page 48).
+
+Table title says production brine; operating-plan text says spent brine after Li/Br depletion and rinse-water dilution. All ranges match Green River D079 Table D-1; not independent measured assays.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O533
+
+**Bromine: 3500–4000 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Paradox DLE/reinjection; boundary: ambiguous production/spent-brine label. Date/basis: 2024-05 draft; sample date not reported.
+
+Source: [D114](#d114), [Printed p. 43, Table D-1; operating plan p. 41](https://www.utah.gov/pmn/files/1126711.pdf#page=48) (PDF page 48).
+
+Table title says production brine; operating-plan text says spent brine after Li/Br depletion and rinse-water dilution. All ranges match Green River D079 Table D-1; not independent measured assays.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O534
+
+**Boron: 1400–1700 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Paradox DLE/reinjection; boundary: ambiguous production/spent-brine label. Date/basis: 2024-05 draft; sample date not reported.
+
+Source: [D114](#d114), [Printed p. 43, Table D-1; operating plan p. 41](https://www.utah.gov/pmn/files/1126711.pdf#page=48) (PDF page 48).
+
+Table title says production brine; operating-plan text says spent brine after Li/Br depletion and rinse-water dilution. All ranges match Green River D079 Table D-1; not independent measured assays.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O535
+
+**Sodium: 18000–20000 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Paradox DLE/reinjection; boundary: ambiguous production/spent-brine label. Date/basis: 2024-05 draft; sample date not reported.
+
+Source: [D114](#d114), [Printed p. 43, Table D-1; operating plan p. 41](https://www.utah.gov/pmn/files/1126711.pdf#page=48) (PDF page 48).
+
+Table title says production brine; operating-plan text says spent brine after Li/Br depletion and rinse-water dilution. All ranges match Green River D079 Table D-1; not independent measured assays.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O536
+
+**Potassium: 25000–29000 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Paradox DLE/reinjection; boundary: ambiguous production/spent-brine label. Date/basis: 2024-05 draft; sample date not reported.
+
+Source: [D114](#d114), [Printed p. 43, Table D-1; operating plan p. 41](https://www.utah.gov/pmn/files/1126711.pdf#page=48) (PDF page 48).
+
+Table title says production brine; operating-plan text says spent brine after Li/Br depletion and rinse-water dilution. All ranges match Green River D079 Table D-1; not independent measured assays.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O537
+
+**Calcium: 45000–50000 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Paradox DLE/reinjection; boundary: ambiguous production/spent-brine label. Date/basis: 2024-05 draft; sample date not reported.
+
+Source: [D114](#d114), [Printed p. 43, Table D-1; operating plan p. 41](https://www.utah.gov/pmn/files/1126711.pdf#page=48) (PDF page 48).
+
+Table title says production brine; operating-plan text says spent brine after Li/Br depletion and rinse-water dilution. All ranges match Green River D079 Table D-1; not independent measured assays.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O538
+
+**Magnesium: 35000–40000 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Paradox DLE/reinjection; boundary: ambiguous production/spent-brine label. Date/basis: 2024-05 draft; sample date not reported.
+
+Source: [D114](#d114), [Printed p. 43, Table D-1; operating plan p. 41](https://www.utah.gov/pmn/files/1126711.pdf#page=48) (PDF page 48).
+
+Table title says production brine; operating-plan text says spent brine after Li/Br depletion and rinse-water dilution. All ranges match Green River D079 Table D-1; not independent measured assays.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O539
+
+**Chloride: 220000–260000 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Paradox DLE/reinjection; boundary: ambiguous production/spent-brine label. Date/basis: 2024-05 draft; sample date not reported.
+
+Source: [D114](#d114), [Printed p. 43, Table D-1; operating plan p. 41](https://www.utah.gov/pmn/files/1126711.pdf#page=48) (PDF page 48).
+
+Table title says production brine; operating-plan text says spent brine after Li/Br depletion and rinse-water dilution. All ranges match Green River D079 Table D-1; not independent measured assays.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O540
+
+**Iron: 200–250 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Paradox DLE/reinjection; boundary: ambiguous production/spent-brine label. Date/basis: 2024-05 draft; sample date not reported.
+
+Source: [D114](#d114), [Printed p. 43, Table D-1; operating plan p. 41](https://www.utah.gov/pmn/files/1126711.pdf#page=48) (PDF page 48).
+
+Table title says production brine; operating-plan text says spent brine after Li/Br depletion and rinse-water dilution. All ranges match Green River D079 Table D-1; not independent measured assays.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O541
+
+**Sulfate: 50–100 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Paradox DLE/reinjection; boundary: ambiguous production/spent-brine label. Date/basis: 2024-05 draft; sample date not reported.
+
+Source: [D114](#d114), [Printed p. 43, Table D-1; operating plan p. 41](https://www.utah.gov/pmn/files/1126711.pdf#page=48) (PDF page 48).
+
+Table title says production brine; operating-plan text says spent brine after Li/Br depletion and rinse-water dilution. All ranges match Green River D079 Table D-1; not independent measured assays.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O542
+
+**Strontium: 1500–1800 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Paradox DLE/reinjection; boundary: ambiguous production/spent-brine label. Date/basis: 2024-05 draft; sample date not reported.
+
+Source: [D114](#d114), [Printed p. 43, Table D-1; operating plan p. 41](https://www.utah.gov/pmn/files/1126711.pdf#page=48) (PDF page 48).
+
+Table title says production brine; operating-plan text says spent brine after Li/Br depletion and rinse-water dilution. All ranges match Green River D079 Table D-1; not independent measured assays.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O543
+
+**Barium: 1–4 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Paradox DLE/reinjection; boundary: ambiguous production/spent-brine label. Date/basis: 2024-05 draft; sample date not reported.
+
+Source: [D114](#d114), [Printed p. 43, Table D-1; operating plan p. 41](https://www.utah.gov/pmn/files/1126711.pdf#page=48) (PDF page 48).
+
+Table title says production brine; operating-plan text says spent brine after Li/Br depletion and rinse-water dilution. All ranges match Green River D079 Table D-1; not independent measured assays.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O544
+
+**Zinc: 3–4 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Paradox DLE/reinjection; boundary: ambiguous production/spent-brine label. Date/basis: 2024-05 draft; sample date not reported.
+
+Source: [D114](#d114), [Printed p. 43, Table D-1; operating plan p. 41](https://www.utah.gov/pmn/files/1126711.pdf#page=48) (PDF page 48).
+
+Table title says production brine; operating-plan text says spent brine after Li/Br depletion and rinse-water dilution. All ranges match Green River D079 Table D-1; not independent measured assays.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O545
+
+**Bicarbonate: 1200–1400 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Paradox DLE/reinjection; boundary: ambiguous production/spent-brine label. Date/basis: 2024-05 draft; sample date not reported.
+
+Source: [D114](#d114), [Printed p. 43, Table D-1; operating plan p. 41](https://www.utah.gov/pmn/files/1126711.pdf#page=48) (PDF page 48).
+
+Table title says production brine; operating-plan text says spent brine after Li/Br depletion and rinse-water dilution. All ranges match Green River D079 Table D-1; not independent measured assays.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O546
+
+**Fluoride: 30–35 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Paradox DLE/reinjection; boundary: ambiguous production/spent-brine label. Date/basis: 2024-05 draft; sample date not reported.
+
+Source: [D114](#d114), [Printed p. 43, Table D-1; operating plan p. 41](https://www.utah.gov/pmn/files/1126711.pdf#page=48) (PDF page 48).
+
+Table title says production brine; operating-plan text says spent brine after Li/Br depletion and rinse-water dilution. All ranges match Green River D079 Table D-1; not independent measured assays.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O547
+
+**TDS: 350000–400000 ppm.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Paradox DLE/reinjection; boundary: ambiguous production/spent-brine label. Date/basis: 2024-05 draft; sample date not reported.
+
+Source: [D114](#d114), [Printed p. 43, Table D-1; operating plan p. 41](https://www.utah.gov/pmn/files/1126711.pdf#page=48) (PDF page 48).
+
+Table title says production brine; operating-plan text says spent brine after Li/Br depletion and rinse-water dilution. All ranges match Green River D079 Table D-1; not independent measured assays.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O548
+
+**Density: 1.27–1.28 g/cm³.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Paradox DLE/reinjection; boundary: ambiguous production/spent-brine label. Date/basis: 2024-05 draft; sample date not reported.
+
+Source: [D114](#d114), [Printed p. 43, Table D-1; operating plan p. 41](https://www.utah.gov/pmn/files/1126711.pdf#page=48) (PDF page 48).
+
+Table title says production brine; operating-plan text says spent brine after Li/Br depletion and rinse-water dilution. All ranges match Green River D079 Table D-1; not independent measured assays.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O549
+
+**pH: 4.5–5.0 pH units.**
+
+Basis: **proposed permit range; assay basis unspecified**; scale: proposed Paradox DLE/reinjection; boundary: ambiguous production/spent-brine label. Date/basis: 2024-05 draft; sample date not reported.
+
+Source: [D114](#d114), [Printed p. 43, Table D-1; operating plan p. 41](https://www.utah.gov/pmn/files/1126711.pdf#page=48) (PDF page 48).
+
+Table title says production brine; operating-plan text says spent brine after Li/Br depletion and rinse-water dilution. All ranges match Green River D079 Table D-1; not independent measured assays.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+### Injection and development
+
+#### O550
+
+**Proposed injection-flow ceilings: 2000 overall; 300 per well gpm.**
+
+Basis: **draft permit condition**; scale: proposed injection system; boundary: spent-brine injection. Date/basis: 2024-05 draft.
+
+Source: [D114](#d114), [Printed p. 41, Attachment D §2](https://www.utah.gov/pmn/files/1126711.pdf#page=46) (PDF page 46).
+
+Limits are not achieved DLE throughput. Final permit conditions and well-count/combined-flow basis require confirmation.
+
+Review: AI source-text check; **human review pending**.
+
+## US Magnesium evidence {#us-magnesium-evidence}
+
+### Development and disclosure
+
+#### O551
+
+**Historical DLE installation and idling: DLE installed mid-2024; operations idled late-2024.**
+
+Basis: **government survey summary of reported events**; scale: US Magnesium operations; boundary: byproduct lithium from magnesium operation. Date/basis: 2024.
+
+Source: [D116](#d116), [Printed p. 15, Lithium](https://ugspub.nr.utah.gov/publications/circular/c-139.pdf#page=21) (PDF page 21).
+
+Survey reports IBAT DLE intended to make high-grade LiCl. Approximate 10,000 t/year carbonate target belongs to the broader operation, not measured DLE output; current restart status not established.
+
+Review: AI source-text check; **human review pending**.
+
+## Mandrake Utah evidence {#utah-lithium-evidence}
+
+### Brine chemistry
+
+#### O552
+
+**Resource-horizon lithium grades: 69–142 mg/L.**
+
+Basis: **government summary of resource estimates**; scale: Paradox, Leadville and McCracken horizons; boundary: resource-average grades, not delivered DLE feed. Date/basis: 2024 resource summarized in Utah Mining 2024.
+
+Source: [D116](#d116), [Printed p. 16, Mandrake Resources bullet](https://ugspub.nr.utah.gov/publications/circular/c-139.pdf#page=22) (PDF page 22).
+
+Not the chemistry of the September 2026 bulk sample. Survey gives 3.6 Mt LCE; issuer update D124 gives 3.3 Mt, unresolved here.
+
+Review: AI source-text check; **human review pending**.
+
+### Development and disclosure
+
+#### O553
+
+**Brine transferred for DLE appraisal: approximately 8000 L.**
+
+Basis: **reported field collection**; scale: bulk test sample; boundary: Evelyn Chambers #1, existing Leadville perforations. Date/basis: 2026-09-15.
+
+Source: [D124](#d124), [Bulk extraction and Electroflow sections](https://www.mandrakeresources.com.au/wp-content/uploads/2026/09/Bulk-Brine-Production-Complete-at-Utah-Lithium-Project.pdf#page=2) (PDF page 2).
+
+Issuer-hosted update. Electroflow purity/recovery/costing appraisal prospective; no completed new results. Not commercial production.
+
+Review: AI source-text check; **human review pending**.
+
+## Evergreen evidence {#evergreen-evidence}
+
+### Development and disclosure
+
+#### O554
+
+**Evergreen unit development: Distinct TETRA / Saltwerx unit.**
+
+Basis: **issuer securities disclosure**; scale: Evergreen development; boundary: bromine development and prospective lithium. Date/basis: 2025 year-end.
+
+Source: [D121](#d121), [Properties / Arkansas mineral resources, Evergreen Brine Unit](https://www.sec.gov/Archives/edgar/data/844965/000084496526000015/tti-20251231.htm).
+
+2023 original unit approximately 6,138 acres; lithium technology validation/FEED/feasibility remain prospective in this filing. Bromine construction does not establish a producing lithium facility.
+
+Review: AI web-text check; original download unavailable; **human review pending**.
+
+#### O555
+
+**Expanded Evergreen unit area: 6953 acres.**
+
+Basis: **neighboring-property technical disclosure**; scale: unit area; boundary: Evergreen, separate from SWA and Pine. Date/basis: 2025-04.
+
+Source: [D044](#d044), [Printed pp. 198–199, §23.3; continues PDF p. 221](https://www.standardlithium.com/_resources/reports/South-West-Arkansas-NI-43-101-DFS.pdf?v=120808%3Fv%3D1761065229#page=220) (PDF page 220).
+
+TETRA operator 65%, Saltwerx non-operator 35% reported on next page. Neighboring-property source, not the direct AOGC order.
+
+Review: AI source-text check; **human review pending**.
+
+## Pine / Exxon evidence {#pine-evidence}
+
+### Development and disclosure
+
+#### O556
+
+**Pine unit area: 56245.58 acres.**
+
+Basis: **neighboring-property technical disclosure**; scale: unit area; boundary: Pine, Miller and Lafayette counties. Date/basis: 2025-04.
+
+Source: [D044](#d044), [Printed p. 198, §23.2](https://www.standardlithium.com/_resources/reports/South-West-Arkansas-NI-43-101-DFS.pdf?v=120808%3Fv%3D1761065229#page=220) (PDF page 220).
+
+Source reports approved unitization and Saltwerx/Exxon relationship; direct order not collected. Earlier 120,000 gross mineral acres is a larger historical lease position, not Pine unit area.
+
+Review: AI source-text check; **human review pending**.
+
+## Lonestar evidence {#lonestar-evidence}
+
+### Development and disclosure
+
+#### O557
+
+**Texas demonstration and mineral options: EXSO Texas options; demonstration plant commissioned in leased industrial space.**
+
+Basis: **issuer securities disclosure**; scale: demonstration and proposed mineral development; boundary: Northeast Texas. Date/basis: 2026-07-13 filing; options November 2024.
+
+Source: [D089](#d089), [Business, Project Lonestar, printed p. 46](https://www.sec.gov/Archives/edgar/data/1830166/000149315226032991/form253g2.htm).
+
+Commissioning claim does not prove economic commercial operation. Broader corporate wording sometimes includes Arkansas under Lonestar; geographic assets separated here. Original unavailable.
+
+Review: AI web-text check; original download unavailable; **human review pending**.
+
+## Daytona / Folsom Point evidence {#daytona-evidence}
+
+### Development and disclosure
+
+#### O558
+
+**Arkansas acquisition closing: 2025-10-01.**
+
+Basis: **issuer securities disclosure**; scale: mineral-property acquisition; boundary: Daytona / Folsom Point Arkansas leases. Date/basis: 2025-10-01.
+
+Source: [D089](#d089), [Business, Daytona Lithium Pty. Ltd. Acquisition, printed p. 46](https://www.sec.gov/Archives/edgar/data/1830166/000149315226032991/form253g2.htm).
+
+Acquired from Pantera. Corporate target range 150 to over 600 mg/L describes sought Smackover resources, not a dated project feed assay; excluded from measured concentration comparison.
+
+Review: AI web-text check; original download unavailable; **human review pending**.
+
+## Magnolia evidence {#magnolia-evidence}
+
+### Development and disclosure
+
+#### O559
+
+**Magnolia DLE piloting: Began in 2024.**
+
+Basis: **issuer sustainability statement**; scale: pilot; boundary: Magnolia, Arkansas. Date/basis: 2024.
+
+Source: [D122](#d122), [Innovation, 2024 Highlights: Direct Lithium Extraction](https://www.albemarle.com/sites/default/files/2025-05/albemarle-sustainability-report-2024.pdf#page=46) (PDF page 46).
+
+Issuer-only primary evidence. Different brine and extraction technology from La Negra Chile. No direct project-specific government permit package established; Chile recovery claim not transferred to Magnolia.
+
+Review: AI source-text check; **human review pending**.
+
+## LANXESS history evidence {#lanxess-evidence}
+
+### Development and disclosure
+
+#### O560
+
+**Commercial project and demonstration status: Commercial MOU terminated in 2025; demonstration continued.**
+
+Basis: **issuer securities disclosure**; scale: historical commercial project and separate demonstration; boundary: LANXESS South / El Dorado. Date/basis: 2025 year-end.
+
+Source: [D119](#d119), [Other Projects, Lanxess Property Project and Demonstration Plant](https://www.sec.gov/Archives/edgar/data/1537137/000119312526130448/ck0001537137-ex99_1.htm).
+
+Company ceased pursuing commercial property development while retaining demonstration role. Historical demonstration chemistry is already registered under SWA; not a new independent assay.
+
+Review: AI web-text check; original download unavailable; **human review pending**.
+
 
 <!-- END EVIDENCE -->
 
@@ -6935,11 +9463,11 @@ Review: AI source-text check; **human review pending**.
 
 ## Discovery and coverage
 
-The collection follows project names, legal entities, aliases, agency identifiers and source cross-references through SEC, DOE, CEC, CEQAnet, county and state environmental records. US scope means project location, including foreign parents. Demonstration, proposed, suspended and discontinued phases are retained. No lower filing-date cutoff was imposed. Original-pilot collection stopped September 14, 2026; the four added profiles use September 16, 2026. Neither date establishes current operating performance.
+The collection follows project names, legal entities, aliases, agency identifiers and source cross-references through SEC, DOE, CEC, CEQAnet, county and state environmental records. US scope means project location, including foreign parents. Demonstration, proposed, suspended and discontinued phases are retained. No lower filing-date cutoff was imposed. Original-pilot collection stopped September 14, 2026; the 16 added profiles use September 16, 2026. Neither date establishes current operating performance.
 
 The original SWA/HK collection includes all five records and attachments exposed by the Hell’s Kitchen commercial CEQA chronology, its separate 2020 pilot exemption, and the SWA draft/final EA and FONSI sequence. The new collection adds the BHER CEC demonstration report and exemption, ATLiS's 2020/2021 CEQA chronology and 2024 circulated draft with their listed attachments, its 2025 DOE EA and decision notice, historical Ogden technical/securities evidence, and Green River draft injection-permit materials plus the current Utah permit index. Government hosting does not turn an applicant claim into an agency finding.
 
-The manual reference checklist contains **38 records: 25 downloaded originals and 13 unavailable originals**. Every reference has a document-register entry. This is a known-document presence check, not a web-wide recall estimate. The full manifest contains additional indexes, attachments and unsuccessful source routes beyond that checklist.
+The manual reference checklist contains **64 project–source entries: 42 with downloaded originals and 22 with unavailable originals; shared sources recur across project checklists**. Every reference has a document-register entry. This is a known-document presence check, not a web-wide recall estimate. The full manifest contains additional indexes, attachments and unsuccessful source routes beyond that checklist.
 
 All filing metadata exposed by the saved SEC indexes was inventoried, including the Compass historical index. There are **2,846 entries**, not 2,846 reviewed filings. The original Standard Lithium/Plum and new EnergyX index snapshots expose no additional historical-index files; the Compass index exposes one, which was collected. [D006](#d006), [D007](#d007), [D083](#d083), [D084](#d084), [D091](#d091).
 
@@ -6952,7 +9480,7 @@ Specific gaps and exclusions remain:
 - Ogden Tables 7.2 and 7.3 are fully transcribed; additional pond chemistry tables are identified for follow-up. The selected cation tables are not complete water analyses. Green River's draft production/spent-brine label conflict remains unresolved.
 - Current construction progress, full financing, executed contracts, litigation outcomes, final permit conditions and measured commercial operation are not established unless the profile identifies a supporting source. BHER's later technology program and EnergyX's later Ogden proposal do not inherit the historical designs' results.
 
-The supporting candidate register also retains **Lonestar, Exxon/Saltwerx, Franklin and LANXESS commercial history** as the next queue. These leads have not been promoted to additional project profiles. Neighboring facilities, unrelated corporate filings, technology vendors without a distinct site, and Anson's separate Paradox project were not silently merged into the six covered projects. This is a first expansion wave, not an exhaustive US industry census.
+The September 16 follow-up promotes all 12 screened candidates as **bounded provisional profiles**, bringing the total to 18. Shared sources are cataloged once and linked from each relevant page. The added register contains 14 new source URLs; EnergyX D089 and the SWA DFS D001/D044 were reused without duplicate downloads. The Waterleaf 1,197-page application was searched and selectively inspected, not exhaustively reviewed page by page. Full groundwater sample-result tables are transcribed, while laboratory QC controls and the trip blank remain in the original. Historic records, incomplete engineering profiles and the issuer-only Magnolia lead are labeled accordingly. This is not an exhaustive US industry census or a count of operating plants. The manually selected reference list validates inventory coverage, not search completeness.
 
 ## Extraction and review
 
@@ -6975,4 +9503,4 @@ AI source checking and human acceptance are separate states. The observation CSV
 
 The Markdown is the authored report. The catalog and evidence appendix are refreshed from the register and observations, then Pandoc generates an overview and separate project pages with embedded styling and source-figure images. A full-report HTML file retains all content on one page for ordinary browser search and printing. No server, scripts or remote fonts are required. Official-source links require internet access.
 
-Share the report-site.zip archive for the complete multipage report, or full-report.html for a single-file version. Keep the HTML pages together when using project navigation. The Markdown and its six figure images are included in the archive. Original documents, CSVs, manifest, source-review images, search log and rerunnable commands remain in the supporting research folder. Manual reruns are the default; no scheduled monitoring or publishing has been enabled. The September 16 expansion added four project packages; original SWA/HK evidence remains tied to its September 14 collection snapshot. The supplied lab logo and all source figures are embedded in every HTML page where used.
+Share the report-site.zip archive for the complete multipage report, or full-report.html for a single-file version. Keep the HTML pages together when using project navigation. The Markdown and its nine figure images are included in the archive. Original documents, CSVs, manifest, source-review images, search log and rerunnable commands remain in the supporting research folder. Manual reruns are the default; no scheduled monitoring or publishing has been enabled. The September 16 expansions added 16 profiles; original SWA/HK evidence remains tied to its September 14 collection snapshot. The supplied lab logo and all source figures are embedded in every HTML page where used.
