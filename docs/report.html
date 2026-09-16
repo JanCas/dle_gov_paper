@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>DLE filings: two US project records</title>
+  <style>
+
+html {
+color: #1a1a1a;
+background-color: #fdfdfd;
+}
+body {
+margin: 0 auto;
+max-width: 36em;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+hyphens: auto;
+overflow-wrap: break-word;
+text-rendering: optimizeLegibility;
+font-kerning: normal;
+}
+@media (max-width: 600px) {
+body {
+font-size: 0.9em;
+padding: 12px;
+}
+h1 {
+font-size: 1.8em;
+}
+}
+@media print {
+html {
+background-color: white;
+}
+body {
+background-color: transparent;
+color: black;
+font-size: 12pt;
+}
+p, h2, h3 {
+orphans: 3;
+widows: 3;
+}
+h2, h3, h4 {
+page-break-after: avoid;
+}
+}
+p {
+margin: 1em 0;
+}
+a {
+color: #1a1a1a;
+}
+a:visited {
+color: #1a1a1a;
+}
+img {
+max-width: 100%;
+}
+svg {
+height: auto;
+max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+margin-top: 1.4em;
+}
+h5, h6 {
+font-size: 1em;
+font-style: italic;
+}
+h6 {
+font-weight: normal;
+}
+ol, ul {
+padding-left: 1.7em;
+margin-top: 1em;
+}
+li > ol, li > ul {
+margin-top: 0;
+}
+blockquote {
+margin: 1em 0 1em 1.7em;
+padding-left: 1em;
+border-left: 2px solid #e6e6e6;
+color: #606060;
+}
+code {
+white-space: pre-wrap;
+font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+font-size: 85%;
+margin: 0;
+hyphens: manual;
+}
+pre {
+margin: 1em 0;
+overflow: auto;
+}
+pre code {
+padding: 0;
+overflow: visible;
+overflow-wrap: normal;
+}
+.sourceCode {
+background-color: transparent;
+overflow: visible;
+}
+hr {
+border: none;
+border-top: 1px solid #1a1a1a;
+height: 1px;
+margin: 1em 0;
+}
+table {
+margin: 1em 0;
+border-collapse: collapse;
+width: 100%;
+overflow-x: auto;
+display: block;
+font-variant-numeric: lining-nums tabular-nums;
+}
+table caption {
+margin-bottom: 0.75em;
+}
+tbody {
+margin-top: 0.5em;
+border-top: 1px solid #1a1a1a;
+border-bottom: 1px solid #1a1a1a;
+}
+th {
+border-top: 1px solid #1a1a1a;
+padding: 0.25em 0.5em 0.25em 0.5em;
+}
+td {
+padding: 0.125em 0.5em 0.25em 0.5em;
+}
+header {
+margin-bottom: 4em;
+text-align: center;
+}
+#TOC li {
+list-style: none;
+}
+#TOC ul {
+padding-left: 1.3em;
+}
+#TOC > ul {
+padding-left: 0;
+}
+#TOC a:not(:hover) {
+text-decoration: none;
+}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style>
+:root { color-scheme: light; --ink:#243339; --muted:#5a6d73; --accent:#15675f; --line:#dce5e3; --paper:#fff; }
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; scroll-padding-top:1.5rem; }
+body { margin:0; padding:3.5rem 4vw 5rem 20rem; max-width:1500px; font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color:var(--ink); background:var(--paper); }
+header { border-top:5px solid var(--accent); padding-top:1.8rem; margin-bottom:3rem; text-align:left; }
+.lab-logo { display:block; width:15rem; max-width:100%; height:auto; margin:0 0 1.5rem; }
+h1,h2,h3,h4 { line-height:1.2; letter-spacing:-.025em; color:#173e3a; }
+h1.title { font-size:clamp(2rem,3.5vw,3.3rem); max-width:850px; margin:.3rem 0; }
+p.subtitle { font-size:1.25rem; color:var(--muted); margin:.6rem 0; }
+p.date { font-size:.9rem; color:var(--muted); }
+h1:not(.title) { margin-top:3.5rem; border-top:1px solid var(--line); padding-top:1.8rem; font-size:1.85rem; }
+h2 { font-size:1.35rem; margin-top:2.3rem; }
+h3 { font-size:1.07rem; margin-top:1.8rem; }
+p,li { max-width:95ch; }
+a { color:var(--accent); text-decoration-thickness:1px; text-underline-offset:3px; overflow-wrap:anywhere; }
+a:hover { color:#093b36; }
+a:focus-visible { outline:3px solid #b57914; outline-offset:3px; }
+nav#TOC { position:fixed; inset:0 auto 0 0; width:17rem; overflow-y:auto; padding:2.5rem 1.6rem; background:#f4f8f7; border-right:1px solid var(--line); font-size:.87rem; }
+nav#TOC::before { content:"DLE / FILINGS PILOT"; display:block; margin-bottom:1.5rem; color:var(--accent); font-weight:750; letter-spacing:.12em; font-size:.72rem; }
+#TOC ul { list-style:none; padding:0; margin:.4rem 0; }
+#TOC li { margin:.55rem 0; }
+#TOC ul ul { padding-left:.9rem; font-size:.82rem; }
+#TOC a { text-decoration:none; }
+.project-nav { display:grid; gap:.35rem; margin-bottom:1.1rem; }
+.project-nav a { display:block; padding:.5rem .65rem; border-radius:4px; }
+.project-nav a[aria-current="page"] { background:var(--accent); color:white; font-weight:650; }
+.project-nav a:hover { background:#dfece8; color:#173e3a; }
+#TOC hr { margin:1rem 0; }
+.toc-label { text-transform:uppercase; font-size:.7rem; letter-spacing:.12em; color:var(--muted); }
+#project-reports ul { list-style:none; padding:0; }
+#project-reports li { background:#f4f8f7; border:1px solid var(--line); padding:1rem 1.2rem; margin:.7rem 0; }
+figure { margin:1.6rem 0; border:1px solid var(--line); padding:.6rem; }
+figure img { display:block; width:100%; height:auto; }
+figcaption { color:var(--muted); font-size:.85rem; padding:.5rem .3rem; }
+blockquote { background:#f2f7f6; border-left:4px solid var(--accent); margin:1.5rem 0; padding:.5rem 1.2rem; }
+table { border-collapse:collapse; width:100%; margin:1.4rem 0 2rem; font-size:.87rem; line-height:1.5; }
+th { background:#edf4f2; color:#173e3a; font-weight:650; text-align:left; }
+th,td { padding:.65rem .75rem; border-bottom:1px solid var(--line); vertical-align:top; overflow-wrap:anywhere; }
+tbody tr:nth-child(even) { background:#fafcfc; }
+code { font-size:.9em; background:#eff3f2; padding:.1rem .3rem; border-radius:3px; }
+pre { overflow-x:auto; padding:1rem; background:#eff3f2; }
+hr { border:0; border-top:1px solid var(--line); margin:2rem 0; }
+@media(max-width:900px) { body { padding:1.5rem 1.2rem 3rem; } nav#TOC { position:static; width:auto; border:1px solid var(--line); padding:1rem 1.2rem; margin:1rem 0 2rem; } header { margin-bottom:1.5rem; } table { display:block; overflow-x:auto; } th,td { min-width:180px; hyphens:none; overflow-wrap:normal; } }
+@media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+@media print { body { padding:0; max-width:none; font-size:10pt; } nav#TOC { display:none; } h1,h2,h3,h4 { break-after:avoid; } table { display:table; font-size:8pt; } th,td { min-width:0; overflow-wrap:anywhere; } tr { break-inside:avoid; } thead { display:table-header-group; } a { color:inherit; } header { border-top-width:2px; } @page { size:A4; margin:16mm; } }
+</style>
+</head>
+<body>
+<header id="title-block-header"><img class="lab-logo" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNzU4IDcwMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InRpdGxlIGRlc2MiPgogIDx0aXRsZSBpZD0idGl0bGUiPk1JVCBEZXZpY2UgUmVzZWFyY2ggTGFiIGxvZ288L3RpdGxlPgogIDxkZXNjIGlkPSJkZXNjIj5WZWN0b3IgcmVjb25zdHJ1Y3Rpb24gb2YgdGhlIERldmljZSBSZXNlYXJjaCBMYWIgbG9nbyBmcm9tIHRoZSBvZmZpY2lhbCBNSVQgbGFiIHdlYnNpdGUuPC9kZXNjPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJjaXJjbGUtZ3JhZGllbnQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjUwIiB5MT0iMCIgeDI9IjYwMCIgeTI9IjAiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZjhkNDIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjQ4NiIgc3RvcC1jb2xvcj0iI2ZmYWUzNiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNzE0IiBzdG9wLWNvbG9yPSIjZmZiZDMwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC45MTQiIHN0b3AtY29sb3I9IiNmZmM5MmMiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZmZjZTJiIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJkcm9wbGV0LWdyYWRpZW50IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjQwMCIgeTE9IjcwMCIgeDI9IjYwIiB5Mj0iNjAiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwZmIyZjMiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjE4IiBzdG9wLWNvbG9yPSIjMGZiMmYzIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC4zNSIgc3RvcC1jb2xvcj0iIzFlYTBlZiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNTciIHN0b3AtY29sb3I9IiMzODgwZTkiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjc2IiBzdG9wLWNvbG9yPSIjNGY2NGUzIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC44NyIgc3RvcC1jb2xvcj0iIzVjNTRlMCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM1YzU0ZTAiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9Im92ZXJsYXAtZ3JhZGllbnQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjUwIiB5MT0iMCIgeDI9IjUxMCIgeTI9IjAiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNkZjJjNjQiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjExNSIgc3RvcC1jb2xvcj0iI2RhMzI2YSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuMjY5IiBzdG9wLWNvbG9yPSIjZDAzYTc1Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC40MjMiIHN0b3AtY29sb3I9IiNjODQwN2UiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjU3NyIgc3RvcC1jb2xvcj0iI2JlNDg4OSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNzY5IiBzdG9wLWNvbG9yPSIjYjM1MTk2Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2E5NWFhMSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPGcgc2hhcGUtcmVuZGVyaW5nPSJnZW9tZXRyaWNQcmVjaXNpb24iPgogICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCA3MDApIHNjYWxlKDEgLTEpIj4KICAgICAgPHBhdGggZmlsbD0idXJsKCNjaXJjbGUtZ3JhZGllbnQpIiBkPSJNNDA4IDYwNyBjLTE4IC0yIC0zOCAtNyAtNTIgLTE0IC0xMCAtNCAtMjggLTE1IC0zOCAtMjMgLTMyIC0yNSAtNTQgLTYyIC02MyAtMTAzIC0zIC0xNCAtNCAtNDEgLTIgLTU3IDExIC03OSA3NSAtMTQwIDE1NCAtMTQ5IDI5IC0zIDYwIDIgODYgMTMgNSAyIDExIDUgMTMgNSAxMCA0IDI5IDE4IDQzIDMxIDE0IDE1IDI1IDMwIDM0IDUwIDMyIDY3IDE3IDE0OCAtMzcgMjAwIC0zNyAzNSAtODggNTIgLTEzOCA0N3oiLz4KICAgIDwvZz4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgNzAwKSBzY2FsZSgxIC0xKSI+CiAgICAgIDxwYXRoIGZpbGw9InVybCgjZHJvcGxldC1ncmFkaWVudCkiIGQ9Ik0yNTQgNjQ4IGMtNDEgLTQyIC05NiAtMTEwIC0xMzMgLTE2NSAtNDUgLTY4IC03MyAtMTI3IC04MyAtMTc0IC02IC0yOSAtNSAtNjEgMyAtOTQgMjEgLTg1IDkwIC0xNTMgMTc1IC0xNzMgMjAgLTUgMzAgLTUgNTUgLTUgMjcgMCAzNSAxIDU4IDYgODggMjIgMTU3IDk0IDE3NCAxODQgMTEgNTQgMiAxMDEgLTMyIDE2OSAtMjcgNTUgLTY1IDExMSAtMTIxIDE4MSAtMzEgMzggLTc1IDg3IC03OSA4NyAtMSAwIC05IC03IC0xNyAtMTZ6Ii8+CiAgICA8L2c+CiAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDcwMCkgc2NhbGUoMSAtMSkiPgogICAgICA8cGF0aCBmaWxsPSJ1cmwoI292ZXJsYXAtZ3JhZGllbnQpIiBkPSJNMzM0IDU4MSBjLTQxIC0yNiAtNjkgLTY2IC03OSAtMTE0IC0zIC0xNCAtNCAtNDEgLTIgLTU3IDE3IC0xMTYgMTQwIC0xODMgMjQ2IC0xMzMgbDggMyAwIDggYy0xIDQgLTEgNyAtMSA4IC0xIDEgLTEgNCAtMSA3IC0yIDEzIC0xMCAzNiAtMTggNTcgLTQgMTEgLTIyIDQ4IC0yNyA1OCAtMSAyIC00IDYgLTYgMTAgLTE4IDMxIC00NCA3MSAtNzEgMTA3IC0xNCAxOCAtNDAgNTEgLTQxIDUxIDAgMCAtNCAtMiAtOCAtNXoiLz4KICAgIDwvZz4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgNzAwKSBzY2FsZSgxIC0xKSI+CiAgICAgIDxwYXRoIGZpbGw9IiMyMzFmMjAiIGQ9Ik03MjQgMzgzIGwwIC0xOTIgODYgMCBjNTcgMSA4OCAxIDk0IDIgMjUgNCA0MCA4IDU5IDE3IDM5IDE5IDY2IDU1IDc3IDEwNSAxMiA1MSA5IDExNSAtOCAxNTggLTExIDI4IC0yOSA1MiAtNTIgNjkgLTE3IDExIC00MiAyMyAtNjMgMjcgLTI0IDUgLTI0IDUgLTExMSA2IGwtODIgMCAwIC0xOTJ6IG0xNTggMTIzIGMyNSAtNCA0NCAtMTMgNTkgLTI4IDE1IC0xNyAyNCAtMzggMjkgLTY4IDIgLTE0IDEgLTUzIC0xIC02NyAtNSAtMjkgLTE0IC00NyAtMjkgLTYxIC04IC04IC0yMSAtMTUgLTMyIC0xOCAtMTcgLTQgLTIxIC00IC02NyAtNSBsLTQ0IDAgMCAxMjQgMCAxMjQgMzkgMCBjMjMgMCA0MiAwIDQ2IC0xeiBNMTEyOSAzODMgbDAgLTE5MiAzNyAwIDM2IDAgMCA3MSAwIDcwIDM0IDAgMzUgMCAzNyAtNzEgMzcgLTcwIDQyIDAgYzIzIDAgNDIgMCA0MiAwIDAgMSAtMTkgMzUgLTQzIDc3IC0yMyA0MyAtNDIgNzggLTQxIDc4IDAgMSAxIDEgMSAxIDQgMCAyNiAxMiAzMyAxOCAxOCAxNSAzMiAzOCAzNyA2MiA3IDM1IDEgNzEgLTE1IDk2IC0xNCAyMiAtMzMgMzYgLTYwIDQ0IC0yMiA4IC0xOSA3IC0xMjEgOCBsLTkxIDAgMCAtMTkyeiBtMTUzIDEyNyBjMzIgLTMgNTEgLTE2IDU5IC00MCAyIC04IDIgLTI0IDAgLTMzIC01IC0xOSAtMjAgLTMzIC00MiAtMzggLTcgLTIgLTExIC0yIC01MiAtMiBsLTQ1IDAgMCA1NyAwIDU3IDM1IDAgYzE5IDAgMzkgMCA0NSAtMXogTTE0OTUgMzgzIGwwIC0xOTIgMTE0IDAgMTE0IDAgMCAzNCAwIDM0IC03NyAwIC03OCAwIDAgMTU4IDAgMTU4IC0zNiAwIC0zNyAwIDAgLTE5MnogTTk0MSAxNTAgYy0yIC0xIC02IC0yIC05IC0zIC0xMSAtNyAtMTQgLTI3IC02IC00MCA4IC0xMyAzMCAtMTQgNDAgLTIgMyAzIDYgMTAgNSAxMSAwIDEgLTIgMSAtNCAxIC00IDEgLTQgMSAtNCAtMiAtMSAtMSAtMiAtNCAtNCAtNiAtOCAtMTAgLTIzIC03IC0yOCA1IC0yIDcgLTEgMTggMyAyNCA2IDggMjEgOCAyNyAtMiAyIC0zIDMgLTMgNiAtMyAyIDEgMyAxIDQgMSAwIDEgLTEgMyAtMiA1IC0yIDQgLTcgOCAtMTEgMTAgLTQgMSAtMTIgMiAtMTcgMXogTTEyMDEgMTUwIGMtMTEgLTIgLTE2IC0xMSAtMTMgLTE5IDIgLTUgNSAtNyAxNiAtOSAxMiAtMyAxNSAtNSAxNSAtOSAwIC00IC0xIC03IC01IC04IC04IC01IC0xOSAwIC0yMSA4IDAgMyAwIDMgLTMgMyAtMiAtMSAtNCAtMSAtNCAtMSAtMiAwIC0xIC00IDEgLTggMyAtNiA3IC05IDE1IC0xMCAxMyAtMiAyNCAzIDI2IDE0IDAgNSAtMiAxMSAtNyAxNCAtMiAxIC03IDMgLTExIDQgLTEwIDIgLTE0IDQgLTE0IDggMCA0IDMgNiA5IDcgNyAwIDEyIC0zIDEzIC04IDEgLTIgMiAtMyAzIC0zIDEgMSAyIDEgNCAxIDIgMCAyIDAgMiAzIC0yIDUgLTUgOSAtOSAxMSAtNSAyIC0xMiAzIC0xNyAyeiBNMTQzMyAxNTAgYy03IC0yIC0xMyAtNiAtMTcgLTEzIC0yIC01IC0yIC0yMiAxIC0yNyA0IC05IDExIC0xMyAyMiAtMTMgOCAtMSAxNCAyIDE5IDcgMyA0IDcgMTIgNiAxMyAwIDAgLTIgMCAtNCAwIC00IDEgLTQgMSAtNSAtMyAtNiAtMTUgLTI2IC0xNCAtMzEgMSAtNSAxMyAxIDI3IDEyIDI5IDcgMSAxNCAtMiAxOCAtOCAyIC0zIDUgLTQgOCAtMiAzIDIgLTQgMTEgLTExIDE0IC01IDIgLTEzIDMgLTE4IDJ6IE03MjQgMTI0IGwwIC0yNiAxMyAwIGMxNCAwIDE4IDEgMjIgNiA2IDUgNyA4IDcgMjAgMCAxMCAtMSAxMSAtMyAxNiAtMiAzIC01IDUgLTggNyAtNCAyIC02IDIgLTE4IDIgbC0xMyAwIDAgLTI1eiBtMjggMTUgYzUgLTQgNiAtMTAgNiAtMTggLTEgLTEyIC02IC0xNiAtMTggLTE2IGwtOCAwIDAgMTkgMCAxOCA4IDAgYzggMCA5IDAgMTIgLTN6IE03ODUgMTI0IGwwIC0yNiAxOSAwIDE4IDAgMCA0IDAgMyAtMTQgMCAtMTUgMCAwIDggMCA4IDEzIDAgMTIgMCAwIDQgMCAzIC0xMiAwIC0xMyAwIDAgNyAwIDcgMTQgMCAxNCAwIDAgNCAwIDMgLTE4IDAgLTE4IDAgMCAtMjV6IE04MzUgMTQ3IGMxIC0xIDUgLTEyIDkgLTI1IGw4IC0yMyA0IC0xIGMyIDAgNCAwIDQgMCAwIDAgMiA1IDQgMTEgMiA1IDYgMTYgOSAyNSBsNSAxNSAtNCAwIC01IDAgLTYgLTE5IGMtNCAtMTEgLTcgLTIwIC03IC0yMCAwIDEgLTMgOSAtNyAyMCBsLTUgMTkgLTUgMCBjLTMgMCAtNCAwIC00IC0yeiBNODk0IDEyNCBsMCAtMjYgNCAwIDQgMCAwIDI2IDAgMjUgLTQgMCAtNCAwIDAgLTI1eiBNOTg5IDEyNCBsMCAtMjYgMTkgMCAxOCAwIDAgNCAwIDMgLTE0IDAgLTE1IDAgMCA4IDAgOCAxMyAwIDEyIDAgMCA0IDAgMyAtMTIgMCAtMTMgMCAwIDcgMCA3IDE1IDAgMTQgMCAwIDQgMCAzIC0xOCAwIC0xOSAwIDAgLTI1eiBNMTA3NCAxMjQgbDAgLTI2IDQgMCA0IDAgMCAxMSAwIDEwIDYgMCA2IDAgNiAtOSBjMyAtNSA2IC0xMCA3IC0xMSAwIC0xIDIgLTEgNSAtMSBsNSAxIC03IDEwIC03IDExIDQgMSBjNSAyIDcgNiA3IDE0IDAgNCAwIDYgLTIgOCAtNCA1IC03IDYgLTIzIDYgbC0xNSAwIDAgLTI1eiBtMzAgMTcgYzQgLTQgMyAtMTIgLTIgLTE0IC0xIDAgLTYgLTEgLTExIC0xIGwtOSAwIDAgOCAwIDggMTAgMCBjNyAwIDEwIDAgMTIgLTF6IE0xMTMzIDEyNCBsMCAtMjYgMTkgMCAxOCAwIDAgNCAwIDMgLTE1IDAgLTE1IDAgMCA4IDAgOCAxMyAwIDEyIDAgMCA0IDAgMyAtMTIgMCAtMTMgMCAwIDcgMCA3IDE1IDAgMTQgMCAwIDQgMCAzIC0xOCAwIC0xOCAwIDAgLTI1eiBNMTI0NSAxMjQgbDAgLTI2IDE5IDAgMTkgMCAwIDQgMCAzIC0xNSAwIC0xNSAwIDAgOCAwIDggMTMgMCAxMiAwIDAgNCAwIDMgLTEyIDAgLTEzIDAgMCA3IDAgNyAxNSAwIDE0IDAgMCA0IDAgMyAtMTggMCAtMTkgMCAwIC0yNXogTTEzMTQgMTQ2IGMtMSAtMiAtNSAtMTMgLTEwIC0yNSAtNCAtMTIgLTggLTIyIC05IC0yMiAwIC0xIDIgLTEgNCAtMSBsNSAwIDMgOCAyIDcgMTAgMCA5IDAgMiAtNyAzIC03IDQgLTEgYzIgMCA0IDAgNCAxIDAgMCAtNCAxMiAtOSAyNSBsLTkgMjUgLTQgMCBjLTQgMCAtNCAwIC01IC0zeiBtOCAtMTYgYzEgLTQgMiAtOCAzIC05IDAgLTEgLTIgLTEgLTYgLTEgLTQgMCAtNyAwIC03IDEgMCAwIDIgNCAzIDkgMiA0IDQgOCA0IDcgMCAwIDIgLTQgMyAtN3ogTTEzNTcgMTI0IGwwIC0yNiA0IDAgNCAwIDAgMTEgMCAxMCA2IDAgNiAwIDYgLTEwIDcgLTEwIDQgLTEgYzMgMCA1IDAgNSAwIDAgMSAtMyA2IC02IDExIGwtNyAxMCAzIDIgYzUgMiA3IDYgOCAxMiAwIDUgMCA3IC0yIDEwIC0zIDUgLTcgNiAtMjMgNiBsLTE1IDAgMCAtMjV6IG0zMCAxNiBjMyAtMyAzIC05IDAgLTEyIC0yIC0xIC00IC0yIC0xMiAtMiBsLTEwIDAgMCA4IDAgOCAxMCAwIGM5IDAgMTAgMCAxMiAtMnogTTE0ODIgMTI0IGwwIC0yNiA0IDAgMyAwIDAgMTIgMCAxMSAxNCAwIDEzIDAgMCAtMTEgMCAtMTIgNCAwIDQgMCAwIDI2IDAgMjUgLTQgMCAtNCAwIDAgLTEwIDAgLTExIC0xMyAwIC0xNCAwIDAgMTEgMCAxMCAtMyAwIC00IDAgMCAtMjV6IE0xNTc1IDEyNCBsMCAtMjYgMTYgMCAxNiAwIDAgNCAwIDMgLTEyIDAgLTEzIDAgMCAyMiAwIDIyIC0zIDAgLTQgMCAwIC0yNXogTTE2MzkgMTQ3IGMtMTEgLTMwIC0xOCAtNDggLTE4IC00OCAwIC0xIDIgLTEgNCAtMSBsNCAxIDMgNyAyIDcgMTAgMCA5IDAgMiAtNSBjMSAtMyAyIC03IDIgLTggMSAtMiAyIC0yIDUgLTIgMyAwIDQgMCA0IDEgMCAxIC00IDEyIC05IDI2IGwtOSAyNCAtNCAwIGMtMyAwIC00IDAgLTUgLTJ6IG04IC0xOCBjMiAtNCAzIC04IDMgLTkgLTEgMCAtMyAwIC03IDAgbC02IDEgMyA4IGMyIDQgNCA4IDQgOCAwIDAgMiAtNCAzIC04eiBNMTY4MiAxMjQgbDAgLTI2IDE2IDAgYzE2IDAgMTcgMCAyMCAyIDQgMyA2IDYgNiAxMiAwIDUgLTIgMTAgLTUgMTIgLTEgMSAtMSAxIDEgNCAzIDUgNCA5IDEgMTQgLTMgNiAtNiA3IC0yNCA3IGwtMTUgMCAwIC0yNXogbTMxIDE3IGMyIC0yIDIgLTkgLTEgLTExIC0yIC0yIC00IC0yIC0xMiAtMiBsLTEwIDAgMCA3IDAgNyAxMCAwIGM4IDAgMTEgMCAxMyAtMXogbTEgLTIzIGMzIC0zIDMgLTggMCAtMTEgLTIgLTIgLTMgLTIgLTEzIC0yIGwtMTEgMCAwIDggMCA4IDExIDAgYzEwIDAgMTEgLTEgMTMgLTN6Ii8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K" alt="MIT Device Research Lab" width="1758" height="700">
+<h1 class="title">DLE filings: two US project records</h1>
+<p class="subtitle">South West Arkansas and Hell’s Kitchen · historical
+evidence pilot</p>
+<p class="date">Collection cutoff: September 14, 2026</p>
+</header>
+<nav id="TOC" role="doc-toc"><div class="project-nav" aria-label="Report pages"><a href="report.html" aria-current="page">Overview</a><a href="south-west-arkansas.html">South West Arkansas</a><a href="hells-kitchen.html">Hell’s Kitchen</a><a href="full-report.html">Full report</a></div><hr><p class="toc-label">On this page</p>
+<ul>
+<li><a href="#overview" id="toc-overview">Overview</a>
+<ul>
+<li><a href="#project-reports" id="toc-project-reports">Project
+reports</a></li>
+<li><a href="#principal-findings" id="toc-principal-findings">Principal
+findings</a></li>
+<li><a href="#how-to-read-the-report" id="toc-how-to-read-the-report">How to read the report</a></li>
+</ul></li>
+<li><a href="#cross-project-comparison" id="toc-cross-project-comparison">Cross-project comparison</a>
+<ul>
+<li><a href="#composition-and-flowsheet-availability" id="toc-composition-and-flowsheet-availability">Composition and
+flowsheet availability</a></li>
+<li><a href="#brine-concentration-and-chemistry" id="toc-brine-concentration-and-chemistry">Brine concentration and
+chemistry</a></li>
+<li><a href="#discrepancies-requiring-review" id="toc-discrepancies-requiring-review">Discrepancies requiring
+review</a></li>
+</ul></li>
+<li><a href="#methods-and-limitations" id="toc-methods-and-limitations">Methods and limitations</a>
+<ul>
+<li><a href="#discovery-and-coverage" id="toc-discovery-and-coverage">Discovery and coverage</a></li>
+<li><a href="#extraction-and-review" id="toc-extraction-and-review">Extraction and review</a></li>
+<li><a href="#interpretation-rules" id="toc-interpretation-rules">Interpretation rules</a></li>
+<li><a href="#sharing-and-reproducibility" id="toc-sharing-and-reproducibility">Sharing and
+reproducibility</a></li>
+</ul></li>
+</ul>
+</nav>
+<blockquote>
+<p><strong>Research draft for source review.</strong> The observations
+below have been checked by an AI assistant against source text, with
+selected source pages also inspected visually. No human review has yet
+been recorded. These observations remain provisional; the separate
+human-reviewed dataset contains no accepted rows. The report
+distinguishes technical-report estimates, company targets, reported test
+results, and agency decisions.</p>
+</blockquote>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>This pilot brings together project-specific securities disclosures
+and environmental records for two US direct lithium extraction (DLE)
+developments. Its purpose is to make the evidence findable and
+comparable <strong>where the definitions allow it</strong>, while
+preserving disagreements and gaps. It does not establish either
+project’s present operating performance.</p>
+<!-- BEGIN COUNTS -->
+<p><strong>Collection:</strong> 56 source records; 47 successful
+original-file downloads; 9 failed original-file downloads. The saved
+PDFs contain 2,876 pages. <strong>Evidence:</strong> 135 observations; 0
+accepted after human review.</p>
+<!-- END COUNTS -->
+<p>The source manifest covers official agency pages, submitted reports
+and attachments, agency decisions, SEC indexes and selected exhibits,
+and explicitly labeled issuer supplements. The SEC filing-history
+snapshots contain <strong>219 Standard Lithium entries, dated December
+2011 to September 2026, and 79 Plum Acquisition Corp. IV entries, dated
+July 2024 to August 2026</strong>. These 298 metadata entries are an
+inventory, not 298 downloaded or reviewed project filings. <a href="south-west-arkansas.html#d006">D006</a>, <a href="hells-kitchen.html#d007">D007</a>.</p>
+<section id="project-reports" class="level2">
+<h2>Project reports</h2>
+<ul>
+<li><a href="south-west-arkansas.html">South West Arkansas</a>: full
+published pilot-feed composition, process flowsheets, project profile,
+sources and evidence.</li>
+<li><a href="hells-kitchen.html">Hell’s Kitchen</a>: full expected brine
+composition, geothermal schematic, lithium-process disclosure limits,
+sources and evidence.</li>
+<li><a href="full-report.html">Full report</a>: all projects on one page
+for browser search and printing.</li>
+</ul>
+</section>
+<section id="principal-findings" class="level2">
+<h2>Principal findings</h2>
+<ul>
+<li><strong>Brine concentration is disclosed for both projects.</strong>
+SWA’s September 2025 plant-design table uses 439.9 mg/L lithium; HK’s
+August 2023 EIR gives 250 mg/L as expected geothermal brine composition.
+Neither is a directly comparable dated well assay. SWA separately
+reports well-sample results and changing concentrations in its
+production model. <a href="south-west-arkansas.html#o009">O009</a>, <a href="hells-kitchen.html#o051">O051</a>, <a href="#brine-concentration-and-chemistry">brine chemistry
+comparison</a>.</li>
+<li><strong>Recovery needs a process boundary.</strong> South West
+Arkansas reports greater than 95% lithium extraction in
+demonstration/pilot testing, while the commercial process design uses
+89.25% overall brine-to-product recovery. These are different
+quantities. <a href="south-west-arkansas.html#o002">O002</a>, <a href="south-west-arkansas.html#o003">O003</a>.</li>
+<li><strong>Water figures need reconciliation.</strong> The 2025 South
+West Arkansas feasibility study gives 3.17 million m³/year; the May 2026
+DOE assessment gives 1,600–1,700 gpm for the central processing
+facility, after planned recycling. Hell’s Kitchen gives both 6,100 and
+6,300 acre-feet/year for its lithium facility in different EIR sections.
+<a href="south-west-arkansas.html#o016">O016</a>, <a href="south-west-arkansas.html#o017">O017</a>, <a href="hells-kitchen.html#o055">O055</a>, <a href="hells-kitchen.html#o056">O056</a>.</li>
+<li><strong>Emissions estimates are not comparable as
+presented.</strong> South West Arkansas’s estimate includes gas-fired
+electricity generation. Hell’s Kitchen’s combined net result includes
+credit for geothermal electricity displacing grid power. Neither number
+is a measured lithium-product carbon intensity. <a href="south-west-arkansas.html#o033">O033</a>, <a href="hells-kitchen.html#o063">O063</a>.</li>
+<li><strong>Study vintage changes the story.</strong> South West
+Arkansas’s earlier PFS describes lithium hydroxide monohydrate; its
+later DFS describes lithium carbonate. Its announced first-production
+target moved from 2027 in the earlier source to 2029 in the August 2026
+announcement. <a href="south-west-arkansas.html#o045">O045</a>, <a href="south-west-arkansas.html#o048">O048</a>, <a href="south-west-arkansas.html#o004">O004</a>, <a href="south-west-arkansas.html#o044">O044</a>.</li>
+<li><strong>Permitting decisions have specific scope.</strong> DOE’s
+FONSI addresses its funding action. Hell’s Kitchen’s county decisions
+concern specified project entitlements. These records do not demonstrate
+that every authorization has been obtained, that litigation is resolved,
+or that commercial operations have begun. <a href="south-west-arkansas.html#o042">O042</a>, <a href="hells-kitchen.html#o065">O065</a>, <a href="hells-kitchen.html#o066">O066</a>.</li>
+</ul>
+</section>
+<section id="how-to-read-the-report" class="level2">
+<h2>How to read the report</h2>
+<p>Read the project profiles and comparison first. Use each
+<strong>O-number</strong> to reach the full observation, and each
+<strong>D-number</strong> to reach the document catalog. Observation
+links identify a printed page, section, table, or slide; PDF citations
+also include the physical PDF page number, which may differ from printed
+pagination.</p>
+<p>On narrow screens, scroll wide tables sideways to read the remaining
+columns.</p>
+<p><strong>Reported measurement</strong> means the source reports a test
+result; it is not independent verification by this pilot.
+<strong>Design/model estimate</strong> means an engineering or economic
+assumption. <strong>Company target</strong> means a forward-looking
+statement. <strong>Agency decision</strong> is confined to the named
+action. <strong>Not located</strong> is a bounded search outcome, not a
+claim that information does not exist.</p>
+</section>
+</section>
+<section id="cross-project-comparison" class="level1">
+<h1>Cross-project comparison</h1>
+<p>The table preserves source definitions. It does not convert products,
+normalize water intensity, or calculate a comparative environmental
+ranking.</p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Topic</th>
+<th style="text-align: left;">South West Arkansas</th>
+<th style="text-align: left;">Hell’s Kitchen</th>
+<th style="text-align: left;">Comparability</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Brine lithium</td>
+<td style="text-align: left;">439.9 mg/L; September 2025 process-design
+basis. <a href="south-west-arkansas.html#o009">O009</a></td>
+<td style="text-align: left;">250 mg/L; August 2023 expected geothermal
+composition. <a href="hells-kitchen.html#o051">O051</a></td>
+<td style="text-align: left;">Different source basis; exact HK stream
+point and assay provenance unspecified.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product/capacity</td>
+<td style="text-align: left;">22,500 t/year carbonate; September 2025
+commercial design. <a href="south-west-arkansas.html#o004">O004</a></td>
+<td style="text-align: left;">25,000 TPA LCE; August 2026 Stage 1
+target. <a href="hells-kitchen.html#o069">O069</a></td>
+<td style="text-align: left;">Different vintage and evidential basis;
+product conventions require checking.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Recovery</td>
+<td style="text-align: left;">&gt;95% reported demonstration/pilot
+extraction; 89.25% commercial whole-process design, September 2025 DFS.
+<a href="south-west-arkansas.html#o002">O002</a>, <a href="south-west-arkansas.html#o003">O003</a></td>
+<td style="text-align: left;">Not established in screened 2023
+environmental text. <a href="hells-kitchen.html#o050">O050</a></td>
+<td style="text-align: left;">No performance ranking.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Freshwater</td>
+<td style="text-align: left;">Commercial estimates: 3.17 million
+m³/year, September 2025 DFS; 1,600–1,700 gpm CPF, May 2026 EA. <a href="south-west-arkansas.html#o016">O016</a>, <a href="south-west-arkansas.html#o017">O017</a></td>
+<td style="text-align: left;">August 2023 design: 6,100 or 6,300 AFY
+HKL1; approximately 6,500 AFY combined. <a href="hells-kitchen.html#o055">O055</a>–<a href="hells-kitchen.html#o057">O057</a></td>
+<td style="text-align: left;">Reconcile source differences, boundaries
+and operating hours first.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Electrical demand</td>
+<td style="text-align: left;">40,008 kWe CPF + wellfield; September 2025
+commercial design. <a href="south-west-arkansas.html#o020">O020</a></td>
+<td style="text-align: left;">Approximately 35 MW average HKL1 demand,
+alongside 49.9 MW generation; August 2023 design. <a href="hells-kitchen.html#o052">O052</a>, <a href="hells-kitchen.html#o053">O053</a></td>
+<td style="text-align: left;">Consumption boundaries differ; generation
+is a separate quantity.</td>
+</tr>
+<tr>
+<td style="text-align: left;">GHG</td>
+<td style="text-align: left;">290,000 tons/year potential emissions; May
+2026 commercial-facility estimate. <a href="south-west-arkansas.html#o033">O033</a></td>
+<td style="text-align: left;">−10,435 metric tons/year net combined
+estimate; August 2023 EIR. <a href="hells-kitchen.html#o063">O063</a></td>
+<td style="text-align: left;">Gross/potential and net/credited
+accounting; unresolved ton conventions.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Operating costs</td>
+<td style="text-align: left;">US$4,516.05/t LCE, Q1 2025 cost basis;
+initial commercial-phase model. <a href="south-west-arkansas.html#o035">O035</a></td>
+<td style="text-align: left;">August 2026 expansion model; unit/basis
+unresolved. <a href="hells-kitchen.html#o072">O072</a></td>
+<td style="text-align: left;">No cost ranking.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Development</td>
+<td style="text-align: left;">DOE funding FONSI, May 2026. <a href="south-west-arkansas.html#o042">O042</a></td>
+<td style="text-align: left;">County Board approval, January 2024. <a href="hells-kitchen.html#o066">O066</a></td>
+<td style="text-align: left;">Different agency actions, not equivalent
+completion milestones.</td>
+</tr>
+</tbody>
+</table>
+<section id="composition-and-flowsheet-availability" class="level2">
+<h2>Composition and flowsheet availability</h2>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Disclosure</th>
+<th style="text-align: left;">South West Arkansas</th>
+<th style="text-align: left;">Hell’s Kitchen</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Published composition table</td>
+<td style="text-align: left;">11 parameters; measured pilot and separate
+demonstration-feed averages. <a href="south-west-arkansas.html#swa-water-composition">Full
+table</a></td>
+<td style="text-align: left;">23 expected constituents. <a href="hells-kitchen.html#hk-water-composition">Full table</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Lithium in that table</td>
+<td style="text-align: left;">476 mg/L in SWA pilot feed, Oct 2024–Jan
+2025. <a href="south-west-arkansas.html#o109">O109</a></td>
+<td style="text-align: left;">250 mg/L expected geothermal brine, 2023
+EIR. <a href="hells-kitchen.html#o051">O051</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Process diagram</td>
+<td style="text-align: left;">End-to-end process block flowsheets in DFS
+and DOE EA. <a href="south-west-arkansas.html#swa-process-flowsheets">Figures</a></td>
+<td style="text-align: left;">Geothermal schematic plus a
+lithium-process narrative. <a href="hells-kitchen.html#hk-process-flowsheets">Figure and
+limits</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Complete analytical / stream balance
+package</td>
+<td style="text-align: left;">Not established from the reviewed
+disclosures</td>
+<td style="text-align: left;">Not established from the reviewed
+disclosures</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="brine-concentration-and-chemistry" class="level2">
+<h2>Brine concentration and chemistry</h2>
+<p><strong>The principal design figures are 439.9 mg/L lithium for SWA
+and 250 mg/L for HK.</strong> The first belongs to SWA’s process-design
+basis; the second is labeled expected geothermal brine composition in
+the EIR. Preserve those descriptions when using the numbers. The HK
+value is not established as a measured concentration at the inlet to the
+lithium extraction equipment. <a href="south-west-arkansas.html#o009">O009</a>, <a href="hells-kitchen.html#o051">O051</a>.</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Constituent, mg/L</th>
+<th style="text-align: left;">SWA: September 2025 process design</th>
+<th style="text-align: left;">HK: August 2023 expected composition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Lithium, Li</td>
+<td style="text-align: left;">439.9 <a href="south-west-arkansas.html#o009">O009</a></td>
+<td style="text-align: left;">250 <a href="hells-kitchen.html#o051">O051</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Magnesium, Mg</td>
+<td style="text-align: left;">3,361.2 <a href="south-west-arkansas.html#o010">O010</a></td>
+<td style="text-align: left;">50 <a href="hells-kitchen.html#o089">O089</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Calcium, Ca</td>
+<td style="text-align: left;">39,051.1 <a href="south-west-arkansas.html#o011">O011</a></td>
+<td style="text-align: left;">29,000 <a href="hells-kitchen.html#o080">O080</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Boron, B</td>
+<td style="text-align: left;">296.6 <a href="south-west-arkansas.html#o012">O012</a></td>
+<td style="text-align: left;">350 <a href="hells-kitchen.html#o078">O078</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Total dissolved solids</td>
+<td style="text-align: left;">370,121 <a href="south-west-arkansas.html#o013">O013</a></td>
+<td style="text-align: left;">Not listed as a total in Table 2.0-2</td>
+</tr>
+</tbody>
+</table>
+<p>Sources: <a href="south-west-arkansas.html#d044">D044</a>, Table
+17-1, printed p. 120 / PDF p. 142; <a href="hells-kitchen.html#d022">D022</a>, Table 2.0-2, printed
+pp. 2.0-10–11 / PDF pp. 64–65. HK’s table additionally reports chloride,
+sodium, potassium, silica, iron and other constituents, retained
+individually in the appendix. A missing total is not a zero, and the
+reported species have not been summed into an inferred TDS measurement.
+<a href="hells-kitchen.html#o075">O075</a>–<a href="hells-kitchen.html#o096">O096</a>.</p>
+<p>For a direct unit interpretation, 439.9 mg/L means <strong>0.4399 kg
+of contained lithium per m³ of brine</strong>, and 250 mg/L means
+<strong>0.250 kg/m³</strong>, before extraction losses. These are unit
+conversions, not recovered-product yields. Lithium concentration, total
+dissolved solids and final lithium-carbonate purity are different
+quantities. We retain mg/L rather than treating it as mass-based ppm
+without a brine density.</p>
+<p>SWA also discloses <strong>actual well-sampling results</strong>.
+Selected reported values below retain their intervals and averaging
+basis; they are not averaged across wells into an invented project
+grade.</p>
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Well</th>
+<th style="text-align: left;">Sampling year(s)</th>
+<th style="text-align: left;">Interval</th>
+<th style="text-align: right;">Lithium, mg/L</th>
+<th style="text-align: left;">Basis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Taylor, Beulah et al. 1</td>
+<td style="text-align: left;">2023</td>
+<td style="text-align: left;">Upper Smackover</td>
+<td style="text-align: right;">549</td>
+<td style="text-align: left;">Porosity-thickness-weighted value. <a href="south-west-arkansas.html#o097">O097</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Carter Moore 1</td>
+<td style="text-align: left;">2023</td>
+<td style="text-align: left;">Upper + Middle</td>
+<td style="text-align: right;">156</td>
+<td style="text-align: left;">Mixed-interval test value. <a href="south-west-arkansas.html#o098">O098</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">International Paper Co. 1</td>
+<td style="text-align: left;">2024–2025</td>
+<td style="text-align: left;">Upper Smackover</td>
+<td style="text-align: right;">479</td>
+<td style="text-align: left;">Reported well average from later sampling.
+<a href="south-west-arkansas.html#o099">O099</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Speer 1</td>
+<td style="text-align: left;">2023</td>
+<td style="text-align: left;">Upper / top of Middle</td>
+<td style="text-align: right;">589</td>
+<td style="text-align: left;">Reported test average. <a href="south-west-arkansas.html#o100">O100</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Montague 1</td>
+<td style="text-align: left;">2023</td>
+<td style="text-align: left;">Upper Smackover</td>
+<td style="text-align: right;">555</td>
+<td style="text-align: left;">Reported test average. <a href="south-west-arkansas.html#o101">O101</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Lester 2</td>
+<td style="text-align: left;">2025</td>
+<td style="text-align: left;">Upper Smackover</td>
+<td style="text-align: right;">582</td>
+<td style="text-align: left;">Reported three-sample average. <a href="south-west-arkansas.html#o102">O102</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">International Paper Co. 1</td>
+<td style="text-align: left;">2023</td>
+<td style="text-align: left;">Middle Smackover</td>
+<td style="text-align: right;">306</td>
+<td style="text-align: left;">Reported weighted zone average. <a href="south-west-arkansas.html#o103">O103</a></td>
+</tr>
+</tbody>
+</table>
+<p>These data are reported in <a href="south-west-arkansas.html#d044">D044</a>, Table 9-1, printed p. 58
+/ PDF p. 80; §§9.2–9.3 describe sampling and averaging. The later
+International Paper Upper-zone results supersede the earlier Upper-zone
+sampling. The 2018 McKamie Patton samples are outside the current
+project area and do not enter this comparison. Individual Middle-zone
+results are also retained in the appendix. <a href="south-west-arkansas.html#o104">O104</a>, <a href="south-west-arkansas.html#o105">O105</a>.</p>
+<p>The <strong>economic summary uses 481 mg/L</strong>, whereas the
+reserve-production schedule models concentration declining from
+<strong>549 mg/L in year 1 to 370 mg/L in year 20</strong>, reaching
+<strong>162 mg/L in year 40</strong> in the extended reserve case. These
+are model outputs and assumptions, not repeat measurements of operating
+plant feed. The reserve table excludes production ramp-up and uses the
+old 2028 start-year label; the report’s newer schedule target remains
+separately identified. <a href="south-west-arkansas.html#o014">O014</a>,
+<a href="south-west-arkansas.html#o106">O106</a>–<a href="south-west-arkansas.html#o108">O108</a>.</p>
+<p>The practical research fields are therefore: lithium concentration;
+other brine constituents and TDS; well and sampled interval; sample date
+and method; stream location; design or measurement basis; and any
+forecast change through time. The expected HK composition table leaves
+several of those assay and stream details unspecified.</p>
+</section>
+<section id="discrepancies-requiring-review" class="level2">
+<h2>Discrepancies requiring review</h2>
+<ol type="1">
+<li><strong>SWA freshwater:</strong> the annual DFS estimate and later
+EA flow estimates are not reconciled. Their differing dates and plant
+boundaries may matter. No annualization assumption has been imposed. <a href="south-west-arkansas.html#o016">O016</a>, <a href="south-west-arkansas.html#o017">O017</a>.</li>
+<li><strong>SWA lithium concentration:</strong> Table 17-1 and Table 1-6
+use different bases. Preserve both until the engineering and
+reservoir-model relationship is resolved. <a href="south-west-arkansas.html#o009">O009</a>, <a href="south-west-arkansas.html#o014">O014</a>.</li>
+<li><strong>HK water:</strong> the project-description and WSA-summary
+figures differ within the draft EIR. Table 4.13-7 also labels
+accumulated multiyear volumes as “AFY”; those totals are not adopted as
+annual demand. <a href="hells-kitchen.html#o055">O055</a>–<a href="hells-kitchen.html#o057">O057</a>; <a href="hells-kitchen.html#d022">D022</a>, PDF p. 288.</li>
+<li><strong>HK energy wording and revision:</strong> the draft EIR
+contains an editorial comment, which the final EIR explicitly strikes
+out while retaining that annual-energy statement in its revisions
+section. Elsewhere, the final EIR’s responses use 275,940,000 kWh/year
+of demand and 430,567,140 kWh/year of generation; these differ from the
+draft’s rounded demand and 416 million kWh/year generation. The response
+also gives net emissions of −10,443 metric tons CO₂e/year, differing
+from the draft table’s −10,435. The comparison above retains the
+explicitly dated draft figures; these final-response differences remain
+to reconcile. The separate malformed “147,732,2 kWh” statement in the
+draft is excluded. <a href="hells-kitchen.html#d022">D022</a>, PDF
+p. 177; <a href="hells-kitchen.html#d031">D031</a>, PDF pp. 180,
+197–198.</li>
+<li><strong>SWA unit error:</strong> the DFS prints 28.4 m³/h beside
+“125,041 gpm” for well-drilling water. That pair is dimensionally
+inconsistent as printed; it is excluded rather than silently corrected.
+<a href="south-west-arkansas.html#d044">D044</a>, PDF p. 153,
+§17.6.2.1.</li>
+<li><strong>HK newer financial assumptions:</strong> the supporting
+model and underlying technical report were not acquired. Numerical
+securities observations are provisional and separately identified. <a href="hells-kitchen.html#o071">O071</a>, <a href="hells-kitchen.html#o072">O072</a>.</li>
+</ol>
+</section>
+</section>
+<section id="methods-and-limitations" class="level1">
+<h1>Methods and limitations</h1>
+<section id="discovery-and-coverage" class="level2">
+<h2>Discovery and coverage</h2>
+<p>The pilot followed project names, legal entities, aliases,
+identifiers and cross-references through SEC filing indexes, DOE
+records, CEQAnet, Imperial County pages, and targeted searches for state
+permits and issuer copies. Both selected SEC submission-index responses
+contain empty historical-file lists; all entries exposed in those
+snapshots were inventoried. No lower filing-date cutoff was imposed.
+Searches stopped at the collection time on September 14, 2026.</p>
+<p>All five records linked from the Hell’s Kitchen commercial-project
+CEQAnet chronology were collected, with their listed attachments,
+alongside the separately identified 2020 pilot exemption. DOE’s draft
+EA, reader letter, final EA and FONSI were collected. A manually
+assembled reference checklist tests the presence of these known
+documents; it is not an estimate of recall across the entire web. <a href="hells-kitchen.html#d032">D032</a>, <a href="hells-kitchen.html#d033">D033</a>, <a href="south-west-arkansas.html#d002">D002</a>.</p>
+<p>Of 18 manually selected reference records, 13 originals were
+downloaded and five SEC originals remain unavailable. All 18 are
+represented in the document register. These are reference-list outcomes,
+not a claim of exhaustive historical coverage.</p>
+<p>Coverage remains incomplete in the following specific ways:</p>
+<ul>
+<li>Nine selected SEC document URLs returned HTTP 403 to the downloader.
+Accessible SEC web text informed the explicitly labeled newer HK
+securities observations, while the SWA DFS was acquired from its issuer.
+No inaccessible original has been reconstructed or counted as
+downloaded.</li>
+<li>The current Arkansas draft-air-permit listing was saved, but did not
+establish a project-specific permit in this pass. Its absence from that
+changing list is not evidence of no application or no permit. Detailed
+AOGC orders, final air/water permits and complete application packages
+remain gaps. <a href="south-west-arkansas.html#d054">D054</a>.</li>
+<li>The 298 SEC metadata rows have not all been evaluated for project
+relevance, nor have all possible corporate exhibits been acquired.
+Company-wide administrative filings are retained as inventory entries,
+not assumed project evidence.</li>
+<li>An older 2019 TETRA-property resource report is referenced in the
+SWA technical history but was not acquired. The TETRA alias is included
+in the project map. <a href="south-west-arkansas.html#d044">D044</a>,
+§7.1.</li>
+<li>Later permitting actions, litigation outcomes, undisclosed
+contracts, underlying HK financial/technical models, site-specific
+groundwater test results and actual commercial operating data are not
+established by this collection.</li>
+<li>The 1,562-page HK appendix volume was text-screened, not read
+exhaustively page by page. Scanned pages and figures may contain
+additional information; low-text pages are flagged in the document
+register. Blank or image-only pages must not be treated as negative
+evidence.</li>
+</ul>
+</section>
+<section id="extraction-and-review" class="level2">
+<h2>Extraction and review</h2>
+<p>Original bytes are stored under SHA-256 filenames. The manifest,
+document register and append-only retrieval log preserve URLs, source
+roles, timestamps, download outcomes and revisions. Repeated collection
+verifies the cached hash; explicit refresh preserves previous successful
+versions. Requests are paced, transient failures have bounded retries,
+and a denied request is not repeatedly retried.</p>
+<p>PDF text is stored with one-based physical-page markers. Selected
+tables were rendered and checked against the extraction, including SWA
+process design, capital/economic data, reagents, water and power, and
+both projects’ environmental estimates. OCR was tested on the scanned
+county determination; OCR is a derivative and never replaces the
+original. Full OCR of every image-only appendix page was not
+performed.</p>
+<p>AI source checking and human acceptance are separate states. The
+observation CSV retains the source document, hash where available,
+locator, original value and unit, date, process boundary, scale,
+interpretation and review status. The human-reviewed export accepts only
+rows with an affirmative acceptance, reviewer name and review date. None
+have yet been accepted. Data not located and documents unavailable are
+distinguished from a reported zero.</p>
+</section>
+<section id="interpretation-rules" class="level2">
+<h2>Interpretation rules</h2>
+<ul>
+<li>Keep measured tests, commercial designs, company targets and agency
+decisions separate.</li>
+<li>Preserve original units, product conventions, ranges and qualifiers.
+Do not silently equate LHM, lithium carbonate and LCE or reinterpret
+“per TPA” as “per tonne.”</li>
+<li>Keep cost year and definition alongside economics. No inflation
+adjustment, currency conversion, market-price update or investment
+recommendation is supplied.</li>
+<li>Compare freshwater withdrawal with like-for-like freshwater
+withdrawal; brine circulation and internal recycled water are different
+streams.</li>
+<li>Treat emissions boundaries explicitly. Avoided-grid credits,
+potential-to-emit estimates, gross emissions and life-cycle product
+intensity are different measures.</li>
+<li>Preserve contradictions and study revisions. A more recent filing
+does not automatically explain or correct an older number.</li>
+</ul>
+</section>
+<section id="sharing-and-reproducibility" class="level2">
+<h2>Sharing and reproducibility</h2>
+<p>The Markdown is the authored report. The catalog and evidence
+appendix are refreshed from the register and observations, then Pandoc
+generates an overview and separate project pages with embedded styling
+and source-figure images. A full-report HTML file retains all content on
+one page for ordinary browser search and printing. No server, scripts or
+remote fonts are required. Official-source links require internet
+access.</p>
+<p>Share the report-site.zip archive for the complete multipage report,
+or full-report.html for a single-file version. Keep the HTML pages
+together when using project navigation. The Markdown and its three
+figure images are included in the archive. Original documents, CSVs,
+manifest, source-review images, search log and rerunnable commands
+remain in the supporting research folder. Manual reruns are the default;
+no scheduled monitoring or publishing has been enabled. The
+composition/flowsheet review and presentation update occurred on
+September 16, 2026 using the existing September 14 collection
+snapshot.</p>
+</section>
+</section>
+</body>
+</html>

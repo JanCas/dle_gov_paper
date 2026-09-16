@@ -1,0 +1,5 @@
+# Publish only the generated website. Keep the research workspace local.
+/*
+!/.gitignore
+!/docs/
+.DS_Store
