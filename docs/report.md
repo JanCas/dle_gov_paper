@@ -13,7 +13,7 @@ This research draft brings together project-specific securities disclosures and 
 
 <!-- BEGIN COUNTS -->
 
-**Collection:** 124 source records; 100 successful original-file downloads; 24 failed original-file downloads. The saved PDFs contain 6,562 pages. **Evidence:** 560 observations; 0 accepted after human review.
+**Collection:** 124 source records; 100 successful original-file downloads; 24 failed original-file downloads. The saved PDFs contain 6,562 pages. **Evidence:** 586 observations; 0 accepted after human review.
 
 <!-- END COUNTS -->
 
@@ -43,6 +43,8 @@ The source manifest covers official agency pages, submitted reports and attachme
 
 ## Principal findings
 
+- **Pretreatment now has a dedicated comparison.** The [all-project matrix](#pretreatment-by-project) distinguishes selected designs, tested alternatives and disclosure gaps; the [method inventory](#pretreatment-methods) and [stream-boundary check](#pretreatment-boundaries) keep feed preparation separate from eluate purification and discharge treatment.
+
 - **The expanded report contains 18 profiles with uneven evidence.** Waterleaf adds six measured brine/eluate constituents and a separate groundwater laboratory panel; Franklin adds ten exploration-average brine constituents. Several additions establish project identity or history only, and Magnolia remains an explicitly issuer-supported profile. [Disclosure comparison](#composition-and-flowsheet-availability).
 - **New concentrations retain their stream and date.** Waterleaf reports 69 mg/L raw-brine lithium and 2,044 mg/L in pilot eluate. Franklin reports 668 mg/L in 2023 exploration averages versus 515 mg/L as a 2026 PEA lifetime model average. Paradox repeats Green River’s proposed 170–210 ppm range; those tables are not independent assays. [Waterleaf](#waterleaf-water-composition), [Franklin](#franklin-water-composition), [Paradox](#paradox-water-composition).
 - **A process diagram is not a complete water balance.** Source diagrams cover BHER, ATLiS, historical Ogden, Waterleaf, Franklin and Wellspring. Waterleaf publishes a design water-summary table but redacts detailed stream balances. BHER cancelled its completed-balance deliverable; none of these packages establishes all numbered streams with measured flows and compositions. [BHER](#bher-process-flowsheets), [ATLiS](#atlis-process-flowsheets), [Ogden](#ogden-process-flowsheets).
@@ -58,7 +60,7 @@ The source manifest covers official agency pages, submitted reports and attachme
 
 Read the project profiles and comparison first. Use each **O-number** to reach the full observation, and each **D-number** to reach the document catalog. Observation links identify a printed page, section, table, or slide; PDF citations also include the physical PDF page number, which may differ from printed pagination.
 
-On narrow screens, scroll wide tables sideways to read the remaining columns.
+On narrow screens, scroll wide tables sideways to read the remaining columns. The [pretreatment comparison](#pretreatment-comparison) covers all 18 project profiles.
 
 **Reported measurement** means the source reports a test result; it is not independent verification by this pilot. **Design/model estimate** means an engineering or economic assumption. **Company target** means a forward-looking statement. **Agency decision** is confined to the named action. **Not located** is a bounded search outcome, not a claim that information does not exist.
 
@@ -122,6 +124,12 @@ Fresh makeup water is a separate stream from lithium-bearing brine. The water-su
 [Open DOE Figure 2.1-2 at PDF page 18](https://www.energy.gov/sites/default/files/2026-05/final-ea-2304-swa-lithium-2026-05.pdf#page=18). A separate well-pad separation flowsheet appears in DFS Figure 17-2, printed p. 122 / PDF p. 144.
 
 These figures cover the major process stages. They do **not** supply a complete numbered-stream material/energy balance with every stream's flow and composition, or a piping and instrumentation diagram. Use the published **1,325 m³/h commercial design feed** alongside its own design basis, not as the throughput of the earlier pilot samples. [O008](#o008).
+
+### Pretreatment {#south-west-arkansas-pretreatment}
+
+Well-pad phase separation → air stripping/scrubbing → cooling → pH/ORP conditioning → multimedia filtration → UF. Gases, oils, precipitated iron and suspended solids; NaOH/H2O2 for conditioning. Selected commercial design with supporting trials; no stage-by-stage outlet assay or removal efficiency established here. [O561](#o561), [O562](#o562), [O563](#o563), [O564](#o564)
+
+[Compare pretreatment methods across all projects](#pretreatment-comparison).
 
 ## Hell’s Kitchen
 
@@ -191,6 +199,12 @@ Fresh makeup water is separate: the EIR describes IID irrigation-water supply, s
 **The lithium process is described in words** in §2.9.2, printed pp. 2.0-17–18 / PDF pp. 71–72: geothermal brine cooling → silica/polymetallic recovery → proprietary LiCl extraction → concentration/purification → conversion to lithium hydroxide monohydrate → crystallization, separation, drying and packaging. This sentence is a summary of the narrative, not a reproduced engineering flowsheet. [O134](#o134).
 
 That description gives approximately **5.9 million lb/hr** of brine feeding the cooling trains. It is a mass-flow design value for the 2023 plan; no volume conversion or extraction recovery is inferred from it. [O135](#o135). A numbered-stream balance giving all water, brine, reagent and product compositions was not located in the reviewed environmental documents. The newer SEC presentation's original remains unavailable for visual diagram review, so this is a bounded finding, not a claim that no other public flowsheet exists. [D037](#d037).
+
+### Pretreatment {#hells-kitchen-pretreatment}
+
+Vacuum-flash cooling → proprietary silica/polymetallic recovery and filtration → lithium extraction. Silica and polymetallic products; boron removal is only a possibility. Recipe and dose not specified. Proposed sequence; proprietary chemistry and impurity residuals unresolved. [O568](#o568), [O569](#o569)
+
+[Compare pretreatment methods across all projects](#pretreatment-comparison).
 
 ## BHER Minerals demonstration {#bher}
 
@@ -307,6 +321,12 @@ The under-$4,000/metric-ton production-cost figure was an objective, not an achi
 
 BHE and Occidental announced a TerraLithium joint venture in June 2024. Treat that later program separately; this report does not establish its current performance or transfer the failed historical media results to it. [O205](#o205).
 
+### Pretreatment {#bher-pretreatment}
+
+Existing secondary clarification → NaOH pH adjustment; weir tank acquired after initial solids clogging. pH conditioning and precipitated solids. Original media-tolerance assumption did not establish adequate iron/silicon removal. Field-test failure informs risk; media degradation was also observed, so no single-cause attribution. [O570](#o570), [O571](#o571), [O572](#o572)
+
+[Compare pretreatment methods across all projects](#pretreatment-comparison).
+
 ## EnergySource Minerals ATLiS {#atlis}
 
 **Disclosure summary:** a commercial **7,000 gpm brine-processing design**, a published process block diagram, water demand and detailed chemical-use estimates. A complete geothermal-feed or makeup-water composition was **not located in the screened documents**. Collection cutoff: **September 16, 2026**; technical vintages: **2021 EIR and March 2025 DOE EA**. [O206](#o206), [O236](#o236).
@@ -367,6 +387,12 @@ The EA estimates filter cake disposal to Wellton, Arizona until commercial uses 
 DOE announced its final EA and signed FONSI on **March 26, 2025**, explicitly stating that this was not a final decision to issue a federal loan. The EA expects full production in **Q4 2027**; the 2021 EIR had expected operations in Q2 2023. These are dated plans, not independently verified construction milestones. [O237](#o237), [O214](#o214); [D085](#d085), p. 2.0-10 / PDF p. 54.
 
 Capacity also needs a product basis: the 2021 EIR estimates shipments of 19,000 metric tons of “Li product,” while the later EA uses 20,000 tons/year in an avoided-emissions calculation. Neither wording should silently become a consistent LCE capacity. [O216](#o216); [D085](#d085), PDF p. 54. Project cost, executed offtake terms, complete financing, current construction status and actual commercial performance are not established by this package.
+
+### Pretreatment {#atlis-pretreatment}
+
+HR1 post-secondary-clarifier brine → Fe/silica removal → Mn/Zn removal → filter-press dewatering → ILiAD. HCl pH control disclosed; limestone/CaO facilities listed. Detailed chemical sequence not disclosed. Commercial proposal; Fe/silica cake initially a waste, Mn/Zn intended products. No verified operating efficiency. [O573](#o573), [O574](#o574); [O211](#o211).
+
+[Compare pretreatment methods across all projects](#pretreatment-comparison).
 
 ## Ogden / Great Salt Lake {#ogden}
 
@@ -442,6 +468,12 @@ EnergyX's July 2026 filing describes a **March 19, 2026 largely non-binding MOU*
 
 The latest Compass June-quarter filing was inventoried and web-screened without a lithium-specific update. The blocked SEC originals, full current engineering design, current stream assays, project funding, executed offtake and a completed water balance remain gaps. [D090](#d090).
 
+### Pretreatment {#ogden-pretreatment}
+
+Evaporation ponds and prior salt recovery → brine filtration → ILiAD. Different concentrated feed streams; specific filter type and outlet specifications not given in reviewed process section. Historical Compass design; not the later EnergyX configuration. No assumed raw-brine Mg-softening step. [O575](#o575), [O576](#o576)
+
+[Compare pretreatment methods across all projects](#pretreatment-comparison).
+
 ## Anson / Blackstone Green River {#green-river}
 
 **Disclosure summary:** an **18-parameter brine table** in a November 2023 draft injection-permit attachment, including lithium **170–210 ppm**, density and pH. The table's stream label is ambiguous. An injection schematic is available, but a complete lithium-process flowsheet was not located in the reviewed package. Collection cutoff: **September 16, 2026**. [O385](#o385), [O404](#o404).
@@ -490,6 +522,12 @@ The draft attachment sets an injection-flow ceiling of **2,000 gpm**, with autom
 The current agency index provides final permit and statement-of-basis links, but both returned HTML viewer/login responses to collection instead of the expected PDFs. They are recorded as unavailable originals. The November 2023 public-notice permit, fact sheet and attachments remain distinct historical drafts. [O406](#o406); [D069](#d069), [D070](#d070), [D078](#d078), [D092](#d092).
 
 An injection authorization listing does not demonstrate that every construction/operating approval is in place or that the plant is producing. Current recovery, product purity, reagent consumption, energy demand, freshwater consumption, emissions, costs, financing, offtake and commercial commissioning are not established by this selected permit package. Those gaps remain visible rather than being filled with figures from Anson's separate Paradox project.
+
+### Pretreatment {#green-river-pretreatment}
+
+No upstream DLE pretreatment train established in reviewed injection package. Injection-side solids handling is not evidence of the incoming DLE treatment. Permit chemistry has a production/spent-brine label conflict; no method inferred from it. [D079](#d079), Attachment D pp. 16–17; [O404](#o404).
+
+[Compare pretreatment methods across all projects](#pretreatment-comparison).
 
 ## Waterleaf / Lilac Great Salt Lake Phase 1 {#waterleaf}
 
@@ -625,6 +663,12 @@ Table 12's complete public summary follows. Negative signs indicate water leavin
 
 The printed totals differ by 0.2 and 0.3 mt/hr, although the source prints zero net. Preserve this rounding/closure discrepancy; do not silently force closure. The public summary does not disclose every stream's chemistry. Detailed appendices D.1–D.4 include blacked-out schematic/balance pages (for example PDF pp. 584, 597 and 628). Commercial energy, annual reagent demand, waste chemistry, costs, binding offtake and final approvals were not comprehensively extracted in this addition.
 
+### Pretreatment {#waterleaf-pretreatment}
+
+Intake screening → surge storage → raw-brine multimedia filtration. Native suspended material; raw-filter backwash routed through depleted-brine return. UF alternatives were tested. Selected commercial design supported by pilot/short cold-brine tests; no upstream dissolved-Mg/Ca removal claimed. [O577](#o577), [O578](#o578)
+
+[Compare pretreatment methods across all projects](#pretreatment-comparison).
+
 ## Standard Lithium / Equinor Franklin {#franklin}
 
 **Disclosure summary:** all ten constituents in a published exploration-average brine table and an expected lithium process flowsheet. A September 2026 PEA announcement supplies newer model assumptions. **Cutoff: September 16, 2026.**
@@ -668,6 +712,12 @@ The September 8, 2026 announcement models 20 years on a 100%-project basis. **66
 
 The PEA is preliminary and includes inferred resources. The announcement says a supporting report will follow; that later report was not collected in this pass. It reports preliminary vendor testing without numerical recovery/rejection results sufficient for this comparison. Project-specific full water, energy and reagent balances, binding offtake and completed permitting remain gaps. [D118](#d118), “Processing Overview” and technical-report statement.
 
+### Pretreatment {#franklin-pretreatment}
+
+H2S removal if applicable → iron precipitation → suspended-solids filtration recommended for testing. Optional bromine route additionally needs bisulfite treatment and partial ammonia neutralization. Expected / recommended train; optional co-product circuit kept separate from lithium-only case. [O583](#o583), [O584](#o584)
+
+[Compare pretreatment methods across all projects](#pretreatment-comparison).
+
 ## Wellspring Hydro / LibertyStream, North Dakota {#wellspring}
 
 **Disclosure summary:** government-hosted applicant proposal and high-level process drawing; no complete project-feed composition established. This profile covers a **distributed field program**, not a single fully identified commercial plant. **Cutoff: September 16, 2026.**
@@ -689,6 +739,12 @@ The application describes a tenfold LiCl concentration step but does not establi
 ![Wellspring high-level process drawing from the North Dakota grant application, PDF page 21.](assets/D115-process-flow.png)
 
 [O529](#o529). [Open the source at PDF page 21](https://www.ndic.nd.gov/sites/www/files/documents/Renewable-Energy-Program/Grant-Rounds--Final-Reports/Proposals/Grant-Rounds-59-50/R-56-A-Unlocking-Lithium-Carbonate-in-Produced-Wat.pdf#page=21). The drawing shows brine treatment, DLE and carbonate conversion; it labels trial refining as off site. Its approximate 1,000+ gal/day feed and 10,000+ bbl/day disposal labels use different scales and do not form a closed balance. “Up to 99%” is an applicant illustration claim without the supporting test series needed to accept it as project recovery. Current permitting, measured outcomes, construction, economics and offtake need follow-up.
+
+### Pretreatment {#wellspring-pretreatment}
+
+Brine-treatment block and proposed site-specific technology selection; exact train not established. Species-specific targets, reagents and outlet limits are not supplied in selected passages. Applicant proposal. Carbonate-refining precipitation/filtration is downstream of DLE. [O585](#o585), [O586](#o586)
+
+[Compare pretreatment methods across all projects](#pretreatment-comparison).
 
 ## Anson / A1 Lithium Paradox {#paradox}
 
@@ -733,6 +789,12 @@ The draft operating plan gives **2,000 gpm overall and 300 gpm per well** as inj
 
 A complete DLE-to-product flowsheet and measured water balance were not located in the reviewed injection-permit package. Recovery, purity, utility demand, reagents, emissions, costs, funding, offtake and commissioning were not established in this focused addition. Wider Anson corporate/project studies remain to collect; the draft chemistry is not a substitute for them.
 
+### Pretreatment {#paradox-pretreatment}
+
+No upstream DLE pretreatment train established in reviewed injection package. Shared Green River chemistry does not identify a treatment recipe. Draft spent-brine management cannot substitute for an upstream process flowsheet. [D114](#d114), Attachment D, PDF pp. 46–48.
+
+[Compare pretreatment methods across all projects](#pretreatment-comparison).
+
 ## US Magnesium / International Battery Metals {#us-magnesium}
 
 **Historical profile; cutoff September 16, 2026.** Utah Geological Survey's *Utah Mining 2024* records DLE installation in mid-2024 using International Battery Metals technology, followed by idling of US Magnesium operations in late 2024. This is a separate Great Salt Lake operation from Ogden and Waterleaf. The survey draws partly on company information and does not establish a current restart. [O551](#o551).
@@ -748,6 +810,12 @@ A complete DLE-to-product flowsheet and measured water balance were not located 
 
 The agency summary identifies a historical installation, not a complete engineering record. No direct feed assay, full numbered-stream balance, validated recovery, consumption data, economics or current offtake was established in this addition. [D116](#d116), printed p. 15 / PDF p. 21.
 
+### Pretreatment {#us-magnesium-pretreatment}
+
+DLE installation on magnesium-operation byproduct material; specific preparation train not established. Prior magnesium processing changes the feed, but the survey does not detail DLE pretreatment. Historical government-survey summary; no transfer of Ogden or Waterleaf methods. [O551](#o551).
+
+[Compare pretreatment methods across all projects](#pretreatment-comparison).
+
 ## Mandrake Utah Lithium Project {#utah-lithium}
 
 **Exploration/testing profile; cutoff September 16, 2026.** Mandrake's Lisbon Valley project in San Juan County, Utah, is separate from Anson's projects. Electroflow is a DLE testing partner, not a second mineral project counted here. [D116](#d116), PDF p. 22; [D124](#d124).
@@ -761,6 +829,12 @@ The agency summary identifies a historical installation, not a complete engineer
 The September 15, 2026 issuer announcement reports approximately **8,000 L** collected from Evelyn Chambers #1's existing Leadville perforations and transferred to Electroflow for appraisal. Purity, recovery and costing results are future outputs in that announcement. The wording “bulk brine production complete” refers to sample collection, not commercial lithium production. [O553](#o553).
 
 No full chemistry panel for that delivered brine, complete process flowsheet or measured water/energy balance was found in these selected records. UGS summarizes a 3.6 Mt LCE resource, whereas the issuer update says 3.3 Mt; the discrepancy needs the underlying dated resource reports. These figures are not used to rank projects. [D116](#d116), [D124](#d124).
+
+### Pretreatment {#utah-lithium-pretreatment}
+
+Brine supplied to Electroflow for appraisal; pretreatment selection not established. No full treatment train, reagent schedule or inlet/outlet pair in the cited update. Sample delivery is not completed pretreatment validation. [O553](#o553).
+
+[Compare pretreatment methods across all projects](#pretreatment-comparison).
 
 ## TETRA / Saltwerx Evergreen {#evergreen}
 
@@ -777,6 +851,12 @@ No full chemistry panel for that delivered brine, complete process flowsheet or 
 
 No unit-specific concentration is presented here. The 10-K refers to updated technical studies, but those studies were not collected for this addition. Do not assign SWA brine chemistry or recovery to Evergreen merely because TETRA and Saltwerx appear in both regional histories. [D121](#d121), mineral-resource discussion; [D044](#d044), §23.3.
 
+### Pretreatment {#evergreen-pretreatment}
+
+No lithium-specific pretreatment train established in the currently collected unit/development records. Bromine development alone does not specify the future lithium-feed preparation. Underlying TETRA technical studies remain uncollected; no process inferred from neighboring SWA. [O554](#o554), [O555](#o555).
+
+[Compare pretreatment methods across all projects](#pretreatment-comparison).
+
 ## ExxonMobil / Saltwerx Pine {#pine}
 
 **Limited identity/permitting-history profile; cutoff September 16, 2026.** The SEC-filed SWA DFS and its saved issuer PDF identify Saltwerx, acquired by ExxonMobil, and the **Pine brine unit** in Miller and Lafayette counties, Arkansas. The record reports April 2025 unitization of **56,245.58 acres**. The direct AOGC order was not collected. [O556](#o556); [D001](#d001), [D044](#d044), §23.2.
@@ -791,6 +871,12 @@ No unit-specific concentration is presented here. The 10-K refers to updated tec
 | DLE flowsheet / water balance | No Pine-specific engineering package collected in this addition |
 
 This profile establishes a distinct development record. It does not establish measured recovery, product purity, commercial operation or all required approvals. Direct Exxon technical disclosures, unit orders and environmental submissions remain the next evidence targets. Historical ownership or aliases are not counted as extra projects.
+
+### Pretreatment {#pine-pretreatment}
+
+No Pine-specific pretreatment train established in the collected unit-identity record. Targets, chemistry, filters and outputs unresolved. Direct Exxon project engineering evidence still needed. [O556](#o556).
+
+[Compare pretreatment methods across all projects](#pretreatment-comparison).
 
 ## EnergyX / EXSO Lonestar, Texas {#lonestar}
 
@@ -807,6 +893,12 @@ This profile establishes a distinct development record. It does not establish me
 
 Some corporate wording uses Lonestar across Texas and Arkansas; this page follows the Texas assets, while [Daytona](daytona.html) follows the acquired Arkansas leases. Generic technology tests and combined production ambitions are not assigned to either site's measured performance. Local permit and technical packages remain to collect. [D089](#d089).
 
+### Pretreatment {#lonestar-pretreatment}
+
+No site-specific pretreatment train established in the selected Texas project disclosure. Generic LiTAS or multi-project claims are not a Texas treatment specification. Commissioned demonstration does not itself document the pretreatment train. [O557](#o557).
+
+[Compare pretreatment methods across all projects](#pretreatment-comparison).
+
 ## EnergyX Daytona / Folsom Point, Arkansas {#daytona}
 
 **Limited acquisition/development profile; cutoff September 16, 2026.** EnergyX's SEC circular reports the October 1, 2025 acquisition of Daytona Lithium Pty. Ltd. from Pantera, including Folsom Point Energy LLC and its Southwest Arkansas mineral leases. This page separates those assets from Texas Lonestar; it does not imply a wholly independent technology platform. [O558](#o558).
@@ -822,6 +914,12 @@ Some corporate wording uses Lonestar across Texas and Arkansas; this page follow
 
 The filing identifies LiTAS as the intended technology but does not supply a site-specific closed water balance. Recovery, consumptions, costs and offtake require project-specific records. [D089](#d089), “Daytona Lithium Pty. Ltd. Acquisition,” printed p. 46.
 
+### Pretreatment {#daytona-pretreatment}
+
+No Arkansas asset-specific pretreatment train established in the selected acquisition disclosure. Targets, reagents and treated-feed assays unresolved. Do not inherit Texas or Ogden methods merely through shared ownership. [O558](#o558).
+
+[Compare pretreatment methods across all projects](#pretreatment-comparison).
+
 ## Albemarle Magnolia DLE pilot {#magnolia}
 
 **Issuer-supported profile; direct government package still needed. Cutoff: September 16, 2026.** Albemarle's 2024 sustainability report says DLE piloting began at Magnolia, Arkansas, in 2024, using a different brine and extraction technology from its La Negra pilot in Chile. [O559](#o559).
@@ -836,6 +934,12 @@ The filing identifies LiTAS as the intended technology but does not supply a sit
 
 The Chile recovery claim on the same source page is not a Magnolia result. Regional bromine production and site-wide sustainability metrics likewise cannot establish DLE water or emissions intensity. The SWA DFS's neighboring-property description supplies context but not direct Magnolia engineering evidence. [D122](#d122), PDF p. 46; [D044](#d044), §23.1.
 
+### Pretreatment {#magnolia-pretreatment}
+
+Pilot statement does not disclose a Magnolia-specific pretreatment train. Different brine/technology from La Negra; no Chile method or efficiency transferred. Issuer-only pilot evidence; direct government/technical package missing. [O559](#o559).
+
+[Compare pretreatment methods across all projects](#pretreatment-comparison).
+
 ## Standard Lithium / LANXESS commercial history {#lanxess}
 
 **Historical commercial profile with separate demonstration evidence. Cutoff: September 16, 2026.** Standard Lithium's 2025 annual information form says the LANXESS commercial MOU ended by mutual agreement in 2025 and the company stopped pursuing that property development. It separately describes continued demonstration work near the South plant in El Dorado, Arkansas. [O560](#o560).
@@ -849,6 +953,12 @@ The Chile recovery claim on the same source page is not a Magnolia result. Regio
 The same demonstration table is already included under SWA as supporting process research; it is linked here without creating a duplicate measurement set. Its chemistry is not representative of SWA raw brine and does not prove commercial LANXESS 1A operation. [D044](#d044), Table 13-1; [D117](#d117), Table 13.1 note 2.
 
 Historical standalone commercial studies and a complete current demonstration stream balance were not added in this pass. Project cessation and continued pilot work are different events; preserve both when interpreting schedules, capacity, economics and offtake. [D119](#d119), “Other Projects.”
+
+### Pretreatment {#lanxess-pretreatment}
+
+Post-bromine feed with upstream phase separation/vacuum degassing; pH/ORP, temperature and filtration trials. UF, multimedia, activated carbon, walnut-shell and iron-guard-bed options tested; not all selected. Demonstration supports SWA research; not proof that the ended commercial project was built. [O567](#o567), [O566](#o566)
+
+[Compare pretreatment methods across all projects](#pretreatment-comparison).
 
 # Cross-project comparison
 
@@ -891,6 +1001,87 @@ The following original-pilot comparison covers SWA and Hell’s Kitchen; the 18-
 | [LANXESS history](lanxess.html) · 2023 demo chemistry; 2025 commercial cessation | 237 demo | — | Post-bromine demonstration feed, already counted under SWA | Existing 11-parameter column; no duplicate observations. [Details](#lanxess-water-composition) | Historical commercial studies not added in this pass. [Scope](#lanxess-water-composition) |
 
 A dash means no value is presented in that unit. Do not rank these lithium values directly: ppm and mg/L are retained as distinct source units; lake, concentrated pond brine, geothermal feed and proposed injection chemistry are different boundaries. The earlier two-project engineering comparison above retains its original scope.
+
+## Pretreatment comparison {#pretreatment-comparison}
+
+**The filings disclose different treatment trains, not a single interchangeable “pretreatment” step.** The comparison below covers all 18 profiles, including explicit gaps. It uses the collected study vintages; no new claim of current plant operation or exhaustive historical coverage is made. The observations remain pending human review.
+
+Here, **pretreatment means preparing the brine before it enters the lithium-selective extraction step**. Existing well-pad, geothermal or pond operations are identified as upstream feed history. Purification of lithium-rich eluate and treatment of depleted brine are separate. **“Not established” means the reviewed project records do not identify a defensible train; it does not mean the plant needs no pretreatment.**
+
+The clearest contrasts are SWA’s gas removal, chemical conditioning and multimedia-plus-UF design; Waterleaf’s selected raw-brine multimedia filtration; ATLiS’s staged non-lithium mineral removal; and BHER’s reported response to field-test solids clogging. There is no matched dataset here for ranking their cost, water use or overall effectiveness. [SWA](#south-west-arkansas-pretreatment), [Waterleaf](#waterleaf-pretreatment), [ATLiS](#atlis-pretreatment), [BHER](#bher-pretreatment).
+
+### Methods disclosed {#pretreatment-methods}
+
+This inventory includes selected methods and tested alternatives. It is a synthesis of the cited project descriptions, not a recommendation to combine every listed method into one plant.
+
+| Method / operation | Role before DLE | Where disclosed | Comparison limit |
+|:--|:--|:--|:--|
+| Phase separation; gas stripping/scrubbing | Separate oil/gas phases and dissolved gases. | SWA design: well-pad separation, then air stripping and H2S scrubber. LANXESS test history and Franklin co-product concept: vacuum degassing. [O561](#o561), [O562](#o562), [O567](#o567), [O584](#o584) | These are different gas-handling arrangements; no matched removal/cost data. |
+| Temperature conditioning | Bring brine to the chosen extraction/process conditions. | SWA heat exchanger; HK vacuum-flash cooling. [O563](#o563), [O568](#o568) | Cooling is not itself proof of contaminant removal. |
+| pH / oxidation-reduction adjustment | Condition brine; where stated, form removable iron solids. | SWA NaOH/H2O2; BHER NaOH pH elevation. ATLiS identifies HCl for pH control. [O563](#o563), [O570](#o570), [O574](#o574) | Different purposes and feed chemistry; do not infer equal pH, dose or iron removal. |
+| Screening, clarification and weir separation | Remove or intercept suspended/coarse material. | Waterleaf intake screens; pre-existing geothermal clarification at BHER/ATLiS; BHER added weir tank after clogging. [O577](#o577), [O571](#o571), [O573](#o573) | Solids separation alone does not establish removal of dissolved salts. |
+| Solar evaporation and salt precipitation | Concentrate brine and remove salts before it reaches the DLE plant. | Ogden’s historical pond and salt-recovery operations prepare distinct feed streams. [O575](#o575) | Existing upstream operations, not a dedicated DLE pretreatment unit; pond history changes the inlet chemistry. |
+| Multimedia filtration | Filter suspended matter; SWA also names residual oil droplets. | Selected for Waterleaf; precedes UF in SWA. [O577](#o577), [O564](#o564) | Waterleaf’s short cold-brine test is not a universal advantage over UF. |
+| Ultrafiltration: pressurized/submerged, polymeric/ceramic options | Membrane solid–liquid separation before extraction. | SWA selects UF after multimedia; LANXESS tests pressurized/submerged UF; Waterleaf tests polymeric/ceramic UF. [O564](#o564), [O566](#o566), [O578](#o578) | Plant selection differs. Waterleaf reports winter flux penalties; SWA retains UF in its own design. |
+| Precoat filtration | An evaluated filtration alternative. | Waterleaf lists it among tested incoming-brine options. [O578](#o578) | Not selected as its main raw-brine filter; a separate downstream filter press must not be mistaken for the same stage. |
+| Activated carbon, walnut-shell filters and iron guard beds | Hydrocarbon-removal / residual-iron options in the test program. | Listed in LANXESS-site demonstration tests supporting SWA. [O566](#o566) | No like-for-like performance table; source says many tested options were sub-optimal. |
+| Staged mineral removal with solids dewatering | Remove targeted non-lithium minerals before DLE. | ATLiS: Fe/silica then Mn/Zn and filter presses. HK: proprietary silica/polymetallic removal and filtration. [O573](#o573), [O569](#o569) | Detailed reaction recipes are incomplete; waste versus potential product disposition differs. |
+| Conditional dehalogenation / neutralization | Prepare bromine-depleted brine for lithium extraction. | Franklin co-product concept: sodium bisulfite after bromine extraction, then partial neutralization with anhydrous ammonia. [O584](#o584) | Optional bromine pathway, not a confirmed requirement for the lithium-only project. |
+
+
+### Project-by-project comparison {#pretreatment-by-project}
+
+**Design** describes the proposed commercial train; **test history** describes reported trials; **recommended work** is prospective. A method listed in a test program is not automatically a commercial selection.
+
+| Project / source vintage | Upstream sequence or disclosure gap | Targets, reagents and residuals | Evidence and qualification |
+|:--|:--|:--|:--|
+| [SWA · 2025 DFS / 2026 EA](#south-west-arkansas-pretreatment) | Well-pad phase separation → air stripping/scrubbing → cooling → pH/ORP conditioning → multimedia filtration → UF. | Gases, oils, precipitated iron and suspended solids; NaOH/H2O2 for conditioning. | Selected commercial design with supporting trials; no stage-by-stage outlet assay or removal efficiency established here. [O561](#o561), [O562](#o562), [O563](#o563), [O564](#o564) |
+| [Hell’s Kitchen · 2023 EIR](#hells-kitchen-pretreatment) | Vacuum-flash cooling → proprietary silica/polymetallic recovery and filtration → lithium extraction. | Silica and polymetallic products; boron removal is only a possibility. Recipe and dose not specified. | Proposed sequence; proprietary chemistry and impurity residuals unresolved. [O568](#o568), [O569](#o569) |
+| [BHER demonstration · 2022–2023](#bher-pretreatment) | Existing secondary clarification → NaOH pH adjustment; weir tank acquired after initial solids clogging. | pH conditioning and precipitated solids. Original media-tolerance assumption did not establish adequate iron/silicon removal. | Field-test failure informs risk; media degradation was also observed, so no single-cause attribution. [O570](#o570), [O571](#o571), [O572](#o572) |
+| [ATLiS · 2021 EIR / 2025 EA](#atlis-pretreatment) | HR1 post-secondary-clarifier brine → Fe/silica removal → Mn/Zn removal → filter-press dewatering → ILiAD. | HCl pH control disclosed; limestone/CaO facilities listed. Detailed chemical sequence not disclosed. | Commercial proposal; Fe/silica cake initially a waste, Mn/Zn intended products. No verified operating efficiency. [O573](#o573), [O574](#o574); [O211](#o211). |
+| [Ogden · historical 2022 design](#ogden-pretreatment) | Evaporation ponds and prior salt recovery → brine filtration → ILiAD. | Different concentrated feed streams; specific filter type and outlet specifications not given in reviewed process section. | Historical Compass design; not the later EnergyX configuration. No assumed raw-brine Mg-softening step. [O575](#o575), [O576](#o576) |
+| [Green River · 2023 draft UIC](#green-river-pretreatment) | No upstream DLE pretreatment train established in reviewed injection package. | Injection-side solids handling is not evidence of the incoming DLE treatment. | Permit chemistry has a production/spent-brine label conflict; no method inferred from it. [D079](#d079), Attachment D pp. 16–17; [O404](#o404). |
+| [Waterleaf · 2025 tests / 2026 application](#waterleaf-pretreatment) | Intake screening → surge storage → raw-brine multimedia filtration. | Native suspended material; raw-filter backwash routed through depleted-brine return. UF alternatives were tested. | Selected commercial design supported by pilot/short cold-brine tests; no upstream dissolved-Mg/Ca removal claimed. [O577](#o577), [O578](#o578) |
+| [Franklin · 2025 report / 2026 PEA](#franklin-pretreatment) | H2S removal if applicable → iron precipitation → suspended-solids filtration recommended for testing. | Optional bromine route additionally needs bisulfite treatment and partial ammonia neutralization. | Expected / recommended train; optional co-product circuit kept separate from lithium-only case. [O583](#o583), [O584](#o584) |
+| [Wellspring · 2025 application](#wellspring-pretreatment) | Brine-treatment block and proposed site-specific technology selection; exact train not established. | Species-specific targets, reagents and outlet limits are not supplied in selected passages. | Applicant proposal. Carbonate-refining precipitation/filtration is downstream of DLE. [O585](#o585), [O586](#o586) |
+| [Paradox · 2024 draft UIC](#paradox-pretreatment) | No upstream DLE pretreatment train established in reviewed injection package. | Shared Green River chemistry does not identify a treatment recipe. | Draft spent-brine management cannot substitute for an upstream process flowsheet. [D114](#d114), Attachment D, PDF pp. 46–48. |
+| [US Magnesium · 2024 historical events](#us-magnesium-pretreatment) | DLE installation on magnesium-operation byproduct material; specific preparation train not established. | Prior magnesium processing changes the feed, but the survey does not detail DLE pretreatment. | Historical government-survey summary; no transfer of Ogden or Waterleaf methods. [O551](#o551). |
+| [Mandrake Utah · September 2026 testing update](#utah-lithium-pretreatment) | Brine supplied to Electroflow for appraisal; pretreatment selection not established. | No full treatment train, reagent schedule or inlet/outlet pair in the cited update. | Sample delivery is not completed pretreatment validation. [O553](#o553). |
+| [Evergreen · 2025 disclosures](#evergreen-pretreatment) | No lithium-specific pretreatment train established in the currently collected unit/development records. | Bromine development alone does not specify the future lithium-feed preparation. | Underlying TETRA technical studies remain uncollected; no process inferred from neighboring SWA. [O554](#o554), [O555](#o555). |
+| [Pine · 2025 neighboring-property disclosure](#pine-pretreatment) | No Pine-specific pretreatment train established in the collected unit-identity record. | Targets, chemistry, filters and outputs unresolved. | Direct Exxon project engineering evidence still needed. [O556](#o556). |
+| [Lonestar · July 2026 filing](#lonestar-pretreatment) | No site-specific pretreatment train established in the selected Texas project disclosure. | Generic LiTAS or multi-project claims are not a Texas treatment specification. | Commissioned demonstration does not itself document the pretreatment train. [O557](#o557). |
+| [Daytona / Folsom Point · July 2026 filing](#daytona-pretreatment) | No Arkansas asset-specific pretreatment train established in the selected acquisition disclosure. | Targets, reagents and treated-feed assays unresolved. | Do not inherit Texas or Ogden methods merely through shared ownership. [O558](#o558). |
+| [Magnolia · 2024 issuer report](#magnolia-pretreatment) | Pilot statement does not disclose a Magnolia-specific pretreatment train. | Different brine/technology from La Negra; no Chile method or efficiency transferred. | Issuer-only pilot evidence; direct government/technical package missing. [O559](#o559). |
+| [LANXESS history · 2020–2025 demonstration](#lanxess-pretreatment) | Post-bromine feed with upstream phase separation/vacuum degassing; pH/ORP, temperature and filtration trials. | UF, multimedia, activated carbon, walnut-shell and iron-guard-bed options tested; not all selected. | Demonstration supports SWA research; not proof that the ended commercial project was built. [O567](#o567), [O566](#o566) |
+
+
+### Conditions and outcomes that can actually be checked {#pretreatment-conditions}
+
+BHER’s process description gives a pH change; Waterleaf gives a short filtration test. They measure different things and should not be ranked against one another.
+
+| Project / basis | Feed pH (dimensionless) | Conditioned pH (dimensionless) | Reagent / evidence |
+|:--|--:|--:|:--|
+| BHER demonstration process, 2022–2023 | 4.7 | 7.5 | NaOH; process description, not proof of sufficient impurity removal. [O570](#o570) |
+
+| Waterleaf test location / scale | Feed temperatures (°C) | Flux (L/m²/h) | Duration (h) | Pressure result (psi differential) | Filtrate particle-size result (µm) |
+|:--|:--|--:|--:|:--|:--|
+| Oakland pilot-scale column; application pp. 106–107 | 13 and 1.5 | 12000 | 12 | Below the 5 psi design ceiling; 5 is not the measured operating pressure | No particles above 4 reported in the tested filtrates |
+
+Waterleaf sources: [O579](#o579), [O580](#o580), [O581](#o581). The GSL pilot performance period excluded the coldest months; the separate Oakland test supplied cold-brine evidence. Particle size is not TSS concentration, and a 12-hour test does not demonstrate seasonal media life, cleaning demand or full-scale reliability. The applicant’s narrative attributes UF difficulties to cold-brine viscosity and lower flux; it does not publish a matched lifecycle-cost comparison in these passages. [O578](#o578).
+
+BHER’s first field trial stopped after precipitated solids clogged valves and contaminated media; a weir tank was then acquired. Later tests also identified media structural degradation, and the report highlights iron/silicon removal as an unresolved need. These findings support attention to pretreatment but do not isolate it as the sole cause of failure. [O571](#o571), [O572](#o572).
+
+### Keep downstream treatment separate {#pretreatment-boundaries}
+
+| Project / stream | Treatment after DLE | Why it is excluded from incoming-brine pretreatment |
+|:--|:--|:--|
+| SWA concentrated eluate | NaOH/soda-ash Ca/Mg precipitation, clarification and polishing | Acts after lithium extraction and eluate RO. [O565](#o565) |
+| Waterleaf eluate | Neutralization and divalent-ion purification | Conditions the lithium-rich product stream, not raw lake water. [O582](#o582) |
+| Waterleaf depleted brine | pH adjustment, NaOCl manganese precipitation, residual-oxidant neutralization with sodium sulfite and solids removal | Prepares discharge after extraction; do not put these reagents in the raw-MMF recipe. [O582](#o582) |
+| Wellspring LiCl feed to carbonate unit | Precipitation and filtration designed for carbonate refining | Vendor feedstock had already passed through DLE. [O586](#o586) |
+| BHER loaded media / depleted brine | Wash, acid elution and depleted-brine acidification | These are extraction-cycle or return-stream operations. [O570](#o570) |
+
+For a quantitative pretreatment ranking, the remaining requirements are matched inlet/outlet analyses, lithium loss across each stage, removal efficiency by species, reagent dose per volume of brine, wash/backwash demand, filter flux and cleaning history, residual mass/disposal route, and costs at a common operating scale. **No complete, comparable set was established across the 18 profiles.** Retaining the exact stream is essential: a DLE impurity-rejection percentage or final-product purity is not a pretreatment removal percentage.
 
 ## Brine concentration and chemistry
 
@@ -3624,6 +3815,68 @@ Government-hosted overview diagram, useful alongside DFS Figure 17-1. No per-str
 
 Review: AI text and rendered-page check; **human review pending**.
 
+### Pretreatment and process boundaries
+
+#### O561
+
+**Well-pad separation and residual gas handling: Separate brine, sour gas and trace hydrocarbons; strip residual sour gas at CPF.**
+
+Basis: **design description**; scale: proposed commercial plant; boundary: before DLE. Date/basis: 2026-05.
+
+Source: [D029](#d029), [Printed p. 9, §2.1 process steps 1–2](https://www.energy.gov/sites/default/files/2026-05/final-ea-2304-swa-lithium-2026-05.pdf#page=16) (PDF page 16).
+
+Well-pad sour gas goes to a third-party gas facility; trace hydrocarbons to a suitable facility. CPF sour gas converted to NaSH, with neutralization/redissolution in depleted brine or contingent off-site disposal. This is a proposed routing, not measured removal efficiency.
+
+Review: AI source-text check; **human review pending**.
+
+#### O562
+
+**Commercial degassing method: Counter-current air stripping followed by H2S scrubbing.**
+
+Basis: **design description**; scale: proposed commercial plant; boundary: before DLE. Date/basis: 2025-09-03.
+
+Source: [D044](#d044), [Printed p. 125, §17.4.1.1](https://www.standardlithium.com/_resources/reports/South-West-Arkansas-NI-43-101-DFS.pdf?v=120808%3Fv%3D1761065229#page=147) (PDF page 147).
+
+Targets dissolved H2S, methane and CO2. Air stripping transfers gases into an air stream; scrubber addresses H2S. Distinct from upstream LANXESS vacuum degassing in demonstration history.
+
+Review: AI source-text check; **human review pending**.
+
+#### O563
+
+**Brine conditioning: Heat-exchanger cooling; NaOH and H2O2 for pH and oxidation-reduction control.**
+
+Basis: **design description**; scale: proposed commercial plant; boundary: before DLE. Date/basis: 2025-09-03.
+
+Source: [D044](#d044), [Printed p. 125, §17.4.1.2; test context §13.3.1 p. 84](https://www.standardlithium.com/_resources/reports/South-West-Arkansas-NI-43-101-DFS.pdf?v=120808%3Fv%3D1761065229#page=147) (PDF page 147).
+
+Test section on PDF p. 106 links pH/ORP adjustment to iron precipitation ahead of filtration. Exact residual-iron specification and stage-specific chemical dose not established in these passages.
+
+Review: AI source-text check; **human review pending**.
+
+#### O564
+
+**Selected commercial filtration sequence: Multimedia filters followed by ultrafiltration.**
+
+Basis: **design description**; scale: proposed commercial plant; boundary: before DLE. Date/basis: 2025-09-03.
+
+Source: [D044](#d044), [Printed p. 125, §17.4.1.3](https://www.standardlithium.com/_resources/reports/South-West-Arkansas-NI-43-101-DFS.pdf?v=120808%3Fv%3D1761065229#page=147) (PDF page 147).
+
+Multimedia filters remove coarse suspended solids and residual oil droplets; UF removes remaining suspended solids to protect the LSS bed. UF includes backflush and clean-in-place. This does not imply removal of all dissolved Ca/Mg.
+
+Review: AI source-text check; **human review pending**.
+
+#### O565
+
+**Ca/Mg softening location: Concentrated DLE eluate, after eluate reverse osmosis.**
+
+Basis: **design description**; scale: proposed commercial plant; boundary: after DLE; not feed-brine pretreatment. Date/basis: 2025-09-03.
+
+Source: [D044](#d044), [Printed p. 126, §17.4.3.2](https://www.standardlithium.com/_resources/reports/South-West-Arkansas-NI-43-101-DFS.pdf?v=120808%3Fv%3D1761065229#page=148) (PDF page 148).
+
+NaOH precipitates Mg(OH)2; soda ash precipitates CaCO3; clarifier, polishing filter and filter press follow. Do not classify this as bulk raw-brine softening.
+
+Review: AI source-text check; **human review pending**.
+
 ## Hell’s Kitchen evidence {#hells-kitchen-evidence}
 
 ### Process
@@ -4241,6 +4494,32 @@ Basis: **design**; scale: 2023 commercial design; boundary: HKP1 brine feeding H
 Source: [D022](#d022), [p. 2.0-17, §2.9.2 Metal Recovery](https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=71) (PDF page 71).
 
 Mass flow at the 2023 design scale, not freshwater demand. No volume conversion or inferred recovery is applied without density and a consistent stream basis.
+
+Review: AI source-text check; **human review pending**.
+
+### Pretreatment and process boundaries
+
+#### O568
+
+**Upstream lithium-facility cooling: Vacuum-flash brine cooling.**
+
+Basis: **design description**; scale: proposed commercial plant; boundary: before DLE. Date/basis: 2023-08.
+
+Source: [D022](#d022), [Printed p. 2.0-17, §2.9.2, Metal Recovery](https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=71) (PDF page 71).
+
+Post-geothermal brine is cooled before mineral extraction. Vacuum flashing is described here as cooling, not assigned a quantified gas-removal efficiency.
+
+Review: AI source-text check; **human review pending**.
+
+#### O569
+
+**Upstream non-lithium mineral recovery: Proprietary silica and polymetallic recovery; possible boron-compound recovery; solids filtration.**
+
+Basis: **design description**; scale: proposed commercial plant; boundary: before DLE. Date/basis: 2023-08.
+
+Source: [D022](#d022), [Printed pp. 2.0-17–18, §2.9.2; continues PDF p. 72](https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=71) (PDF page 71).
+
+Followed by proprietary LiCl extraction and separate LiCl purification. Exact reaction sequence, reagent doses, outlet impurity concentrations and a fully numbered process flowsheet are not disclosed in these passages.
 
 Review: AI source-text check; **human review pending**.
 
@@ -5092,6 +5371,44 @@ Distinct technology program; the earlier CEC demonstration results must not be t
 
 Review: AI source-text check; **human review pending**.
 
+### Pretreatment and process boundaries
+
+#### O570
+
+**Brine conditioning pH: 4.7 → 7.5 pH units.**
+
+Basis: **reported demonstration process description**; scale: Region 1 / Unit 5 side-stream demonstration; boundary: before DLE. Date/basis: 2022–2023 trials; 2024 final report.
+
+Source: [D058](#d058), [Printed p. 10, Technology Approach, unit operation 1](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=17) (PDF page 17).
+
+NaOH conditions brine from Unit 5 secondary clarifier. Subsequent brine wash and acid elution occur on loaded media, and depleted-brine acidification is after DLE, not incoming-brine pretreatment.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O571
+
+**Additional solids removal after clogging: Weir tank acquired to remove solids before lithium recovery reaction units.**
+
+Basis: **reported field-test response**; scale: 2022 demonstration trial; boundary: before DLE. Date/basis: 2022-06.
+
+Source: [D058](#d058), [Printed p. 19, Media Test #1](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=26) (PDF page 26).
+
+Precipitated solids clogged inlet valves and contaminated media in test #1. Report records the equipment response, not a validated standalone removal percentage or proof that this solved later media failures.
+
+Review: AI source-text check; **human review pending**.
+
+#### O572
+
+**Pretreatment lesson and causality limit: Effective iron/silicon removal identified as important; later pilot uses different technology.**
+
+Basis: **reported field-test conclusion**; scale: unsuccessful 2022–2023 demonstration; boundary: before DLE. Date/basis: 2024 final report.
+
+Source: [D058](#d058), [Printed p. 21, Evaluation of Project Benefits; see test #2 PDF p. 26](https://www.energy.ca.gov/sites/default/files/2024-08/CEC-500-2024-094.pdf#page=28) (PDF page 28).
+
+Tests also found lithium-titanate structural degradation and low-pH materials incompatibility. Do not attribute all decline solely to pretreatment, or imply that a full iron/silica removal train had been validated. Existing O201/O202 retain overall outcome.
+
+Review: AI source-text check; **human review pending**.
+
 ## ATLiS evidence {#atlis-evidence}
 
 ### Process and environmental demands
@@ -5483,6 +5800,32 @@ Basis: **agency decision notice**; scale: proposed commercial facility; boundary
 Source: [D093](#d093), [DOE publication notice, body](https://www.energy.gov/nepa/articles/doeea-2279-final-environmental-assessment-and-finding-no-significant-impact-march).
 
 DOE explicitly says the FONSI is not a final loan-issuance decision. Current construction/commercial-operation status and full financing were not independently established.
+
+Review: AI source-text check; **human review pending**.
+
+### Pretreatment and process boundaries
+
+#### O573
+
+**Pre-DLE impurity-removal sequence: Fe/silica removal, then Mn/Zn removal, followed by filter-press dewatering.**
+
+Basis: **design description**; scale: proposed commercial plant; boundary: before DLE. Date/basis: 2025-03.
+
+Source: [D061](#d061), [Printed p. 14, §2.2.2.1; upstream secondary clarifiers PDF p. 43](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=20) (PDF page 20).
+
+Receives HR1 post-secondary-clarifier brine. Same detailed sequence in D085 PDF pp. 52–53 (2021 EIR). 2021 later Zn/Mn product refining is a separate step; not a reversal of pre-DLE impurity removal.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O574
+
+**Disclosed impurity-removal reagents and hardware: HCl for pH control; limestone tanks, CaO silo/slacker and filter presses listed.**
+
+Basis: **design description**; scale: proposed commercial plant; boundary: before DLE. Date/basis: 2025-03.
+
+Source: [D061](#d061), [Printed pp. 10 and 14, §§2.1.1.1 and 2.2.2.1 (PDF pp. 16, 20)](https://www.energy.gov/sites/default/files/2025-03/final-ea-fonsi-ea-2279-atlis-2025-03.pdf#page=16) (PDF page 16).
+
+Exact chemical-addition sequence, pH set points, species-specific residuals and stage-specific reagent intensity are not established from these passages. Bulk plant chemical inventories should not be assigned wholly to pretreatment.
 
 Review: AI source-text check; **human review pending**.
 
@@ -7264,6 +7607,32 @@ Definitive agreements and approvals remain conditions. Phase I target approximat
 
 Review: AI web-text check; original download unavailable; **human review pending**.
 
+### Pretreatment and process boundaries
+
+#### O575
+
+**Upstream feed preparation: Solar-pond evaporation/concentration and salt precipitation before DLE plant feed.**
+
+Basis: **design description**; scale: proposed commercial plant; boundary: before DLE. Date/basis: 2022-09.
+
+Source: [D073](#d073), [Printed p. 137, §14.2](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=149) (PDF page 149).
+
+Interstitial brine, two-year brine and DustGard differ in upstream residence and mineral removal. This is an upstream feed history, not a membrane step or current EnergyX process design.
+
+Review: AI source-text check; **human review pending**.
+
+#### O576
+
+**Historical plant-inlet treatment: Brine filtration after pond evaporation, before ILiAD.**
+
+Basis: **design description**; scale: proposed commercial plant; boundary: before DLE. Date/basis: 2022-09.
+
+Source: [D073](#d073), [Printed pp. 135–137, §§14.1–14.2; Figure 14-1 PDF p. 148](https://s22.q4cdn.com/834578860/files/doc_downloads/2022/09/CMP-Ex96.1-Revised-Ogden-Lithium-Technical-Report-Summary.pdf#page=147) (PDF page 147).
+
+East: DustGard/interstitial-brine filtration; West: interstitial/two-year-brine filtration. Filter type, cutoff, outlet composition and measured pretreatment performance not specified in these sections. Do not infer upstream bulk-Mg softening from carbonate-conversion reagents.
+
+Review: AI source-text check; **human review pending**.
+
 ## Green River evidence {#green-river-evidence}
 
 ### Draft permit brine composition
@@ -8810,6 +9179,80 @@ Source includes lab methods and QC. This aquifer test does not establish final c
 
 Review: AI source-text check; **human review pending**.
 
+### Pretreatment and process boundaries
+
+#### O577
+
+**Selected incoming-brine treatment: Intake screens/debris guards, surge storage, raw-brine multimedia filtration.**
+
+Basis: **design description**; scale: proposed commercial plant; boundary: before DLE. Date/basis: 2026-02.
+
+Source: [D113](#d113), [§3.3.3; intake screens §3.2 PDF p. 37](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=44) (PDF page 44).
+
+Removes suspended sediment, precipitated salts and native particulates. Raw-MMF backwash uses filtered brine and is routed via depleted-brine system for lake return (§3.2/§3.3.3). Separate depleted-brine solids treatment may produce off-site waste; no claim that all plant wastes return to lake.
+
+Review: AI source-text check; **human review pending**.
+
+#### O578
+
+**Filtration options evaluated and selected: Precoat, polymeric UF, ceramic UF and multimedia filtration tested; multimedia preferred.**
+
+Basis: **reported pilot evaluation and design selection**; scale: GSL pilot plus Oakland cold-brine tests; boundary: before DLE. Date/basis: 2025 tests reported in February 2026 application.
+
+Source: [D113](#d113), [§4.3.4.2, Brine Pretreatment](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=106) (PDF page 106).
+
+Applicant reports winter high-viscosity brine reduced UF flux, raising membrane area/pressure and costs. Multimedia operated at lower pressure with acceptable filtrate after downstream DLE adjustments. Commercial cost advantage is not independently quantified here. GSL performance period excluded coldest months.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O579
+
+**Multimedia cold-brine test flux: 12000 L/m²/h.**
+
+Basis: **reported test condition**; scale: Oakland pilot-scale filtration column; boundary: before DLE. Date/basis: tests reported in February 2026 application.
+
+Source: [D113](#d113), [§4.3.4.2, pp. 106–107, Figure 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=106) (PDF page 106).
+
+Ambient/cold feeds 13°C and 1.5°C; pressure tracked over 12 h. Matches stated commercial design flux; not long-term full-scale operating validation.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O580
+
+**Reported filter pressure relative to design ceiling: &lt;5 psi differential.**
+
+Basis: **reported test result versus design ceiling**; scale: Oakland pilot-scale filtration column; boundary: before DLE. Date/basis: tests reported in February 2026 application.
+
+Source: [D113](#d113), [§4.3.4.2, Figure 24](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=107) (PDF page 107).
+
+12 h at 12,000 L/m²/h using 13°C and 1.5°C brine; source curves remain below the stated 5 psi maximum. Do not report 5 psi as the measured operating differential.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O581
+
+**Particle-size result in tested filtrates: No particles above 4 µm.**
+
+Basis: **reported sample result**; scale: Oakland ambient/cold filtration tests; boundary: before DLE. Date/basis: tests reported in February 2026 application.
+
+Source: [D113](#d113), [§4.3.4.2, paragraph introducing Figure 25](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=107) (PDF page 107).
+
+Source describes raw particles at 0.1–13 µm and no particles above 4 µm in the tested filtrates. Not a TSS concentration, membrane pore size, zero-solids claim, or universal capture guarantee.
+
+Review: AI text and rendered-page check; **human review pending**.
+
+#### O582
+
+**Separate post-DLE treatment circuits: Eluate Ca/Mg purification; depleted-brine pH correction and Mn oxidation/filtration.**
+
+Basis: **design description**; scale: proposed commercial plant; boundary: after DLE, on different streams. Date/basis: 2026-02.
+
+Source: [D113](#d113), [§3.7.1; eluate treatment §3.2 PDF p. 37](https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=57) (PDF page 57).
+
+Eluate: limestone/hydrated-lime neutralization and subsequent purification. Depleted brine: NaOH as needed, NaOCl for manganese precipitation and sodium sulfite for residual oxidant. These chemicals are not assigned to raw-brine pretreatment.
+
+Review: AI source-text check; **human review pending**.
+
 ## Franklin evidence {#franklin-evidence}
 
 ### Brine chemistry
@@ -9010,6 +9453,32 @@ Preliminary assessment includes inferred resources; no certainty of realization.
 
 Review: AI web-text check; original download unavailable; **human review pending**.
 
+### Pretreatment and process boundaries
+
+#### O583
+
+**Recommended Franklin-specific pretreatment tests: H2S removal if applicable, iron precipitation and suspended-solids filtration.**
+
+Basis: **recommended test work / expected design**; scale: resource-stage Franklin study; boundary: before DLE. Date/basis: 2025-09-24.
+
+Source: [D117](#d117), [Printed p. 63, §§13.4–13.5](https://www.standardlithium.com/_resources/reports/Franklin-Project-NI-43-101-MRE.pdf?v=110803#page=70) (PDF page 70).
+
+SWA-derived expected flow diagram is not project-specific validation. 2026 PEA D118 mentions vendor trials but gives insufficient pretreatment details to establish a new accepted train.
+
+Review: AI source-text check; **human review pending**.
+
+#### O584
+
+**Optional bromine co-production branch: Three-phase separation/vacuum degassing; bromine extraction; bisulfite dehalogenation and partial ammonia neutralization.**
+
+Basis: **conceptual co-product route**; scale: potential integrated Franklin development; boundary: optional upstream bromine circuit before lithium extraction. Date/basis: 2025-09-24.
+
+Source: [D117](#d117), [Printed p. 63, §13.6, Potential Production of Bromine and Potash](https://www.standardlithium.com/_resources/reports/Franklin-Project-NI-43-101-MRE.pdf?v=110803#page=70) (PDF page 70).
+
+NaHSO3 reduces residual free chlorine/bromine after the bromine tower; anhydrous ammonia partially neutralizes the stream. Not established as mandatory for the lithium-only PEA; reagent doses and treated-feed assays absent.
+
+Review: AI source-text check; **human review pending**.
+
 ## Wellspring evidence {#wellspring-evidence}
 
 ### Development and disclosure
@@ -9065,6 +9534,32 @@ Basis: **agency grant-index entry**; scale: grant program; boundary: R-56-78 Wel
 Source: [D120](#d120), [Grant rounds 50–59, R-56-78](https://www.ndic.nd.gov/research-grant-programs/renewable-energy-program/renewable-energy-program-grant-rounds/renewable).
 
 Award listing, not proof of payment or technical completion. R-50-67 earlier Prairie Lithium work remains separate.
+
+Review: AI source-text check; **human review pending**.
+
+### Pretreatment and process boundaries
+
+#### O585
+
+**Site-specific pretreatment qualification: Planned brine analyses, solid/liquid technology selection and site-specific pretreatment plans.**
+
+Basis: **grant-applicant proposal**; scale: North Dakota multi-site qualification program; boundary: before DLE. Date/basis: 2025-08-31.
+
+Source: [D115](#d115), [Methodology and Anticipated Results; budget PDF p. 19](https://www.ndic.nd.gov/sites/www/files/documents/Renewable-Energy-Program/Grant-Rounds--Final-Reports/Proposals/Grant-Rounds-59-50/R-56-A-Unlocking-Lithium-Carbonate-in-Produced-Wat.pdf#page=8) (PDF page 8).
+
+High-level drawing (p. 21) gives an up-to-99% contaminant-removal claim without a named full train or validated species-specific outcomes. Do not infer a chemical recipe from the icon.
+
+Review: AI source-text check; **human review pending**.
+
+#### O586
+
+**Precipitation/filtration design location: Refining unit supplied with LiCl already produced by DLE.**
+
+Basis: **reported engineering preparation**; scale: pilot carbonate unit; boundary: after DLE; not incoming-produced-water pretreatment. Date/basis: 2025-08-31.
+
+Source: [D115](#d115), [Lithium-carbonate refining unit development](https://www.ndic.nd.gov/sites/www/files/documents/Renewable-Energy-Program/Grant-Rounds--Final-Reports/Proposals/Grant-Rounds-59-50/R-56-A-Unlocking-Lithium-Carbonate-in-Produced-Wat.pdf#page=7) (PDF page 7).
+
+ENCO vendor testing sizes precipitation/filtration for carbonate refining. This does not disclose the upstream raw-water pretreatment selection.
 
 Review: AI source-text check; **human review pending**.
 
@@ -9456,6 +9951,32 @@ Company ceased pursuing commercial property development while retaining demonstr
 
 Review: AI web-text check; original download unavailable; **human review pending**.
 
+### Pretreatment and process boundaries
+
+#### O566
+
+**Pretreatment options tested at demonstration site: Pressurized/submerged UF; multimedia; activated carbon; walnut-shell filters; residual-iron guard bed.**
+
+Basis: **reported test program**; scale: LANXESS-site demonstration; supports SWA design; boundary: before DLE. Date/basis: 2020–2025 program described in 2025 DFS.
+
+Source: [D044](#d044), [Printed p. 84, §13.3.1](https://www.standardlithium.com/_resources/reports/South-West-Arkansas-NI-43-101-DFS.pdf?v=120808%3Fv%3D1761065229#page=106) (PDF page 106).
+
+Source identifies activated carbon for hydrocarbons and guard beds for residual iron. Many options were sub-optimal; it does not select all of them for commercial SWA or provide comparable removal efficiencies for each.
+
+Review: AI source-text check; **human review pending**.
+
+#### O567
+
+**Demonstration pretreatment context: Upstream phase separation and LANXESS vacuum degassing; pH/ORP and temperature control; membrane filtration.**
+
+Basis: **reported demonstration operations**; scale: LANXESS South demonstration; boundary: before DLE. Date/basis: 2020–2025 program described in 2025 DFS.
+
+Source: [D044](#d044), [Printed p. 84, §13.3.1](https://www.standardlithium.com/_resources/reports/South-West-Arkansas-NI-43-101-DFS.pdf?v=120808%3Fv%3D1761065229#page=106) (PDF page 106).
+
+Feed is downstream of LANXESS bromine extraction (Table 13.1 note 2 in D117). These are supporting demonstrations, not evidence that the discontinued LANXESS commercial design was built.
+
+Review: AI source-text check; **human review pending**.
+
 
 <!-- END EVIDENCE -->
 
@@ -9483,6 +10004,8 @@ Specific gaps and exclusions remain:
 The September 16 follow-up promotes all 12 screened candidates as **bounded provisional profiles**, bringing the total to 18. Shared sources are cataloged once and linked from each relevant page. The added register contains 14 new source URLs; EnergyX D089 and the SWA DFS D001/D044 were reused without duplicate downloads. The Waterleaf 1,197-page application was searched and selectively inspected, not exhaustively reviewed page by page. Full groundwater sample-result tables are transcribed, while laboratory QC controls and the trip blank remain in the original. Historic records, incomplete engineering profiles and the issuer-only Magnolia lead are labeled accordingly. This is not an exhaustive US industry census or a count of operating plants. The manually selected reference list validates inventory coverage, not search completeness.
 
 ## Extraction and review
+
+The September 16 pretreatment review reused the saved filings without advancing project collection cutoffs. It compared process sections, test histories and diagrams and added source-located observations for treatment stages and their boundaries. Missing methods are bounded to the cited project packages; no chemical train was inferred solely from raw-water composition, company ownership or a generic technology claim.
 
 Original bytes are stored under SHA-256 filenames. Expected PDFs must pass PDF signature/content validation; an HTML viewer is not a filing. An initially misclassified Utah HTML response was corrected, with its earlier retrieval preserved for audit. The manifest, document register and append-only retrieval log preserve URLs, source roles, timestamps, download outcomes and revisions. Repeated collection verifies the cached hash; explicit refresh preserves previous successful versions. Requests are paced, transient failures have bounded retries, and a denied request is not repeatedly retried.
 
