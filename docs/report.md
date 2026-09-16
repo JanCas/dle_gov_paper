@@ -76,7 +76,7 @@ The DOE decision describes US$225 million in proposed financial assistance; that
 
 **A fuller composition table is available.** Table 13-1 lists 11 parameters for both the SWA pilot feed and the separate LANXESS demonstration feed. The SWA column reports average IPC-1 samples from **October 2024–January 2025**, including **476 mg/L lithium**. The demonstration column covers **May 4–June 30, 2023**; the report explicitly says that supply is not representative of SWA. These sample averages differ in basis from the 439.9 mg/L commercial-design value and the 481 mg/L economic assumption. [D044](#d044), printed pp. 81–83 / PDF pp. 103–105.
 
-| Component, mg/L | SWA pilot feed, Oct 2024–Jan 2025 | LANXESS demonstration feed, May–Jun 2023 |
+| Component | SWA pilot feed (mg/L), Oct 2024–Jan 2025 | LANXESS demonstration feed (mg/L), May–Jun 2023 |
 |:--|--:|--:|
 | Lithium | 476 [O109](#o109) | 237 [O120](#o120) |
 | Sodium | 79,200 [O110](#o110) | 61,136 [O121](#o121) |
@@ -137,7 +137,7 @@ Project-specific recovery and annual reagent-consumption quantities were not est
 
 **A broad expected brine composition is available:** Table 2.0-2 of the EIR, printed pp. 2.0-10–11 / PDF pp. 64–65, lists the 23 entries below. The same table appears in the March 2022 initial study as Table 2, pp. 14–15. This is expected geothermal brine composition, not a dated well assay. [D022](#d022), [D012](#d012).
 
-| Constituent | Expected concentration, mg/L | Evidence |
+| Constituent | Expected concentration (mg/L) | Evidence |
 |:--|--:|:--|
 | Ammonium (NH4) | 250 | [O075](#o075) |
 | Arsenic (As) | 10 | [O076](#o076) |
@@ -191,49 +191,55 @@ The following reproduces all parameters in **Tables 4–6, printed p. 17 / PDF p
 
 **Geothermal brine — Table 4.**
 
-| Parameter | Reported value | Unit | Evidence |
-|:--|:--|:--|:--|
-| Arsenic | 15 | ppm | [O136](#o136) |
-| Barium | 223 | ppm | [O137](#o137) |
-| Cadmium | 1.99 | ppm | [O138](#o138) |
-| Calcium | 31365 | ppm | [O139](#o139) |
-| Chromium | 0.43 | ppm | [O140](#o140) |
-| Copper | 4.15 | ppm | [O141](#o141) |
-| Iron | 1001 | ppm | [O142](#o142) |
-| Lead | 82.3 | ppm | [O143](#o143) |
-| Lithium | 222 | ppm | [O144](#o144) |
-| Magnesium | 69.2 | ppm | [O145](#o145) |
-| Manganese | 1077 | ppm | [O146](#o146) |
-| Nickel | 0.0039 | ppm | [O147](#o147) |
-| Potassium | 15599 | ppm | [O148](#o148) |
-| Silver | 0.12 | ppm | [O149](#o149) |
-| Sodium | 66916 | ppm | [O150](#o150) |
-| Strontium | 532 | ppm | [O151](#o151) |
-| Zinc | 356 | ppm | [O152](#o152) |
-| Chloride | 181019 | ppm | [O153](#o153) |
-| Fluoride | 25 | ppm | [O154](#o154) |
-| Sulfate | 111 | ppm | [O155](#o155) |
-| pH | 4.82 | pH units | [O156](#o156) |
-| Silica | 161 | ppm | [O157](#o157) |
-| TDS | 305453 | ppm | [O158](#o158) |
-| TSS | 418 | ppm | [O159](#o159) |
+| Parameter | Reported concentration (ppm) | Evidence |
+|:--|--:|:--|
+| Arsenic | 15 | [O136](#o136) |
+| Barium | 223 | [O137](#o137) |
+| Cadmium | 1.99 | [O138](#o138) |
+| Calcium | 31365 | [O139](#o139) |
+| Chromium | 0.43 | [O140](#o140) |
+| Copper | 4.15 | [O141](#o141) |
+| Iron | 1001 | [O142](#o142) |
+| Lead | 82.3 | [O143](#o143) |
+| Lithium | 222 | [O144](#o144) |
+| Magnesium | 69.2 | [O145](#o145) |
+| Manganese | 1077 | [O146](#o146) |
+| Nickel | 0.0039 | [O147](#o147) |
+| Potassium | 15599 | [O148](#o148) |
+| Silver | 0.12 | [O149](#o149) |
+| Sodium | 66916 | [O150](#o150) |
+| Strontium | 532 | [O151](#o151) |
+| Zinc | 356 | [O152](#o152) |
+| Chloride | 181019 | [O153](#o153) |
+| Fluoride | 25 | [O154](#o154) |
+| Sulfate | 111 | [O155](#o155) |
+| Silica | 161 | [O157](#o157) |
+| TDS | 305453 | [O158](#o158) |
+| TSS | 418 | [O159](#o159) |
+
+| pH (dimensionless) | Evidence |
+|--:|:--|
+| 4.82 | [O156](#o156) |
 
 **Canal water — Table 5, September 13, 2021.** These surprisingly low printed concentrations are retained without speculative unit corrections.
 
-| Parameter | Reported value | Unit | Evidence |
-|:--|:--|:--|:--|
-| Calcium | 0.42 | ppm | [O160](#o160) |
-| Chlorides | 1.83 | ppm | [O161](#o161) |
-| Iron | 0.01 | ppm | [O162](#o162) |
-| Magnesium | 0.12 | ppm | [O163](#o163) |
-| Manganese | 0.001 | ppm | [O164](#o164) |
-| Potassium | 0.05 | ppm | [O165](#o165) |
-| Sodium | 0.47 | ppm | [O166](#o166) |
-| pH | 6.96 | pH units | [O167](#o167) |
+| Parameter | Reported concentration (ppm) | Evidence |
+|:--|--:|:--|
+| Calcium | 0.42 | [O160](#o160) |
+| Chlorides | 1.83 | [O161](#o161) |
+| Iron | 0.01 | [O162](#o162) |
+| Magnesium | 0.12 | [O163](#o163) |
+| Manganese | 0.001 | [O164](#o164) |
+| Potassium | 0.05 | [O165](#o165) |
+| Sodium | 0.47 | [O166](#o166) |
+
+| pH (dimensionless) | Evidence |
+|--:|:--|
+| 6.96 | [O167](#o167) |
 
 **Steam — Table 6.** The report calls the stream steam; it does not give a full sampling or condensate-normalization protocol.
 
-| Parameter | Reported concentration, ppm | Evidence |
+| Parameter | Reported concentration (ppm) | Evidence |
 |:--|:--|:--|
 | Barium | 0.035 | [O168](#o168) |
 | Calcium | 68.1 | [O169](#o169) |
@@ -359,7 +365,7 @@ Compass Minerals' Ogden operation processes Great Salt Lake salts. Its 2022 lith
 
 The following is the **full five-cation Table 7.2**, including its published aggregate. Sampling covered 2020 and the first half of 2021. FB-2 is in the south arm; LVG-4 and RD-2 are north-arm locations. Location/depth averages must not be merged into an invented representative plant feed. All concentrations are **mg/L**. [D073](#d073), pp. 44–45 / PDF pp. 56–57.
 
-| Location / depth | Samples | B | Ca | K | Li | Mg | Evidence |
+| Location / depth | Samples | B (mg/L) | Ca (mg/L) | K (mg/L) | Li (mg/L) | Mg (mg/L) | Evidence |
 |:--|:--|:--|:--|:--|:--|:--|:--|
 | FB-2 Deep | 6 | 34.9 | 314 | 4642 | 37.8 | 7293 | [O241](#o241) |
 | FB-2 Deep Intermediate | 6 | 28 | 306 | 3908 | 30.7 | 6102 | [O246](#o246) |
@@ -380,7 +386,7 @@ Each constituent has its own observation in the evidence appendix. The source ag
 
 **Pond 114 interstitial brine — full Table 7.3.** All samples are dated **March 3, 2020**. Concentrations are mg/L; halite thickness is feet. Ratios are reported source values, not new calculations.
 
-| Sample | Halite, ft | Li | K | Mg | Na | K:Li | Mg:Li | Evidence |
+| Sample | Halite (ft) | Li (mg/L) | K (mg/L) | Mg (mg/L) | Na (mg/L) | K:Li (ratio) | Mg:Li (ratio) | Evidence |
 |:--|:--|:--|:--|:--|:--|:--|:--|:--|
 | 114TP01 | 8.0 | 238 | 18400 | 41400 | 63300 | 77:1 | 174:1 | [O308](#o308) |
 | 114TP02 | 6.5 | 328 | 26700 | 50100 | 51800 | 81:1 | 153:1 | [O314](#o314) |
@@ -433,26 +439,28 @@ Anson's August 2024 announcement links its wholly owned Blackstone subsidiary an
 
 **Read this qualification first:** Table D-1 calls the stream “production brine”; the preceding page calls it spent brine after lithium/bromide depletion and rinse-water dilution. No dated assay or lab method resolves the conflict. The ranges below are transcribed as proposed permit chemistry, **not verified raw-feed or operating-effluent measurements**. Ppm is retained without converting to mg/L. [D079](#d079), pp. 16–17.
 
-| Parameter | Published minimum–maximum | Unit | Evidence |
-|:--|:--|:--|:--|
-| Lithium | 170–210 | ppm | [O385](#o385) |
-| Bromine | 3500–4000 | ppm | [O386](#o386) |
-| Boron | 1400–1700 | ppm | [O387](#o387) |
-| Sodium | 18000–20000 | ppm | [O388](#o388) |
-| Potassium | 25000–29000 | ppm | [O389](#o389) |
-| Calcium | 45000–50000 | ppm | [O390](#o390) |
-| Magnesium | 35000–40000 | ppm | [O391](#o391) |
-| Chloride | 220000–260000 | ppm | [O392](#o392) |
-| Iron | 200–250 | ppm | [O393](#o393) |
-| Sulfate | 50–100 | ppm | [O394](#o394) |
-| Strontium | 1500–1800 | ppm | [O395](#o395) |
-| Barium | 1–4 | ppm | [O396](#o396) |
-| Zinc | 3–4 | ppm | [O397](#o397) |
-| Bicarbonate | 1200–1400 | ppm | [O398](#o398) |
-| Fluoride | 30–35 | ppm | [O399](#o399) |
-| TDS | 350000–400000 | ppm | [O400](#o400) |
-| Density | 1.27–1.28 | g/cm³ | [O401](#o401) |
-| pH | 4.5–5.0 | pH units | [O402](#o402) |
+| Parameter | Published range (ppm) | Evidence |
+|:--|--:|:--|
+| Lithium | 170–210 | [O385](#o385) |
+| Bromine | 3500–4000 | [O386](#o386) |
+| Boron | 1400–1700 | [O387](#o387) |
+| Sodium | 18000–20000 | [O388](#o388) |
+| Potassium | 25000–29000 | [O389](#o389) |
+| Calcium | 45000–50000 | [O390](#o390) |
+| Magnesium | 35000–40000 | [O391](#o391) |
+| Chloride | 220000–260000 | [O392](#o392) |
+| Iron | 200–250 | [O393](#o393) |
+| Sulfate | 50–100 | [O394](#o394) |
+| Strontium | 1500–1800 | [O395](#o395) |
+| Barium | 1–4 | [O396](#o396) |
+| Zinc | 3–4 | [O397](#o397) |
+| Bicarbonate | 1200–1400 | [O398](#o398) |
+| Fluoride | 30–35 | [O399](#o399) |
+| TDS | 350000–400000 | [O400](#o400) |
+
+| Density (g/cm³) | pH (dimensionless) | Evidence |
+|--:|--:|:--|
+| 1.27–1.28 | 4.5–5.0 | [O401](#o401), [O402](#o402) |
 
 [Open Table D-1 at PDF page 17](https://www.utah.gov/pmn/files/1044667.pdf#page=17). These are all listed parameters, including density and pH. Temperature, analytical methods, detection limits, sample dates and a complete charge-balanced analysis are not supplied. Separate raw-feed, eluate, spent-brine and fresh-water analyses would be needed to resolve the process balance.
 
@@ -487,22 +495,22 @@ The following original-pilot comparison covers SWA and Hell’s Kitchen; the six
 
 “Full table” means all rows of a named published table, not an exhaustive chemical characterization. No complete measured stream-by-stream material/energy balance was established for these six projects.
 
-| Project / technical vintage | Lithium value and stream basis | Broader chemistry | Diagram and balance coverage |
-|:--|:--|:--|:--|
-| [South West Arkansas](south-west-arkansas.html) · 2025 DFS | 476 mg/L measured pilot feed; separate design 439.9 mg/L | 11 parameters in full two-feed table. [Table](#swa-water-composition) | Overall block flowsheets; no complete numbered balance. [Figures](#swa-process-flowsheets) |
-| [Hell’s Kitchen](hells-kitchen.html) · 2023 EIR | 250 mg/L expected geothermal brine | 23 expected constituents. [Table](#hk-water-composition) | Geothermal schematic; lithium stages in narrative. [Limits](#hk-process-flowsheets) |
-| [BHER demonstration](bher.html) · 2024 report | 222 ppm laboratory-average brine; diagram uses approximately 250 ppm | 24 brine parameters plus canal-water and steam tables. [Tables](#bher-water-composition) | Demonstration PFD with selected flows; balance deliverable cancelled. [Figure](#bher-process-flowsheets) |
-| [ATLiS](atlis.html) · 2021/2025 environmental studies | Complete project-specific feed assay not located | Monitoring-well chemistry is a different stream. [Scope](#atlis-water-composition) | Four-stage block diagram; brine and water estimates, no closed balance. [Figure](#atlis-process-flowsheets) |
-| [Ogden](ogden.html) · 2022 initial assessment | Lake Table 7.2: 25.9–58.6 mg/L across location/depth averages; Pond 114: 125–328 mg/L across samples | Five-cation lake table and four-cation pond table; not complete water analyses. [Tables](#ogden-water-composition) | Historical East/West block flowsheets include pond evaporation. [Figure](#ogden-process-flowsheets) |
-| [Green River](green-river.html) · 2023 draft permit | 170–210 ppm; production/spent-brine label unresolved | 18 proposed parameters, including density and pH. [Table](#green-river-water-composition) | Injection manifold only, with reused copper-project provenance. [Limits](#green-river-process-flowsheets) |
+| Project / technical vintage | Li (mg/L) | Li (ppm) | Stream basis | Broader chemistry | Diagram and balance coverage |
+|:--|:--|:--|:--|:--|:--|
+| [South West Arkansas](south-west-arkansas.html) · 2025 DFS | 476; design 439.9 | — | Measured pilot feed; separate design | 11 parameters in full two-feed table. [Table](#swa-water-composition) | Overall block flowsheets; no complete numbered balance. [Figures](#swa-process-flowsheets) |
+| [Hell’s Kitchen](hells-kitchen.html) · 2023 EIR | 250 | — | Expected geothermal brine | 23 expected constituents. [Table](#hk-water-composition) | Geothermal schematic; lithium stages in narrative. [Limits](#hk-process-flowsheets) |
+| [BHER demonstration](bher.html) · 2024 report | — | 222; diagram approximately 250 | Laboratory-average brine; separate diagram basis | 24 brine parameters plus canal-water and steam tables. [Tables](#bher-water-composition) | Demonstration PFD with selected flows; balance deliverable cancelled. [Figure](#bher-process-flowsheets) |
+| [ATLiS](atlis.html) · 2021/2025 environmental studies | — | — | Complete project-specific feed assay not located | Monitoring-well chemistry is a different stream. [Scope](#atlis-water-composition) | Four-stage block diagram; brine and water estimates, no closed balance. [Figure](#atlis-process-flowsheets) |
+| [Ogden](ogden.html) · 2022 initial assessment | Lake: 25.9–58.6; Pond: 125–328 | — | Lake Table 7.2 location/depth averages; Pond 114 individual samples | Five-cation lake table and four-cation pond table; not complete water analyses. [Tables](#ogden-water-composition) | Historical East/West block flowsheets include pond evaporation. [Figure](#ogden-process-flowsheets) |
+| [Green River](green-river.html) · 2023 draft permit | — | 170–210 | Production/spent-brine label unresolved | 18 proposed parameters, including density and pH. [Table](#green-river-water-composition) | Injection manifold only, with reused copper-project provenance. [Limits](#green-river-process-flowsheets) |
 
-Do not rank these lithium values directly: ppm and mg/L are retained as distinct source units; lake, concentrated pond brine, geothermal feed and proposed injection chemistry are different boundaries. The earlier two-project engineering comparison above retains its original scope.
+A dash means no value is presented in that unit. Do not rank these lithium values directly: ppm and mg/L are retained as distinct source units; lake, concentrated pond brine, geothermal feed and proposed injection chemistry are different boundaries. The earlier two-project engineering comparison above retains its original scope.
 
 ## Brine concentration and chemistry
 
 **The principal design figures are 439.9 mg/L lithium for SWA and 250 mg/L for HK.** The first belongs to SWA's process-design basis; the second is labeled expected geothermal brine composition in the EIR. Preserve those descriptions when using the numbers. The HK value is not established as a measured concentration at the inlet to the lithium extraction equipment. [O009](#o009), [O051](#o051).
 
-| Constituent, mg/L | SWA: September 2025 process design | HK: August 2023 expected composition |
+| Constituent | SWA process design (mg/L), September 2025 | HK expected composition (mg/L), August 2023 |
 |:--|:--|:--|
 | Lithium, Li | 439.9 [O009](#o009) | 250 [O051](#o051) |
 | Magnesium, Mg | 3,361.2 [O010](#o010) | 50 [O089](#o089) |
@@ -516,7 +524,7 @@ For a direct unit interpretation, 439.9 mg/L means **0.4399 kg of contained lith
 
 SWA also discloses **actual well-sampling results**. Selected reported values below retain their intervals and averaging basis; they are not averaged across wells into an invented project grade.
 
-| Well | Sampling year(s) | Interval | Lithium, mg/L | Basis |
+| Well | Sampling year(s) | Interval | Li (mg/L) | Basis |
 |:--|:--|:--|--:|:--|
 | Taylor, Beulah et al. 1 | 2023 | Upper Smackover | 549 | Porosity-thickness-weighted value. [O097](#o097) |
 | Carter Moore 1 | 2023 | Upper + Middle | 156 | Mixed-interval test value. [O098](#o098) |
