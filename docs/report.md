@@ -7,6 +7,30 @@ lang: en
 
 > **Research draft for source review.** The observations below have been checked by an AI assistant against source text, with selected source pages also inspected visually. No human review has yet been recorded. These observations remain provisional; the separate human-reviewed dataset contains no accepted rows. The report distinguishes technical-report estimates, company targets, reported test results, and agency decisions.
 
+# US DLE project evidence {#library}
+
+Explore US direct lithium extraction projects through public filings and technical reports. **18 research profiles**, including proposed developments, demonstrations and historical projects.
+
+::: {.research-routes}
+
+[**Compare chemistry →** Concentrations, sample basis and full published analyses.](#chemistry-comparison)
+
+[**Compare pretreatment →** Selected methods, tested alternatives and disclosure gaps.](#pretreatment-comparison)
+
+[**Browse flowsheets →** Published diagrams, water flows and process boundaries.](#flowsheet-library)
+
+:::
+
+## Explore a project {#featured-projects}
+
+| Project | Location / feed context | Start here |
+|:--|:--|:--|
+| [South West Arkansas](#south-west-arkansas) | Arkansas · Smackover brine | [Chemistry](#swa-water-composition) · [Process](#swa-process-flowsheets) |
+| [Waterleaf / Lilac](#waterleaf) | Utah · Great Salt Lake brine | [Chemistry](#waterleaf-water-composition) · [Process](#waterleaf-process-flowsheets) |
+| [Hell’s Kitchen](#hells-kitchen) | California · Geothermal brine | [Chemistry](#hk-water-composition) · [Process](#hk-process-flowsheets) |
+
+[**All 18 projects →**](#project-reports) · [Principal findings](#principal-findings) · [Disclosure coverage](#composition-and-flowsheet-availability)
+
 # Overview
 
 This research draft brings together project-specific securities disclosures and environmental records for 18 US direct lithium extraction (DLE) project profiles, including development programs, historical demonstrations and suspended designs. The count is a set of research profiles, not 18 operating plants or independent companies. Its purpose is to make the evidence findable and comparable **where the definitions allow it**, while preserving disagreements and gaps. It does not establish present operating performance. **South West Arkansas and Hell’s Kitchen retain their September 14, 2026 collection cutoff; the other profiles use September 16, 2026.** A collection date is not the date of the underlying study.
@@ -21,25 +45,28 @@ The source manifest covers official agency pages, submitted reports and attachme
 
 ## Project reports
 
-- [South West Arkansas](south-west-arkansas.html): full published pilot-feed composition, process flowsheets, project profile, sources and evidence.
-- [Hell’s Kitchen](hells-kitchen.html): full expected brine composition, geothermal schematic, lithium-process disclosure limits, sources and evidence.
-- [BHER demonstration](bher.html): measured brine, canal-water and steam tables; process diagram; field-test outcome.
-- [ATLiS](atlis.html): DOE block flowsheet, brine/water flows, reagent use and explicit chemistry gaps.
-- [Ogden / Great Salt Lake](ogden.html): lake and pond chemistry, historical process design, and separate EnergyX proposal.
-- [Green River](green-river.html): Anson/Blackstone permit chemistry, injection limits and stream-label discrepancy.
-- [Waterleaf / Lilac](waterleaf.html): pilot raw-brine/eluate chemistry, groundwater laboratory results, flowsheet and public water balance.
-- [Franklin](franklin.html): 2023 exploration-average chemistry, expected flowsheet and separate 2026 PEA assumptions.
-- [Wellspring](wellspring.html): North Dakota produced-water field program; grant records and high-level diagram.
-- [Paradox](paradox.html): draft permit chemistry with reused Green River ranges and unresolved stream labels.
-- [US Magnesium](us-magnesium.html): historical DLE installation and idling; limited government-survey evidence.
-- [Mandrake Utah](utah-lithium.html): resource-horizon concentrations and September 2026 bulk-sample appraisal update.
-- [Evergreen](evergreen.html): TETRA/Saltwerx unit history; direct lithium engineering records still needed.
-- [Pine / Exxon](pine.html): Exxon/Saltwerx unit identity; neighboring-property evidence with technical gaps.
-- [Lonestar](lonestar.html): Texas demonstration and mineral-option disclosures; chemistry package not established.
-- [Daytona / Folsom Point](daytona.html): EnergyX Arkansas acquisition/development record; no dated feed assay established.
-- [Magnolia](magnolia.html): issuer-supported pilot record; direct project government package still needed.
-- [LANXESS history](lanxess.html): ended commercial arrangement and separate continuing demonstration evidence.
-- [Full report](full-report.html): all projects on one page for browser search and printing.
+Research profiles are grouped by project location, including foreign parent companies. They are not a count of operating plants. Dates and engineering scope are preserved within each profile.
+
+| Project / location | Available records and gaps | Technical views |
+|:--|:--|:--|
+| [South West Arkansas](#south-west-arkansas) · Lafayette and Columbia counties, Arkansas | full published pilot-feed composition, process flowsheets, project profile, sources and evidence. | [Chemistry](south-west-arkansas-chemistry.html) · [Process](south-west-arkansas-process.html) · [Evidence](south-west-arkansas-evidence.html) |
+| [Hell’s Kitchen](#hells-kitchen) · Imperial County, California | full expected brine composition, geothermal schematic, lithium-process disclosure limits, sources and evidence. | [Chemistry](hells-kitchen-chemistry.html) · [Process](hells-kitchen-process.html) · [Evidence](hells-kitchen-evidence.html) |
+| [BHER demonstration](#bher) · Imperial County, California | measured brine, canal-water and steam tables; process diagram; field-test outcome. | [Chemistry](bher-chemistry.html) · [Process](bher-process.html) · [Evidence](bher-evidence.html) |
+| [ATLiS](#atlis) · Imperial County, California | DOE block flowsheet, brine/water flows, reagent use and explicit chemistry gaps. | [Chemistry](atlis-chemistry.html) · [Process](atlis-process.html) · [Evidence](atlis-evidence.html) |
+| [Ogden / Great Salt Lake](#ogden) · Utah | lake and pond chemistry, historical process design, and separate EnergyX proposal. | [Chemistry](ogden-chemistry.html) · [Process](ogden-process.html) · [Evidence](ogden-evidence.html) |
+| [Green River](#green-river) · Utah | Anson/Blackstone permit chemistry, injection limits and stream-label discrepancy. | [Chemistry](green-river-chemistry.html) · [Process](green-river-process.html) · [Evidence](green-river-evidence.html) |
+| [Waterleaf / Lilac](#waterleaf) · Box Elder County, Utah | pilot raw-brine/eluate chemistry, groundwater laboratory results, flowsheet and public water balance. | [Chemistry](waterleaf-chemistry.html) · [Process](waterleaf-process.html) · [Evidence](waterleaf-evidence.html) |
+| [Franklin](#franklin) · Hopkins, Franklin and Titus counties, Texas | 2023 exploration-average chemistry, expected flowsheet and separate 2026 PEA assumptions. | [Chemistry](franklin-chemistry.html) · [Process](franklin-process.html) · [Evidence](franklin-evidence.html) |
+| [Wellspring](#wellspring) · North Dakota | North Dakota produced-water field program; grant records and high-level diagram. | [Chemistry](wellspring-chemistry.html) · [Process](wellspring-process.html) · [Evidence](wellspring-evidence.html) |
+| [Paradox](#paradox) · West of Moab, Grand County, Utah | draft permit chemistry with reused Green River ranges and unresolved stream labels. | [Chemistry](paradox-chemistry.html) · [Process](paradox-process.html) · [Evidence](paradox-evidence.html) |
+| [US Magnesium](#us-magnesium) · Utah | historical DLE installation and idling; limited government-survey evidence. | [Chemistry](us-magnesium-chemistry.html) · [Process](us-magnesium-process.html) · [Evidence](us-magnesium-evidence.html) |
+| [Mandrake Utah](#utah-lithium) · San Juan County, Utah | resource-horizon concentrations and September 2026 bulk-sample appraisal update. | [Chemistry](utah-lithium-chemistry.html) · [Process](utah-lithium-process.html) · [Evidence](utah-lithium-evidence.html) |
+| [Evergreen](#evergreen) · Southwest Arkansas | TETRA/Saltwerx unit history; direct lithium engineering records still needed. | [Chemistry](evergreen-chemistry.html) · [Process](evergreen-process.html) · [Evidence](evergreen-evidence.html) |
+| [Pine / Exxon](#pine) · Miller and Lafayette counties, Arkansas | Exxon/Saltwerx unit identity; neighboring-property evidence with technical gaps. | [Chemistry](pine-chemistry.html) · [Process](pine-process.html) · [Evidence](pine-evidence.html) |
+| [Lonestar](#lonestar) · Northeast Texas | Texas demonstration and mineral-option disclosures; chemistry package not established. | [Chemistry](lonestar-chemistry.html) · [Process](lonestar-process.html) · [Evidence](lonestar-evidence.html) |
+| [Daytona / Folsom Point](#daytona) · Southwest Arkansas | EnergyX Arkansas acquisition/development record; no dated feed assay established. | [Chemistry](daytona-chemistry.html) · [Process](daytona-process.html) · [Evidence](daytona-evidence.html) |
+| [Magnolia](#magnolia) · Magnolia, Arkansas | issuer-supported pilot record; direct project government package still needed. | [Chemistry](magnolia-chemistry.html) · [Process](magnolia-process.html) · [Evidence](magnolia-evidence.html) |
+| [LANXESS history](#lanxess) · El Dorado, Arkansas | ended commercial arrangement and separate continuing demonstration evidence. | [Chemistry](lanxess-chemistry.html) · [Process](lanxess-process.html) · [Evidence](lanxess-evidence.html) |
 
 ## Principal findings
 
@@ -58,7 +85,7 @@ The source manifest covers official agency pages, submitted reports and attachme
 
 ## How to read the report
 
-Read the project profiles and comparison first. Use each **O-number** to reach the full observation, and each **D-number** to reach the document catalog. Observation links identify a printed page, section, table, or slide; PDF citations also include the physical PDF page number, which may differ from printed pagination.
+Start with a project or a dedicated chemistry, pretreatment or flowsheet comparison. Use each **O-number** to reach the full observation, and each **D-number** to reach the document catalog. Observation links identify a printed page, section, table, or slide; PDF citations also include the physical PDF page number, which may differ from printed pagination.
 
 On narrow screens, scroll wide tables sideways to read the remaining columns. The [pretreatment comparison](#pretreatment-comparison) covers all 18 project profiles.
 
@@ -960,9 +987,110 @@ Post-bromine feed with upstream phase separation/vacuum degassing; pH/ORP, tempe
 
 [Compare pretreatment methods across all projects](#pretreatment-comparison).
 
+# Brine chemistry comparison {#chemistry-comparison}
+
+Each row retains its own stream, date and evidence basis. **Li (mg/L) and Li (ppm) are separate source units.** A blank entry is not zero. Product eluate is shown separately; values are not ranked as project performance.
+
+## Reported feed measurements {#feed-chemistry-comparison}
+
+| Project | Stream / basis | Li (mg/L) | Li (ppm) | Sample or study date / source |
+|:--|:--|--:|--:|:--|
+| [SWA](#swa-water-composition) | Pilot-feed average · reported measurement | 476 | — | Oct 2024–Jan 2025 · [O109](#o109) |
+| [BHER](#bher-water-composition) | Brine laboratory average · reported measurement | — | 222 | Sample dates not reported; 2024 report · [O144](#o144) |
+| [Ogden](#ogden-water-composition) | Lake location/depth averages · reported measurements | 25.9–58.6 | — | 2020–H1 2021 · [O251](#o251), [O266](#o266); complete table in project |
+| [Ogden](#ogden-water-composition) | Pond 114 individual samples · reported measurements | 125–328 | — | March 3, 2020 · [O314](#o314), [O338](#o338); concentrated pond feed |
+| [Waterleaf](#waterleaf-water-composition) | Pilot raw brine · selected stable-period average | 69 | — | 2025 pilot, weeks 16–28 · [O407](#o407) |
+| [Franklin](#franklin-water-composition) | Exploration sample average · reported measurement | 668 | — | 2023 samples / 2025 report · [O512](#o512) |
+| [LANXESS history](#lanxess-water-composition) | Post-bromine demonstration feed · also cited under SWA | 237 | — | May–June 2023 · [O120](#o120); not independent SWA-feed evidence |
+
+## Expected, design, resource and permit values {#design-chemistry-comparison}
+
+| Project | Stream / basis | Li (mg/L) | Li (ppm) | Study date / source |
+|:--|:--|--:|--:|:--|
+| [Hell’s Kitchen](#hk-water-composition) | Expected geothermal composition · assay/stream point unresolved | 250 | — | 2023 EIR · [O051](#o051) |
+| [BHER](#bher-process-flowsheets) | Process-diagram brine value · separate approximate basis | — | approximately 250 | 2024 report · [O192](#o192) |
+| [Mandrake Utah](#utah-lithium-water-composition) | Resource-horizon average grades · not delivered DLE-test feed | 69–142 | — | 2024 resource summary · [O552](#o552) |
+| [SWA](#swa-water-composition) | Commercial process-design feed | 439.9 | — | 2025 DFS · [O009](#o009) |
+| [Franklin](#franklin-pea) | Plant-life average · economic/resource model | 515 | — | September 2026 PEA · [O523](#o523) |
+| [Franklin](#franklin-pea) | Year-one concentration · economic/resource model | 562 | — | September 2026 PEA · [O524](#o524) |
+| [Green River](#green-river-water-composition) | Proposed permit chemistry · production/spent-brine label unresolved | — | 170–210 | November 2023 draft · [O385](#o385) |
+| [Paradox](#paradox-water-composition) | Proposed permit chemistry · repeats Green River ranges | — | 170–210 | May 2024 draft · [O532](#o532); not an independent assay |
+
+## Lithium-rich product streams {#product-chemistry-comparison}
+
+| Project | Stream / basis | Li (mg/L) | Sample or study date / source |
+|:--|:--|--:|:--|
+| [Waterleaf](#waterleaf-water-composition) | Pilot DLE eluate · selected stable-period average | 2044 | 2025 pilot, weeks 16–28 · [O408](#o408) |
+
+## Projects with chemistry gaps {#chemistry-disclosure-gaps}
+
+ATLiS, Wellspring, US Magnesium, Evergreen, Pine, Lonestar, Daytona and Magnolia do not have a comparable project-feed lithium assay established in the collected records. Each has a [dedicated project profile](#project-reports); the [18-project disclosure table](#composition-and-flowsheet-availability) identifies the specific gap. A full published table reproduces all its listed rows; it is not a claim of exhaustive water chemistry.
+
+# Published process flowsheets {#flowsheet-library}
+
+Source figures from eight project profiles. These are block/process drawings with differing scope; no complete measured stream-by-stream balance was established. [All-project disclosure coverage](#composition-and-flowsheet-availability) includes projects without a published figure in this report.
+
+::: {.flow-gallery}
+
+## South West Arkansas {#gallery-1}
+
+![SWA overall process flowsheet, Figure 17-1 from the 2025 DFS.](assets/D044-figure17-1.png)
+
+[Process, original source and limitations](#swa-process-flowsheets)
+
+## South West Arkansas {#gallery-2}
+
+![SWA project process flow diagram, Figure 2.1-2 from the May 2026 DOE environmental assessment.](assets/D029-figure2-1-2.png)
+
+[Process, original source and limitations](#swa-process-flowsheets)
+
+## Hell’s Kitchen {#gallery-3}
+
+![Hell’s Kitchen geothermal brine-processing schematic, Figure 4 in the air-quality appendix.](assets/D021-figure4.png)
+
+[Process, original source and limitations](#hk-process-flowsheets)
+
+## BHER demonstration {#gallery-4}
+
+![BHER demonstration process diagram, Figure 2, CEC-500-2024-094; design annotations, not achieved operating data.](assets/D058-figure2.png)
+
+[Process, original source and limitations](#bher-process-flowsheets)
+
+## ATLiS {#gallery-5}
+
+![ATLiS NEPA process flow diagram, Figure 4 of the March 2025 DOE EA; source EnergySource Minerals.](assets/D061-figure4.png)
+
+[Process, original source and limitations](#atlis-process-flowsheets)
+
+## Ogden / Great Salt Lake {#gallery-6}
+
+![Ogden East and West process block flowsheets, Figure 14-1 of the 2022 Compass Minerals technical report.](assets/D073-figure14-1.png)
+
+[Process, original source and limitations](#ogden-process-flowsheets)
+
+## Waterleaf / Lilac {#gallery-7}
+
+![Waterleaf simplified commercial process flow diagram, Figure 2 of the operations application.](assets/D113-figure2.png)
+
+[Process, original source and limitations](#waterleaf-process-flowsheets)
+
+## Franklin {#gallery-8}
+
+![Franklin expected lithium process block flow diagram, Figure 13.1 of the 2025 resource report.](assets/D117-figure13-1.png)
+
+[Process, original source and limitations](#franklin-process-flowsheets)
+
+## Wellspring {#gallery-9}
+
+![Wellspring high-level process drawing from the North Dakota grant application, PDF page 21.](assets/D115-process-flow.png)
+
+[Process, original source and limitations](#wellspring-process-flowsheets)
+
+:::
+
 # Cross-project comparison
 
-The following original-pilot comparison covers SWA and Hell’s Kitchen; the 18-profile disclosure comparison follows it. The table preserves source definitions. It does not convert products, normalize water intensity, or calculate a comparative environmental ranking.
+This original-pilot engineering comparison covers SWA and Hell’s Kitchen. The [18-profile disclosure coverage](#composition-and-flowsheet-availability) and [brine chemistry comparison](#chemistry-comparison) have separate views. The table preserves source definitions. It does not convert products, normalize water intensity, or calculate a comparative environmental ranking.
 
 | Topic | South West Arkansas | Hell’s Kitchen | Comparability |
 |:--|:--|:--|:--|
@@ -1031,28 +1159,28 @@ This inventory includes selected methods and tested alternatives. It is a synthe
 
 ### Project-by-project comparison {#pretreatment-by-project}
 
-**Design** describes the proposed commercial train; **test history** describes reported trials; **recommended work** is prospective. A method listed in a test program is not automatically a commercial selection.
+**Design** describes the proposed commercial train; **test history** describes reported trials; **recommended work** is prospective. A method listed in a test program is not automatically a commercial selection. Open a project for reagent details, residuals, source locators and qualifications.
 
-| Project / source vintage | Upstream sequence or disclosure gap | Targets, reagents and residuals | Evidence and qualification |
-|:--|:--|:--|:--|
-| [SWA · 2025 DFS / 2026 EA](#south-west-arkansas-pretreatment) | Well-pad phase separation → air stripping/scrubbing → cooling → pH/ORP conditioning → multimedia filtration → UF. | Gases, oils, precipitated iron and suspended solids; NaOH/H2O2 for conditioning. | Selected commercial design with supporting trials; no stage-by-stage outlet assay or removal efficiency established here. [O561](#o561), [O562](#o562), [O563](#o563), [O564](#o564) |
-| [Hell’s Kitchen · 2023 EIR](#hells-kitchen-pretreatment) | Vacuum-flash cooling → proprietary silica/polymetallic recovery and filtration → lithium extraction. | Silica and polymetallic products; boron removal is only a possibility. Recipe and dose not specified. | Proposed sequence; proprietary chemistry and impurity residuals unresolved. [O568](#o568), [O569](#o569) |
-| [BHER demonstration · 2022–2023](#bher-pretreatment) | Existing secondary clarification → NaOH pH adjustment; weir tank acquired after initial solids clogging. | pH conditioning and precipitated solids. Original media-tolerance assumption did not establish adequate iron/silicon removal. | Field-test failure informs risk; media degradation was also observed, so no single-cause attribution. [O570](#o570), [O571](#o571), [O572](#o572) |
-| [ATLiS · 2021 EIR / 2025 EA](#atlis-pretreatment) | HR1 post-secondary-clarifier brine → Fe/silica removal → Mn/Zn removal → filter-press dewatering → ILiAD. | HCl pH control disclosed; limestone/CaO facilities listed. Detailed chemical sequence not disclosed. | Commercial proposal; Fe/silica cake initially a waste, Mn/Zn intended products. No verified operating efficiency. [O573](#o573), [O574](#o574); [O211](#o211). |
-| [Ogden · historical 2022 design](#ogden-pretreatment) | Evaporation ponds and prior salt recovery → brine filtration → ILiAD. | Different concentrated feed streams; specific filter type and outlet specifications not given in reviewed process section. | Historical Compass design; not the later EnergyX configuration. No assumed raw-brine Mg-softening step. [O575](#o575), [O576](#o576) |
-| [Green River · 2023 draft UIC](#green-river-pretreatment) | No upstream DLE pretreatment train established in reviewed injection package. | Injection-side solids handling is not evidence of the incoming DLE treatment. | Permit chemistry has a production/spent-brine label conflict; no method inferred from it. [D079](#d079), Attachment D pp. 16–17; [O404](#o404). |
-| [Waterleaf · 2025 tests / 2026 application](#waterleaf-pretreatment) | Intake screening → surge storage → raw-brine multimedia filtration. | Native suspended material; raw-filter backwash routed through depleted-brine return. UF alternatives were tested. | Selected commercial design supported by pilot/short cold-brine tests; no upstream dissolved-Mg/Ca removal claimed. [O577](#o577), [O578](#o578) |
-| [Franklin · 2025 report / 2026 PEA](#franklin-pretreatment) | H2S removal if applicable → iron precipitation → suspended-solids filtration recommended for testing. | Optional bromine route additionally needs bisulfite treatment and partial ammonia neutralization. | Expected / recommended train; optional co-product circuit kept separate from lithium-only case. [O583](#o583), [O584](#o584) |
-| [Wellspring · 2025 application](#wellspring-pretreatment) | Brine-treatment block and proposed site-specific technology selection; exact train not established. | Species-specific targets, reagents and outlet limits are not supplied in selected passages. | Applicant proposal. Carbonate-refining precipitation/filtration is downstream of DLE. [O585](#o585), [O586](#o586) |
-| [Paradox · 2024 draft UIC](#paradox-pretreatment) | No upstream DLE pretreatment train established in reviewed injection package. | Shared Green River chemistry does not identify a treatment recipe. | Draft spent-brine management cannot substitute for an upstream process flowsheet. [D114](#d114), Attachment D, PDF pp. 46–48. |
-| [US Magnesium · 2024 historical events](#us-magnesium-pretreatment) | DLE installation on magnesium-operation byproduct material; specific preparation train not established. | Prior magnesium processing changes the feed, but the survey does not detail DLE pretreatment. | Historical government-survey summary; no transfer of Ogden or Waterleaf methods. [O551](#o551). |
-| [Mandrake Utah · September 2026 testing update](#utah-lithium-pretreatment) | Brine supplied to Electroflow for appraisal; pretreatment selection not established. | No full treatment train, reagent schedule or inlet/outlet pair in the cited update. | Sample delivery is not completed pretreatment validation. [O553](#o553). |
-| [Evergreen · 2025 disclosures](#evergreen-pretreatment) | No lithium-specific pretreatment train established in the currently collected unit/development records. | Bromine development alone does not specify the future lithium-feed preparation. | Underlying TETRA technical studies remain uncollected; no process inferred from neighboring SWA. [O554](#o554), [O555](#o555). |
-| [Pine · 2025 neighboring-property disclosure](#pine-pretreatment) | No Pine-specific pretreatment train established in the collected unit-identity record. | Targets, chemistry, filters and outputs unresolved. | Direct Exxon project engineering evidence still needed. [O556](#o556). |
-| [Lonestar · July 2026 filing](#lonestar-pretreatment) | No site-specific pretreatment train established in the selected Texas project disclosure. | Generic LiTAS or multi-project claims are not a Texas treatment specification. | Commissioned demonstration does not itself document the pretreatment train. [O557](#o557). |
-| [Daytona / Folsom Point · July 2026 filing](#daytona-pretreatment) | No Arkansas asset-specific pretreatment train established in the selected acquisition disclosure. | Targets, reagents and treated-feed assays unresolved. | Do not inherit Texas or Ogden methods merely through shared ownership. [O558](#o558). |
-| [Magnolia · 2024 issuer report](#magnolia-pretreatment) | Pilot statement does not disclose a Magnolia-specific pretreatment train. | Different brine/technology from La Negra; no Chile method or efficiency transferred. | Issuer-only pilot evidence; direct government/technical package missing. [O559](#o559). |
-| [LANXESS history · 2020–2025 demonstration](#lanxess-pretreatment) | Post-bromine feed with upstream phase separation/vacuum degassing; pH/ORP, temperature and filtration trials. | UF, multimedia, activated carbon, walnut-shell and iron-guard-bed options tested; not all selected. | Demonstration supports SWA research; not proof that the ended commercial project was built. [O567](#o567), [O566](#o566) |
+| Project / source vintage | Incoming-brine treatment or gap | Evidence basis |
+|:--|:--|:--|
+| [SWA · 2025 DFS / 2026 EA](#south-west-arkansas-pretreatment) | Well-pad phase separation → air stripping/scrubbing → cooling → pH/ORP conditioning → multimedia filtration → UF. | Selected commercial design; supporting trials |
+| [Hell’s Kitchen · 2023 EIR](#hells-kitchen-pretreatment) | Vacuum-flash cooling → proprietary silica/polymetallic recovery and filtration → lithium extraction. | Proposed sequence; proprietary chemistry |
+| [BHER demonstration · 2022–2023](#bher-pretreatment) | Existing secondary clarification → NaOH pH adjustment; weir tank acquired after initial solids clogging. | Field-test response; later media degradation also observed |
+| [ATLiS · 2021 EIR / 2025 EA](#atlis-pretreatment) | HR1 post-secondary-clarifier brine → Fe/silica removal → Mn/Zn removal → filter-press dewatering → ILiAD. | Commercial proposal; no verified operating efficiency |
+| [Ogden · historical 2022 design](#ogden-pretreatment) | Evaporation ponds and prior salt recovery → brine filtration → ILiAD. | Historical 2022 Compass design |
+| [Green River · 2023 draft UIC](#green-river-pretreatment) | No upstream DLE pretreatment train established in reviewed injection package. | Not established in collected draft injection package |
+| [Waterleaf · 2025 tests / 2026 application](#waterleaf-pretreatment) | Intake screening → surge storage → raw-brine multimedia filtration. | Selected design; pilot and short cold-brine tests |
+| [Franklin · 2025 report / 2026 PEA](#franklin-pretreatment) | H2S removal if applicable → iron precipitation → suspended-solids filtration recommended for testing. | Recommended tests; optional bromine route is separate |
+| [Wellspring · 2025 application](#wellspring-pretreatment) | Brine-treatment block and proposed site-specific technology selection; exact train not established. | Site-specific qualification proposed |
+| [Paradox · 2024 draft UIC](#paradox-pretreatment) | No upstream DLE pretreatment train established in reviewed injection package. | Not established in collected draft injection package |
+| [US Magnesium · 2024 historical events](#us-magnesium-pretreatment) | DLE installation on magnesium-operation byproduct material; specific preparation train not established. | Historical installation; train not established |
+| [Mandrake Utah · September 2026 testing update](#utah-lithium-pretreatment) | Brine supplied to Electroflow for appraisal; pretreatment selection not established. | Sample appraisal; selection not established |
+| [Evergreen · 2025 disclosures](#evergreen-pretreatment) | No lithium-specific pretreatment train established in the currently collected unit/development records. | Not established in collected unit records |
+| [Pine · 2025 neighboring-property disclosure](#pine-pretreatment) | No Pine-specific pretreatment train established in the collected unit-identity record. | Not established in collected unit records |
+| [Lonestar · July 2026 filing](#lonestar-pretreatment) | No site-specific pretreatment train established in the selected Texas project disclosure. | Not established in selected Texas disclosure |
+| [Daytona / Folsom Point · July 2026 filing](#daytona-pretreatment) | No Arkansas asset-specific pretreatment train established in the selected acquisition disclosure. | Not established in selected Arkansas disclosure |
+| [Magnolia · 2024 issuer report](#magnolia-pretreatment) | Pilot statement does not disclose a Magnolia-specific pretreatment train. | Issuer pilot statement; train not established |
+| [LANXESS history · 2020–2025 demonstration](#lanxess-pretreatment) | Post-bromine feed with upstream phase separation/vacuum degassing; pH/ORP, temperature and filtration trials. | Demonstration test history; not all options selected |
 
 
 ### Conditions and outcomes that can actually be checked {#pretreatment-conditions}
@@ -1127,6 +1255,142 @@ New-profile discrepancies: Paradox/Green River repeat the same chemistry with pr
 4. **HK energy wording and revision:** the draft EIR contains an editorial comment, which the final EIR explicitly strikes out while retaining that annual-energy statement in its revisions section. Elsewhere, the final EIR's responses use 275,940,000 kWh/year of demand and 430,567,140 kWh/year of generation; these differ from the draft's rounded demand and 416 million kWh/year generation. The response also gives net emissions of −10,443 metric tons CO₂e/year, differing from the draft table's −10,435. The comparison above retains the explicitly dated draft figures; these final-response differences remain to reconcile. The separate malformed “147,732,2 kWh” statement in the draft is excluded. [D022](#d022), PDF p. 177; [D031](#d031), PDF pp. 180, 197–198.
 5. **SWA unit error:** the DFS prints 28.4 m³/h beside “125,041 gpm” for well-drilling water. That pair is dimensionally inconsistent as printed; it is excluded rather than silently corrected. [D044](#d044), PDF p. 153, §17.6.2.1.
 6. **HK newer financial assumptions:** the supporting model and underlying technical report were not acquired. Numerical securities observations are provisional and separately identified. [O071](#o071), [O072](#o072).
+
+# Source directory {#source-directory}
+
+Find a document by ID, project, agency or title. Follow its catalog entry for source provenance, dates and retrieval limitations.
+
+<!-- BEGIN SOURCEINDEX -->
+
+| Document | Project | Agency / type | Published |
+|:--|:--|:--|:--|
+| [D001 — South West Arkansas NI 43-101 definitive feasibility study](#d001) | South West Arkansas | SEC · Technical report / EX-99.1 | 2025-10-14 |
+| [D002 — DOE EA-2304 project record](#d002) | South West Arkansas | DOE · Agency index | Not established |
+| [D003 — Hell's Kitchen notice of preparation and initial study record](#d003) | Hell’s Kitchen | Imperial County / CEQAnet · NOP | 2022-03-25 |
+| [D004 — Hell's Kitchen draft EIR record](#d004) | Hell’s Kitchen | Imperial County / CEQAnet · Draft EIR index | 2023-08-30 |
+| [D005 — Hell's Kitchen notice of determination](#d005) | Hell’s Kitchen | Imperial County / CEQAnet · NOD | 2024-01-24 |
+| [D006 — Standard Lithium filing-history API](#d006) | South West Arkansas | SEC · Filing index | Not established |
+| [D007 — Plum Acquisition Corp. IV filing-history API](#d007) | Hell’s Kitchen | SEC · Filing index | Not established |
+| [D008 — DOE final EA landing page](#d008) | South West Arkansas | DOE · Final EA index | 2026-05-13 |
+| [D009 — DOE FONSI landing page](#d009) | South West Arkansas | DOE · Decision index | 2026-05-13 |
+| [D010 — Hell's Kitchen final EIR county index](#d010) | Hell’s Kitchen | Imperial County · Final EIR index | Not established |
+| [D011 — Hell's Kitchen notice of preparation and scoping meeting](#d011) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: NOP | Not established |
+| [D012 — Hell's Kitchen initial study](#d012) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: NOP | 2022-03 |
+| [D013 — Hell's Kitchen NOP notice of completion](#d013) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: NOP | Not established |
+| [D014 — CDFW scoping comment letter](#d014) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: NOP | 2022-05-10 |
+| [D015 — NAHC scoping comment letter](#d015) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: NOP | 2022-04-14 |
+| [D016 — Memo: additional draft-EIR documents](#d016) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: Draft EIR index | 2023-10-04 |
+| [D017 — County letter: addition of draft-EIR chapters](#d017) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: Draft EIR index | 2023-10-03 |
+| [D018 — Hell's Kitchen draft EIR: Chapters 6 and 7](#d018) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: Draft EIR index | Not established |
+| [D019 — Memo: draft-EIR review-period modification](#d019) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: Draft EIR index | 2023-09-06 |
+| [D020 — County letter: draft-EIR circulation modification](#d020) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: Draft EIR index | 2023-09-06 |
+| [D021 — Hell's Kitchen draft EIR: combined appendices](#d021) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: Draft EIR index | 2023 |
+| [D022 — Hell's Kitchen draft environmental impact report](#d022) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: Draft EIR index | 2023-08 |
+| [D023 — Hell's Kitchen electronic-submittal summary form](#d023) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: Draft EIR index | Not established |
+| [D024 — Hell's Kitchen notice of intent](#d024) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: Draft EIR index | Not established |
+| [D025 — Hell's Kitchen draft-EIR notice of completion](#d025) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: Draft EIR index | Not established |
+| [D026 — CDFW draft-EIR comment letter](#d026) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: Draft EIR index | 2023-10-23 |
+| [D027 — State Lands Commission draft-EIR comment letter](#d027) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: Draft EIR index | 2023-10-23 |
+| [D028 — Hell's Kitchen county determination: January 2024](#d028) | Hell’s Kitchen | Imperial County / CEQAnet · Attachment: NOD | 2024-01-24 |
+| [D029 — DOE/EA-2304: Final Environmental Assessment (May 2026)](#d029) | South West Arkansas | DOE · Attachment: Final EA index | 2026-05-13 |
+| [D030 — DOE/EA-2304: Finding of No Significant Impact (May 2026)](#d030) | South West Arkansas | DOE · Attachment: Decision index | 2026-05-13 |
+| [D031 — Hell's Kitchen final EIR: responses and revisions](#d031) | Hell’s Kitchen | Imperial County · Attachment: Final EIR index | 2023-12 |
+| [D032 — CEQAnet project chronology](#d032) | Hell’s Kitchen | Imperial County / CEQAnet · Project index | Not established |
+| [D033 — Hell's Kitchen geothermal lithium extraction pilot](#d033) | Hell’s Kitchen | California Energy Commission / CEQAnet · Pilot exemption | 2020-08-05 |
+| [D034 — DOE draft EA landing page](#d034) | South West Arkansas | DOE · Draft EA index | 2026-03-11 |
+| [D035 — South West Arkansas official issuer project page](#d035) | South West Arkansas | Standard Lithium · Issuer project index | Not established |
+| [D036 — CTR / Plum March 2026 investor presentation](#d036) | Hell’s Kitchen | SEC · Investor presentation | 2026-03-09 |
+| [D037 — CTR / Plum August 2026 investor presentation](#d037) | Hell’s Kitchen | SEC · Investor presentation | 2026-08-20 |
+| [D038 — 2021 SW Arkansas preliminary economic assessment](#d038) | South West Arkansas | SEC · Technical report | 2021-11-26 |
+| [D039 — Amended and restated SW Arkansas PFS](#d039) | South West Arkansas | SEC · Technical report | 2025-07-30 |
+| [D040 — Standard Lithium June 2026 management discussion](#d040) | South West Arkansas | SEC · Management discussion | 2026-08-10 |
+| [D041 — CTR / Plum merger announcement](#d041) | Hell’s Kitchen | SEC · Merger announcement | 2026-03-09 |
+| [D042 — Plum June 2026 quarterly report](#d042) | Hell’s Kitchen | SEC · Quarterly report | 2026-08-14 |
+| [D043 — CTR / Plum presentation supersession notice](#d043) | Hell’s Kitchen | SEC · 8-K | 2026-08-20 |
+| [D044 — South West Arkansas DFS - issuer PDF copy](#d044) | South West Arkansas | Standard Lithium · Technical report (issuer copy of D001) | 2025-10-14 |
+| [D045 — Hell's Kitchen pilot: CEC notice of exemption](#d045) | Hell’s Kitchen | California Energy Commission / CEQAnet · Attachment: Pilot exemption | 2020-08-05 |
+| [D046 — DOE/EA-2304: Draft Environmental Assessment](#d046) | South West Arkansas | DOE · Attachment: Draft EA index | 2026-03-11 |
+| [D047 — DOE/EA-2304: Dear Reader Letter](#d047) | South West Arkansas | DOE · Attachment: Draft EA index | 2026-03-11 |
+| [D048 — Hell's Kitchen December 2023 NOD](#d048) | Hell’s Kitchen | CEQAnet · NOD | 2023-12-18 |
+| [D049 — Hell's Kitchen subsequent NOD](#d049) | Hell’s Kitchen | CEQAnet · NOD | 2025-06-18 |
+| [D050 — Hell's Kitchen county determination: December 2023](#d050) | Hell’s Kitchen | CEQAnet · Attachment: NOD | 2023-12-15 |
+| [D051 — Materials Research LLC: CEC determination EPC-24-043](#d051) | Hell’s Kitchen | CEQAnet · Attachment: NOD | 2025-06-13 |
+| [D052 — 2023 SWA preliminary feasibility results (issuer supplement)](#d052) | South West Arkansas | Standard Lithium · PFS announcement | 2023-08-08 |
+| [D053 — SWA LG Energy Solution offtake announcement](#d053) | South West Arkansas | Arkansas Department of Commerce · Offtake announcement | 2026-08-31 |
+| [D054 — Arkansas DEQ draft air permits index](#d054) | South West Arkansas | Arkansas DEQ · Permit search index | Not established |
+| [D055 — CTR issuer homepage](#d055) | Hell’s Kitchen | Controlled Thermal Resources · Issuer index | Not established |
+| [D056 — CTR August 2026 presentation issuer notice](#d056) | Hell’s Kitchen | Controlled Thermal Resources · Presentation index | 2026-08-20 |
+| [D057 — BHERM final project report index](#d057) | BHER demonstration | California Energy Commission · Report index | 2024-08-30 |
+| [D058 — BHERM lithium recovery demonstration final report CEC-500-2024-094](#d058) | BHER demonstration | California Energy Commission · Grant final report | 2024-08 |
+| [D059 — Salton Sea geothermal lithium recovery demonstration exemption](#d059) | BHER demonstration | CEQAnet / CEC · Notice of exemption | 2020-06-17 |
+| [D060 — DOE EA-2279 ATLiS project index](#d060) | ATLiS | DOE · Environmental review index | Not established |
+| [D061 — ATLiS final environmental assessment and FONSI](#d061) | ATLiS | DOE · Final EA and FONSI | 2025-03 |
+| [D062 — ATLiS early CEQA project record SCH 2020120143](#d062) | ATLiS | CEQAnet / Imperial County · Environmental review index | Not established |
+| [D063 — ATLiS federal environmental review in state clearinghouse](#d063) | ATLiS | CEQAnet / DOE · Draft EA index | 2024-11-07 |
+| [D064 — Ogden lithium updated technical report summary](#d064) | Ogden / Great Salt Lake | SEC · Technical report / EX-96.1 | 2022-09-14 |
+| [D065 — Compass Minerals 2023 annual report](#d065) | Ogden / Great Salt Lake | SEC · 10-K | Not established |
+| [D066 — Compass Minerals 2025 annual report](#d066) | Ogden / Great Salt Lake | SEC · 10-K | Not established |
+| [D067 — EnergyX June 2026 offering amendment](#d067) | Ogden / Great Salt Lake | SEC · Regulation A offering amendment | 2026-06-16 |
+| [D068 — Blackstone draft injection permit public notice](#d068) | Green River | Utah DEQ / Public Notice Website · Public notice | 2023-11-08 |
+| [D069 — Blackstone draft UIC permit UTU-19-F4-8F9143D](#d069) | Green River | Utah Division of Water Quality · Draft injection permit | 2023-11 |
+| [D070 — Blackstone UIC permit agency archive](#d070) | Green River | Utah Division of Water Quality · Injection permit | Not established |
+| [D071 — Compass September 2022 technology and economics announcement](#d071) | Ogden / Great Salt Lake | Issuer · Issuer announcement | 2022-09-14 |
+| [D072 — Utah water quality notices alphabetical archive](#d072) | Green River | Utah DEQ · Agency index | Not established |
+| [D073 — Ogden September 2022 technical report issuer PDF](#d073) | Ogden / Great Salt Lake | Issuer · Technical report / issuer-hosted copy | 2022-09-14 |
+| [D074 — ATLiS June 2021 draft EIR archive](#d074) | ATLiS | CEQAnet / Imperial County · Draft EIR index | 2021-06-28 |
+| [D075 — ATLiS December 2020 scoping record](#d075) | ATLiS | CEQAnet / Imperial County · NOP index | 2020-12-08 |
+| [D076 — BHER demonstration CEC exemption original](#d076) | BHER demonstration | CEQAnet / CEC · Notice of exemption | 2020-06-17 |
+| [D077 — ATLiS November 2024 draft environmental assessment](#d077) | ATLiS | CEQAnet / DOE · Draft EA | 2024-11 |
+| [D078 — Blackstone November 2023 draft fact sheet and statement of basis](#d078) | Green River | Utah Division of Water Quality · Draft statement of basis | 2023-11-07 |
+| [D079 — Blackstone November 2023 draft permit attachments A-I](#d079) | Green River | Utah Division of Water Quality · Draft permit attachments | 2023-11 |
+| [D080 — ATLiS county final EIR introduction](#d080) | ATLiS | Imperial County · Final EIR chapter | 2021 |
+| [D081 — ATLiS county final EIR responses to comments](#d081) | ATLiS | Imperial County · Final EIR chapter | 2021 |
+| [D082 — Occidental and BHE TerraLithium joint venture announcement](#d082) | BHER demonstration | Issuer · Issuer announcement | 2024-06-04 |
+| [D083 — Compass Minerals SEC submissions index](#d083) | Ogden / Great Salt Lake | SEC · Filing index | Not established |
+| [D084 — EnergyX SEC submissions index](#d084) | Ogden / Great Salt Lake | SEC · Filing index | Not established |
+| [D085 — ATLiS full 2021 draft EIR and appendices](#d085) | ATLiS | Imperial County / CEQAnet · Draft EIR | 2021-06-28 |
+| [D086 — ATLiS CEQA historical project index](#d086) | ATLiS | CEQAnet · Agency index | Not established |
+| [D087 — Utah current groundwater and UIC permit index](#d087) | Green River | Utah DEQ · Agency index | Not established |
+| [D088 — Anson announces Green River UIC approval](#d088) | Green River | Issuer / ASX announcement · Issuer announcement | 2024-08-26 |
+| [D089 — EnergyX July 2026 offering circular](#d089) | Ogden / Great Salt Lake | SEC · 253G2 | 2026-07-13 |
+| [D090 — Compass Minerals June 2026 quarterly report](#d090) | Ogden / Great Salt Lake | SEC · 10-Q | 2026-08-06 |
+| [D091 — Compass Minerals historical SEC submissions index](#d091) | Ogden / Great Salt Lake | SEC · Filing index | Not established |
+| [D092 — Blackstone final UIC statement of basis](#d092) | Green River | Utah DEQ · Permit statement of basis | 2024 |
+| [D093 — DOE ATLiS final EA and FONSI publication notice](#d093) | ATLiS | DOE · Agency decision notice | 2025-03-26 |
+| [D094 — ATLiS_Notice_of_Availability](#d094) | ATLiS | CEQAnet / DOE · Attachment: Draft EA index | Not established |
+| [D095 — ATLiS_Summary_Form](#d095) | ATLiS | CEQAnet / DOE · Attachment: Draft EA index | Not established |
+| [D096 — ATLiS_Notice_of_Completion](#d096) | ATLiS | CEQAnet / DOE · Attachment: Draft EA index | Not established |
+| [D097 — 2024110237_CDFW Comment](#d097) | ATLiS | CEQAnet / DOE · Attachment: Draft EA index | Not established |
+| [D098 — 2024110237_DOT Comment](#d098) | ATLiS | CEQAnet / DOE · Attachment: Draft EA index | Not established |
+| [D099 — 2024110237_DTSC Comment](#d099) | ATLiS | CEQAnet / DOE · Attachment: Draft EA index | Not established |
+| [D100 — Notice of Availability-ATLiS-DEIR](#d100) | ATLiS | CEQAnet / Imperial County · Attachment: Draft EIR index | Not established |
+| [D101 — Respond to Mitigation Measures](#d101) | ATLiS | CEQAnet / Imperial County · Attachment: Draft EIR index | Not established |
+| [D102 — Summary Form](#d102) | ATLiS | CEQAnet / Imperial County · Attachment: Draft EIR index | Not established |
+| [D103 — Revised-NOC-ATLiS](#d103) | ATLiS | CEQAnet / Imperial County · Attachment: Draft EIR index | Not established |
+| [D104 — 2020120143_Conservation Comment](#d104) | ATLiS | CEQAnet / Imperial County · Attachment: Draft EIR index | Not established |
+| [D105 — 2020120143_Conservation Comment](#d105) | ATLiS | CEQAnet / Imperial County · Attachment: Draft EIR index | Not established |
+| [D106 — CUP20-0008 Initial Study Energy Source ATLiS](#d106) | ATLiS | CEQAnet / Imperial County · Attachment: NOP index | Not established |
+| [D107 — CUP20-0008 NOC](#d107) | ATLiS | CEQAnet / Imperial County · Attachment: NOP index | Not established |
+| [D108 — CUP20-0008 NOP](#d108) | ATLiS | CEQAnet / Imperial County · Attachment: NOP index | Not established |
+| [D109 — 2020120143_Caltrans comment](#d109) | ATLiS | CEQAnet / Imperial County · Attachment: NOP index | Not established |
+| [D110 — 2020120143_NAHC Comment](#d110) | ATLiS | CEQAnet / Imperial County · Attachment: NOP index | Not established |
+| [D111 — Great Salt Lake Phase 1 public notice](#d111) | Waterleaf / Lilac | Utah DWQ · Public notice | 2026-07-01 |
+| [D112 — Phase 1 draft fact sheet and flow diagram](#d112) | Waterleaf / Lilac | Utah DWQ · Draft UPDES fact sheet | 2026-06-30 |
+| [D113 — Phase 1 operations application, redacted](#d113) | Waterleaf / Lilac | Utah FFSL · Redacted operations application | 2026-02-20 |
+| [D114 — A1 Lithium draft UIC permit and attachments](#d114) | Paradox | Utah DWQ · Draft UIC permit and attachments | 2024-05 |
+| [D115 — R-56-A lithium carbonate grant application](#d115) | Wellspring | North Dakota Industrial Commission · Grant application | 2025-08-31 |
+| [D116 — Utah Mining 2024](#d116) | US Magnesium | Utah Geological Survey · Government survey | 2025 |
+| [D117 — Maiden inferred resource technical report](#d117) | Franklin | Issuer website · NI 43-101 technical report | 2025-11-05 |
+| [D118 — September 8 2026 PEA announcement, SEC exhibit](#d118) | Franklin | SEC · SEC EX-99.1 | 2026-09-08 |
+| [D119 — Annual information form, 2025 year](#d119) | LANXESS history | SEC · Annual information form | Not established |
+| [D120 — North Dakota renewable grant rounds 50-59](#d120) | Wellspring | NDIC · Agency grant index | Not established |
+| [D121 — TETRA 2025 annual report](#d121) | Evergreen | SEC · Form 10-K | Not established |
+| [D122 — Albemarle 2024 Sustainability Report](#d122) | Magnolia | Issuer website · Sustainability report | Not established |
+| [D123 — A1 Lithium UIC notice](#d123) | Paradox | Utah DWQ · UIC public notice | 2024-05-23 |
+| [D124 — Bulk Brine Production Complete at Utah Lithium Project](#d124) | Mandrake Utah | Issuer website · Issuer-hosted ASX announcement | 2026-09-15 |
+
+
+<!-- END SOURCEINDEX -->
 
 # Filing catalog
 
@@ -10024,6 +10288,6 @@ AI source checking and human acceptance are separate states. The observation CSV
 
 ## Sharing and reproducibility
 
-The Markdown is the authored report. The catalog and evidence appendix are refreshed from the register and observations, then Pandoc generates an overview and separate project pages with embedded styling and source-figure images. A full-report HTML file retains all content on one page for ordinary browser search and printing. No server, scripts or remote fonts are required. Official-source links require internet access.
+The Markdown is the authored report. The catalog and evidence appendix are refreshed from the register and observations, then Pandoc generates a short research-library homepage, dedicated comparison pages, and separate Summary, Chemistry, Process and Evidence views for every project. Styling and source-figure images are embedded. A full-report HTML file retains all content on one page for ordinary browser search and printing. Reading and navigation require no server, JavaScript or remote fonts. A small optional script forwards previously shared section links to their new pages; ordinary fallback links remain available without it. Official-source links require internet access.
 
 Share the report-site.zip archive for the complete multipage report, or full-report.html for a single-file version. Keep the HTML pages together when using project navigation. The Markdown and its nine figure images are included in the archive. Original documents, CSVs, manifest, source-review images, search log and rerunnable commands remain in the supporting research folder. Manual reruns are the default; no scheduled monitoring or publishing has been enabled. The September 16 expansions added 16 profiles; original SWA/HK evidence remains tied to its September 14 collection snapshot. The supplied lab logo and all source figures are embedded in every HTML page where used.

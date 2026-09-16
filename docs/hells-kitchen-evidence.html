@@ -1,0 +1,1516 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Hell’s Kitchen · Evidence</title>
+  <style>
+
+html {
+color: #1a1a1a;
+background-color: #fdfdfd;
+}
+body {
+margin: 0 auto;
+max-width: 36em;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+hyphens: auto;
+overflow-wrap: break-word;
+text-rendering: optimizeLegibility;
+font-kerning: normal;
+}
+@media (max-width: 600px) {
+body {
+font-size: 0.9em;
+padding: 12px;
+}
+h1 {
+font-size: 1.8em;
+}
+}
+@media print {
+html {
+background-color: white;
+}
+body {
+background-color: transparent;
+color: black;
+font-size: 12pt;
+}
+p, h2, h3 {
+orphans: 3;
+widows: 3;
+}
+h2, h3, h4 {
+page-break-after: avoid;
+}
+}
+p {
+margin: 1em 0;
+}
+a {
+color: #1a1a1a;
+}
+a:visited {
+color: #1a1a1a;
+}
+img {
+max-width: 100%;
+}
+svg {
+height: auto;
+max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+margin-top: 1.4em;
+}
+h5, h6 {
+font-size: 1em;
+font-style: italic;
+}
+h6 {
+font-weight: normal;
+}
+ol, ul {
+padding-left: 1.7em;
+margin-top: 1em;
+}
+li > ol, li > ul {
+margin-top: 0;
+}
+blockquote {
+margin: 1em 0 1em 1.7em;
+padding-left: 1em;
+border-left: 2px solid #e6e6e6;
+color: #606060;
+}
+code {
+white-space: pre-wrap;
+font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+font-size: 85%;
+margin: 0;
+hyphens: manual;
+}
+pre {
+margin: 1em 0;
+overflow: auto;
+}
+pre code {
+padding: 0;
+overflow: visible;
+overflow-wrap: normal;
+}
+.sourceCode {
+background-color: transparent;
+overflow: visible;
+}
+hr {
+border: none;
+border-top: 1px solid #1a1a1a;
+height: 1px;
+margin: 1em 0;
+}
+table {
+margin: 1em 0;
+border-collapse: collapse;
+width: 100%;
+overflow-x: auto;
+display: block;
+font-variant-numeric: lining-nums tabular-nums;
+}
+table caption {
+margin-bottom: 0.75em;
+}
+tbody {
+margin-top: 0.5em;
+border-top: 1px solid #1a1a1a;
+border-bottom: 1px solid #1a1a1a;
+}
+th {
+border-top: 1px solid #1a1a1a;
+padding: 0.25em 0.5em 0.25em 0.5em;
+}
+td {
+padding: 0.125em 0.5em 0.25em 0.5em;
+}
+header {
+margin-bottom: 4em;
+text-align: center;
+}
+#TOC li {
+list-style: none;
+}
+#TOC ul {
+padding-left: 1.3em;
+}
+#TOC > ul {
+padding-left: 0;
+}
+#TOC a:not(:hover) {
+text-decoration: none;
+}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style>
+:root { color-scheme:light; --ink:#243936; --muted:#526861; --accent:#15675f; --line:#d7e2de; --paper:#fff; --soft:#edf4f1; --canvas:#f6f9f7; }
+* { box-sizing:border-box; }
+html { scroll-padding-top:1.5rem; }
+body { margin:0; padding:0; max-width:none; hyphens:none; color:var(--ink); background:var(--paper); font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+a { color:var(--accent); text-underline-offset:3px; overflow-wrap:anywhere; }
+a:hover { color:#0a403a; }
+a:focus-visible, summary:focus-visible, [tabindex]:focus-visible { outline:3px solid #b57914; outline-offset:3px; }
+.skip-link { position:absolute; top:-100px; left:1rem; padding:.7rem 1rem; background:var(--paper); z-index:20; }
+.skip-link:focus { top:.5rem; }
+.site-header { max-width:1264px; margin:auto; padding:1.15rem 2rem; display:flex; align-items:center; justify-content:space-between; gap:1.5rem; border-bottom:1px solid var(--line); }
+.brand { display:flex; align-items:center; gap:1.2rem; color:var(--ink); font-size:1.1rem; font-weight:700; line-height:1.2; text-decoration:none; overflow-wrap:normal; }
+.lab-logo { width:132px; height:auto; display:block; }
+.global-nav, .view-nav, .section-nav { display:flex; align-items:center; flex-wrap:wrap; gap:.4rem; }
+.global-nav a, .view-nav a, .section-nav a { padding:.5rem .8rem; border-radius:4px; color:var(--muted); text-decoration:none; white-space:nowrap; }
+.global-nav a[aria-current], .view-nav a[aria-current], .section-nav a[aria-current] { background:var(--soft); color:var(--accent); font-weight:650; }
+.global-nav a:hover, .view-nav a:hover, .section-nav a:hover { background:var(--soft); }
+.review-status, .project-context, .view-nav, .section-nav { max-width:1200px; margin:.8rem auto 0; padding:0 2rem; }
+.review-status { font-size:.78rem; color:var(--muted); }
+.project-context { font-size:.82rem; margin-top:1.7rem; color:var(--muted); }
+.view-nav { border-bottom:1px solid var(--line); padding-bottom:.6rem; }
+.section-nav { font-size:.84rem; }
+main { max-width:1200px; padding:1.4rem 2rem 3rem; margin:auto; min-width:0; }
+h1,h2,h3,h4 { color:#173e3a; line-height:1.22; letter-spacing:-.02em; font-weight:680; }
+h1 { font-size:clamp(1.65rem,3vw,2.4rem); margin:.4rem 0 1.2rem; }
+h2 { font-size:1.35rem; margin:2.2rem 0 .9rem; }
+h3 { font-size:1.12rem; margin:1.8rem 0 .8rem; }
+h4 { font-size:1rem; margin:1.4rem 0 .65rem; }
+p,li { max-width:92ch; }
+p { margin:.75rem 0 1rem; }
+.local-toc { margin:0 0 1.2rem; font-size:.85rem; border-bottom:1px solid var(--line); padding:0 0 .7rem; }
+.local-toc summary { cursor:pointer; color:var(--accent); width:max-content; }
+.local-toc nav { padding:.5rem 0; }
+#TOC > ul { columns:2; column-gap:2.5rem; }
+#TOC ul { padding-left:1.2rem; margin:.4rem 0; }
+#TOC li { break-inside:avoid; margin:.25rem 0; }
+#TOC a { text-decoration:none; }
+.library-home .local-toc { display:none; }
+.library-home main { padding-top:1.6rem; }
+.library-home .research-routes { margin:1.7rem 0 2.4rem; }
+.research-routes { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; }
+.research-routes p { margin:0; }
+.research-routes a { display:block; height:100%; padding:1.25rem; border:1px solid var(--line); border-radius:5px; background:var(--canvas); text-decoration:none; font-size:.9rem; color:var(--muted); }
+.research-routes a:hover { background:var(--soft); }
+.research-routes strong { display:block; margin-bottom:.5rem; font-size:1.05rem; color:var(--accent); }
+.table-hint { margin:1.2rem 0 .4rem; font-size:.75rem; color:var(--muted); }
+.table-scroll { overflow:auto; max-height:65vh; margin:0 0 1.6rem; border:1px solid var(--line); border-radius:3px; scrollbar-color:#829f95 var(--canvas); }
+table { display:table; overflow:visible; margin:0; border-spacing:0; border-collapse:separate; width:100%; font-size:.86rem; line-height:1.5; }
+th,td { padding:.85rem .85rem; border-bottom:1px solid var(--line); vertical-align:top; overflow-wrap:break-word; min-width:125px; }
+th { background:var(--soft); color:#173e3a; font-weight:650; text-align:left; position:sticky; top:0; z-index:3; }
+td { background:var(--paper); }
+tbody tr:nth-child(even) td { background:#f8fbf9; }
+th:first-child,td:first-child { position:sticky; left:0; min-width:155px; max-width:255px; z-index:2; box-shadow:1px 0 0 var(--line); }
+th:first-child { z-index:4; }
+td[style*="right"],th[style*="right"] { font-variant-numeric:tabular-nums; }
+.library-home .table-scroll { border:0; max-height:none; }
+.library-home .table-hint { display:none; }
+figure { margin:1.5rem 0; border:1px solid var(--line); padding:.75rem; background:white; }
+figure img { display:block; width:100%; height:auto; }
+figcaption { color:var(--muted); font-size:.8rem; padding:.6rem .2rem .2rem; }
+.flow-gallery { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1.2rem; margin-top:1.5rem; }
+.flow-gallery > section { min-width:0; padding:1.1rem; border:1px solid var(--line); border-radius:5px; }
+.flow-gallery h2 { font-size:1.1rem; margin:0 0 1rem; }
+.flow-gallery figure { margin:0; border:0; padding:0; }
+.flow-gallery img { height:240px; object-fit:contain; }
+.flow-gallery p { font-size:.84rem; margin:1rem 0 0; }
+blockquote { background:var(--canvas); border-left:3px solid var(--line); margin:1.2rem 0; padding:.5rem 1.2rem; }
+code { font-size:.9em; background:var(--soft); padding:.1rem .3rem; border-radius:3px; }
+pre { overflow-x:auto; padding:1rem; background:var(--soft); }
+hr { border:0; border-top:1px solid var(--line); margin:1.8rem 0; }
+.legacy-links { max-width:1200px; margin:0 auto; padding:0 2rem 1rem; color:var(--muted); font-size:.75rem; }
+.legacy-links summary { cursor:pointer; }
+.legacy-links ul { columns:3; }
+.site-footer { max-width:1264px; margin:auto; padding:1.3rem 2rem 2rem; border-top:1px solid var(--line); color:var(--muted); font-size:.78rem; display:flex; flex-wrap:wrap; gap:.6rem 2rem; justify-content:space-between; }
+.complete-report main { max-width:1264px; }
+.complete-report .table-scroll { max-height:none; }
+@media(max-width:700px) {
+.site-header { padding:1rem 1.15rem; display:block; }
+.brand { gap:.8rem; font-size:1rem; }
+.lab-logo { width:110px; }
+.global-nav { margin-top:1rem; gap:.15rem; }
+.global-nav a { padding:.4rem .6rem; font-size:.9rem; }
+.review-status,.project-context,.view-nav,.section-nav { padding-left:1.15rem; padding-right:1.15rem; }
+.view-nav a { padding:.45rem .55rem; font-size:.84rem; }
+main { padding:1.2rem 1.15rem 2.2rem; }
+.research-routes,.flow-gallery { grid-template-columns:1fr; gap:.65rem; }
+.research-routes a { padding:.9rem 1rem; }
+.research-routes strong { font-size:1rem; margin-bottom:.2rem; }
+.library-home .research-routes { margin:1.3rem 0 1.5rem; }
+#TOC > ul { columns:1; }
+.table-scroll { max-height:62vh; }
+th,td { min-width:155px; padding:.7rem; }
+th:first-child,td:first-child { min-width:128px; max-width:150px; }
+.flow-gallery img { height:220px; }
+.site-footer,.legacy-links { padding-left:1.15rem; padding-right:1.15rem; }
+.legacy-links ul { columns:2; }
+}
+@media print {
+body { font-size:10pt; }
+.site-header { padding:0 0 1rem; }
+.global-nav,.view-nav,.section-nav,.local-toc,.skip-link,.site-footer,.legacy-links,.table-hint { display:none; }
+.review-status,.project-context,main { max-width:none; padding:0; }
+.brand { font-size:12pt; }
+.lab-logo { width:100px; }
+h1,h2,h3,h4 { break-after:avoid; }
+.table-scroll { overflow:visible; max-height:none; border:0; }
+table { font-size:8pt; }
+th,td,th:first-child,td:first-child { position:static; min-width:0; max-width:none; box-shadow:none; padding:.5rem; overflow-wrap:anywhere; }
+tr,figure { break-inside:avoid; }
+thead { display:table-header-group; }
+.flow-gallery { display:block; }
+.flow-gallery > section { break-inside:avoid; margin-bottom:1rem; }
+a { color:inherit; }
+@page { size:A4; margin:16mm; }
+}
+</style>
+</head>
+<body class="research-page"><a class="skip-link" href="#main-content">Skip to content</a><header class="site-header"><a class="brand" href="report.html"><img class="lab-logo" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNzU4IDcwMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InRpdGxlIGRlc2MiPgogIDx0aXRsZSBpZD0idGl0bGUiPk1JVCBEZXZpY2UgUmVzZWFyY2ggTGFiIGxvZ288L3RpdGxlPgogIDxkZXNjIGlkPSJkZXNjIj5WZWN0b3IgcmVjb25zdHJ1Y3Rpb24gb2YgdGhlIERldmljZSBSZXNlYXJjaCBMYWIgbG9nbyBmcm9tIHRoZSBvZmZpY2lhbCBNSVQgbGFiIHdlYnNpdGUuPC9kZXNjPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJjaXJjbGUtZ3JhZGllbnQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjUwIiB5MT0iMCIgeDI9IjYwMCIgeTI9IjAiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZjhkNDIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjQ4NiIgc3RvcC1jb2xvcj0iI2ZmYWUzNiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNzE0IiBzdG9wLWNvbG9yPSIjZmZiZDMwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC45MTQiIHN0b3AtY29sb3I9IiNmZmM5MmMiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZmZjZTJiIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJkcm9wbGV0LWdyYWRpZW50IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjQwMCIgeTE9IjcwMCIgeDI9IjYwIiB5Mj0iNjAiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwZmIyZjMiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjE4IiBzdG9wLWNvbG9yPSIjMGZiMmYzIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC4zNSIgc3RvcC1jb2xvcj0iIzFlYTBlZiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNTciIHN0b3AtY29sb3I9IiMzODgwZTkiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjc2IiBzdG9wLWNvbG9yPSIjNGY2NGUzIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC44NyIgc3RvcC1jb2xvcj0iIzVjNTRlMCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM1YzU0ZTAiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9Im92ZXJsYXAtZ3JhZGllbnQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjUwIiB5MT0iMCIgeDI9IjUxMCIgeTI9IjAiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNkZjJjNjQiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjExNSIgc3RvcC1jb2xvcj0iI2RhMzI2YSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuMjY5IiBzdG9wLWNvbG9yPSIjZDAzYTc1Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC40MjMiIHN0b3AtY29sb3I9IiNjODQwN2UiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjU3NyIgc3RvcC1jb2xvcj0iI2JlNDg4OSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNzY5IiBzdG9wLWNvbG9yPSIjYjM1MTk2Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2E5NWFhMSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPGcgc2hhcGUtcmVuZGVyaW5nPSJnZW9tZXRyaWNQcmVjaXNpb24iPgogICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCA3MDApIHNjYWxlKDEgLTEpIj4KICAgICAgPHBhdGggZmlsbD0idXJsKCNjaXJjbGUtZ3JhZGllbnQpIiBkPSJNNDA4IDYwNyBjLTE4IC0yIC0zOCAtNyAtNTIgLTE0IC0xMCAtNCAtMjggLTE1IC0zOCAtMjMgLTMyIC0yNSAtNTQgLTYyIC02MyAtMTAzIC0zIC0xNCAtNCAtNDEgLTIgLTU3IDExIC03OSA3NSAtMTQwIDE1NCAtMTQ5IDI5IC0zIDYwIDIgODYgMTMgNSAyIDExIDUgMTMgNSAxMCA0IDI5IDE4IDQzIDMxIDE0IDE1IDI1IDMwIDM0IDUwIDMyIDY3IDE3IDE0OCAtMzcgMjAwIC0zNyAzNSAtODggNTIgLTEzOCA0N3oiLz4KICAgIDwvZz4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgNzAwKSBzY2FsZSgxIC0xKSI+CiAgICAgIDxwYXRoIGZpbGw9InVybCgjZHJvcGxldC1ncmFkaWVudCkiIGQ9Ik0yNTQgNjQ4IGMtNDEgLTQyIC05NiAtMTEwIC0xMzMgLTE2NSAtNDUgLTY4IC03MyAtMTI3IC04MyAtMTc0IC02IC0yOSAtNSAtNjEgMyAtOTQgMjEgLTg1IDkwIC0xNTMgMTc1IC0xNzMgMjAgLTUgMzAgLTUgNTUgLTUgMjcgMCAzNSAxIDU4IDYgODggMjIgMTU3IDk0IDE3NCAxODQgMTEgNTQgMiAxMDEgLTMyIDE2OSAtMjcgNTUgLTY1IDExMSAtMTIxIDE4MSAtMzEgMzggLTc1IDg3IC03OSA4NyAtMSAwIC05IC03IC0xNyAtMTZ6Ii8+CiAgICA8L2c+CiAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDcwMCkgc2NhbGUoMSAtMSkiPgogICAgICA8cGF0aCBmaWxsPSJ1cmwoI292ZXJsYXAtZ3JhZGllbnQpIiBkPSJNMzM0IDU4MSBjLTQxIC0yNiAtNjkgLTY2IC03OSAtMTE0IC0zIC0xNCAtNCAtNDEgLTIgLTU3IDE3IC0xMTYgMTQwIC0xODMgMjQ2IC0xMzMgbDggMyAwIDggYy0xIDQgLTEgNyAtMSA4IC0xIDEgLTEgNCAtMSA3IC0yIDEzIC0xMCAzNiAtMTggNTcgLTQgMTEgLTIyIDQ4IC0yNyA1OCAtMSAyIC00IDYgLTYgMTAgLTE4IDMxIC00NCA3MSAtNzEgMTA3IC0xNCAxOCAtNDAgNTEgLTQxIDUxIDAgMCAtNCAtMiAtOCAtNXoiLz4KICAgIDwvZz4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgNzAwKSBzY2FsZSgxIC0xKSI+CiAgICAgIDxwYXRoIGZpbGw9IiMyMzFmMjAiIGQ9Ik03MjQgMzgzIGwwIC0xOTIgODYgMCBjNTcgMSA4OCAxIDk0IDIgMjUgNCA0MCA4IDU5IDE3IDM5IDE5IDY2IDU1IDc3IDEwNSAxMiA1MSA5IDExNSAtOCAxNTggLTExIDI4IC0yOSA1MiAtNTIgNjkgLTE3IDExIC00MiAyMyAtNjMgMjcgLTI0IDUgLTI0IDUgLTExMSA2IGwtODIgMCAwIC0xOTJ6IG0xNTggMTIzIGMyNSAtNCA0NCAtMTMgNTkgLTI4IDE1IC0xNyAyNCAtMzggMjkgLTY4IDIgLTE0IDEgLTUzIC0xIC02NyAtNSAtMjkgLTE0IC00NyAtMjkgLTYxIC04IC04IC0yMSAtMTUgLTMyIC0xOCAtMTcgLTQgLTIxIC00IC02NyAtNSBsLTQ0IDAgMCAxMjQgMCAxMjQgMzkgMCBjMjMgMCA0MiAwIDQ2IC0xeiBNMTEyOSAzODMgbDAgLTE5MiAzNyAwIDM2IDAgMCA3MSAwIDcwIDM0IDAgMzUgMCAzNyAtNzEgMzcgLTcwIDQyIDAgYzIzIDAgNDIgMCA0MiAwIDAgMSAtMTkgMzUgLTQzIDc3IC0yMyA0MyAtNDIgNzggLTQxIDc4IDAgMSAxIDEgMSAxIDQgMCAyNiAxMiAzMyAxOCAxOCAxNSAzMiAzOCAzNyA2MiA3IDM1IDEgNzEgLTE1IDk2IC0xNCAyMiAtMzMgMzYgLTYwIDQ0IC0yMiA4IC0xOSA3IC0xMjEgOCBsLTkxIDAgMCAtMTkyeiBtMTUzIDEyNyBjMzIgLTMgNTEgLTE2IDU5IC00MCAyIC04IDIgLTI0IDAgLTMzIC01IC0xOSAtMjAgLTMzIC00MiAtMzggLTcgLTIgLTExIC0yIC01MiAtMiBsLTQ1IDAgMCA1NyAwIDU3IDM1IDAgYzE5IDAgMzkgMCA0NSAtMXogTTE0OTUgMzgzIGwwIC0xOTIgMTE0IDAgMTE0IDAgMCAzNCAwIDM0IC03NyAwIC03OCAwIDAgMTU4IDAgMTU4IC0zNiAwIC0zNyAwIDAgLTE5MnogTTk0MSAxNTAgYy0yIC0xIC02IC0yIC05IC0zIC0xMSAtNyAtMTQgLTI3IC02IC00MCA4IC0xMyAzMCAtMTQgNDAgLTIgMyAzIDYgMTAgNSAxMSAwIDEgLTIgMSAtNCAxIC00IDEgLTQgMSAtNCAtMiAtMSAtMSAtMiAtNCAtNCAtNiAtOCAtMTAgLTIzIC03IC0yOCA1IC0yIDcgLTEgMTggMyAyNCA2IDggMjEgOCAyNyAtMiAyIC0zIDMgLTMgNiAtMyAyIDEgMyAxIDQgMSAwIDEgLTEgMyAtMiA1IC0yIDQgLTcgOCAtMTEgMTAgLTQgMSAtMTIgMiAtMTcgMXogTTEyMDEgMTUwIGMtMTEgLTIgLTE2IC0xMSAtMTMgLTE5IDIgLTUgNSAtNyAxNiAtOSAxMiAtMyAxNSAtNSAxNSAtOSAwIC00IC0xIC03IC01IC04IC04IC01IC0xOSAwIC0yMSA4IDAgMyAwIDMgLTMgMyAtMiAtMSAtNCAtMSAtNCAtMSAtMiAwIC0xIC00IDEgLTggMyAtNiA3IC05IDE1IC0xMCAxMyAtMiAyNCAzIDI2IDE0IDAgNSAtMiAxMSAtNyAxNCAtMiAxIC03IDMgLTExIDQgLTEwIDIgLTE0IDQgLTE0IDggMCA0IDMgNiA5IDcgNyAwIDEyIC0zIDEzIC04IDEgLTIgMiAtMyAzIC0zIDEgMSAyIDEgNCAxIDIgMCAyIDAgMiAzIC0yIDUgLTUgOSAtOSAxMSAtNSAyIC0xMiAzIC0xNyAyeiBNMTQzMyAxNTAgYy03IC0yIC0xMyAtNiAtMTcgLTEzIC0yIC01IC0yIC0yMiAxIC0yNyA0IC05IDExIC0xMyAyMiAtMTMgOCAtMSAxNCAyIDE5IDcgMyA0IDcgMTIgNiAxMyAwIDAgLTIgMCAtNCAwIC00IDEgLTQgMSAtNSAtMyAtNiAtMTUgLTI2IC0xNCAtMzEgMSAtNSAxMyAxIDI3IDEyIDI5IDcgMSAxNCAtMiAxOCAtOCAyIC0zIDUgLTQgOCAtMiAzIDIgLTQgMTEgLTExIDE0IC01IDIgLTEzIDMgLTE4IDJ6IE03MjQgMTI0IGwwIC0yNiAxMyAwIGMxNCAwIDE4IDEgMjIgNiA2IDUgNyA4IDcgMjAgMCAxMCAtMSAxMSAtMyAxNiAtMiAzIC01IDUgLTggNyAtNCAyIC02IDIgLTE4IDIgbC0xMyAwIDAgLTI1eiBtMjggMTUgYzUgLTQgNiAtMTAgNiAtMTggLTEgLTEyIC02IC0xNiAtMTggLTE2IGwtOCAwIDAgMTkgMCAxOCA4IDAgYzggMCA5IDAgMTIgLTN6IE03ODUgMTI0IGwwIC0yNiAxOSAwIDE4IDAgMCA0IDAgMyAtMTQgMCAtMTUgMCAwIDggMCA4IDEzIDAgMTIgMCAwIDQgMCAzIC0xMiAwIC0xMyAwIDAgNyAwIDcgMTQgMCAxNCAwIDAgNCAwIDMgLTE4IDAgLTE4IDAgMCAtMjV6IE04MzUgMTQ3IGMxIC0xIDUgLTEyIDkgLTI1IGw4IC0yMyA0IC0xIGMyIDAgNCAwIDQgMCAwIDAgMiA1IDQgMTEgMiA1IDYgMTYgOSAyNSBsNSAxNSAtNCAwIC01IDAgLTYgLTE5IGMtNCAtMTEgLTcgLTIwIC03IC0yMCAwIDEgLTMgOSAtNyAyMCBsLTUgMTkgLTUgMCBjLTMgMCAtNCAwIC00IC0yeiBNODk0IDEyNCBsMCAtMjYgNCAwIDQgMCAwIDI2IDAgMjUgLTQgMCAtNCAwIDAgLTI1eiBNOTg5IDEyNCBsMCAtMjYgMTkgMCAxOCAwIDAgNCAwIDMgLTE0IDAgLTE1IDAgMCA4IDAgOCAxMyAwIDEyIDAgMCA0IDAgMyAtMTIgMCAtMTMgMCAwIDcgMCA3IDE1IDAgMTQgMCAwIDQgMCAzIC0xOCAwIC0xOSAwIDAgLTI1eiBNMTA3NCAxMjQgbDAgLTI2IDQgMCA0IDAgMCAxMSAwIDEwIDYgMCA2IDAgNiAtOSBjMyAtNSA2IC0xMCA3IC0xMSAwIC0xIDIgLTEgNSAtMSBsNSAxIC03IDEwIC03IDExIDQgMSBjNSAyIDcgNiA3IDE0IDAgNCAwIDYgLTIgOCAtNCA1IC03IDYgLTIzIDYgbC0xNSAwIDAgLTI1eiBtMzAgMTcgYzQgLTQgMyAtMTIgLTIgLTE0IC0xIDAgLTYgLTEgLTExIC0xIGwtOSAwIDAgOCAwIDggMTAgMCBjNyAwIDEwIDAgMTIgLTF6IE0xMTMzIDEyNCBsMCAtMjYgMTkgMCAxOCAwIDAgNCAwIDMgLTE1IDAgLTE1IDAgMCA4IDAgOCAxMyAwIDEyIDAgMCA0IDAgMyAtMTIgMCAtMTMgMCAwIDcgMCA3IDE1IDAgMTQgMCAwIDQgMCAzIC0xOCAwIC0xOCAwIDAgLTI1eiBNMTI0NSAxMjQgbDAgLTI2IDE5IDAgMTkgMCAwIDQgMCAzIC0xNSAwIC0xNSAwIDAgOCAwIDggMTMgMCAxMiAwIDAgNCAwIDMgLTEyIDAgLTEzIDAgMCA3IDAgNyAxNSAwIDE0IDAgMCA0IDAgMyAtMTggMCAtMTkgMCAwIC0yNXogTTEzMTQgMTQ2IGMtMSAtMiAtNSAtMTMgLTEwIC0yNSAtNCAtMTIgLTggLTIyIC05IC0yMiAwIC0xIDIgLTEgNCAtMSBsNSAwIDMgOCAyIDcgMTAgMCA5IDAgMiAtNyAzIC03IDQgLTEgYzIgMCA0IDAgNCAxIDAgMCAtNCAxMiAtOSAyNSBsLTkgMjUgLTQgMCBjLTQgMCAtNCAwIC01IC0zeiBtOCAtMTYgYzEgLTQgMiAtOCAzIC05IDAgLTEgLTIgLTEgLTYgLTEgLTQgMCAtNyAwIC03IDEgMCAwIDIgNCAzIDkgMiA0IDQgOCA0IDcgMCAwIDIgLTQgMyAtN3ogTTEzNTcgMTI0IGwwIC0yNiA0IDAgNCAwIDAgMTEgMCAxMCA2IDAgNiAwIDYgLTEwIDcgLTEwIDQgLTEgYzMgMCA1IDAgNSAwIDAgMSAtMyA2IC02IDExIGwtNyAxMCAzIDIgYzUgMiA3IDYgOCAxMiAwIDUgMCA3IC0yIDEwIC0zIDUgLTcgNiAtMjMgNiBsLTE1IDAgMCAtMjV6IG0zMCAxNiBjMyAtMyAzIC05IDAgLTEyIC0yIC0xIC00IC0yIC0xMiAtMiBsLTEwIDAgMCA4IDAgOCAxMCAwIGM5IDAgMTAgMCAxMiAtMnogTTE0ODIgMTI0IGwwIC0yNiA0IDAgMyAwIDAgMTIgMCAxMSAxNCAwIDEzIDAgMCAtMTEgMCAtMTIgNCAwIDQgMCAwIDI2IDAgMjUgLTQgMCAtNCAwIDAgLTEwIDAgLTExIC0xMyAwIC0xNCAwIDAgMTEgMCAxMCAtMyAwIC00IDAgMCAtMjV6IE0xNTc1IDEyNCBsMCAtMjYgMTYgMCAxNiAwIDAgNCAwIDMgLTEyIDAgLTEzIDAgMCAyMiAwIDIyIC0zIDAgLTQgMCAwIC0yNXogTTE2MzkgMTQ3IGMtMTEgLTMwIC0xOCAtNDggLTE4IC00OCAwIC0xIDIgLTEgNCAtMSBsNCAxIDMgNyAyIDcgMTAgMCA5IDAgMiAtNSBjMSAtMyAyIC03IDIgLTggMSAtMiAyIC0yIDUgLTIgMyAwIDQgMCA0IDEgMCAxIC00IDEyIC05IDI2IGwtOSAyNCAtNCAwIGMtMyAwIC00IDAgLTUgLTJ6IG04IC0xOCBjMiAtNCAzIC04IDMgLTkgLTEgMCAtMyAwIC03IDAgbC02IDEgMyA4IGMyIDQgNCA4IDQgOCAwIDAgMiAtNCAzIC04eiBNMTY4MiAxMjQgbDAgLTI2IDE2IDAgYzE2IDAgMTcgMCAyMCAyIDQgMyA2IDYgNiAxMiAwIDUgLTIgMTAgLTUgMTIgLTEgMSAtMSAxIDEgNCAzIDUgNCA5IDEgMTQgLTMgNiAtNiA3IC0yNCA3IGwtMTUgMCAwIC0yNXogbTMxIDE3IGMyIC0yIDIgLTkgLTEgLTExIC0yIC0yIC00IC0yIC0xMiAtMiBsLTEwIDAgMCA3IDAgNyAxMCAwIGM4IDAgMTEgMCAxMyAtMXogbTEgLTIzIGMzIC0zIDMgLTggMCAtMTEgLTIgLTIgLTMgLTIgLTEzIC0yIGwtMTEgMCAwIDggMCA4IDExIDAgYzEwIDAgMTEgLTEgMTMgLTN6Ii8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K" alt="MIT Device Research Lab" width="1758" height="700"><span>DLE Research Library</span></a><nav class="global-nav" aria-label="Primary"><a href="projects.html" aria-current="page">Projects</a><a href="compare-chemistry.html">Compare</a><a href="sources.html">Sources</a><a href="methods.html">Methods</a></nav></header><div class="review-status">Research draft · Human review pending · Collection cutoff 2026-09-14 · <a href="methods.html">Review and scope</a></div><div class="project-context"><a href="projects.html">Projects</a> / Hell’s Kitchen</div><nav class="view-nav" aria-label="Project views"><a href="hells-kitchen.html">Summary</a><a href="hells-kitchen-chemistry.html">Chemistry</a><a href="hells-kitchen-process.html">Process</a><a href="hells-kitchen-evidence.html" aria-current="page">Evidence</a></nav><main id="main-content">
+<section id="hells-kitchen-sources" class="level1 unlisted">
+<h1 class="unlisted">Hell’s Kitchen · Evidence</h1>
+<section id="d003" class="level2 unlisted">
+<h2 class="unlisted">D003</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2022030704">Hell’s
+Kitchen notice of preparation and initial study record</a></strong></p>
+<p>NOP · Imperial County / CEQAnet. Entity: Hell’s Kitchen Power Co 1
+LLC.</p>
+<p>Published/filed: <strong>2022-03-25</strong>; effective/event date:
+<strong>not established</strong>. Source role: official agency
+record.</p>
+<p>Original saved.</p>
+<p>Early state clearinghouse record linking the commercial-project
+scoping notice, initial study and agency comments.</p>
+</section>
+<section id="d004" class="level2 unlisted">
+<h2 class="unlisted">D004</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2022030704/3">Hell’s
+Kitchen draft EIR record</a></strong></p>
+<p>Draft EIR index · Imperial County / CEQAnet. Entity: Controlled
+Thermal Resources (US) Inc. and subsidiaries.</p>
+<p>Published/filed: <strong>2023-08-30</strong>; effective/event date:
+<strong>not established</strong>. Source role: official agency
+record.</p>
+<p>Original saved.</p>
+<p>Draft environmental-review filing with main EIR, appendices,
+circulation notices and agency comments.</p>
+</section>
+<section id="d005" class="level2 unlisted">
+<h2 class="unlisted">D005</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2022030704/5">Hell’s
+Kitchen notice of determination</a></strong></p>
+<p>NOD · Imperial County / CEQAnet. Entity: Imperial County.</p>
+<p>Published/filed: <strong>2024-01-24</strong>; effective/event date:
+<strong>2024-01-23</strong>. Source role: official agency decision.</p>
+<p>Original saved.</p>
+<p>State record of the January 2024 county Board action and associated
+determination.</p>
+</section>
+<section id="d007" class="level2 unlisted">
+<h2 class="unlisted">D007</h2>
+<p><strong><a href="https://data.sec.gov/submissions/CIK0002030482.json">Plum
+Acquisition Corp. IV filing-history API</a></strong></p>
+<p>Filing index · SEC. Entity: Plum Acquisition Corp. IV.</p>
+<p>Published/filed: <strong>not established</strong>; effective/event
+date: <strong>not established</strong>. Source role: official index.</p>
+<p>Original saved.</p>
+<p>SEC metadata snapshot for the proposed CTR transaction vehicle; does
+not establish merger completion.</p>
+</section>
+<section id="d010" class="level2 unlisted">
+<h2 class="unlisted">D010</h2>
+<p><strong><a href="https://www.icpds.com/planning/environmental-impact-reports/final-eirs/cup21-0020-21-hell-s-kitchen-power-and-lithium-feir">Hell’s
+Kitchen final EIR county index</a></strong></p>
+<p>Final EIR index · Imperial County. Entity: Imperial County.</p>
+<p>Published/filed: <strong>not established</strong>; effective/event
+date: <strong>not established</strong>. Source role: official agency
+record.</p>
+<p>Original saved.</p>
+<p>County index linking the final EIR comments, responses and revisions
+volume.</p>
+</section>
+<section id="d011" class="level2 unlisted">
+<h2 class="unlisted">D011</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2022030704/Attachment/8XLi5h">Hell’s
+Kitchen notice of preparation and scoping meeting</a></strong></p>
+<p>Attachment: NOP · Imperial County / CEQAnet. Entity: Hell’s Kitchen
+Power Co 1 LLC.</p>
+<p>Published/filed: <strong>not established</strong>; effective/event
+date: <strong>not established</strong>. Source role: official
+document.</p>
+<p>Original saved; 2 PDF pages.</p>
+<p>Scoping notice describing the proposed power and lithium facilities
+and public consultation.</p>
+<p>Attachment or associated copy of <a href="#d003">D003</a>.</p>
+</section>
+<section id="d012" class="level2 unlisted">
+<h2 class="unlisted">D012</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2022030704/Attachment/umqX2Z">Hell’s
+Kitchen initial study</a></strong></p>
+<p>Attachment: NOP · Imperial County / CEQAnet. Entity: Hell’s Kitchen
+Power Co 1 LLC.</p>
+<p>Published/filed: <strong>2022-03</strong>; effective/event date:
+<strong>not established</strong>. Source role: official document.</p>
+<p>Original saved; 49 PDF pages.</p>
+<p>Initial environmental study used to determine issues for the
+commercial-project EIR.</p>
+<p>Attachment or associated copy of <a href="#d003">D003</a>.</p>
+</section>
+<section id="d013" class="level2 unlisted">
+<h2 class="unlisted">D013</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2022030704/Attachment/YH8qR2">Hell’s
+Kitchen NOP notice of completion</a></strong></p>
+<p>Attachment: NOP · Imperial County / CEQAnet. Entity: Hell’s Kitchen
+Power Co 1 LLC.</p>
+<p>Published/filed: <strong>not established</strong>; effective/event
+date: <strong>not established</strong>. Source role: official
+document.</p>
+<p>Original saved; 2 PDF pages.</p>
+<p>State clearinghouse transmittal accompanying the initial notice of
+preparation.</p>
+<p>Attachment or associated copy of <a href="#d003">D003</a>.</p>
+</section>
+<section id="d014" class="level2 unlisted">
+<h2 class="unlisted">D014</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2022030704/Attachment/0ImBn9">CDFW
+scoping comment letter</a></strong></p>
+<p>Attachment: NOP · Imperial County / CEQAnet. Entity: California
+Department of Fish and Wildlife.</p>
+<p>Published/filed: <strong>2022-05-10</strong>; effective/event date:
+<strong>not established</strong>. Source role: official document.</p>
+<p>Original saved; 8 PDF pages.</p>
+<p>CDFW scoping comments on biological resources and environmental
+analysis; the letter contains a PowerCo naming typo.</p>
+<p>Attachment or associated copy of <a href="#d003">D003</a>.</p>
+</section>
+<section id="d015" class="level2 unlisted">
+<h2 class="unlisted">D015</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2022030704/Attachment/hgiL03">NAHC
+scoping comment letter</a></strong></p>
+<p>Attachment: NOP · Imperial County / CEQAnet. Entity: Native American
+Heritage Commission.</p>
+<p>Published/filed: <strong>2022-04-14</strong>; effective/event date:
+<strong>not established</strong>. Source role: official document.</p>
+<p>Original saved; 5 PDF pages.</p>
+<p>NAHC scoping comments on cultural and tribal resources.</p>
+<p>Attachment or associated copy of <a href="#d003">D003</a>.</p>
+</section>
+<section id="d016" class="level2 unlisted">
+<h2 class="unlisted">D016</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/LGzUMI">Memo:
+additional draft-EIR documents</a></strong></p>
+<p>Attachment: Draft EIR index · Imperial County / CEQAnet. Entity:
+Controlled Thermal Resources (US) Inc. and subsidiaries.</p>
+<p>Published/filed: <strong>2023-10-04</strong>; effective/event date:
+<strong>not established</strong>. Source role: official document.</p>
+<p>Original saved; 1 PDF pages.</p>
+<p>Administrative notice that additional draft-EIR material was
+posted.</p>
+<p>Attachment or associated copy of <a href="#d004">D004</a>.</p>
+</section>
+<section id="d017" class="level2 unlisted">
+<h2 class="unlisted">D017</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/DQpNEB">County
+letter: addition of draft-EIR chapters</a></strong></p>
+<p>Attachment: Draft EIR index · Imperial County / CEQAnet. Entity:
+Controlled Thermal Resources (US) Inc. and subsidiaries.</p>
+<p>Published/filed: <strong>2023-10-03</strong>; effective/event date:
+<strong>not established</strong>. Source role: official document.</p>
+<p>Original saved; 1 PDF pages.</p>
+<p>County transmittal requesting addition of missing draft-EIR
+chapters.</p>
+<p>Attachment or associated copy of <a href="#d004">D004</a>.</p>
+</section>
+<section id="d018" class="level2 unlisted">
+<h2 class="unlisted">D018</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/bu09C9">Hell’s
+Kitchen draft EIR: Chapters 6 and 7</a></strong></p>
+<p>Attachment: Draft EIR index · Imperial County / CEQAnet. Entity:
+Controlled Thermal Resources (US) Inc. and subsidiaries.</p>
+<p>Published/filed: <strong>not established</strong>; effective/event
+date: <strong>not established</strong>. Source role: official
+document.</p>
+<p>Original saved; 23 PDF pages.</p>
+<p>Separately posted draft-EIR chapters addressing other CEQA
+considerations and report preparation.</p>
+<p>Attachment or associated copy of <a href="#d004">D004</a>.</p>
+</section>
+<section id="d019" class="level2 unlisted">
+<h2 class="unlisted">D019</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/jJpaN_">Memo:
+draft-EIR review-period modification</a></strong></p>
+<p>Attachment: Draft EIR index · Imperial County / CEQAnet. Entity:
+Controlled Thermal Resources (US) Inc. and subsidiaries.</p>
+<p>Published/filed: <strong>2023-09-06</strong>; effective/event date:
+<strong>not established</strong>. Source role: official document.</p>
+<p>Original saved; 1 PDF pages.</p>
+<p>Administrative notice of a revised public-review period.</p>
+<p>Attachment or associated copy of <a href="#d004">D004</a>.</p>
+</section>
+<section id="d020" class="level2 unlisted">
+<h2 class="unlisted">D020</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/QRVs1-">County
+letter: draft-EIR circulation modification</a></strong></p>
+<p>Attachment: Draft EIR index · Imperial County / CEQAnet. Entity:
+Controlled Thermal Resources (US) Inc. and subsidiaries.</p>
+<p>Published/filed: <strong>2023-09-06</strong>; effective/event date:
+<strong>not established</strong>. Source role: official document.</p>
+<p>Original saved; 1 PDF pages.</p>
+<p>County letter modifying the draft-EIR circulation period.</p>
+<p>Attachment or associated copy of <a href="#d004">D004</a>.</p>
+</section>
+<section id="d021" class="level2 unlisted">
+<h2 class="unlisted">D021</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/glQHYR">Hell’s
+Kitchen draft EIR: combined appendices</a></strong></p>
+<p>Attachment: Draft EIR index · Imperial County / CEQAnet. Entity:
+Controlled Thermal Resources (US) Inc. and subsidiaries.</p>
+<p>Published/filed: <strong>2023</strong>; effective/event date:
+<strong>not established</strong>. Source role: official document.</p>
+<p>Original saved; 1562 PDF pages.</p>
+<p>Combined supporting studies and appendices; text-screened, not
+exhaustively visually reviewed.</p>
+<p>Attachment or associated copy of <a href="#d004">D004</a>.</p>
+</section>
+<section id="d022" class="level2 unlisted">
+<h2 class="unlisted">D022</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD">Hell’s
+Kitchen draft environmental impact report</a></strong></p>
+<p>Attachment: Draft EIR index · Imperial County / CEQAnet. Entity:
+Controlled Thermal Resources (US) Inc. and subsidiaries.</p>
+<p>Published/filed: <strong>2023-08</strong>; effective/event date:
+<strong>not established</strong>. Source role: official document.</p>
+<p>Original saved; 309 PDF pages.</p>
+<p>Main draft EIR describing plant design, environmental demands,
+impacts and mitigation.</p>
+<p>Attachment or associated copy of <a href="#d004">D004</a>.</p>
+</section>
+<section id="d023" class="level2 unlisted">
+<h2 class="unlisted">D023</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/VnuF4_">Hell’s
+Kitchen electronic-submittal summary form</a></strong></p>
+<p>Attachment: Draft EIR index · Imperial County / CEQAnet. Entity:
+Controlled Thermal Resources (US) Inc. and subsidiaries.</p>
+<p>Published/filed: <strong>not established</strong>; effective/event
+date: <strong>not established</strong>. Source role: official
+document.</p>
+<p>Original saved; 2 PDF pages.</p>
+<p>Electronic-submittal summary form; native text extraction may omit
+populated form fields.</p>
+<p>Attachment or associated copy of <a href="#d004">D004</a>.</p>
+</section>
+<section id="d024" class="level2 unlisted">
+<h2 class="unlisted">D024</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/-GFe3A">Hell’s
+Kitchen notice of intent</a></strong></p>
+<p>Attachment: Draft EIR index · Imperial County / CEQAnet. Entity:
+Controlled Thermal Resources (US) Inc. and subsidiaries.</p>
+<p>Published/filed: <strong>not established</strong>; effective/event
+date: <strong>not established</strong>. Source role: official
+document.</p>
+<p>Original saved; 2 PDF pages.</p>
+<p>Public notice describing the commercial project and draft-EIR
+consultation.</p>
+<p>Attachment or associated copy of <a href="#d004">D004</a>.</p>
+</section>
+<section id="d025" class="level2 unlisted">
+<h2 class="unlisted">D025</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/xPbRbA">Hell’s
+Kitchen draft-EIR notice of completion</a></strong></p>
+<p>Attachment: Draft EIR index · Imperial County / CEQAnet. Entity:
+Controlled Thermal Resources (US) Inc. and subsidiaries.</p>
+<p>Published/filed: <strong>not established</strong>; effective/event
+date: <strong>not established</strong>. Source role: official
+document.</p>
+<p>Original saved; 2 PDF pages.</p>
+<p>State clearinghouse transmittal for circulation of the draft EIR.</p>
+<p>Attachment or associated copy of <a href="#d004">D004</a>.</p>
+</section>
+<section id="d026" class="level2 unlisted">
+<h2 class="unlisted">D026</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/JqUkRF">CDFW
+draft-EIR comment letter</a></strong></p>
+<p>Attachment: Draft EIR index · Imperial County / CEQAnet. Entity:
+California Department of Fish and Wildlife.</p>
+<p>Published/filed: <strong>2023-10-23</strong>; effective/event date:
+<strong>not established</strong>. Source role: official document.</p>
+<p>Original saved; 6 PDF pages.</p>
+<p>CDFW comments on the draft EIR and requested analysis or
+mitigation.</p>
+<p>Attachment or associated copy of <a href="#d004">D004</a>.</p>
+</section>
+<section id="d027" class="level2 unlisted">
+<h2 class="unlisted">D027</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/El2Rtc">State
+Lands Commission draft-EIR comment letter</a></strong></p>
+<p>Attachment: Draft EIR index · Imperial County / CEQAnet. Entity:
+California State Lands Commission.</p>
+<p>Published/filed: <strong>2023-10-23</strong>; effective/event date:
+<strong>not established</strong>. Source role: official document.</p>
+<p>Original saved; 5 PDF pages.</p>
+<p>State Lands Commission comments on the draft EIR.</p>
+<p>Attachment or associated copy of <a href="#d004">D004</a>.</p>
+</section>
+<section id="d028" class="level2 unlisted">
+<h2 class="unlisted">D028</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2022030704/5/Attachment/ZsdNWy">Hell’s
+Kitchen county determination: January 2024</a></strong></p>
+<p>Attachment: NOD · Imperial County / CEQAnet. Entity: Imperial
+County.</p>
+<p>Published/filed: <strong>2024-01-24</strong>; effective/event date:
+<strong>2024-01-23</strong>. Source role: official document.</p>
+<p>Original saved; 1 PDF pages.</p>
+<p>Filed county notice reporting the January 23, 2024 Board approval and
+specified entitlements.</p>
+<p>Attachment or associated copy of <a href="#d005">D005</a>.</p>
+</section>
+<section id="d031" class="level2 unlisted">
+<h2 class="unlisted">D031</h2>
+<p><strong><a href="https://www.icpds.com/assets/Hell%27sKitchen-FEIR-1701483474.pdf">Hell’s
+Kitchen final EIR: responses and revisions</a></strong></p>
+<p>Attachment: Final EIR index · Imperial County. Entity: Imperial
+County.</p>
+<p>Published/filed: <strong>2023-12</strong>; effective/event date:
+<strong>not established</strong>. Source role: official document.</p>
+<p>Original saved; 200 PDF pages.</p>
+<p>Final-EIR comments, responses and text revisions, to be read together
+with the draft EIR and appendices.</p>
+<p>Attachment or associated copy of <a href="#d010">D010</a>.</p>
+</section>
+<section id="d032" class="level2 unlisted">
+<h2 class="unlisted">D032</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/Project/2022030704">CEQAnet project
+chronology</a></strong></p>
+<p>Project index · Imperial County / CEQAnet. Entity: Controlled Thermal
+Resources and project subsidiaries.</p>
+<p>Published/filed: <strong>not established</strong>; effective/event
+date: <strong>not established</strong>. Source role: official
+record.</p>
+<p>Original saved.</p>
+<p>State project chronology used to enumerate five posted
+commercial-project environmental records.</p>
+</section>
+<section id="d033" class="level2 unlisted">
+<h2 class="unlisted">D033</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2020080039/2">Hell’s
+Kitchen geothermal lithium extraction pilot</a></strong></p>
+<p>Pilot exemption · California Energy Commission / CEQAnet. Entity:
+Controlled Thermal Resources and project subsidiaries.</p>
+<p>Published/filed: <strong>2020-08-05</strong>; effective/event date:
+<strong>not established</strong>. Source role: official record.</p>
+<p>Original saved.</p>
+<p>Separate 2020 lithium-extraction pilot exemption record; distinct
+from the later commercial EIR.</p>
+</section>
+<section id="d036" class="level2 unlisted">
+<h2 class="unlisted">D036</h2>
+<p><strong><a href="https://www.sec.gov/Archives/edgar/data/2030482/000121390026024933/ea028050001ex99-2.htm">CTR
+/ Plum March 2026 investor presentation</a></strong></p>
+<p>Investor presentation · SEC. Entity: Controlled Thermal Resources and
+project subsidiaries.</p>
+<p>Published/filed: <strong>2026-03-09</strong>; effective/event date:
+<strong>2026-03</strong>. Source role: official record.</p>
+<p>Original download unavailable. HTTP Error 403: Forbidden.</p>
+<p>Earlier CTR transaction presentation; original SEC download
+unavailable.</p>
+</section>
+<section id="d037" class="level2 unlisted">
+<h2 class="unlisted">D037</h2>
+<p><strong><a href="https://www.sec.gov/Archives/edgar/data/2030482/000121390026091866/ea030275401ex99-1.htm">CTR
+/ Plum August 2026 investor presentation</a></strong></p>
+<p>Investor presentation · SEC. Entity: Controlled Thermal Resources and
+project subsidiaries.</p>
+<p>Published/filed: <strong>2026-08-20</strong>; effective/event date:
+<strong>2026-08</strong>. Source role: official record.</p>
+<p>Original download unavailable. HTTP Error 403: Forbidden.</p>
+<p>Updated CTR transaction presentation used for explicitly labeled
+web-text observations; original download unavailable.</p>
+</section>
+<section id="d041" class="level2 unlisted">
+<h2 class="unlisted">D041</h2>
+<p><strong><a href="https://www.sec.gov/Archives/edgar/data/2030482/000121390026024933/ea028050001ex99-1.htm">CTR
+/ Plum merger announcement</a></strong></p>
+<p>Merger announcement · SEC. Entity: Controlled Thermal Resources and
+project subsidiaries.</p>
+<p>Published/filed: <strong>2026-03-09</strong>; effective/event date:
+<strong>2026-03-08</strong>. Source role: official record.</p>
+<p>Original download unavailable. HTTP Error 403: Forbidden.</p>
+<p>Announcement of a proposed CTR/Plum business combination; not proof
+of closing.</p>
+</section>
+<section id="d042" class="level2 unlisted">
+<h2 class="unlisted">D042</h2>
+<p><strong><a href="https://www.sec.gov/Archives/edgar/data/2030482/000121390026090092/ea0301580-10q_plum4.htm">Plum
+June 2026 quarterly report</a></strong></p>
+<p>Quarterly report · SEC. Entity: Controlled Thermal Resources and
+project subsidiaries.</p>
+<p>Published/filed: <strong>2026-08-14</strong>; effective/event date:
+<strong>2026-06-30</strong>. Source role: official record.</p>
+<p>Original download unavailable. HTTP Error 403: Forbidden.</p>
+<p>Transaction vehicle quarterly filing; original download
+unavailable.</p>
+</section>
+<section id="d043" class="level2 unlisted">
+<h2 class="unlisted">D043</h2>
+<p><strong><a href="https://www.sec.gov/Archives/edgar/data/2030482/000121390026091868/ea0302754-8k425_plum4.htm">CTR
+/ Plum presentation supersession notice</a></strong></p>
+<p>8-K · SEC. Entity: Controlled Thermal Resources and project
+subsidiaries.</p>
+<p>Published/filed: <strong>2026-08-20</strong>; effective/event date:
+<strong>not established</strong>. Source role: official record.</p>
+<p>Original download unavailable. HTTP Error 403: Forbidden.</p>
+<p>Filing concerning the updated August presentation and its
+relationship to earlier materials.</p>
+</section>
+<section id="d045" class="level2 unlisted">
+<h2 class="unlisted">D045</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2020080039/2/Attachment/YDFxkE">Hell’s
+Kitchen pilot: CEC notice of exemption</a></strong></p>
+<p>Attachment: Pilot exemption · California Energy Commission / CEQAnet.
+Entity: Controlled Thermal Resources and project subsidiaries.</p>
+<p>Published/filed: <strong>2020-08-05</strong>; effective/event date:
+<strong>not established</strong>. Source role: official document.</p>
+<p>Original saved; 2 PDF pages.</p>
+<p>CEC exemption describing Phase I pilot-process design and
+preparations for subsequent work.</p>
+<p>Attachment or associated copy of <a href="#d033">D033</a>.</p>
+</section>
+<section id="d048" class="level2 unlisted">
+<h2 class="unlisted">D048</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2022030704/4">Hell’s
+Kitchen December 2023 NOD</a></strong></p>
+<p>NOD · CEQAnet. Entity: Imperial County / responsible agency.</p>
+<p>Published/filed: <strong>2023-12-18</strong>; effective/event date:
+<strong>2023-12-13</strong>. Source role: official agency decision.</p>
+<p>Original saved.</p>
+<p>State record of the December 2023 Planning Commission action.</p>
+</section>
+<section id="d049" class="level2 unlisted">
+<h2 class="unlisted">D049</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2022030704/6">Hell’s
+Kitchen subsequent NOD</a></strong></p>
+<p>NOD · CEQAnet. Entity: Materials Research LLC (grant recipient);
+California Energy Commission.</p>
+<p>Published/filed: <strong>2025-06-18</strong>; effective/event date:
+<strong>2025-03-17</strong>. Source role: official agency decision.</p>
+<p>Original saved.</p>
+<p>CEC action concerning a Materials Research LLC pretreatment research
+grant; not treated as CTR funding.</p>
+</section>
+<section id="d050" class="level2 unlisted">
+<h2 class="unlisted">D050</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2022030704/4/Attachment/2xlcp2">Hell’s
+Kitchen county determination: December 2023</a></strong></p>
+<p>Attachment: NOD · CEQAnet. Entity: Imperial County / responsible
+agency.</p>
+<p>Published/filed: <strong>2023-12-15</strong>; effective/event date:
+<strong>2023-12-13</strong>. Source role: official document.</p>
+<p>Original saved; 1 PDF pages.</p>
+<p>Filed county notice reporting the December 13, 2023 Planning
+Commission approval.</p>
+<p>Attachment or associated copy of <a href="#d048">D048</a>.</p>
+</section>
+<section id="d051" class="level2 unlisted">
+<h2 class="unlisted">D051</h2>
+<p><strong><a href="https://ceqanet.lci.ca.gov/2022030704/6/Attachment/r9vqeq">Materials
+Research LLC: CEC determination EPC-24-043</a></strong></p>
+<p>Attachment: NOD · CEQAnet. Entity: Materials Research LLC (grant
+recipient); California Energy Commission.</p>
+<p>Published/filed: <strong>2025-06-13</strong>; effective/event date:
+<strong>2025-03-17</strong>. Source role: official document.</p>
+<p>Original saved; 1 PDF pages.</p>
+<p>CEC determination for Materials Research LLC project EPC-24-043 using
+the existing project environmental record.</p>
+<p>Attachment or associated copy of <a href="#d049">D049</a>.</p>
+</section>
+<section id="d055" class="level2 unlisted">
+<h2 class="unlisted">D055</h2>
+<p><strong><a href="https://ct-thermal.squarespace.com/">CTR issuer
+homepage</a></strong></p>
+<p>Issuer index · Controlled Thermal Resources. Entity: Controlled
+Thermal Resources and project subsidiaries.</p>
+<p>Published/filed: <strong>not established</strong>; effective/event
+date: <strong>not established</strong>. Source role: issuer
+supplement.</p>
+<p>Original saved.</p>
+<p>Issuer identity and navigation source used to locate the newer
+presentation notice.</p>
+</section>
+<section id="d056" class="level2 unlisted">
+<h2 class="unlisted">D056</h2>
+<p><strong><a href="https://ct-thermal.squarespace.com/latest-news/ctr-files-investor-presentation-with-sec">CTR
+August 2026 presentation issuer notice</a></strong></p>
+<p>Presentation index · Controlled Thermal Resources. Entity: Controlled
+Thermal Resources and project subsidiaries.</p>
+<p>Published/filed: <strong>2026-08-20</strong>; effective/event date:
+<strong>not established</strong>. Source role: issuer supplement.</p>
+<p>Original saved.</p>
+<p>Issuer notice directing readers to the August SEC presentation; no
+downloadable issuer PDF was located.</p>
+</section>
+<section id="hells-kitchen-evidence" class="level2">
+<h2>Hell’s Kitchen evidence</h2>
+</section>
+<section id="process-1" class="level2">
+<h2>Process</h2>
+<section id="o049" class="level3 unlisted">
+<h3 class="unlisted">O049</h3>
+<p><strong>2023 process description: Resin-based lithium recovery;
+lithium hydroxide product.</strong></p>
+<p>Basis: <strong>design</strong>; scale: commercial design; boundary:
+HKP1 / HKL1. Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=62">p. 2.0-8,
+project facilities</a> (PDF page 62).</p>
+<p>County environmental design; detailed operating performance is not
+established.</p>
+<p>Review: AI source-text check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o050" class="level3 unlisted">
+<h3 class="unlisted">O050</h3>
+<p><strong>Lithium recovery percentage: not located in screened
+records.</strong></p>
+<p>Basis: <strong>not established</strong>; scale: commercial design;
+boundary: HKP1 / HKL1. Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=62">Project
+description; screening also covered D021 and D031</a> (PDF page 62).</p>
+<p>No project-specific verified recovery percentage located in screened
+EIR text. This is not proof no disclosure exists.</p>
+<p>Review: AI source-text check; <strong>human review
+pending</strong>.</p>
+</section>
+</section>
+<section id="brine-chemistry-1" class="level2">
+<h2>Brine chemistry</h2>
+<section id="o051" class="level3 unlisted">
+<h3 class="unlisted">O051</h3>
+<p><strong>Expected geothermal brine lithium concentration: 250
+mg/L.</strong></p>
+<p>Basis: <strong>expected composition</strong>; scale: commercial
+geothermal design; boundary: geothermal brine described under HKP1
+brine-processing facility; exact sampling/stream point unspecified.
+Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=65">p. 2.0-11,
+Table 2.0-2 (starts on p. 2.0-10)</a> (PDF page 65).</p>
+<p>Expected composition, not a dated well assay or demonstrated DLE
+inlet concentration. Table is also present in the March 2022 initial
+study D012, pp. 14–15. Corrects the initial extraction pass, which
+overlooked this table.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o075" class="level3 unlisted">
+<h3 class="unlisted">O075</h3>
+<p><strong>Expected brine Ammonium (NH4): 250 mg/L.</strong></p>
+<p>Basis: <strong>expected composition</strong>; scale: commercial
+geothermal design; boundary: geothermal brine described under HKP1
+brine-processing facility; exact sampling/stream point unspecified.
+Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=64">p. 2.0-10,
+Table 2.0-2</a> (PDF page 64).</p>
+<p>Expected composition; not a dated sample assay. Table 2.0-2 does not
+specify density, assay method or sampling temperature.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o076" class="level3 unlisted">
+<h3 class="unlisted">O076</h3>
+<p><strong>Expected brine Arsenic (As): 10 mg/L.</strong></p>
+<p>Basis: <strong>expected composition</strong>; scale: commercial
+geothermal design; boundary: geothermal brine described under HKP1
+brine-processing facility; exact sampling/stream point unspecified.
+Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=64">p. 2.0-10,
+Table 2.0-2</a> (PDF page 64).</p>
+<p>Expected composition; not a dated sample assay. Table 2.0-2 does not
+specify density, assay method or sampling temperature.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o077" class="level3 unlisted">
+<h3 class="unlisted">O077</h3>
+<p><strong>Expected brine Barium (Ba): 250 mg/L.</strong></p>
+<p>Basis: <strong>expected composition</strong>; scale: commercial
+geothermal design; boundary: geothermal brine described under HKP1
+brine-processing facility; exact sampling/stream point unspecified.
+Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=65">p. 2.0-11,
+Table 2.0-2</a> (PDF page 65).</p>
+<p>Expected composition; not a dated sample assay. Table 2.0-2 does not
+specify density, assay method or sampling temperature.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o078" class="level3 unlisted">
+<h3 class="unlisted">O078</h3>
+<p><strong>Expected brine Boron (B): 350 mg/L.</strong></p>
+<p>Basis: <strong>expected composition</strong>; scale: commercial
+geothermal design; boundary: geothermal brine described under HKP1
+brine-processing facility; exact sampling/stream point unspecified.
+Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=65">p. 2.0-11,
+Table 2.0-2</a> (PDF page 65).</p>
+<p>Expected composition; not a dated sample assay. Table 2.0-2 does not
+specify density, assay method or sampling temperature.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o079" class="level3 unlisted">
+<h3 class="unlisted">O079</h3>
+<p><strong>Expected brine Bromine (Br): 100 mg/L.</strong></p>
+<p>Basis: <strong>expected composition</strong>; scale: commercial
+geothermal design; boundary: geothermal brine described under HKP1
+brine-processing facility; exact sampling/stream point unspecified.
+Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=65">p. 2.0-11,
+Table 2.0-2</a> (PDF page 65).</p>
+<p>Expected composition; not a dated sample assay. Table 2.0-2 does not
+specify density, assay method or sampling temperature.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o080" class="level3 unlisted">
+<h3 class="unlisted">O080</h3>
+<p><strong>Expected brine Calcium (Ca): 29,000 mg/L.</strong></p>
+<p>Basis: <strong>expected composition</strong>; scale: commercial
+geothermal design; boundary: geothermal brine described under HKP1
+brine-processing facility; exact sampling/stream point unspecified.
+Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=65">p. 2.0-11,
+Table 2.0-2</a> (PDF page 65).</p>
+<p>Expected composition; not a dated sample assay. Table 2.0-2 does not
+specify density, assay method or sampling temperature.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o081" class="level3 unlisted">
+<h3 class="unlisted">O081</h3>
+<p><strong>Expected brine Cesium: 15 mg/L.</strong></p>
+<p>Basis: <strong>expected composition</strong>; scale: commercial
+geothermal design; boundary: geothermal brine described under HKP1
+brine-processing facility; exact sampling/stream point unspecified.
+Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=65">p. 2.0-11,
+Table 2.0-2</a> (PDF page 65).</p>
+<p>Expected composition. Source prints the symbol C beside Cesium; the
+element name and value are retained without silently correcting the
+source symbol.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o082" class="level3 unlisted">
+<h3 class="unlisted">O082</h3>
+<p><strong>Expected brine Chloride (Cl): 156,000 mg/L.</strong></p>
+<p>Basis: <strong>expected composition</strong>; scale: commercial
+geothermal design; boundary: geothermal brine described under HKP1
+brine-processing facility; exact sampling/stream point unspecified.
+Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=65">p. 2.0-11,
+Table 2.0-2</a> (PDF page 65).</p>
+<p>Expected composition; not a dated sample assay. Table 2.0-2 does not
+specify density, assay method or sampling temperature.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o083" class="level3 unlisted">
+<h3 class="unlisted">O083</h3>
+<p><strong>Expected brine Cobalt (Co): &lt;0.05 mg/L.</strong></p>
+<p>Basis: <strong>expected composition</strong>; scale: commercial
+geothermal design; boundary: geothermal brine described under HKP1
+brine-processing facility; exact sampling/stream point unspecified.
+Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=65">p. 2.0-11,
+Table 2.0-2</a> (PDF page 65).</p>
+<p>Expected composition; not a dated sample assay. Table 2.0-2 does not
+specify density, assay method or sampling temperature.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o084" class="level3 unlisted">
+<h3 class="unlisted">O084</h3>
+<p><strong>Expected brine Copper (Cu): 5 mg/L.</strong></p>
+<p>Basis: <strong>expected composition</strong>; scale: commercial
+geothermal design; boundary: geothermal brine described under HKP1
+brine-processing facility; exact sampling/stream point unspecified.
+Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=65">p. 2.0-11,
+Table 2.0-2</a> (PDF page 65).</p>
+<p>Expected composition; not a dated sample assay. Table 2.0-2 does not
+specify density, assay method or sampling temperature.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o085" class="level3 unlisted">
+<h3 class="unlisted">O085</h3>
+<p><strong>Expected brine Iodide (I): 10 mg/L.</strong></p>
+<p>Basis: <strong>expected composition</strong>; scale: commercial
+geothermal design; boundary: geothermal brine described under HKP1
+brine-processing facility; exact sampling/stream point unspecified.
+Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=65">p. 2.0-11,
+Table 2.0-2</a> (PDF page 65).</p>
+<p>Expected composition; not a dated sample assay. Table 2.0-2 does not
+specify density, assay method or sampling temperature.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o086" class="level3 unlisted">
+<h3 class="unlisted">O086</h3>
+<p><strong>Expected brine Fluoride (F): 25 mg/L.</strong></p>
+<p>Basis: <strong>expected composition</strong>; scale: commercial
+geothermal design; boundary: geothermal brine described under HKP1
+brine-processing facility; exact sampling/stream point unspecified.
+Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=65">p. 2.0-11,
+Table 2.0-2</a> (PDF page 65).</p>
+<p>Expected composition; not a dated sample assay. Table 2.0-2 does not
+specify density, assay method or sampling temperature.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o087" class="level3 unlisted">
+<h3 class="unlisted">O087</h3>
+<p><strong>Expected brine Iron (Fe): 1,600 mg/L.</strong></p>
+<p>Basis: <strong>expected composition</strong>; scale: commercial
+geothermal design; boundary: geothermal brine described under HKP1
+brine-processing facility; exact sampling/stream point unspecified.
+Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=65">p. 2.0-11,
+Table 2.0-2</a> (PDF page 65).</p>
+<p>Expected composition; not a dated sample assay. Table 2.0-2 does not
+specify density, assay method or sampling temperature.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o088" class="level3 unlisted">
+<h3 class="unlisted">O088</h3>
+<p><strong>Expected brine Lead (Pb): 100 mg/L.</strong></p>
+<p>Basis: <strong>expected composition</strong>; scale: commercial
+geothermal design; boundary: geothermal brine described under HKP1
+brine-processing facility; exact sampling/stream point unspecified.
+Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=65">p. 2.0-11,
+Table 2.0-2</a> (PDF page 65).</p>
+<p>Expected composition; not a dated sample assay. Table 2.0-2 does not
+specify density, assay method or sampling temperature.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o089" class="level3 unlisted">
+<h3 class="unlisted">O089</h3>
+<p><strong>Expected brine Magnesium (Mg): 50 mg/L.</strong></p>
+<p>Basis: <strong>expected composition</strong>; scale: commercial
+geothermal design; boundary: geothermal brine described under HKP1
+brine-processing facility; exact sampling/stream point unspecified.
+Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=65">p. 2.0-11,
+Table 2.0-2</a> (PDF page 65).</p>
+<p>Expected composition; not a dated sample assay. Table 2.0-2 does not
+specify density, assay method or sampling temperature.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o090" class="level3 unlisted">
+<h3 class="unlisted">O090</h3>
+<p><strong>Expected brine Manganese (Mn): 1,400 mg/L.</strong></p>
+<p>Basis: <strong>expected composition</strong>; scale: commercial
+geothermal design; boundary: geothermal brine described under HKP1
+brine-processing facility; exact sampling/stream point unspecified.
+Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=65">p. 2.0-11,
+Table 2.0-2</a> (PDF page 65).</p>
+<p>Expected composition; not a dated sample assay. Table 2.0-2 does not
+specify density, assay method or sampling temperature.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o091" class="level3 unlisted">
+<h3 class="unlisted">O091</h3>
+<p><strong>Expected brine Potassium (K): 17,000 mg/L.</strong></p>
+<p>Basis: <strong>expected composition</strong>; scale: commercial
+geothermal design; boundary: geothermal brine described under HKP1
+brine-processing facility; exact sampling/stream point unspecified.
+Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=65">p. 2.0-11,
+Table 2.0-2</a> (PDF page 65).</p>
+<p>Expected composition; not a dated sample assay. Table 2.0-2 does not
+specify density, assay method or sampling temperature.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o092" class="level3 unlisted">
+<h3 class="unlisted">O092</h3>
+<p><strong>Expected brine Sodium (Na): 54,000 mg/L.</strong></p>
+<p>Basis: <strong>expected composition</strong>; scale: commercial
+geothermal design; boundary: geothermal brine described under HKP1
+brine-processing facility; exact sampling/stream point unspecified.
+Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=65">p. 2.0-11,
+Table 2.0-2</a> (PDF page 65).</p>
+<p>Expected composition; not a dated sample assay. Table 2.0-2 does not
+specify density, assay method or sampling temperature.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o093" class="level3 unlisted">
+<h3 class="unlisted">O093</h3>
+<p><strong>Expected brine Silica (SiO2): 350 mg/L.</strong></p>
+<p>Basis: <strong>expected composition</strong>; scale: commercial
+geothermal design; boundary: geothermal brine described under HKP1
+brine-processing facility; exact sampling/stream point unspecified.
+Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=65">p. 2.0-11,
+Table 2.0-2</a> (PDF page 65).</p>
+<p>Expected composition; not a dated sample assay. Table 2.0-2 does not
+specify density, assay method or sampling temperature.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o094" class="level3 unlisted">
+<h3 class="unlisted">O094</h3>
+<p><strong>Expected brine Strontium (Sr): 500 mg/L.</strong></p>
+<p>Basis: <strong>expected composition</strong>; scale: commercial
+geothermal design; boundary: geothermal brine described under HKP1
+brine-processing facility; exact sampling/stream point unspecified.
+Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=65">p. 2.0-11,
+Table 2.0-2</a> (PDF page 65).</p>
+<p>Expected composition; not a dated sample assay. Table 2.0-2 does not
+specify density, assay method or sampling temperature.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o095" class="level3 unlisted">
+<h3 class="unlisted">O095</h3>
+<p><strong>Expected brine Sulphate: 5 mg/L.</strong></p>
+<p>Basis: <strong>expected composition</strong>; scale: commercial
+geothermal design; boundary: geothermal brine described under HKP1
+brine-processing facility; exact sampling/stream point unspecified.
+Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=65">p. 2.0-11,
+Table 2.0-2</a> (PDF page 65).</p>
+<p>Expected composition; not a dated sample assay. Table 2.0-2 does not
+specify density, assay method or sampling temperature.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o096" class="level3 unlisted">
+<h3 class="unlisted">O096</h3>
+<p><strong>Expected brine Zinc (Zn): 500 mg/L.</strong></p>
+<p>Basis: <strong>expected composition</strong>; scale: commercial
+geothermal design; boundary: geothermal brine described under HKP1
+brine-processing facility; exact sampling/stream point unspecified.
+Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=65">p. 2.0-11,
+Table 2.0-2</a> (PDF page 65).</p>
+<p>Expected composition; not a dated sample assay. Table 2.0-2 does not
+specify density, assay method or sampling temperature.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+</section>
+<section id="water-and-energy-1" class="level2">
+<h2>Water and energy</h2>
+<section id="o052" class="level3 unlisted">
+<h3 class="unlisted">O052</h3>
+<p><strong>Geothermal net power capacity: 49.9 MW.</strong></p>
+<p>Basis: <strong>design</strong>; scale: commercial design; boundary:
+HKP1. Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=73">p. 2.0-19,
+Operational Energy Requirements</a> (PDF page 73).</p>
+<p>Power generation capacity, not electricity consumption by lithium
+extraction.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o053" class="level3 unlisted">
+<h3 class="unlisted">O053</h3>
+<p><strong>Lithium facility average demand: approximately 35
+MW.</strong></p>
+<p>Basis: <strong>design</strong>; scale: commercial design; boundary:
+HKL1. Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=73">p. 2.0-19,
+Operational Energy Requirements</a> (PDF page 73).</p>
+<p>Peak demand 40 MW; purchase/supply arrangement described
+separately.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o054" class="level3 unlisted">
+<h3 class="unlisted">O054</h3>
+<p><strong>Lithium facility annual electricity: 276,000,000
+kWh/year.</strong></p>
+<p>Basis: <strong>model estimate</strong>; scale: commercial design;
+boundary: HKL1. Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=177">p. 4.5-10,
+Operations-Related Electricity</a> (PDF page 177).</p>
+<p>Assumes 90% availability; environmental analysis conservatively
+models grid supply. Final EIR D031, PDF pp. 197–198, strikes the
+editorial comment and repeats the annual demand/generation
+statement.</p>
+<p>Review: AI source-text check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o055" class="level3 unlisted">
+<h3 class="unlisted">O055</h3>
+<p><strong>Purchased lithium-facility water: approximately 6,100
+AFY.</strong></p>
+<p>Basis: <strong>design</strong>; scale: commercial design; boundary:
+HKL1. Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=73">p. 2.0-19,
+water supply paragraph</a> (PDF page 73).</p>
+<p>IID cooling makeup and process water. Conflicts with 6,300 AFY
+assigned to HKL1 in Table 4.13-6.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o056" class="level3 unlisted">
+<h3 class="unlisted">O056</h3>
+<p><strong>Lithium-facility operating water in WSA summary: 6,300
+AFY.</strong></p>
+<p>Basis: <strong>design</strong>; scale: commercial design; boundary:
+HKL1. Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=287">p. 4.13-15,
+Table 4.13-6</a> (PDF page 287).</p>
+<p>Preserve alongside 6,100 AFY; unresolved within-document
+difference.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o057" class="level3 unlisted">
+<h3 class="unlisted">O057</h3>
+<p><strong>Combined operational freshwater: approximately 6,500
+AFY.</strong></p>
+<p>Basis: <strong>design</strong>; scale: commercial design; boundary:
+HKP1 plus HKL1. Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=287">p. 4.13-15,
+Table 4.13-6 and narrative</a> (PDF page 287).</p>
+<p>HKP1 200 plus HKL1 6,300 AFY; 46 operating years within a 50-year
+lifecycle.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o058" class="level3 unlisted">
+<h3 class="unlisted">O058</h3>
+<p><strong>Annual geothermal electricity production: 416,000,000
+kWh/year.</strong></p>
+<p>Basis: <strong>model estimate</strong>; scale: commercial design;
+boundary: HKP1. Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=177">p. 4.5-10,
+Operations-Related Electricity</a> (PDF page 177).</p>
+<p>Assumes 95% availability; not a measured production series. Final EIR
+D031, PDF pp. 197–198, strikes the editorial comment and repeats the
+annual demand/generation statement.</p>
+<p>Review: AI source-text check; <strong>human review
+pending</strong>.</p>
+</section>
+</section>
+<section id="reagents-and-waste-1" class="level2">
+<h2>Reagents and waste</h2>
+<section id="o059" class="level3 unlisted">
+<h3 class="unlisted">O059</h3>
+<p><strong>Identified process chemicals: Hydrochloric acid; calcium
+oxide; sodium hydroxide; sodium sulfide.</strong></p>
+<p>Basis: <strong>design</strong>; scale: commercial design; boundary:
+HKP1 / HKL1. Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=75">p. 2.0-21,
+Hazardous Materials</a> (PDF page 75).</p>
+<p>Qualitative list; annual reagent quantities not established from the
+screened EIR text.</p>
+<p>Review: AI source-text check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o060" class="level3 unlisted">
+<h3 class="unlisted">O060</h3>
+<p><strong>Annual reagent consumption: not located in screened
+records.</strong></p>
+<p>Basis: <strong>not established</strong>; scale: commercial design;
+boundary: HKP1 / HKL1. Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=75">p. 2.0-21;
+screened D021 and D031</a> (PDF page 75).</p>
+<p>Named chemicals do not establish mass consumption or chemical
+intensity.</p>
+<p>Review: AI source-text check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o061" class="level3 unlisted">
+<h3 class="unlisted">O061</h3>
+<p><strong>Hazardous waste: no more than approximately 10
+tons/year.</strong></p>
+<p>Basis: <strong>estimate</strong>; scale: commercial design; boundary:
+HKP1 / HKL1. Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=290">p. 4.13-18,
+waste discussion</a> (PDF page 290).</p>
+<p>Source does not specify ton convention in the passage; do not compare
+directly with SWA total waste.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o062" class="level3 unlisted">
+<h3 class="unlisted">O062</h3>
+<p><strong>Spent-brine disposition: Injection into subsurface geothermal
+reservoir.</strong></p>
+<p>Basis: <strong>design</strong>; scale: commercial design; boundary:
+HKP1 / HKL1. Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=73">p. 2.0-19,
+Spent Fluid and Wastewater</a> (PDF page 73).</p>
+<p>Upset/maintenance brine pond contents also returned via dedicated
+injection well.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+</section>
+<section id="emissions-1" class="level2">
+<h2>Emissions</h2>
+<section id="o063" class="level3 unlisted">
+<h3 class="unlisted">O063</h3>
+<p><strong>Combined operational net GHG estimate: -10,435 metric tons
+CO₂e/year.</strong></p>
+<p>Basis: <strong>model estimate</strong>; scale: commercial design;
+boundary: combined power and lithium with avoided-grid credit.
+Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=204">p. 4.7-14,
+Table 4.7-3 continuation</a> (PDF page 204).</p>
+<p>Includes electricity-generation offsets and assumed IID grid mix; not
+gross direct emissions or lithium-product LCA.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o064" class="level3 unlisted">
+<h3 class="unlisted">O064</h3>
+<p><strong>Lithium-facility GHG subtotal: 24,865 metric tons
+CO₂e/year.</strong></p>
+<p>Basis: <strong>model estimate</strong>; scale: commercial design;
+boundary: HKL1 under EIR accounting. Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=204">p. 4.7-14,
+Table 4.7-3 continuation</a> (PDF page 204).</p>
+<p>Lithium subtotal under EIR assumptions; power credit is elsewhere in
+combined total.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+</section>
+<section id="development-1" class="level2">
+<h2>Development</h2>
+<section id="o065" class="level3 unlisted">
+<h3 class="unlisted">O065</h3>
+<p><strong>Planning Commission approval: 2023-12-13.</strong></p>
+<p>Basis: <strong>agency decision</strong>; scale: project development;
+boundary: HKP1 / HKL1. Date/basis: 2023-12-13.</p>
+<p>Source: <a href="#d048">D048</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/4">Notice of Determination /
+Approved On</a>.</p>
+<p>Earlier county decision; retain alongside subsequent Board
+approval.</p>
+<p>Review: AI source-text check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o066" class="level3 unlisted">
+<h3 class="unlisted">O066</h3>
+<p><strong>Board of Supervisors approval: 2024-01-23.</strong></p>
+<p>Basis: <strong>agency decision</strong>; scale: project development;
+boundary: HKP1 / HKL1. Date/basis: 2024-01-23.</p>
+<p>Source: <a href="#d005">D005</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/5">Notice of Determination /
+Approved On</a>.</p>
+<p>CUP 21-0020 and CUP 21-0021. Does not resolve later litigation or
+every permit.</p>
+<p>Review: AI source-text check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o067" class="level3 unlisted">
+<h3 class="unlisted">O067</h3>
+<p><strong>Associated pretreatment research grant approval:
+2025-03-17.</strong></p>
+<p>Basis: <strong>agency decision</strong>; scale: research project;
+boundary: associated brine pretreatment research. Date/basis:
+2025-03-17.</p>
+<p>Source: <a href="#d049">D049</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/6">Document
+Description</a>.</p>
+<p>CEC grant recipient is Materials Research LLC; not a CTR financing
+award.</p>
+<p>Review: AI source-text check; <strong>human review
+pending</strong>.</p>
+</section>
+</section>
+<section id="history-1" class="level2">
+<h2>History</h2>
+<section id="o068" class="level3 unlisted">
+<h3 class="unlisted">O068</h3>
+<p><strong>EIR lithium-construction completion target: Q4
+2025.</strong></p>
+<p>Basis: <strong>historical company target</strong>; scale: 2023
+environmental design; boundary: HKP1 / HKL1. Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=70">p. 2.0-16,
+Construction Workforce and Schedule</a> (PDF page 70).</p>
+<p>Retain as a 2023 schedule assumption, not completed construction.</p>
+<p>Review: AI source-text check; <strong>human review
+pending</strong>.</p>
+</section>
+</section>
+<section id="securities-update" class="level2">
+<h2>Securities update</h2>
+<section id="o069" class="level3 unlisted">
+<h3 class="unlisted">O069</h3>
+<p><strong>Stage 1 lithium capacity: 25,000 TPA LCE.</strong></p>
+<p>Basis: <strong>company target</strong>; scale: August 2026 management
+plan; boundary: HKP1 / HKL1. Date/basis: 2026-08.</p>
+<p>Source: <a href="#d037">D037</a>, <a href="https://www.sec.gov/Archives/edgar/data/2030482/000121390026091866/ea030275401ex99-1.htm">slide
+19</a>.</p>
+<p>Stage 1; LCE label retained.</p>
+<p>Review: AI web-text check; original download unavailable;
+<strong>human review pending</strong>.</p>
+</section>
+<section id="o070" class="level3 unlisted">
+<h3 class="unlisted">O070</h3>
+<p><strong>Stage 1 lithium commercial-operation target: Q4
+2030.</strong></p>
+<p>Basis: <strong>company target</strong>; scale: August 2026 management
+plan; boundary: HKP1 / HKL1. Date/basis: 2026-08.</p>
+<p>Source: <a href="#d037">D037</a>, <a href="https://www.sec.gov/Archives/edgar/data/2030482/000121390026091866/ea030275401ex99-1.htm">slide
+26</a>.</p>
+<p>Conditional development schedule.</p>
+<p>Review: AI web-text check; original download unavailable;
+<strong>human review pending</strong>.</p>
+</section>
+<section id="o071" class="level3 unlisted">
+<h3 class="unlisted">O071</h3>
+<p><strong>Stage 1 lithium capital at COD: 1,450 US$
+million.</strong></p>
+<p>Basis: <strong>company estimate</strong>; scale: August 2026
+management plan; boundary: HKP1 / HKL1. Date/basis: 2026-08.</p>
+<p>Source: <a href="#d037">D037</a>, <a href="https://www.sec.gov/Archives/edgar/data/2030482/000121390026091866/ea030275401ex99-1.htm">slide
+26</a>.</p>
+<p>Slide schedule entry; supporting model not acquired.</p>
+<p>Review: AI web-text check; original download unavailable;
+<strong>human review pending</strong>.</p>
+</section>
+<section id="o072" class="level3 unlisted">
+<h3 class="unlisted">O072</h3>
+<p><strong>Lithium operating-cost label: approximately 6,216 US$ per
+TPA.</strong></p>
+<p>Basis: <strong>company estimate</strong>; scale: Stages 1-4
+management model; boundary: staged lithium expansion. Date/basis:
+2026-08.</p>
+<p>Source: <a href="#d037">D037</a>, <a href="https://www.sec.gov/Archives/edgar/data/2030482/000121390026091866/ea030275401ex99-1.htm">slide
+27</a>.</p>
+<p>Unit printed as per TPA; basis unresolved. Not harmonized with SWA
+US$/t.</p>
+<p>Review: AI web-text check; original download unavailable;
+<strong>human review pending</strong>.</p>
+</section>
+<section id="o073" class="level3 unlisted">
+<h3 class="unlisted">O073</h3>
+<p><strong>DLE technology update: Aquatech Li-PRO.</strong></p>
+<p>Basis: <strong>company description</strong>; scale: August 2026
+management plan; boundary: HKP1 / HKL1. Date/basis: 2026-08.</p>
+<p>Source: <a href="#d037">D037</a>, <a href="https://www.sec.gov/Archives/edgar/data/2030482/000121390026091866/ea030275401ex99-1.htm">slide
+18</a>.</p>
+<p>Updated presentation process description.</p>
+<p>Review: AI web-text check; original download unavailable;
+<strong>human review pending</strong>.</p>
+</section>
+</section>
+<section id="composition-and-flowsheets-1" class="level2">
+<h2>Composition and flowsheets</h2>
+<section id="o133" class="level3 unlisted">
+<h3 class="unlisted">O133</h3>
+<p><strong>Public geothermal brine diagram: Geothermal separator, steam
+branch and reinjection schematic.</strong></p>
+<p>Basis: <strong>design diagram</strong>; scale: commercial geothermal
+design; boundary: HKP1 geothermal brine handling. Date/basis:
+2023-08-15.</p>
+<p>Source: <a href="#d021">D021</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/glQHYR#page=125">Air
+Quality Technical Report p. 8, Figure 4</a> (PDF page 125).</p>
+<p>Diagram attributed to John Matthew Engineering (2014), included in
+the August 2023 appendix. It does not show lithium extraction,
+purification or product conversion. Similar schematic in D022 PDF
+p. 64.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o134" class="level3 unlisted">
+<h3 class="unlisted">O134</h3>
+<p><strong>Disclosed lithium processing sequence: Cooling; mineral
+extraction; LiCl concentration/purification; hydroxide conversion;
+crystallization/drying.</strong></p>
+<p>Basis: <strong>design description</strong>; scale: 2023 commercial
+design; boundary: HKL1 lithium and coproduct processing. Date/basis:
+2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=71">pp. 2.0-17–18,
+§2.9.2 (PDF pp. 71–72)</a> (PDF page 71).</p>
+<p>Narrative process description using proprietary steps. No complete
+lithium-process engineering PFD or numbered-stream mass balance was
+located in the reviewed environmental materials; newer SEC presentation
+originals remain unavailable.</p>
+<p>Review: AI source-text check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o135" class="level3 unlisted">
+<h3 class="unlisted">O135</h3>
+<p><strong>Design geothermal brine flow to cooling trains: approximately
+5.9 million lb/hr.</strong></p>
+<p>Basis: <strong>design</strong>; scale: 2023 commercial design;
+boundary: HKP1 brine feeding HKL1 vacuum-flash cooling trains.
+Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=71">p. 2.0-17,
+§2.9.2 Metal Recovery</a> (PDF page 71).</p>
+<p>Mass flow at the 2023 design scale, not freshwater demand. No volume
+conversion or inferred recovery is applied without density and a
+consistent stream basis.</p>
+<p>Review: AI source-text check; <strong>human review
+pending</strong>.</p>
+</section>
+</section>
+<section id="pretreatment-and-process-boundaries-1" class="level2">
+<h2>Pretreatment and process boundaries</h2>
+<section id="o568" class="level3 unlisted">
+<h3 class="unlisted">O568</h3>
+<p><strong>Upstream lithium-facility cooling: Vacuum-flash brine
+cooling.</strong></p>
+<p>Basis: <strong>design description</strong>; scale: proposed
+commercial plant; boundary: before DLE. Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=71">Printed
+p. 2.0-17, §2.9.2, Metal Recovery</a> (PDF page 71).</p>
+<p>Post-geothermal brine is cooled before mineral extraction. Vacuum
+flashing is described here as cooling, not assigned a quantified
+gas-removal efficiency.</p>
+<p>Review: AI source-text check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o569" class="level3 unlisted">
+<h3 class="unlisted">O569</h3>
+<p><strong>Upstream non-lithium mineral recovery: Proprietary silica and
+polymetallic recovery; possible boron-compound recovery; solids
+filtration.</strong></p>
+<p>Basis: <strong>design description</strong>; scale: proposed
+commercial plant; boundary: before DLE. Date/basis: 2023-08.</p>
+<p>Source: <a href="#d022">D022</a>, <a href="https://ceqanet.lci.ca.gov/2022030704/3/Attachment/kwHBZD#page=71">Printed
+pp. 2.0-17–18, §2.9.2; continues PDF p. 72</a> (PDF page 71).</p>
+<p>Followed by proprietary LiCl extraction and separate LiCl
+purification. Exact reaction sequence, reagent doses, outlet impurity
+concentrations and a fully numbered process flowsheet are not disclosed
+in these passages.</p>
+<p>Review: AI source-text check; <strong>human review
+pending</strong>.</p>
+</section>
+</section>
+</section>
+</main><footer class="site-footer"><span>MIT Device Research Lab · Public-source research</span><nav aria-label="Reading and downloads"><a href="full-report.html">Search all text / print</a> · <a href="methods.html">Methods</a> · <a href="report.md" download>Markdown</a> · <a href="report-site.zip" download>Download HTML bundle</a></nav></footer></body>
+</html>

@@ -1,0 +1,2055 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Waterleaf / Lilac · Evidence</title>
+  <style>
+
+html {
+color: #1a1a1a;
+background-color: #fdfdfd;
+}
+body {
+margin: 0 auto;
+max-width: 36em;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+hyphens: auto;
+overflow-wrap: break-word;
+text-rendering: optimizeLegibility;
+font-kerning: normal;
+}
+@media (max-width: 600px) {
+body {
+font-size: 0.9em;
+padding: 12px;
+}
+h1 {
+font-size: 1.8em;
+}
+}
+@media print {
+html {
+background-color: white;
+}
+body {
+background-color: transparent;
+color: black;
+font-size: 12pt;
+}
+p, h2, h3 {
+orphans: 3;
+widows: 3;
+}
+h2, h3, h4 {
+page-break-after: avoid;
+}
+}
+p {
+margin: 1em 0;
+}
+a {
+color: #1a1a1a;
+}
+a:visited {
+color: #1a1a1a;
+}
+img {
+max-width: 100%;
+}
+svg {
+height: auto;
+max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+margin-top: 1.4em;
+}
+h5, h6 {
+font-size: 1em;
+font-style: italic;
+}
+h6 {
+font-weight: normal;
+}
+ol, ul {
+padding-left: 1.7em;
+margin-top: 1em;
+}
+li > ol, li > ul {
+margin-top: 0;
+}
+blockquote {
+margin: 1em 0 1em 1.7em;
+padding-left: 1em;
+border-left: 2px solid #e6e6e6;
+color: #606060;
+}
+code {
+white-space: pre-wrap;
+font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+font-size: 85%;
+margin: 0;
+hyphens: manual;
+}
+pre {
+margin: 1em 0;
+overflow: auto;
+}
+pre code {
+padding: 0;
+overflow: visible;
+overflow-wrap: normal;
+}
+.sourceCode {
+background-color: transparent;
+overflow: visible;
+}
+hr {
+border: none;
+border-top: 1px solid #1a1a1a;
+height: 1px;
+margin: 1em 0;
+}
+table {
+margin: 1em 0;
+border-collapse: collapse;
+width: 100%;
+overflow-x: auto;
+display: block;
+font-variant-numeric: lining-nums tabular-nums;
+}
+table caption {
+margin-bottom: 0.75em;
+}
+tbody {
+margin-top: 0.5em;
+border-top: 1px solid #1a1a1a;
+border-bottom: 1px solid #1a1a1a;
+}
+th {
+border-top: 1px solid #1a1a1a;
+padding: 0.25em 0.5em 0.25em 0.5em;
+}
+td {
+padding: 0.125em 0.5em 0.25em 0.5em;
+}
+header {
+margin-bottom: 4em;
+text-align: center;
+}
+#TOC li {
+list-style: none;
+}
+#TOC ul {
+padding-left: 1.3em;
+}
+#TOC > ul {
+padding-left: 0;
+}
+#TOC a:not(:hover) {
+text-decoration: none;
+}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style>
+:root { color-scheme:light; --ink:#243936; --muted:#526861; --accent:#15675f; --line:#d7e2de; --paper:#fff; --soft:#edf4f1; --canvas:#f6f9f7; }
+* { box-sizing:border-box; }
+html { scroll-padding-top:1.5rem; }
+body { margin:0; padding:0; max-width:none; hyphens:none; color:var(--ink); background:var(--paper); font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+a { color:var(--accent); text-underline-offset:3px; overflow-wrap:anywhere; }
+a:hover { color:#0a403a; }
+a:focus-visible, summary:focus-visible, [tabindex]:focus-visible { outline:3px solid #b57914; outline-offset:3px; }
+.skip-link { position:absolute; top:-100px; left:1rem; padding:.7rem 1rem; background:var(--paper); z-index:20; }
+.skip-link:focus { top:.5rem; }
+.site-header { max-width:1264px; margin:auto; padding:1.15rem 2rem; display:flex; align-items:center; justify-content:space-between; gap:1.5rem; border-bottom:1px solid var(--line); }
+.brand { display:flex; align-items:center; gap:1.2rem; color:var(--ink); font-size:1.1rem; font-weight:700; line-height:1.2; text-decoration:none; overflow-wrap:normal; }
+.lab-logo { width:132px; height:auto; display:block; }
+.global-nav, .view-nav, .section-nav { display:flex; align-items:center; flex-wrap:wrap; gap:.4rem; }
+.global-nav a, .view-nav a, .section-nav a { padding:.5rem .8rem; border-radius:4px; color:var(--muted); text-decoration:none; white-space:nowrap; }
+.global-nav a[aria-current], .view-nav a[aria-current], .section-nav a[aria-current] { background:var(--soft); color:var(--accent); font-weight:650; }
+.global-nav a:hover, .view-nav a:hover, .section-nav a:hover { background:var(--soft); }
+.review-status, .project-context, .view-nav, .section-nav { max-width:1200px; margin:.8rem auto 0; padding:0 2rem; }
+.review-status { font-size:.78rem; color:var(--muted); }
+.project-context { font-size:.82rem; margin-top:1.7rem; color:var(--muted); }
+.view-nav { border-bottom:1px solid var(--line); padding-bottom:.6rem; }
+.section-nav { font-size:.84rem; }
+main { max-width:1200px; padding:1.4rem 2rem 3rem; margin:auto; min-width:0; }
+h1,h2,h3,h4 { color:#173e3a; line-height:1.22; letter-spacing:-.02em; font-weight:680; }
+h1 { font-size:clamp(1.65rem,3vw,2.4rem); margin:.4rem 0 1.2rem; }
+h2 { font-size:1.35rem; margin:2.2rem 0 .9rem; }
+h3 { font-size:1.12rem; margin:1.8rem 0 .8rem; }
+h4 { font-size:1rem; margin:1.4rem 0 .65rem; }
+p,li { max-width:92ch; }
+p { margin:.75rem 0 1rem; }
+.local-toc { margin:0 0 1.2rem; font-size:.85rem; border-bottom:1px solid var(--line); padding:0 0 .7rem; }
+.local-toc summary { cursor:pointer; color:var(--accent); width:max-content; }
+.local-toc nav { padding:.5rem 0; }
+#TOC > ul { columns:2; column-gap:2.5rem; }
+#TOC ul { padding-left:1.2rem; margin:.4rem 0; }
+#TOC li { break-inside:avoid; margin:.25rem 0; }
+#TOC a { text-decoration:none; }
+.library-home .local-toc { display:none; }
+.library-home main { padding-top:1.6rem; }
+.library-home .research-routes { margin:1.7rem 0 2.4rem; }
+.research-routes { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; }
+.research-routes p { margin:0; }
+.research-routes a { display:block; height:100%; padding:1.25rem; border:1px solid var(--line); border-radius:5px; background:var(--canvas); text-decoration:none; font-size:.9rem; color:var(--muted); }
+.research-routes a:hover { background:var(--soft); }
+.research-routes strong { display:block; margin-bottom:.5rem; font-size:1.05rem; color:var(--accent); }
+.table-hint { margin:1.2rem 0 .4rem; font-size:.75rem; color:var(--muted); }
+.table-scroll { overflow:auto; max-height:65vh; margin:0 0 1.6rem; border:1px solid var(--line); border-radius:3px; scrollbar-color:#829f95 var(--canvas); }
+table { display:table; overflow:visible; margin:0; border-spacing:0; border-collapse:separate; width:100%; font-size:.86rem; line-height:1.5; }
+th,td { padding:.85rem .85rem; border-bottom:1px solid var(--line); vertical-align:top; overflow-wrap:break-word; min-width:125px; }
+th { background:var(--soft); color:#173e3a; font-weight:650; text-align:left; position:sticky; top:0; z-index:3; }
+td { background:var(--paper); }
+tbody tr:nth-child(even) td { background:#f8fbf9; }
+th:first-child,td:first-child { position:sticky; left:0; min-width:155px; max-width:255px; z-index:2; box-shadow:1px 0 0 var(--line); }
+th:first-child { z-index:4; }
+td[style*="right"],th[style*="right"] { font-variant-numeric:tabular-nums; }
+.library-home .table-scroll { border:0; max-height:none; }
+.library-home .table-hint { display:none; }
+figure { margin:1.5rem 0; border:1px solid var(--line); padding:.75rem; background:white; }
+figure img { display:block; width:100%; height:auto; }
+figcaption { color:var(--muted); font-size:.8rem; padding:.6rem .2rem .2rem; }
+.flow-gallery { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1.2rem; margin-top:1.5rem; }
+.flow-gallery > section { min-width:0; padding:1.1rem; border:1px solid var(--line); border-radius:5px; }
+.flow-gallery h2 { font-size:1.1rem; margin:0 0 1rem; }
+.flow-gallery figure { margin:0; border:0; padding:0; }
+.flow-gallery img { height:240px; object-fit:contain; }
+.flow-gallery p { font-size:.84rem; margin:1rem 0 0; }
+blockquote { background:var(--canvas); border-left:3px solid var(--line); margin:1.2rem 0; padding:.5rem 1.2rem; }
+code { font-size:.9em; background:var(--soft); padding:.1rem .3rem; border-radius:3px; }
+pre { overflow-x:auto; padding:1rem; background:var(--soft); }
+hr { border:0; border-top:1px solid var(--line); margin:1.8rem 0; }
+.legacy-links { max-width:1200px; margin:0 auto; padding:0 2rem 1rem; color:var(--muted); font-size:.75rem; }
+.legacy-links summary { cursor:pointer; }
+.legacy-links ul { columns:3; }
+.site-footer { max-width:1264px; margin:auto; padding:1.3rem 2rem 2rem; border-top:1px solid var(--line); color:var(--muted); font-size:.78rem; display:flex; flex-wrap:wrap; gap:.6rem 2rem; justify-content:space-between; }
+.complete-report main { max-width:1264px; }
+.complete-report .table-scroll { max-height:none; }
+@media(max-width:700px) {
+.site-header { padding:1rem 1.15rem; display:block; }
+.brand { gap:.8rem; font-size:1rem; }
+.lab-logo { width:110px; }
+.global-nav { margin-top:1rem; gap:.15rem; }
+.global-nav a { padding:.4rem .6rem; font-size:.9rem; }
+.review-status,.project-context,.view-nav,.section-nav { padding-left:1.15rem; padding-right:1.15rem; }
+.view-nav a { padding:.45rem .55rem; font-size:.84rem; }
+main { padding:1.2rem 1.15rem 2.2rem; }
+.research-routes,.flow-gallery { grid-template-columns:1fr; gap:.65rem; }
+.research-routes a { padding:.9rem 1rem; }
+.research-routes strong { font-size:1rem; margin-bottom:.2rem; }
+.library-home .research-routes { margin:1.3rem 0 1.5rem; }
+#TOC > ul { columns:1; }
+.table-scroll { max-height:62vh; }
+th,td { min-width:155px; padding:.7rem; }
+th:first-child,td:first-child { min-width:128px; max-width:150px; }
+.flow-gallery img { height:220px; }
+.site-footer,.legacy-links { padding-left:1.15rem; padding-right:1.15rem; }
+.legacy-links ul { columns:2; }
+}
+@media print {
+body { font-size:10pt; }
+.site-header { padding:0 0 1rem; }
+.global-nav,.view-nav,.section-nav,.local-toc,.skip-link,.site-footer,.legacy-links,.table-hint { display:none; }
+.review-status,.project-context,main { max-width:none; padding:0; }
+.brand { font-size:12pt; }
+.lab-logo { width:100px; }
+h1,h2,h3,h4 { break-after:avoid; }
+.table-scroll { overflow:visible; max-height:none; border:0; }
+table { font-size:8pt; }
+th,td,th:first-child,td:first-child { position:static; min-width:0; max-width:none; box-shadow:none; padding:.5rem; overflow-wrap:anywhere; }
+tr,figure { break-inside:avoid; }
+thead { display:table-header-group; }
+.flow-gallery { display:block; }
+.flow-gallery > section { break-inside:avoid; margin-bottom:1rem; }
+a { color:inherit; }
+@page { size:A4; margin:16mm; }
+}
+</style>
+</head>
+<body class="research-page"><a class="skip-link" href="#main-content">Skip to content</a><header class="site-header"><a class="brand" href="report.html"><img class="lab-logo" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNzU4IDcwMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InRpdGxlIGRlc2MiPgogIDx0aXRsZSBpZD0idGl0bGUiPk1JVCBEZXZpY2UgUmVzZWFyY2ggTGFiIGxvZ288L3RpdGxlPgogIDxkZXNjIGlkPSJkZXNjIj5WZWN0b3IgcmVjb25zdHJ1Y3Rpb24gb2YgdGhlIERldmljZSBSZXNlYXJjaCBMYWIgbG9nbyBmcm9tIHRoZSBvZmZpY2lhbCBNSVQgbGFiIHdlYnNpdGUuPC9kZXNjPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJjaXJjbGUtZ3JhZGllbnQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjUwIiB5MT0iMCIgeDI9IjYwMCIgeTI9IjAiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZjhkNDIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjQ4NiIgc3RvcC1jb2xvcj0iI2ZmYWUzNiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNzE0IiBzdG9wLWNvbG9yPSIjZmZiZDMwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC45MTQiIHN0b3AtY29sb3I9IiNmZmM5MmMiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZmZjZTJiIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJkcm9wbGV0LWdyYWRpZW50IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjQwMCIgeTE9IjcwMCIgeDI9IjYwIiB5Mj0iNjAiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwZmIyZjMiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjE4IiBzdG9wLWNvbG9yPSIjMGZiMmYzIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC4zNSIgc3RvcC1jb2xvcj0iIzFlYTBlZiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNTciIHN0b3AtY29sb3I9IiMzODgwZTkiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjc2IiBzdG9wLWNvbG9yPSIjNGY2NGUzIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC44NyIgc3RvcC1jb2xvcj0iIzVjNTRlMCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM1YzU0ZTAiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9Im92ZXJsYXAtZ3JhZGllbnQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjUwIiB5MT0iMCIgeDI9IjUxMCIgeTI9IjAiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNkZjJjNjQiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjExNSIgc3RvcC1jb2xvcj0iI2RhMzI2YSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuMjY5IiBzdG9wLWNvbG9yPSIjZDAzYTc1Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC40MjMiIHN0b3AtY29sb3I9IiNjODQwN2UiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjU3NyIgc3RvcC1jb2xvcj0iI2JlNDg4OSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNzY5IiBzdG9wLWNvbG9yPSIjYjM1MTk2Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2E5NWFhMSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPGcgc2hhcGUtcmVuZGVyaW5nPSJnZW9tZXRyaWNQcmVjaXNpb24iPgogICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCA3MDApIHNjYWxlKDEgLTEpIj4KICAgICAgPHBhdGggZmlsbD0idXJsKCNjaXJjbGUtZ3JhZGllbnQpIiBkPSJNNDA4IDYwNyBjLTE4IC0yIC0zOCAtNyAtNTIgLTE0IC0xMCAtNCAtMjggLTE1IC0zOCAtMjMgLTMyIC0yNSAtNTQgLTYyIC02MyAtMTAzIC0zIC0xNCAtNCAtNDEgLTIgLTU3IDExIC03OSA3NSAtMTQwIDE1NCAtMTQ5IDI5IC0zIDYwIDIgODYgMTMgNSAyIDExIDUgMTMgNSAxMCA0IDI5IDE4IDQzIDMxIDE0IDE1IDI1IDMwIDM0IDUwIDMyIDY3IDE3IDE0OCAtMzcgMjAwIC0zNyAzNSAtODggNTIgLTEzOCA0N3oiLz4KICAgIDwvZz4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgNzAwKSBzY2FsZSgxIC0xKSI+CiAgICAgIDxwYXRoIGZpbGw9InVybCgjZHJvcGxldC1ncmFkaWVudCkiIGQ9Ik0yNTQgNjQ4IGMtNDEgLTQyIC05NiAtMTEwIC0xMzMgLTE2NSAtNDUgLTY4IC03MyAtMTI3IC04MyAtMTc0IC02IC0yOSAtNSAtNjEgMyAtOTQgMjEgLTg1IDkwIC0xNTMgMTc1IC0xNzMgMjAgLTUgMzAgLTUgNTUgLTUgMjcgMCAzNSAxIDU4IDYgODggMjIgMTU3IDk0IDE3NCAxODQgMTEgNTQgMiAxMDEgLTMyIDE2OSAtMjcgNTUgLTY1IDExMSAtMTIxIDE4MSAtMzEgMzggLTc1IDg3IC03OSA4NyAtMSAwIC05IC03IC0xNyAtMTZ6Ii8+CiAgICA8L2c+CiAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDcwMCkgc2NhbGUoMSAtMSkiPgogICAgICA8cGF0aCBmaWxsPSJ1cmwoI292ZXJsYXAtZ3JhZGllbnQpIiBkPSJNMzM0IDU4MSBjLTQxIC0yNiAtNjkgLTY2IC03OSAtMTE0IC0zIC0xNCAtNCAtNDEgLTIgLTU3IDE3IC0xMTYgMTQwIC0xODMgMjQ2IC0xMzMgbDggMyAwIDggYy0xIDQgLTEgNyAtMSA4IC0xIDEgLTEgNCAtMSA3IC0yIDEzIC0xMCAzNiAtMTggNTcgLTQgMTEgLTIyIDQ4IC0yNyA1OCAtMSAyIC00IDYgLTYgMTAgLTE4IDMxIC00NCA3MSAtNzEgMTA3IC0xNCAxOCAtNDAgNTEgLTQxIDUxIDAgMCAtNCAtMiAtOCAtNXoiLz4KICAgIDwvZz4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgNzAwKSBzY2FsZSgxIC0xKSI+CiAgICAgIDxwYXRoIGZpbGw9IiMyMzFmMjAiIGQ9Ik03MjQgMzgzIGwwIC0xOTIgODYgMCBjNTcgMSA4OCAxIDk0IDIgMjUgNCA0MCA4IDU5IDE3IDM5IDE5IDY2IDU1IDc3IDEwNSAxMiA1MSA5IDExNSAtOCAxNTggLTExIDI4IC0yOSA1MiAtNTIgNjkgLTE3IDExIC00MiAyMyAtNjMgMjcgLTI0IDUgLTI0IDUgLTExMSA2IGwtODIgMCAwIC0xOTJ6IG0xNTggMTIzIGMyNSAtNCA0NCAtMTMgNTkgLTI4IDE1IC0xNyAyNCAtMzggMjkgLTY4IDIgLTE0IDEgLTUzIC0xIC02NyAtNSAtMjkgLTE0IC00NyAtMjkgLTYxIC04IC04IC0yMSAtMTUgLTMyIC0xOCAtMTcgLTQgLTIxIC00IC02NyAtNSBsLTQ0IDAgMCAxMjQgMCAxMjQgMzkgMCBjMjMgMCA0MiAwIDQ2IC0xeiBNMTEyOSAzODMgbDAgLTE5MiAzNyAwIDM2IDAgMCA3MSAwIDcwIDM0IDAgMzUgMCAzNyAtNzEgMzcgLTcwIDQyIDAgYzIzIDAgNDIgMCA0MiAwIDAgMSAtMTkgMzUgLTQzIDc3IC0yMyA0MyAtNDIgNzggLTQxIDc4IDAgMSAxIDEgMSAxIDQgMCAyNiAxMiAzMyAxOCAxOCAxNSAzMiAzOCAzNyA2MiA3IDM1IDEgNzEgLTE1IDk2IC0xNCAyMiAtMzMgMzYgLTYwIDQ0IC0yMiA4IC0xOSA3IC0xMjEgOCBsLTkxIDAgMCAtMTkyeiBtMTUzIDEyNyBjMzIgLTMgNTEgLTE2IDU5IC00MCAyIC04IDIgLTI0IDAgLTMzIC01IC0xOSAtMjAgLTMzIC00MiAtMzggLTcgLTIgLTExIC0yIC01MiAtMiBsLTQ1IDAgMCA1NyAwIDU3IDM1IDAgYzE5IDAgMzkgMCA0NSAtMXogTTE0OTUgMzgzIGwwIC0xOTIgMTE0IDAgMTE0IDAgMCAzNCAwIDM0IC03NyAwIC03OCAwIDAgMTU4IDAgMTU4IC0zNiAwIC0zNyAwIDAgLTE5MnogTTk0MSAxNTAgYy0yIC0xIC02IC0yIC05IC0zIC0xMSAtNyAtMTQgLTI3IC02IC00MCA4IC0xMyAzMCAtMTQgNDAgLTIgMyAzIDYgMTAgNSAxMSAwIDEgLTIgMSAtNCAxIC00IDEgLTQgMSAtNCAtMiAtMSAtMSAtMiAtNCAtNCAtNiAtOCAtMTAgLTIzIC03IC0yOCA1IC0yIDcgLTEgMTggMyAyNCA2IDggMjEgOCAyNyAtMiAyIC0zIDMgLTMgNiAtMyAyIDEgMyAxIDQgMSAwIDEgLTEgMyAtMiA1IC0yIDQgLTcgOCAtMTEgMTAgLTQgMSAtMTIgMiAtMTcgMXogTTEyMDEgMTUwIGMtMTEgLTIgLTE2IC0xMSAtMTMgLTE5IDIgLTUgNSAtNyAxNiAtOSAxMiAtMyAxNSAtNSAxNSAtOSAwIC00IC0xIC03IC01IC04IC04IC01IC0xOSAwIC0yMSA4IDAgMyAwIDMgLTMgMyAtMiAtMSAtNCAtMSAtNCAtMSAtMiAwIC0xIC00IDEgLTggMyAtNiA3IC05IDE1IC0xMCAxMyAtMiAyNCAzIDI2IDE0IDAgNSAtMiAxMSAtNyAxNCAtMiAxIC03IDMgLTExIDQgLTEwIDIgLTE0IDQgLTE0IDggMCA0IDMgNiA5IDcgNyAwIDEyIC0zIDEzIC04IDEgLTIgMiAtMyAzIC0zIDEgMSAyIDEgNCAxIDIgMCAyIDAgMiAzIC0yIDUgLTUgOSAtOSAxMSAtNSAyIC0xMiAzIC0xNyAyeiBNMTQzMyAxNTAgYy03IC0yIC0xMyAtNiAtMTcgLTEzIC0yIC01IC0yIC0yMiAxIC0yNyA0IC05IDExIC0xMyAyMiAtMTMgOCAtMSAxNCAyIDE5IDcgMyA0IDcgMTIgNiAxMyAwIDAgLTIgMCAtNCAwIC00IDEgLTQgMSAtNSAtMyAtNiAtMTUgLTI2IC0xNCAtMzEgMSAtNSAxMyAxIDI3IDEyIDI5IDcgMSAxNCAtMiAxOCAtOCAyIC0zIDUgLTQgOCAtMiAzIDIgLTQgMTEgLTExIDE0IC01IDIgLTEzIDMgLTE4IDJ6IE03MjQgMTI0IGwwIC0yNiAxMyAwIGMxNCAwIDE4IDEgMjIgNiA2IDUgNyA4IDcgMjAgMCAxMCAtMSAxMSAtMyAxNiAtMiAzIC01IDUgLTggNyAtNCAyIC02IDIgLTE4IDIgbC0xMyAwIDAgLTI1eiBtMjggMTUgYzUgLTQgNiAtMTAgNiAtMTggLTEgLTEyIC02IC0xNiAtMTggLTE2IGwtOCAwIDAgMTkgMCAxOCA4IDAgYzggMCA5IDAgMTIgLTN6IE03ODUgMTI0IGwwIC0yNiAxOSAwIDE4IDAgMCA0IDAgMyAtMTQgMCAtMTUgMCAwIDggMCA4IDEzIDAgMTIgMCAwIDQgMCAzIC0xMiAwIC0xMyAwIDAgNyAwIDcgMTQgMCAxNCAwIDAgNCAwIDMgLTE4IDAgLTE4IDAgMCAtMjV6IE04MzUgMTQ3IGMxIC0xIDUgLTEyIDkgLTI1IGw4IC0yMyA0IC0xIGMyIDAgNCAwIDQgMCAwIDAgMiA1IDQgMTEgMiA1IDYgMTYgOSAyNSBsNSAxNSAtNCAwIC01IDAgLTYgLTE5IGMtNCAtMTEgLTcgLTIwIC03IC0yMCAwIDEgLTMgOSAtNyAyMCBsLTUgMTkgLTUgMCBjLTMgMCAtNCAwIC00IC0yeiBNODk0IDEyNCBsMCAtMjYgNCAwIDQgMCAwIDI2IDAgMjUgLTQgMCAtNCAwIDAgLTI1eiBNOTg5IDEyNCBsMCAtMjYgMTkgMCAxOCAwIDAgNCAwIDMgLTE0IDAgLTE1IDAgMCA4IDAgOCAxMyAwIDEyIDAgMCA0IDAgMyAtMTIgMCAtMTMgMCAwIDcgMCA3IDE1IDAgMTQgMCAwIDQgMCAzIC0xOCAwIC0xOSAwIDAgLTI1eiBNMTA3NCAxMjQgbDAgLTI2IDQgMCA0IDAgMCAxMSAwIDEwIDYgMCA2IDAgNiAtOSBjMyAtNSA2IC0xMCA3IC0xMSAwIC0xIDIgLTEgNSAtMSBsNSAxIC03IDEwIC03IDExIDQgMSBjNSAyIDcgNiA3IDE0IDAgNCAwIDYgLTIgOCAtNCA1IC03IDYgLTIzIDYgbC0xNSAwIDAgLTI1eiBtMzAgMTcgYzQgLTQgMyAtMTIgLTIgLTE0IC0xIDAgLTYgLTEgLTExIC0xIGwtOSAwIDAgOCAwIDggMTAgMCBjNyAwIDEwIDAgMTIgLTF6IE0xMTMzIDEyNCBsMCAtMjYgMTkgMCAxOCAwIDAgNCAwIDMgLTE1IDAgLTE1IDAgMCA4IDAgOCAxMyAwIDEyIDAgMCA0IDAgMyAtMTIgMCAtMTMgMCAwIDcgMCA3IDE1IDAgMTQgMCAwIDQgMCAzIC0xOCAwIC0xOCAwIDAgLTI1eiBNMTI0NSAxMjQgbDAgLTI2IDE5IDAgMTkgMCAwIDQgMCAzIC0xNSAwIC0xNSAwIDAgOCAwIDggMTMgMCAxMiAwIDAgNCAwIDMgLTEyIDAgLTEzIDAgMCA3IDAgNyAxNSAwIDE0IDAgMCA0IDAgMyAtMTggMCAtMTkgMCAwIC0yNXogTTEzMTQgMTQ2IGMtMSAtMiAtNSAtMTMgLTEwIC0yNSAtNCAtMTIgLTggLTIyIC05IC0yMiAwIC0xIDIgLTEgNCAtMSBsNSAwIDMgOCAyIDcgMTAgMCA5IDAgMiAtNyAzIC03IDQgLTEgYzIgMCA0IDAgNCAxIDAgMCAtNCAxMiAtOSAyNSBsLTkgMjUgLTQgMCBjLTQgMCAtNCAwIC01IC0zeiBtOCAtMTYgYzEgLTQgMiAtOCAzIC05IDAgLTEgLTIgLTEgLTYgLTEgLTQgMCAtNyAwIC03IDEgMCAwIDIgNCAzIDkgMiA0IDQgOCA0IDcgMCAwIDIgLTQgMyAtN3ogTTEzNTcgMTI0IGwwIC0yNiA0IDAgNCAwIDAgMTEgMCAxMCA2IDAgNiAwIDYgLTEwIDcgLTEwIDQgLTEgYzMgMCA1IDAgNSAwIDAgMSAtMyA2IC02IDExIGwtNyAxMCAzIDIgYzUgMiA3IDYgOCAxMiAwIDUgMCA3IC0yIDEwIC0zIDUgLTcgNiAtMjMgNiBsLTE1IDAgMCAtMjV6IG0zMCAxNiBjMyAtMyAzIC05IDAgLTEyIC0yIC0xIC00IC0yIC0xMiAtMiBsLTEwIDAgMCA4IDAgOCAxMCAwIGM5IDAgMTAgMCAxMiAtMnogTTE0ODIgMTI0IGwwIC0yNiA0IDAgMyAwIDAgMTIgMCAxMSAxNCAwIDEzIDAgMCAtMTEgMCAtMTIgNCAwIDQgMCAwIDI2IDAgMjUgLTQgMCAtNCAwIDAgLTEwIDAgLTExIC0xMyAwIC0xNCAwIDAgMTEgMCAxMCAtMyAwIC00IDAgMCAtMjV6IE0xNTc1IDEyNCBsMCAtMjYgMTYgMCAxNiAwIDAgNCAwIDMgLTEyIDAgLTEzIDAgMCAyMiAwIDIyIC0zIDAgLTQgMCAwIC0yNXogTTE2MzkgMTQ3IGMtMTEgLTMwIC0xOCAtNDggLTE4IC00OCAwIC0xIDIgLTEgNCAtMSBsNCAxIDMgNyAyIDcgMTAgMCA5IDAgMiAtNSBjMSAtMyAyIC03IDIgLTggMSAtMiAyIC0yIDUgLTIgMyAwIDQgMCA0IDEgMCAxIC00IDEyIC05IDI2IGwtOSAyNCAtNCAwIGMtMyAwIC00IDAgLTUgLTJ6IG04IC0xOCBjMiAtNCAzIC04IDMgLTkgLTEgMCAtMyAwIC03IDAgbC02IDEgMyA4IGMyIDQgNCA4IDQgOCAwIDAgMiAtNCAzIC04eiBNMTY4MiAxMjQgbDAgLTI2IDE2IDAgYzE2IDAgMTcgMCAyMCAyIDQgMyA2IDYgNiAxMiAwIDUgLTIgMTAgLTUgMTIgLTEgMSAtMSAxIDEgNCAzIDUgNCA5IDEgMTQgLTMgNiAtNiA3IC0yNCA3IGwtMTUgMCAwIC0yNXogbTMxIDE3IGMyIC0yIDIgLTkgLTEgLTExIC0yIC0yIC00IC0yIC0xMiAtMiBsLTEwIDAgMCA3IDAgNyAxMCAwIGM4IDAgMTEgMCAxMyAtMXogbTEgLTIzIGMzIC0zIDMgLTggMCAtMTEgLTIgLTIgLTMgLTIgLTEzIC0yIGwtMTEgMCAwIDggMCA4IDExIDAgYzEwIDAgMTEgLTEgMTMgLTN6Ii8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K" alt="MIT Device Research Lab" width="1758" height="700"><span>DLE Research Library</span></a><nav class="global-nav" aria-label="Primary"><a href="projects.html" aria-current="page">Projects</a><a href="compare-chemistry.html">Compare</a><a href="sources.html">Sources</a><a href="methods.html">Methods</a></nav></header><div class="review-status">Research draft · Human review pending · Collection cutoff 2026-09-16 · <a href="methods.html">Review and scope</a></div><div class="project-context"><a href="projects.html">Projects</a> / Waterleaf / Lilac</div><nav class="view-nav" aria-label="Project views"><a href="waterleaf.html">Summary</a><a href="waterleaf-chemistry.html">Chemistry</a><a href="waterleaf-process.html">Process</a><a href="waterleaf-evidence.html" aria-current="page">Evidence</a></nav><main id="main-content">
+<section id="waterleaf-sources" class="level1 unlisted">
+<h1 class="unlisted">Waterleaf / Lilac · Evidence</h1>
+<p>Shared source: <a href="us-magnesium-evidence.html#d116">D116</a> —
+Utah Mining 2024.</p>
+<section id="d111" class="level2 unlisted">
+<h2 class="unlisted">D111</h2>
+<p><strong><a href="https://www.utah.gov/pmn/sitemap/notice/1092617.html">Great Salt
+Lake Phase 1 public notice</a></strong></p>
+<p>Public notice · Utah DWQ. Entity: Waterleaf Phase 1 LLC.</p>
+<p>Published/filed: <strong>2026-07-01</strong>; effective/event date:
+<strong>not established</strong>. Source role: official agency
+record.</p>
+<p>Original saved.</p>
+<p>Public consultation for UPDES UT0026352; record updated July 27,
+2026. Draft stage, not proof of final authorization.</p>
+</section>
+<section id="d112" class="level2 unlisted">
+<h2 class="unlisted">D112</h2>
+<p><strong><a href="https://www.utah.gov/pmn/files/1456475.pdf">Phase 1
+draft fact sheet and flow diagram</a></strong></p>
+<p>Draft UPDES fact sheet · Utah DWQ. Entity: Waterleaf Phase 1 LLC.</p>
+<p>Published/filed: <strong>2026-06-30</strong>; effective/event date:
+<strong>not established</strong>. Source role: official agency
+draft.</p>
+<p>Original saved; 19 PDF pages.</p>
+<p>Commercial Phase 1 discharge proposal and schematic; off-site
+further-processing narrative needs reconciliation with carbonate process
+drawing.</p>
+</section>
+<section id="d113" class="level2 unlisted">
+<h2 class="unlisted">D113</h2>
+<p><strong><a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf">Phase
+1 operations application, redacted</a></strong></p>
+<p>Redacted operations application · Utah FFSL. Entity: Waterleaf Phase
+1 LLC.</p>
+<p>Published/filed: <strong>2026-02-20</strong>; effective/event date:
+<strong>2026-02</strong>. Source role: government-hosted applicant
+submission.</p>
+<p>Original saved; 1197 PDF pages.</p>
+<p>FFSL-hosted application, February 2026 revision (Appendix H;
+submission footer February 20). Public pilot chemistry, simplified
+flowsheet, water-balance summary and groundwater laboratory package;
+detailed process appendices redacted.</p>
+</section>
+<section id="waterleaf-evidence" class="level2">
+<h2>Waterleaf / Lilac evidence</h2>
+</section>
+<section id="pilot-brine-and-eluate-chemistry" class="level2">
+<h2>Pilot brine and eluate chemistry</h2>
+<section id="o407" class="level3 unlisted">
+<h3 class="unlisted">O407</h3>
+<p><strong>Lithium: 69 mg/L.</strong></p>
+<p>Basis: <strong>reported measurement; selected stable pilot
+periods</strong>; scale: Great Salt Lake pilot; boundary: Raw brine.
+Date/basis: 2025 pilot; optimal operating weeks 16–28.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84">Table
+11; §4.1.3.2, pp. 83–84</a> (PDF page 84).</p>
+<p>Average of stable operating periods; transitions and ramp-up
+excluded. Six listed constituents only; pilot crystallization was
+off-site, unlike commercial design. Not a complete ionic analysis.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o408" class="level3 unlisted">
+<h3 class="unlisted">O408</h3>
+<p><strong>Lithium: 2044 mg/L.</strong></p>
+<p>Basis: <strong>reported measurement; selected stable pilot
+periods</strong>; scale: Great Salt Lake pilot; boundary: DLE eluate.
+Date/basis: 2025 pilot; optimal operating weeks 16–28.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84">Table
+11; §4.1.3.2, pp. 83–84</a> (PDF page 84).</p>
+<p>Average of stable operating periods; transitions and ramp-up
+excluded. Six listed constituents only; pilot crystallization was
+off-site, unlike commercial design. Not a complete ionic analysis.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o409" class="level3 unlisted">
+<h3 class="unlisted">O409</h3>
+<p><strong>Sodium: 85774 mg/L.</strong></p>
+<p>Basis: <strong>reported measurement; selected stable pilot
+periods</strong>; scale: Great Salt Lake pilot; boundary: Raw brine.
+Date/basis: 2025 pilot; optimal operating weeks 16–28.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84">Table
+11; §4.1.3.2, pp. 83–84</a> (PDF page 84).</p>
+<p>Average of stable operating periods; transitions and ramp-up
+excluded. Six listed constituents only; pilot crystallization was
+off-site, unlike commercial design. Not a complete ionic analysis.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o410" class="level3 unlisted">
+<h3 class="unlisted">O410</h3>
+<p><strong>Sodium: 603 mg/L.</strong></p>
+<p>Basis: <strong>reported measurement; selected stable pilot
+periods</strong>; scale: Great Salt Lake pilot; boundary: DLE eluate.
+Date/basis: 2025 pilot; optimal operating weeks 16–28.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84">Table
+11; §4.1.3.2, pp. 83–84</a> (PDF page 84).</p>
+<p>Average of stable operating periods; transitions and ramp-up
+excluded. Six listed constituents only; pilot crystallization was
+off-site, unlike commercial design. Not a complete ionic analysis.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o411" class="level3 unlisted">
+<h3 class="unlisted">O411</h3>
+<p><strong>Magnesium: 13290 mg/L.</strong></p>
+<p>Basis: <strong>reported measurement; selected stable pilot
+periods</strong>; scale: Great Salt Lake pilot; boundary: Raw brine.
+Date/basis: 2025 pilot; optimal operating weeks 16–28.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84">Table
+11; §4.1.3.2, pp. 83–84</a> (PDF page 84).</p>
+<p>Average of stable operating periods; transitions and ramp-up
+excluded. Six listed constituents only; pilot crystallization was
+off-site, unlike commercial design. Not a complete ionic analysis.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o412" class="level3 unlisted">
+<h3 class="unlisted">O412</h3>
+<p><strong>Magnesium: 293 mg/L.</strong></p>
+<p>Basis: <strong>reported measurement; selected stable pilot
+periods</strong>; scale: Great Salt Lake pilot; boundary: DLE eluate.
+Date/basis: 2025 pilot; optimal operating weeks 16–28.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84">Table
+11; §4.1.3.2, pp. 83–84</a> (PDF page 84).</p>
+<p>Average of stable operating periods; transitions and ramp-up
+excluded. Six listed constituents only; pilot crystallization was
+off-site, unlike commercial design. Not a complete ionic analysis.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o413" class="level3 unlisted">
+<h3 class="unlisted">O413</h3>
+<p><strong>Calcium: 300 mg/L.</strong></p>
+<p>Basis: <strong>reported measurement; selected stable pilot
+periods</strong>; scale: Great Salt Lake pilot; boundary: Raw brine.
+Date/basis: 2025 pilot; optimal operating weeks 16–28.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84">Table
+11; §4.1.3.2, pp. 83–84</a> (PDF page 84).</p>
+<p>Average of stable operating periods; transitions and ramp-up
+excluded. Six listed constituents only; pilot crystallization was
+off-site, unlike commercial design. Not a complete ionic analysis.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o414" class="level3 unlisted">
+<h3 class="unlisted">O414</h3>
+<p><strong>Calcium: 97 mg/L.</strong></p>
+<p>Basis: <strong>reported measurement; selected stable pilot
+periods</strong>; scale: Great Salt Lake pilot; boundary: DLE eluate.
+Date/basis: 2025 pilot; optimal operating weeks 16–28.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84">Table
+11; §4.1.3.2, pp. 83–84</a> (PDF page 84).</p>
+<p>Average of stable operating periods; transitions and ramp-up
+excluded. Six listed constituents only; pilot crystallization was
+off-site, unlike commercial design. Not a complete ionic analysis.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o415" class="level3 unlisted">
+<h3 class="unlisted">O415</h3>
+<p><strong>Potassium: 8362 mg/L.</strong></p>
+<p>Basis: <strong>reported measurement; selected stable pilot
+periods</strong>; scale: Great Salt Lake pilot; boundary: Raw brine.
+Date/basis: 2025 pilot; optimal operating weeks 16–28.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84">Table
+11; §4.1.3.2, pp. 83–84</a> (PDF page 84).</p>
+<p>Average of stable operating periods; transitions and ramp-up
+excluded. Six listed constituents only; pilot crystallization was
+off-site, unlike commercial design. Not a complete ionic analysis.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o416" class="level3 unlisted">
+<h3 class="unlisted">O416</h3>
+<p><strong>Potassium: 203 mg/L.</strong></p>
+<p>Basis: <strong>reported measurement; selected stable pilot
+periods</strong>; scale: Great Salt Lake pilot; boundary: DLE eluate.
+Date/basis: 2025 pilot; optimal operating weeks 16–28.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84">Table
+11; §4.1.3.2, pp. 83–84</a> (PDF page 84).</p>
+<p>Average of stable operating periods; transitions and ramp-up
+excluded. Six listed constituents only; pilot crystallization was
+off-site, unlike commercial design. Not a complete ionic analysis.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o417" class="level3 unlisted">
+<h3 class="unlisted">O417</h3>
+<p><strong>Boron: 50 mg/L.</strong></p>
+<p>Basis: <strong>reported measurement; selected stable pilot
+periods</strong>; scale: Great Salt Lake pilot; boundary: Raw brine.
+Date/basis: 2025 pilot; optimal operating weeks 16–28.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84">Table
+11; §4.1.3.2, pp. 83–84</a> (PDF page 84).</p>
+<p>Average of stable operating periods; transitions and ramp-up
+excluded. Six listed constituents only; pilot crystallization was
+off-site, unlike commercial design. Not a complete ionic analysis.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o418" class="level3 unlisted">
+<h3 class="unlisted">O418</h3>
+<p><strong>Boron: 0.9 mg/L.</strong></p>
+<p>Basis: <strong>reported measurement; selected stable pilot
+periods</strong>; scale: Great Salt Lake pilot; boundary: DLE eluate.
+Date/basis: 2025 pilot; optimal operating weeks 16–28.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84">Table
+11; §4.1.3.2, pp. 83–84</a> (PDF page 84).</p>
+<p>Average of stable operating periods; transitions and ramp-up
+excluded. Six listed constituents only; pilot crystallization was
+off-site, unlike commercial design. Not a complete ionic analysis.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+</section>
+<section id="recovery" class="level2">
+<h2>Recovery</h2>
+<section id="o419" class="level3 unlisted">
+<h3 class="unlisted">O419</h3>
+<p><strong>Pilot DLE lithium recovery: 87 %.</strong></p>
+<p>Basis: <strong>reported measurement; selected stable pilot
+periods</strong>; scale: Great Salt Lake pilot; boundary: DLE stage.
+Date/basis: 2025 pilot; weeks 16–28.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=84">Table
+11</a> (PDF page 84).</p>
+<p>Not whole-process product recovery. Table 10 rounds FEL-3 target to
+84%; commercial §4.1.4 uses 84.5%.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+</section>
+<section id="commercial-design" class="level2">
+<h2>Commercial design</h2>
+<section id="o420" class="level3 unlisted">
+<h3 class="unlisted">O420</h3>
+<p><strong>Nominal commercial lithium-carbonate production: 5000
+mt/yr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: lithium carbonate product. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=85">§4.1.4</a>
+(PDF page 85).</p>
+<p>90% nominal plant availability; minimum 15% equipment design
+margin.</p>
+<p>Review: AI source-text check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o421" class="level3 unlisted">
+<h3 class="unlisted">O421</h3>
+<p><strong>Overall facility lithium recovery: 78.8 %.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: brine to lithium carbonate. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=85">§4.1.4</a>
+(PDF page 85).</p>
+<p>DLE IX recovery 84.5%, downstream balance-of-plant recovery 93.3%;
+distinct from reported pilot DLE recovery of 87%.</p>
+<p>Review: AI source-text check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o422" class="level3 unlisted">
+<h3 class="unlisted">O422</h3>
+<p><strong>Rounded raw-brine intake: approximately 11300
+gpm.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: raw lake-brine intake. Date/basis: 2026-02 application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=85">§4.1.4</a>
+(PDF page 85).</p>
+<p>Rounded narrative; exact stream tables in Appendix D.4 are
+redacted.</p>
+<p>Review: AI source-text check; <strong>human review
+pending</strong>.</p>
+</section>
+</section>
+<section id="process-diagrams" class="level2">
+<h2>Process diagrams</h2>
+<section id="o423" class="level3 unlisted">
+<h3 class="unlisted">O423</h3>
+<p><strong>Simplified process flowsheet: Published.</strong></p>
+<p>Basis: <strong>proposed process design</strong>; scale: commercial
+Phase 1; boundary: intake, DLE, eluate purification, carbonate
+production and depleted-brine return. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=39">Figure
+2</a> (PDF page 39).</p>
+<p>Faithful source figure; not a full numbered-stream balance. Detailed
+D.1–D.4 pages inspected are redacted.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+</section>
+<section id="commercial-water-balance" class="level2">
+<h2>Commercial water balance</h2>
+<section id="o424" class="level3 unlisted">
+<h3 class="unlisted">O424</h3>
+<p><strong>Nominal: In — Brine water content: 1769.8 mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, nominal case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o425" class="level3 unlisted">
+<h3 class="unlisted">O425</h3>
+<p><strong>Design: In — Brine water content: 2261.4 mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, design case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o426" class="level3 unlisted">
+<h3 class="unlisted">O426</h3>
+<p><strong>Nominal: In — Groundwater makeup: 33.79 mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, nominal case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o427" class="level3 unlisted">
+<h3 class="unlisted">O427</h3>
+<p><strong>Design: In — Groundwater makeup: 43.18 mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, design case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o428" class="level3 unlisted">
+<h3 class="unlisted">O428</h3>
+<p><strong>Nominal: In — Water in reagents: 1.10 mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, nominal case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o429" class="level3 unlisted">
+<h3 class="unlisted">O429</h3>
+<p><strong>Design: In — Water in reagents: 1.41 mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, design case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o430" class="level3 unlisted">
+<h3 class="unlisted">O430</h3>
+<p><strong>Nominal: In — Generated: depleted-brine water addition: 0.456
+mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, nominal case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o431" class="level3 unlisted">
+<h3 class="unlisted">O431</h3>
+<p><strong>Design: In — Generated: depleted-brine water addition: 0.583
+mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, design case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o432" class="level3 unlisted">
+<h3 class="unlisted">O432</h3>
+<p><strong>Nominal: In — Generated: eluate-system water addition: 0.060
+mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, nominal case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o433" class="level3 unlisted">
+<h3 class="unlisted">O433</h3>
+<p><strong>Design: In — Generated: eluate-system water addition: 0.076
+mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, design case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o434" class="level3 unlisted">
+<h3 class="unlisted">O434</h3>
+<p><strong>Nominal: In — Total: 1805.2 mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, nominal case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o435" class="level3 unlisted">
+<h3 class="unlisted">O435</h3>
+<p><strong>Design: In — Total: 2306.6 mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, design case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o436" class="level3 unlisted">
+<h3 class="unlisted">O436</h3>
+<p><strong>Nominal: Out — Brine solids: free moisture: -0.037
+mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, nominal case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o437" class="level3 unlisted">
+<h3 class="unlisted">O437</h3>
+<p><strong>Design: Out — Brine solids: free moisture: -0.047
+mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, design case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o438" class="level3 unlisted">
+<h3 class="unlisted">O438</h3>
+<p><strong>Nominal: Out — Eluate solids: free moisture: -0.697
+mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, nominal case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o439" class="level3 unlisted">
+<h3 class="unlisted">O439</h3>
+<p><strong>Design: Out — Eluate solids: free moisture: -0.890
+mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, design case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o440" class="level3 unlisted">
+<h3 class="unlisted">O440</h3>
+<p><strong>Nominal: Out — Depleted-brine water content: -1795.2
+mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, nominal case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o441" class="level3 unlisted">
+<h3 class="unlisted">O441</h3>
+<p><strong>Design: Out — Depleted-brine water content: -2293.9
+mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, design case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o442" class="level3 unlisted">
+<h3 class="unlisted">O442</h3>
+<p><strong>Nominal: Out — Evaporation: -0.968 mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, nominal case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o443" class="level3 unlisted">
+<h3 class="unlisted">O443</h3>
+<p><strong>Design: Out — Evaporation: -1.24 mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, design case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o444" class="level3 unlisted">
+<h3 class="unlisted">O444</h3>
+<p><strong>Nominal: Out — Potable/fire water: -0.270 mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, nominal case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o445" class="level3 unlisted">
+<h3 class="unlisted">O445</h3>
+<p><strong>Design: Out — Potable/fire water: -0.345 mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, design case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o446" class="level3 unlisted">
+<h3 class="unlisted">O446</h3>
+<p><strong>Nominal: Out — Laboratory operations: -0.038
+mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, nominal case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o447" class="level3 unlisted">
+<h3 class="unlisted">O447</h3>
+<p><strong>Design: Out — Laboratory operations: -0.048
+mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, design case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o448" class="level3 unlisted">
+<h3 class="unlisted">O448</h3>
+<p><strong>Nominal: Out — Seal water: -6.48 mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, nominal case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o449" class="level3 unlisted">
+<h3 class="unlisted">O449</h3>
+<p><strong>Design: Out — Seal water: -8.29 mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, design case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o450" class="level3 unlisted">
+<h3 class="unlisted">O450</h3>
+<p><strong>Nominal: Out — Cooling tower blowdown and makeup: -0.198
+mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, nominal case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o451" class="level3 unlisted">
+<h3 class="unlisted">O451</h3>
+<p><strong>Design: Out — Cooling tower blowdown and makeup: -0.253
+mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, design case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o452" class="level3 unlisted">
+<h3 class="unlisted">O452</h3>
+<p><strong>Nominal: Out — Boiler blowdown and makeup: -0.725
+mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, nominal case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o453" class="level3 unlisted">
+<h3 class="unlisted">O453</h3>
+<p><strong>Design: Out — Boiler blowdown and makeup: -0.927
+mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, design case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o454" class="level3 unlisted">
+<h3 class="unlisted">O454</h3>
+<p><strong>Nominal: Out — Liquid process waste: -0.304
+mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, nominal case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o455" class="level3 unlisted">
+<h3 class="unlisted">O455</h3>
+<p><strong>Design: Out — Liquid process waste: -0.389
+mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, design case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o456" class="level3 unlisted">
+<h3 class="unlisted">O456</h3>
+<p><strong>Nominal: Out — Consumed: gypsum formation: -0.134
+mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, nominal case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o457" class="level3 unlisted">
+<h3 class="unlisted">O457</h3>
+<p><strong>Design: Out — Consumed: gypsum formation: -0.171
+mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, design case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o458" class="level3 unlisted">
+<h3 class="unlisted">O458</h3>
+<p><strong>Nominal: Out — Consumed: depleted-brine carbonate: -0.087
+mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, nominal case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o459" class="level3 unlisted">
+<h3 class="unlisted">O459</h3>
+<p><strong>Design: Out — Consumed: depleted-brine carbonate: -0.111
+mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, design case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o460" class="level3 unlisted">
+<h3 class="unlisted">O460</h3>
+<p><strong>Nominal: Out — Total: -1805.0 mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, nominal case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o461" class="level3 unlisted">
+<h3 class="unlisted">O461</h3>
+<p><strong>Design: Out — Total: -2306.3 mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, design case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o462" class="level3 unlisted">
+<h3 class="unlisted">O462</h3>
+<p><strong>Nominal: Net — Printed net: 0.000 mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, nominal case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o463" class="level3 unlisted">
+<h3 class="unlisted">O463</h3>
+<p><strong>Design: Net — Printed net: 0.000 mt/hr.</strong></p>
+<p>Basis: <strong>design estimate</strong>; scale: commercial Phase 1;
+boundary: facility water, design case. Date/basis: 2026-02
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=89">Table
+12, pp. 85–89</a> (PDF page 89).</p>
+<p>Table signs and printed totals retained. Printed rounded totals do
+not reproduce printed zero net; unredacted detailed balance unavailable.
+Nominal: 90% uptime without margin; Design: 100% uptime with 15% margin.
+These are water masses, not total brine solution mass.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+</section>
+<section id="groundwater-laboratory-chemistry" class="level2">
+<h2>Groundwater laboratory chemistry</h2>
+<section id="o464" class="level3 unlisted">
+<h3 class="unlisted">O464</h3>
+<p><strong>Aluminum (dissolved): &lt;0.14 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential
+supply aquifer test. Date/basis: 2025-04-11 08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811">Appendix
+E.2, ACZ L94016-01, lab p. 2 of 24</a> (PDF page 811).</p>
+<p>EPA 200.7; dilution 2; MDL 0.14 mg/L, PQL 0.5 mg/L; qualifier U. U:
+not detected above stated limit; B: estimated between MDL and PQL. 0.45
+µm lab filtration. Not lake brine, pilot delivered water, or
+demonstrated future production-well quality.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o465" class="level3 unlisted">
+<h3 class="unlisted">O465</h3>
+<p><strong>Arsenic (dissolved): 0.00133 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential
+supply aquifer test. Date/basis: 2025-04-11 08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811">Appendix
+E.2, ACZ L94016-01, lab p. 2 of 24</a> (PDF page 811).</p>
+<p>EPA 200.8; dilution 1; MDL 0.0002 mg/L, PQL 0.001 mg/L; qualifier —.
+U: not detected above stated limit; B: estimated between MDL and PQL.
+0.45 µm lab filtration. Not lake brine, pilot delivered water, or
+demonstrated future production-well quality.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o466" class="level3 unlisted">
+<h3 class="unlisted">O466</h3>
+<p><strong>Barium (dissolved): 0.0573 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential
+supply aquifer test. Date/basis: 2025-04-11 08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811">Appendix
+E.2, ACZ L94016-01, lab p. 2 of 24</a> (PDF page 811).</p>
+<p>EPA 200.7; dilution 1; MDL 0.009 mg/L, PQL 0.035 mg/L; qualifier —.
+U: not detected above stated limit; B: estimated between MDL and PQL.
+0.45 µm lab filtration. Not lake brine, pilot delivered water, or
+demonstrated future production-well quality.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o467" class="level3 unlisted">
+<h3 class="unlisted">O467</h3>
+<p><strong>Boron (dissolved): 0.295 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential
+supply aquifer test. Date/basis: 2025-04-11 08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811">Appendix
+E.2, ACZ L94016-01, lab p. 2 of 24</a> (PDF page 811).</p>
+<p>EPA 200.7; dilution 1; MDL 0.03 mg/L, PQL 0.1 mg/L; qualifier —. U:
+not detected above stated limit; B: estimated between MDL and PQL. 0.45
+µm lab filtration. Not lake brine, pilot delivered water, or
+demonstrated future production-well quality.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o468" class="level3 unlisted">
+<h3 class="unlisted">O468</h3>
+<p><strong>Cadmium (dissolved): &lt;0.00005 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential
+supply aquifer test. Date/basis: 2025-04-11 08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811">Appendix
+E.2, ACZ L94016-01, lab p. 2 of 24</a> (PDF page 811).</p>
+<p>EPA 200.8; dilution 1; MDL 0.00005 mg/L, PQL 0.00025 mg/L; qualifier
+U. U: not detected above stated limit; B: estimated between MDL and PQL.
+0.45 µm lab filtration. Not lake brine, pilot delivered water, or
+demonstrated future production-well quality.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o469" class="level3 unlisted">
+<h3 class="unlisted">O469</h3>
+<p><strong>Calcium (dissolved): 82.9 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential
+supply aquifer test. Date/basis: 2025-04-11 08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811">Appendix
+E.2, ACZ L94016-01, lab p. 2 of 24</a> (PDF page 811).</p>
+<p>EPA 200.7; dilution 1; MDL 0.1 mg/L, PQL 0.5 mg/L; qualifier —. U:
+not detected above stated limit; B: estimated between MDL and PQL. 0.45
+µm lab filtration. Not lake brine, pilot delivered water, or
+demonstrated future production-well quality.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o470" class="level3 unlisted">
+<h3 class="unlisted">O470</h3>
+<p><strong>Chromium (dissolved): 0.00108 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential
+supply aquifer test. Date/basis: 2025-04-11 08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811">Appendix
+E.2, ACZ L94016-01, lab p. 2 of 24</a> (PDF page 811).</p>
+<p>EPA 200.8; dilution 1; MDL 0.0005 mg/L, PQL 0.002 mg/L; qualifier B.
+U: not detected above stated limit; B: estimated between MDL and PQL.
+0.45 µm lab filtration. Not lake brine, pilot delivered water, or
+demonstrated future production-well quality.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o471" class="level3 unlisted">
+<h3 class="unlisted">O471</h3>
+<p><strong>Copper (dissolved): 0.00812 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential
+supply aquifer test. Date/basis: 2025-04-11 08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811">Appendix
+E.2, ACZ L94016-01, lab p. 2 of 24</a> (PDF page 811).</p>
+<p>EPA 200.8; dilution 2; MDL 0.0016 mg/L, PQL 0.004 mg/L; qualifier —.
+U: not detected above stated limit; B: estimated between MDL and PQL.
+0.45 µm lab filtration. Not lake brine, pilot delivered water, or
+demonstrated future production-well quality.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o472" class="level3 unlisted">
+<h3 class="unlisted">O472</h3>
+<p><strong>Iron (dissolved): &lt;0.06 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential
+supply aquifer test. Date/basis: 2025-04-11 08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811">Appendix
+E.2, ACZ L94016-01, lab p. 2 of 24</a> (PDF page 811).</p>
+<p>EPA 200.7; dilution 1; MDL 0.06 mg/L, PQL 0.15 mg/L; qualifier U. U:
+not detected above stated limit; B: estimated between MDL and PQL. 0.45
+µm lab filtration. Not lake brine, pilot delivered water, or
+demonstrated future production-well quality.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o473" class="level3 unlisted">
+<h3 class="unlisted">O473</h3>
+<p><strong>Lead (dissolved): &lt;0.0001 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential
+supply aquifer test. Date/basis: 2025-04-11 08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811">Appendix
+E.2, ACZ L94016-01, lab p. 2 of 24</a> (PDF page 811).</p>
+<p>EPA 200.8; dilution 1; MDL 0.0001 mg/L, PQL 0.0005 mg/L; qualifier U.
+U: not detected above stated limit; B: estimated between MDL and PQL.
+0.45 µm lab filtration. Not lake brine, pilot delivered water, or
+demonstrated future production-well quality.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o474" class="level3 unlisted">
+<h3 class="unlisted">O474</h3>
+<p><strong>Magnesium (dissolved): 35.2 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential
+supply aquifer test. Date/basis: 2025-04-11 08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811">Appendix
+E.2, ACZ L94016-01, lab p. 2 of 24</a> (PDF page 811).</p>
+<p>EPA 200.7; dilution 1; MDL 0.2 mg/L, PQL 1 mg/L; qualifier —. U: not
+detected above stated limit; B: estimated between MDL and PQL. 0.45 µm
+lab filtration. Not lake brine, pilot delivered water, or demonstrated
+future production-well quality.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o475" class="level3 unlisted">
+<h3 class="unlisted">O475</h3>
+<p><strong>Manganese (dissolved): 0.065 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential
+supply aquifer test. Date/basis: 2025-04-11 08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811">Appendix
+E.2, ACZ L94016-01, lab p. 2 of 24</a> (PDF page 811).</p>
+<p>EPA 200.7; dilution 1; MDL 0.01 mg/L, PQL 0.05 mg/L; qualifier —. U:
+not detected above stated limit; B: estimated between MDL and PQL. 0.45
+µm lab filtration. Not lake brine, pilot delivered water, or
+demonstrated future production-well quality.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o476" class="level3 unlisted">
+<h3 class="unlisted">O476</h3>
+<p><strong>Mercury (dissolved): &lt;0.0002 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential
+supply aquifer test. Date/basis: 2025-04-11 08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811">Appendix
+E.2, ACZ L94016-01, lab p. 2 of 24</a> (PDF page 811).</p>
+<p>EPA 245.1; dilution 1; MDL 0.0002 mg/L, PQL 0.001 mg/L; qualifier U.
+U: not detected above stated limit; B: estimated between MDL and PQL.
+0.45 µm lab filtration. Not lake brine, pilot delivered water, or
+demonstrated future production-well quality.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o477" class="level3 unlisted">
+<h3 class="unlisted">O477</h3>
+<p><strong>Molybdenum (dissolved): 0.00240 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential
+supply aquifer test. Date/basis: 2025-04-11 08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811">Appendix
+E.2, ACZ L94016-01, lab p. 2 of 24</a> (PDF page 811).</p>
+<p>EPA 200.8; dilution 1; MDL 0.0002 mg/L, PQL 0.0005 mg/L; qualifier —.
+U: not detected above stated limit; B: estimated between MDL and PQL.
+0.45 µm lab filtration. Not lake brine, pilot delivered water, or
+demonstrated future production-well quality.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o478" class="level3 unlisted">
+<h3 class="unlisted">O478</h3>
+<p><strong>Nickel (dissolved): &lt;0.008 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential
+supply aquifer test. Date/basis: 2025-04-11 08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811">Appendix
+E.2, ACZ L94016-01, lab p. 2 of 24</a> (PDF page 811).</p>
+<p>EPA 200.7; dilution 1; MDL 0.008 mg/L, PQL 0.04 mg/L; qualifier U. U:
+not detected above stated limit; B: estimated between MDL and PQL. 0.45
+µm lab filtration. Not lake brine, pilot delivered water, or
+demonstrated future production-well quality.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o479" class="level3 unlisted">
+<h3 class="unlisted">O479</h3>
+<p><strong>Potassium (dissolved): 27.6 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential
+supply aquifer test. Date/basis: 2025-04-11 08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811">Appendix
+E.2, ACZ L94016-01, lab p. 2 of 24</a> (PDF page 811).</p>
+<p>EPA 200.7; dilution 1; MDL 0.5 mg/L, PQL 1 mg/L; qualifier —. U: not
+detected above stated limit; B: estimated between MDL and PQL. 0.45 µm
+lab filtration. Not lake brine, pilot delivered water, or demonstrated
+future production-well quality.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o480" class="level3 unlisted">
+<h3 class="unlisted">O480</h3>
+<p><strong>Selenium (dissolved): 0.00244 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential
+supply aquifer test. Date/basis: 2025-04-11 08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811">Appendix
+E.2, ACZ L94016-01, lab p. 2 of 24</a> (PDF page 811).</p>
+<p>EPA 200.8; dilution 1; MDL 0.0001 mg/L, PQL 0.00025 mg/L; qualifier
+—. U: not detected above stated limit; B: estimated between MDL and PQL.
+0.45 µm lab filtration. Not lake brine, pilot delivered water, or
+demonstrated future production-well quality.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o481" class="level3 unlisted">
+<h3 class="unlisted">O481</h3>
+<p><strong>Silver (dissolved): &lt;0.0001 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential
+supply aquifer test. Date/basis: 2025-04-11 08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811">Appendix
+E.2, ACZ L94016-01, lab p. 2 of 24</a> (PDF page 811).</p>
+<p>EPA 200.8; dilution 1; MDL 0.0001 mg/L, PQL 0.0005 mg/L; qualifier U.
+U: not detected above stated limit; B: estimated between MDL and PQL.
+0.45 µm lab filtration. Not lake brine, pilot delivered water, or
+demonstrated future production-well quality.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o482" class="level3 unlisted">
+<h3 class="unlisted">O482</h3>
+<p><strong>Sodium (dissolved): 884 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential
+supply aquifer test. Date/basis: 2025-04-11 08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811">Appendix
+E.2, ACZ L94016-01, lab p. 2 of 24</a> (PDF page 811).</p>
+<p>EPA 200.7; dilution 1; MDL 0.2 mg/L, PQL 1 mg/L; qualifier —. U: not
+detected above stated limit; B: estimated between MDL and PQL. 0.45 µm
+lab filtration. Not lake brine, pilot delivered water, or demonstrated
+future production-well quality.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o483" class="level3 unlisted">
+<h3 class="unlisted">O483</h3>
+<p><strong>Uranium (dissolved): 0.00274 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential
+supply aquifer test. Date/basis: 2025-04-11 08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811">Appendix
+E.2, ACZ L94016-01, lab p. 2 of 24</a> (PDF page 811).</p>
+<p>EPA 200.8; dilution 1; MDL 0.0001 mg/L, PQL 0.0005 mg/L; qualifier —.
+U: not detected above stated limit; B: estimated between MDL and PQL.
+0.45 µm lab filtration. Not lake brine, pilot delivered water, or
+demonstrated future production-well quality.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o484" class="level3 unlisted">
+<h3 class="unlisted">O484</h3>
+<p><strong>Zinc (dissolved): 0.119 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: Mango Spiral Jetty well 13-4110; potential
+supply aquifer test. Date/basis: 2025-04-11 08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=811">Appendix
+E.2, ACZ L94016-01, lab p. 2 of 24</a> (PDF page 811).</p>
+<p>EPA 200.7; dilution 1; MDL 0.02 mg/L, PQL 0.05 mg/L; qualifier —. U:
+not detected above stated limit; B: estimated between MDL and PQL. 0.45
+µm lab filtration. Not lake brine, pilot delivered water, or
+demonstrated future production-well quality.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o485" class="level3 unlisted">
+<h3 class="unlisted">O485</h3>
+<p><strong>Bicarbonate as CaCO3: 174 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result or calculation</strong>;
+scale: single groundwater sample; boundary: Mango Spiral Jetty well
+13-4110; potential supply aquifer test. Date/basis: 2025-04-11
+08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812">Appendix
+E.2, ACZ L94016-01, lab p. 3 of 24</a> (PDF page 812).</p>
+<p>SM 2320 B-2011; MDL 2, PQL 20 mg/L; qualifier —. Qualifiers on
+pp. 813/820: U not detected; B estimated between MDL and PQL; RA
+replicate difference not used below 10×MDL; ZU sample partly
+filtered/analyzed before filter workgroup creation; M3 spike recovery
+unusable because of sample/spike disproportion, control sample
+acceptable.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o486" class="level3 unlisted">
+<h3 class="unlisted">O486</h3>
+<p><strong>Carbonate as CaCO3: 7.1 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result or calculation</strong>;
+scale: single groundwater sample; boundary: Mango Spiral Jetty well
+13-4110; potential supply aquifer test. Date/basis: 2025-04-11
+08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812">Appendix
+E.2, ACZ L94016-01, lab p. 3 of 24</a> (PDF page 812).</p>
+<p>SM 2320 B-2011; MDL 2, PQL 20 mg/L; qualifier B. Qualifiers on
+pp. 813/820: U not detected; B estimated between MDL and PQL; RA
+replicate difference not used below 10×MDL; ZU sample partly
+filtered/analyzed before filter workgroup creation; M3 spike recovery
+unusable because of sample/spike disproportion, control sample
+acceptable.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o487" class="level3 unlisted">
+<h3 class="unlisted">O487</h3>
+<p><strong>Hydroxide as CaCO3: &lt;2 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result or calculation</strong>;
+scale: single groundwater sample; boundary: Mango Spiral Jetty well
+13-4110; potential supply aquifer test. Date/basis: 2025-04-11
+08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812">Appendix
+E.2, ACZ L94016-01, lab p. 3 of 24</a> (PDF page 812).</p>
+<p>SM 2320 B-2011; MDL 2, PQL 20 mg/L; qualifier U. Qualifiers on
+pp. 813/820: U not detected; B estimated between MDL and PQL; RA
+replicate difference not used below 10×MDL; ZU sample partly
+filtered/analyzed before filter workgroup creation; M3 spike recovery
+unusable because of sample/spike disproportion, control sample
+acceptable.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o488" class="level3 unlisted">
+<h3 class="unlisted">O488</h3>
+<p><strong>Total alkalinity as CaCO3: 181 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result or calculation</strong>;
+scale: single groundwater sample; boundary: Mango Spiral Jetty well
+13-4110; potential supply aquifer test. Date/basis: 2025-04-11
+08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812">Appendix
+E.2, ACZ L94016-01, lab p. 3 of 24</a> (PDF page 812).</p>
+<p>SM 2320 B-2011; MDL 2, PQL 20 mg/L; qualifier —. Qualifiers on
+pp. 813/820: U not detected; B estimated between MDL and PQL; RA
+replicate difference not used below 10×MDL; ZU sample partly
+filtered/analyzed before filter workgroup creation; M3 spike recovery
+unusable because of sample/spike disproportion, control sample
+acceptable.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o489" class="level3 unlisted">
+<h3 class="unlisted">O489</h3>
+<p><strong>Chloride: 1700 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result or calculation</strong>;
+scale: single groundwater sample; boundary: Mango Spiral Jetty well
+13-4110; potential supply aquifer test. Date/basis: 2025-04-11
+08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812">Appendix
+E.2, ACZ L94016-01, lab p. 3 of 24</a> (PDF page 812).</p>
+<p>SM 4500-Cl E-2011; MDL 100, PQL 200 mg/L; qualifier —. Qualifiers on
+pp. 813/820: U not detected; B estimated between MDL and PQL; RA
+replicate difference not used below 10×MDL; ZU sample partly
+filtered/analyzed before filter workgroup creation; M3 spike recovery
+unusable because of sample/spike disproportion, control sample
+acceptable.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o490" class="level3 unlisted">
+<h3 class="unlisted">O490</h3>
+<p><strong>Fluoride: 0.70 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result or calculation</strong>;
+scale: single groundwater sample; boundary: Mango Spiral Jetty well
+13-4110; potential supply aquifer test. Date/basis: 2025-04-11
+08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812">Appendix
+E.2, ACZ L94016-01, lab p. 3 of 24</a> (PDF page 812).</p>
+<p>SM 4500-F C-2011; MDL 0.15, PQL 0.35 mg/L; qualifier —. Qualifiers on
+pp. 813/820: U not detected; B estimated between MDL and PQL; RA
+replicate difference not used below 10×MDL; ZU sample partly
+filtered/analyzed before filter workgroup creation; M3 spike recovery
+unusable because of sample/spike disproportion, control sample
+acceptable.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o491" class="level3 unlisted">
+<h3 class="unlisted">O491</h3>
+<p><strong>Dissolved hardness as CaCO3: 352 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result or calculation</strong>;
+scale: single groundwater sample; boundary: Mango Spiral Jetty well
+13-4110; potential supply aquifer test. Date/basis: 2025-04-11
+08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812">Appendix
+E.2, ACZ L94016-01, lab p. 3 of 24</a> (PDF page 812).</p>
+<p>Calculated, SM 2340 B-2011; MDL 0.2, PQL 5 mg/L; qualifier —.
+Qualifiers on pp. 813/820: U not detected; B estimated between MDL and
+PQL; RA replicate difference not used below 10×MDL; ZU sample partly
+filtered/analyzed before filter workgroup creation; M3 spike recovery
+unusable because of sample/spike disproportion, control sample
+acceptable.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o492" class="level3 unlisted">
+<h3 class="unlisted">O492</h3>
+<p><strong>Nitrate as N: 1.31 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result or calculation</strong>;
+scale: single groundwater sample; boundary: Mango Spiral Jetty well
+13-4110; potential supply aquifer test. Date/basis: 2025-04-11
+08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812">Appendix
+E.2, ACZ L94016-01, lab p. 3 of 24</a> (PDF page 812).</p>
+<p>Calculated NO3NO2 minus NO2; MDL 0.02, PQL 0.1 mg/L; qualifier —.
+Qualifiers on pp. 813/820: U not detected; B estimated between MDL and
+PQL; RA replicate difference not used below 10×MDL; ZU sample partly
+filtered/analyzed before filter workgroup creation; M3 spike recovery
+unusable because of sample/spike disproportion, control sample
+acceptable.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o493" class="level3 unlisted">
+<h3 class="unlisted">O493</h3>
+<p><strong>Nitrate/nitrite as N: 1.31 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result or calculation</strong>;
+scale: single groundwater sample; boundary: Mango Spiral Jetty well
+13-4110; potential supply aquifer test. Date/basis: 2025-04-11
+08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812">Appendix
+E.2, ACZ L94016-01, lab p. 3 of 24</a> (PDF page 812).</p>
+<p>EPA 353.2; MDL 0.02, PQL 0.1 mg/L; qualifier RA; ZU. Qualifiers on
+pp. 813/820: U not detected; B estimated between MDL and PQL; RA
+replicate difference not used below 10×MDL; ZU sample partly
+filtered/analyzed before filter workgroup creation; M3 spike recovery
+unusable because of sample/spike disproportion, control sample
+acceptable.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o494" class="level3 unlisted">
+<h3 class="unlisted">O494</h3>
+<p><strong>Nitrite as N: &lt;0.01 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result or calculation</strong>;
+scale: single groundwater sample; boundary: Mango Spiral Jetty well
+13-4110; potential supply aquifer test. Date/basis: 2025-04-11
+08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812">Appendix
+E.2, ACZ L94016-01, lab p. 3 of 24</a> (PDF page 812).</p>
+<p>EPA 353.2; MDL 0.01, PQL 0.05 mg/L; qualifier U; RA; ZU. Qualifiers
+on pp. 813/820: U not detected; B estimated between MDL and PQL; RA
+replicate difference not used below 10×MDL; ZU sample partly
+filtered/analyzed before filter workgroup creation; M3 spike recovery
+unusable because of sample/spike disproportion, control sample
+acceptable.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o495" class="level3 unlisted">
+<h3 class="unlisted">O495</h3>
+<p><strong>Ammonia nitrogen: &lt;0.1 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result or calculation</strong>;
+scale: single groundwater sample; boundary: Mango Spiral Jetty well
+13-4110; potential supply aquifer test. Date/basis: 2025-04-11
+08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812">Appendix
+E.2, ACZ L94016-01, lab p. 3 of 24</a> (PDF page 812).</p>
+<p>EPA 350.1; MDL 0.1, PQL 0.2 mg/L; qualifier U; RA. Qualifiers on
+pp. 813/820: U not detected; B estimated between MDL and PQL; RA
+replicate difference not used below 10×MDL; ZU sample partly
+filtered/analyzed before filter workgroup creation; M3 spike recovery
+unusable because of sample/spike disproportion, control sample
+acceptable.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o496" class="level3 unlisted">
+<h3 class="unlisted">O496</h3>
+<p><strong>Filterable residue (TDS), 180°C: 2890 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result or calculation</strong>;
+scale: single groundwater sample; boundary: Mango Spiral Jetty well
+13-4110; potential supply aquifer test. Date/basis: 2025-04-11
+08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812">Appendix
+E.2, ACZ L94016-01, lab p. 3 of 24</a> (PDF page 812).</p>
+<p>SM 2540 C-2011; MDL 20, PQL 40 mg/L; qualifier —. Qualifiers on
+pp. 813/820: U not detected; B estimated between MDL and PQL; RA
+replicate difference not used below 10×MDL; ZU sample partly
+filtered/analyzed before filter workgroup creation; M3 spike recovery
+unusable because of sample/spike disproportion, control sample
+acceptable.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o497" class="level3 unlisted">
+<h3 class="unlisted">O497</h3>
+<p><strong>Sulfate: 105 mg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result or calculation</strong>;
+scale: single groundwater sample; boundary: Mango Spiral Jetty well
+13-4110; potential supply aquifer test. Date/basis: 2025-04-11
+08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812">Appendix
+E.2, ACZ L94016-01, lab p. 3 of 24</a> (PDF page 812).</p>
+<p>ASTM D516-07/-11/-16; MDL 5, PQL 25 mg/L; qualifier M3. Qualifiers on
+pp. 813/820: U not detected; B estimated between MDL and PQL; RA
+replicate difference not used below 10×MDL; ZU sample partly
+filtered/analyzed before filter workgroup creation; M3 spike recovery
+unusable because of sample/spike disproportion, control sample
+acceptable.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o498" class="level3 unlisted">
+<h3 class="unlisted">O498</h3>
+<p><strong>Cation–anion balance: -6.9 %.</strong></p>
+<p>Basis: <strong>reported laboratory result or calculation</strong>;
+scale: single groundwater sample; boundary: well 13-4110. Date/basis:
+2025-04-11 sample; lab analyses April 2025.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812">Appendix
+E.2, ACZ L94016-01, lab p. 3 of 24</a> (PDF page 812).</p>
+<p>Calculated, source sign retained.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o499" class="level3 unlisted">
+<h3 class="unlisted">O499</h3>
+<p><strong>Sum of anions: 54 meq/L.</strong></p>
+<p>Basis: <strong>reported laboratory result or calculation</strong>;
+scale: single groundwater sample; boundary: well 13-4110. Date/basis:
+2025-04-11 sample; lab analyses April 2025.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812">Appendix
+E.2, ACZ L94016-01, lab p. 3 of 24</a> (PDF page 812).</p>
+<p>Calculated.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o500" class="level3 unlisted">
+<h3 class="unlisted">O500</h3>
+<p><strong>Sum of cations: 47 meq/L.</strong></p>
+<p>Basis: <strong>reported laboratory result or calculation</strong>;
+scale: single groundwater sample; boundary: well 13-4110. Date/basis:
+2025-04-11 sample; lab analyses April 2025.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812">Appendix
+E.2, ACZ L94016-01, lab p. 3 of 24</a> (PDF page 812).</p>
+<p>Calculated.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o501" class="level3 unlisted">
+<h3 class="unlisted">O501</h3>
+<p><strong>Laboratory pH: 8.2 pH units.</strong></p>
+<p>Basis: <strong>reported laboratory result or calculation</strong>;
+scale: single groundwater sample; boundary: well 13-4110. Date/basis:
+2025-04-11 sample; lab analyses April 2025.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812">Appendix
+E.2, ACZ L94016-01, lab p. 3 of 24</a> (PDF page 812).</p>
+<p>H: method hold time exceeded; pH is an immediate field test. This is
+not field pH.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o502" class="level3 unlisted">
+<h3 class="unlisted">O502</h3>
+<p><strong>Temperature at laboratory pH measurement: 21.6
+°C.</strong></p>
+<p>Basis: <strong>reported laboratory result or calculation</strong>;
+scale: single groundwater sample; boundary: well 13-4110. Date/basis:
+2025-04-11 sample; lab analyses April 2025.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812">Appendix
+E.2, ACZ L94016-01, lab p. 3 of 24</a> (PDF page 812).</p>
+<p>Not reservoir or field temperature.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o503" class="level3 unlisted">
+<h3 class="unlisted">O503</h3>
+<p><strong>Sodium adsorption ratio: 21 dimensionless.</strong></p>
+<p>Basis: <strong>reported laboratory result or calculation</strong>;
+scale: single groundwater sample; boundary: well 13-4110. Date/basis:
+2025-04-11 sample; lab analyses April 2025.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=812">Appendix
+E.2, ACZ L94016-01, lab p. 3 of 24</a> (PDF page 812).</p>
+<p>USGS I1738-78.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o504" class="level3 unlisted">
+<h3 class="unlisted">O504</h3>
+<p><strong>Benzene: &lt;1 µg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: well 13-4110. Date/basis: 2025-04-11
+08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=821">Appendix
+E.2, ACZ L94016-01, lab p. 12 of 24</a> (PDF page 821).</p>
+<p>EPA 8021B, extraction 5030C, analysis April 22. MDL 1, PQL 5 µg/L. U
+not detected. Extended qualifier Q9 on p. 825: insufficient sample for
+method QC requirements. Separate trip blank L94016-02 is not another
+groundwater sample.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o505" class="level3 unlisted">
+<h3 class="unlisted">O505</h3>
+<p><strong>Ethylbenzene: &lt;1 µg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: well 13-4110. Date/basis: 2025-04-11
+08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=821">Appendix
+E.2, ACZ L94016-01, lab p. 12 of 24</a> (PDF page 821).</p>
+<p>EPA 8021B, extraction 5030C, analysis April 22. MDL 1, PQL 5 µg/L. U
+not detected. Extended qualifier Q9 on p. 825: insufficient sample for
+method QC requirements. Separate trip blank L94016-02 is not another
+groundwater sample.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o506" class="level3 unlisted">
+<h3 class="unlisted">O506</h3>
+<p><strong>m,p-Xylene: &lt;2 µg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: well 13-4110. Date/basis: 2025-04-11
+08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=821">Appendix
+E.2, ACZ L94016-01, lab p. 12 of 24</a> (PDF page 821).</p>
+<p>EPA 8021B, extraction 5030C, analysis April 22. MDL 2, PQL 10 µg/L. U
+not detected. Extended qualifier Q9 on p. 825: insufficient sample for
+method QC requirements. Separate trip blank L94016-02 is not another
+groundwater sample.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o507" class="level3 unlisted">
+<h3 class="unlisted">O507</h3>
+<p><strong>o-Xylene: &lt;1 µg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: well 13-4110. Date/basis: 2025-04-11
+08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=821">Appendix
+E.2, ACZ L94016-01, lab p. 12 of 24</a> (PDF page 821).</p>
+<p>EPA 8021B, extraction 5030C, analysis April 22. MDL 1, PQL 5 µg/L. U
+not detected. Extended qualifier Q9 on p. 825: insufficient sample for
+method QC requirements. Separate trip blank L94016-02 is not another
+groundwater sample.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o508" class="level3 unlisted">
+<h3 class="unlisted">O508</h3>
+<p><strong>Toluene: &lt;1 µg/L.</strong></p>
+<p>Basis: <strong>reported laboratory result</strong>; scale: single
+groundwater sample; boundary: well 13-4110. Date/basis: 2025-04-11
+08:45.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=821">Appendix
+E.2, ACZ L94016-01, lab p. 12 of 24</a> (PDF page 821).</p>
+<p>EPA 8021B, extraction 5030C, analysis April 22. MDL 1, PQL 5 µg/L. U
+not detected. Extended qualifier Q9 on p. 825: insufficient sample for
+method QC requirements. Separate trip blank L94016-02 is not another
+groundwater sample.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o509" class="level3 unlisted">
+<h3 class="unlisted">O509</h3>
+<p><strong>Gross alpha: 18 pCi/L.</strong></p>
+<p>Basis: <strong>reported radiochemistry result below LLD</strong>;
+scale: single groundwater sample; boundary: well 13-4110; total gross
+alpha/beta. Date/basis: 2025-04-11 sample; 2025-04-21 measurement.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=826">Appendix
+E.2, ACZ L94016-01, lab p. 17 of 24</a> (PDF page 826).</p>
+<p>EPA 900.0; error ±20 pCi/L, LLD 51 pCi/L. Do not treat the printed
+estimate as a quantified detection. Gross alpha carries RG: replicate
+error ratio &lt;2, precision judged in control; see p. 829.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o510" class="level3 unlisted">
+<h3 class="unlisted">O510</h3>
+<p><strong>Gross beta: 21 pCi/L.</strong></p>
+<p>Basis: <strong>reported radiochemistry result below LLD</strong>;
+scale: single groundwater sample; boundary: well 13-4110; total gross
+alpha/beta. Date/basis: 2025-04-11 sample; 2025-04-21 measurement.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=826">Appendix
+E.2, ACZ L94016-01, lab p. 17 of 24</a> (PDF page 826).</p>
+<p>EPA 900.0; error ±15 pCi/L, LLD 40 pCi/L. Do not treat the printed
+estimate as a quantified detection. Gross alpha carries RG: replicate
+error ratio &lt;2, precision judged in control; see p. 829.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+</section>
+<section id="disclosure-limits" class="level2">
+<h2>Disclosure limits</h2>
+<section id="o511" class="level3 unlisted">
+<h3 class="unlisted">O511</h3>
+<p><strong>Groundwater analysis scope: Full listed environmental-sample
+results transcribed; lithium not listed.</strong></p>
+<p>Basis: <strong>source coverage finding</strong>; scale: groundwater
+investigation; boundary: well 13-4110, about five miles from proposed
+new supply well. Date/basis: 2025-05-05 memorandum.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=775">Appendix
+E.2; pp. 777, 811–829</a> (PDF page 775).</p>
+<p>Source includes lab methods and QC. This aquifer test does not
+establish final commercial supply composition or an exhaustive analysis
+of every dissolved species.</p>
+<p>Review: AI source-text check; <strong>human review
+pending</strong>.</p>
+</section>
+</section>
+<section id="pretreatment-and-process-boundaries-5" class="level2">
+<h2>Pretreatment and process boundaries</h2>
+<section id="o577" class="level3 unlisted">
+<h3 class="unlisted">O577</h3>
+<p><strong>Selected incoming-brine treatment: Intake screens/debris
+guards, surge storage, raw-brine multimedia filtration.</strong></p>
+<p>Basis: <strong>design description</strong>; scale: proposed
+commercial plant; boundary: before DLE. Date/basis: 2026-02.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=44">§3.3.3;
+intake screens §3.2 PDF p. 37</a> (PDF page 44).</p>
+<p>Removes suspended sediment, precipitated salts and native
+particulates. Raw-MMF backwash uses filtered brine and is routed via
+depleted-brine system for lake return (§3.2/§3.3.3). Separate
+depleted-brine solids treatment may produce off-site waste; no claim
+that all plant wastes return to lake.</p>
+<p>Review: AI source-text check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o578" class="level3 unlisted">
+<h3 class="unlisted">O578</h3>
+<p><strong>Filtration options evaluated and selected: Precoat, polymeric
+UF, ceramic UF and multimedia filtration tested; multimedia
+preferred.</strong></p>
+<p>Basis: <strong>reported pilot evaluation and design
+selection</strong>; scale: GSL pilot plus Oakland cold-brine tests;
+boundary: before DLE. Date/basis: 2025 tests reported in February 2026
+application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=106">§4.3.4.2,
+Brine Pretreatment</a> (PDF page 106).</p>
+<p>Applicant reports winter high-viscosity brine reduced UF flux,
+raising membrane area/pressure and costs. Multimedia operated at lower
+pressure with acceptable filtrate after downstream DLE adjustments.
+Commercial cost advantage is not independently quantified here. GSL
+performance period excluded coldest months.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o579" class="level3 unlisted">
+<h3 class="unlisted">O579</h3>
+<p><strong>Multimedia cold-brine test flux: 12000 L/m²/h.</strong></p>
+<p>Basis: <strong>reported test condition</strong>; scale: Oakland
+pilot-scale filtration column; boundary: before DLE. Date/basis: tests
+reported in February 2026 application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=106">§4.3.4.2,
+pp. 106–107, Figure 24</a> (PDF page 106).</p>
+<p>Ambient/cold feeds 13°C and 1.5°C; pressure tracked over 12 h.
+Matches stated commercial design flux; not long-term full-scale
+operating validation.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o580" class="level3 unlisted">
+<h3 class="unlisted">O580</h3>
+<p><strong>Reported filter pressure relative to design ceiling: &lt;5
+psi differential.</strong></p>
+<p>Basis: <strong>reported test result versus design ceiling</strong>;
+scale: Oakland pilot-scale filtration column; boundary: before DLE.
+Date/basis: tests reported in February 2026 application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=107">§4.3.4.2,
+Figure 24</a> (PDF page 107).</p>
+<p>12 h at 12,000 L/m²/h using 13°C and 1.5°C brine; source curves
+remain below the stated 5 psi maximum. Do not report 5 psi as the
+measured operating differential.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o581" class="level3 unlisted">
+<h3 class="unlisted">O581</h3>
+<p><strong>Particle-size result in tested filtrates: No particles above
+4 µm.</strong></p>
+<p>Basis: <strong>reported sample result</strong>; scale: Oakland
+ambient/cold filtration tests; boundary: before DLE. Date/basis: tests
+reported in February 2026 application.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=107">§4.3.4.2,
+paragraph introducing Figure 25</a> (PDF page 107).</p>
+<p>Source describes raw particles at 0.1–13 µm and no particles above 4
+µm in the tested filtrates. Not a TSS concentration, membrane pore size,
+zero-solids claim, or universal capture guarantee.</p>
+<p>Review: AI text and rendered-page check; <strong>human review
+pending</strong>.</p>
+</section>
+<section id="o582" class="level3 unlisted">
+<h3 class="unlisted">O582</h3>
+<p><strong>Separate post-DLE treatment circuits: Eluate Ca/Mg
+purification; depleted-brine pH correction and Mn
+oxidation/filtration.</strong></p>
+<p>Basis: <strong>design description</strong>; scale: proposed
+commercial plant; boundary: after DLE, on different streams. Date/basis:
+2026-02.</p>
+<p>Source: <a href="#d113">D113</a>, <a href="https://ffsl.utah.gov/wp-content/uploads/Waterleaf_GSL_P1_Operations-Application_Redacted.pdf#page=57">§3.7.1;
+eluate treatment §3.2 PDF p. 37</a> (PDF page 57).</p>
+<p>Eluate: limestone/hydrated-lime neutralization and subsequent
+purification. Depleted brine: NaOH as needed, NaOCl for manganese
+precipitation and sodium sulfite for residual oxidant. These chemicals
+are not assigned to raw-brine pretreatment.</p>
+<p>Review: AI source-text check; <strong>human review
+pending</strong>.</p>
+</section>
+</section>
+</section>
+</main><footer class="site-footer"><span>MIT Device Research Lab · Public-source research</span><nav aria-label="Reading and downloads"><a href="full-report.html">Search all text / print</a> · <a href="methods.html">Methods</a> · <a href="report.md" download>Markdown</a> · <a href="report-site.zip" download>Download HTML bundle</a></nav></footer></body>
+</html>

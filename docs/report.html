@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>DLE filings: 18 US project profiles</title>
+  <title>US DLE project evidence</title>
   <style>
 
 html {
@@ -168,1034 +168,142 @@ vertical-align: middle;
 .display.math{display: block; text-align: center; margin: 0.5rem auto;}
 </style>
   <style>
-:root { color-scheme: light; --ink:#243339; --muted:#5a6d73; --accent:#15675f; --line:#dce5e3; --paper:#fff; }
+:root { color-scheme:light; --ink:#243936; --muted:#526861; --accent:#15675f; --line:#d7e2de; --paper:#fff; --soft:#edf4f1; --canvas:#f6f9f7; }
 * { box-sizing:border-box; }
-html { scroll-behavior:smooth; scroll-padding-top:1.5rem; }
-body { margin:0; padding:3.5rem 4vw 5rem 20rem; max-width:1500px; font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color:var(--ink); background:var(--paper); }
-header { border-top:5px solid var(--accent); padding-top:1.8rem; margin-bottom:3rem; text-align:left; }
-.lab-logo { display:block; width:15rem; max-width:100%; height:auto; margin:0 0 1.5rem; }
-h1,h2,h3,h4 { line-height:1.2; letter-spacing:-.025em; color:#173e3a; }
-h1.title { font-size:clamp(2rem,3.5vw,3.3rem); max-width:850px; margin:.3rem 0; }
-p.subtitle { font-size:1.25rem; color:var(--muted); margin:.6rem 0; }
-p.date { font-size:.9rem; color:var(--muted); }
-h1:not(.title) { margin-top:3.5rem; border-top:1px solid var(--line); padding-top:1.8rem; font-size:1.85rem; }
-h2 { font-size:1.35rem; margin-top:2.3rem; }
-h3 { font-size:1.07rem; margin-top:1.8rem; }
-p,li { max-width:95ch; }
-a { color:var(--accent); text-decoration-thickness:1px; text-underline-offset:3px; overflow-wrap:anywhere; }
-a:hover { color:#093b36; }
-a:focus-visible { outline:3px solid #b57914; outline-offset:3px; }
-nav#TOC { position:fixed; inset:0 auto 0 0; width:17rem; overflow-y:auto; padding:2.5rem 1.6rem; background:#f4f8f7; border-right:1px solid var(--line); font-size:.87rem; }
-nav#TOC::before { content:"DLE / FILINGS PILOT"; display:block; margin-bottom:1.5rem; color:var(--accent); font-weight:750; letter-spacing:.12em; font-size:.72rem; }
-#TOC ul { list-style:none; padding:0; margin:.4rem 0; }
-#TOC li { margin:.55rem 0; }
-#TOC ul ul { padding-left:.9rem; font-size:.82rem; }
+html { scroll-padding-top:1.5rem; }
+body { margin:0; padding:0; max-width:none; hyphens:none; color:var(--ink); background:var(--paper); font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+a { color:var(--accent); text-underline-offset:3px; overflow-wrap:anywhere; }
+a:hover { color:#0a403a; }
+a:focus-visible, summary:focus-visible, [tabindex]:focus-visible { outline:3px solid #b57914; outline-offset:3px; }
+.skip-link { position:absolute; top:-100px; left:1rem; padding:.7rem 1rem; background:var(--paper); z-index:20; }
+.skip-link:focus { top:.5rem; }
+.site-header { max-width:1264px; margin:auto; padding:1.15rem 2rem; display:flex; align-items:center; justify-content:space-between; gap:1.5rem; border-bottom:1px solid var(--line); }
+.brand { display:flex; align-items:center; gap:1.2rem; color:var(--ink); font-size:1.1rem; font-weight:700; line-height:1.2; text-decoration:none; overflow-wrap:normal; }
+.lab-logo { width:132px; height:auto; display:block; }
+.global-nav, .view-nav, .section-nav { display:flex; align-items:center; flex-wrap:wrap; gap:.4rem; }
+.global-nav a, .view-nav a, .section-nav a { padding:.5rem .8rem; border-radius:4px; color:var(--muted); text-decoration:none; white-space:nowrap; }
+.global-nav a[aria-current], .view-nav a[aria-current], .section-nav a[aria-current] { background:var(--soft); color:var(--accent); font-weight:650; }
+.global-nav a:hover, .view-nav a:hover, .section-nav a:hover { background:var(--soft); }
+.review-status, .project-context, .view-nav, .section-nav { max-width:1200px; margin:.8rem auto 0; padding:0 2rem; }
+.review-status { font-size:.78rem; color:var(--muted); }
+.project-context { font-size:.82rem; margin-top:1.7rem; color:var(--muted); }
+.view-nav { border-bottom:1px solid var(--line); padding-bottom:.6rem; }
+.section-nav { font-size:.84rem; }
+main { max-width:1200px; padding:1.4rem 2rem 3rem; margin:auto; min-width:0; }
+h1,h2,h3,h4 { color:#173e3a; line-height:1.22; letter-spacing:-.02em; font-weight:680; }
+h1 { font-size:clamp(1.65rem,3vw,2.4rem); margin:.4rem 0 1.2rem; }
+h2 { font-size:1.35rem; margin:2.2rem 0 .9rem; }
+h3 { font-size:1.12rem; margin:1.8rem 0 .8rem; }
+h4 { font-size:1rem; margin:1.4rem 0 .65rem; }
+p,li { max-width:92ch; }
+p { margin:.75rem 0 1rem; }
+.local-toc { margin:0 0 1.2rem; font-size:.85rem; border-bottom:1px solid var(--line); padding:0 0 .7rem; }
+.local-toc summary { cursor:pointer; color:var(--accent); width:max-content; }
+.local-toc nav { padding:.5rem 0; }
+#TOC > ul { columns:2; column-gap:2.5rem; }
+#TOC ul { padding-left:1.2rem; margin:.4rem 0; }
+#TOC li { break-inside:avoid; margin:.25rem 0; }
 #TOC a { text-decoration:none; }
-.project-nav { display:grid; gap:.35rem; margin-bottom:1.1rem; }
-.project-menu summary { cursor:pointer; font-weight:650; margin-bottom:.7rem; }
-.project-nav a { display:block; padding:.5rem .65rem; border-radius:4px; }
-.project-nav a[aria-current="page"] { background:var(--accent); color:white; font-weight:650; }
-.project-nav a:hover { background:#dfece8; color:#173e3a; }
-#TOC hr { margin:1rem 0; }
-.toc-label { text-transform:uppercase; font-size:.7rem; letter-spacing:.12em; color:var(--muted); }
-#project-reports ul { list-style:none; padding:0; }
-#project-reports li { background:#f4f8f7; border:1px solid var(--line); padding:1rem 1.2rem; margin:.7rem 0; }
-figure { margin:1.6rem 0; border:1px solid var(--line); padding:.6rem; }
+.library-home .local-toc { display:none; }
+.library-home main { padding-top:1.6rem; }
+.library-home .research-routes { margin:1.7rem 0 2.4rem; }
+.research-routes { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; }
+.research-routes p { margin:0; }
+.research-routes a { display:block; height:100%; padding:1.25rem; border:1px solid var(--line); border-radius:5px; background:var(--canvas); text-decoration:none; font-size:.9rem; color:var(--muted); }
+.research-routes a:hover { background:var(--soft); }
+.research-routes strong { display:block; margin-bottom:.5rem; font-size:1.05rem; color:var(--accent); }
+.table-hint { margin:1.2rem 0 .4rem; font-size:.75rem; color:var(--muted); }
+.table-scroll { overflow:auto; max-height:65vh; margin:0 0 1.6rem; border:1px solid var(--line); border-radius:3px; scrollbar-color:#829f95 var(--canvas); }
+table { display:table; overflow:visible; margin:0; border-spacing:0; border-collapse:separate; width:100%; font-size:.86rem; line-height:1.5; }
+th,td { padding:.85rem .85rem; border-bottom:1px solid var(--line); vertical-align:top; overflow-wrap:break-word; min-width:125px; }
+th { background:var(--soft); color:#173e3a; font-weight:650; text-align:left; position:sticky; top:0; z-index:3; }
+td { background:var(--paper); }
+tbody tr:nth-child(even) td { background:#f8fbf9; }
+th:first-child,td:first-child { position:sticky; left:0; min-width:155px; max-width:255px; z-index:2; box-shadow:1px 0 0 var(--line); }
+th:first-child { z-index:4; }
+td[style*="right"],th[style*="right"] { font-variant-numeric:tabular-nums; }
+.library-home .table-scroll { border:0; max-height:none; }
+.library-home .table-hint { display:none; }
+figure { margin:1.5rem 0; border:1px solid var(--line); padding:.75rem; background:white; }
 figure img { display:block; width:100%; height:auto; }
-figcaption { color:var(--muted); font-size:.85rem; padding:.5rem .3rem; }
-blockquote { background:#f2f7f6; border-left:4px solid var(--accent); margin:1.5rem 0; padding:.5rem 1.2rem; }
-table { border-collapse:collapse; width:100%; margin:1.4rem 0 2rem; font-size:.87rem; line-height:1.5; }
-th { background:#edf4f2; color:#173e3a; font-weight:650; text-align:left; }
-th,td { padding:.65rem .75rem; border-bottom:1px solid var(--line); vertical-align:top; overflow-wrap:anywhere; }
-tbody tr:nth-child(even) { background:#fafcfc; }
-code { font-size:.9em; background:#eff3f2; padding:.1rem .3rem; border-radius:3px; }
-pre { overflow-x:auto; padding:1rem; background:#eff3f2; }
-hr { border:0; border-top:1px solid var(--line); margin:2rem 0; }
-@media(max-width:900px) { body { padding:1.5rem 1.2rem 3rem; } nav#TOC { position:static; width:auto; border:1px solid var(--line); padding:1rem 1.2rem; margin:1rem 0 2rem; } .project-nav { grid-template-columns:repeat(2,minmax(0,1fr)); } header { margin-bottom:1.5rem; } table { display:block; overflow-x:auto; } th,td { min-width:180px; hyphens:none; overflow-wrap:normal; } }
-@media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
-@media print { body { padding:0; max-width:none; font-size:10pt; } nav#TOC { display:none; } h1,h2,h3,h4 { break-after:avoid; } table { display:table; font-size:8pt; } th,td { min-width:0; overflow-wrap:anywhere; } tr { break-inside:avoid; } thead { display:table-header-group; } a { color:inherit; } header { border-top-width:2px; } @page { size:A4; margin:16mm; } }
+figcaption { color:var(--muted); font-size:.8rem; padding:.6rem .2rem .2rem; }
+.flow-gallery { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1.2rem; margin-top:1.5rem; }
+.flow-gallery > section { min-width:0; padding:1.1rem; border:1px solid var(--line); border-radius:5px; }
+.flow-gallery h2 { font-size:1.1rem; margin:0 0 1rem; }
+.flow-gallery figure { margin:0; border:0; padding:0; }
+.flow-gallery img { height:240px; object-fit:contain; }
+.flow-gallery p { font-size:.84rem; margin:1rem 0 0; }
+blockquote { background:var(--canvas); border-left:3px solid var(--line); margin:1.2rem 0; padding:.5rem 1.2rem; }
+code { font-size:.9em; background:var(--soft); padding:.1rem .3rem; border-radius:3px; }
+pre { overflow-x:auto; padding:1rem; background:var(--soft); }
+hr { border:0; border-top:1px solid var(--line); margin:1.8rem 0; }
+.legacy-links { max-width:1200px; margin:0 auto; padding:0 2rem 1rem; color:var(--muted); font-size:.75rem; }
+.legacy-links summary { cursor:pointer; }
+.legacy-links ul { columns:3; }
+.site-footer { max-width:1264px; margin:auto; padding:1.3rem 2rem 2rem; border-top:1px solid var(--line); color:var(--muted); font-size:.78rem; display:flex; flex-wrap:wrap; gap:.6rem 2rem; justify-content:space-between; }
+.complete-report main { max-width:1264px; }
+.complete-report .table-scroll { max-height:none; }
+@media(max-width:700px) {
+.site-header { padding:1rem 1.15rem; display:block; }
+.brand { gap:.8rem; font-size:1rem; }
+.lab-logo { width:110px; }
+.global-nav { margin-top:1rem; gap:.15rem; }
+.global-nav a { padding:.4rem .6rem; font-size:.9rem; }
+.review-status,.project-context,.view-nav,.section-nav { padding-left:1.15rem; padding-right:1.15rem; }
+.view-nav a { padding:.45rem .55rem; font-size:.84rem; }
+main { padding:1.2rem 1.15rem 2.2rem; }
+.research-routes,.flow-gallery { grid-template-columns:1fr; gap:.65rem; }
+.research-routes a { padding:.9rem 1rem; }
+.research-routes strong { font-size:1rem; margin-bottom:.2rem; }
+.library-home .research-routes { margin:1.3rem 0 1.5rem; }
+#TOC > ul { columns:1; }
+.table-scroll { max-height:62vh; }
+th,td { min-width:155px; padding:.7rem; }
+th:first-child,td:first-child { min-width:128px; max-width:150px; }
+.flow-gallery img { height:220px; }
+.site-footer,.legacy-links { padding-left:1.15rem; padding-right:1.15rem; }
+.legacy-links ul { columns:2; }
+}
+@media print {
+body { font-size:10pt; }
+.site-header { padding:0 0 1rem; }
+.global-nav,.view-nav,.section-nav,.local-toc,.skip-link,.site-footer,.legacy-links,.table-hint { display:none; }
+.review-status,.project-context,main { max-width:none; padding:0; }
+.brand { font-size:12pt; }
+.lab-logo { width:100px; }
+h1,h2,h3,h4 { break-after:avoid; }
+.table-scroll { overflow:visible; max-height:none; border:0; }
+table { font-size:8pt; }
+th,td,th:first-child,td:first-child { position:static; min-width:0; max-width:none; box-shadow:none; padding:.5rem; overflow-wrap:anywhere; }
+tr,figure { break-inside:avoid; }
+thead { display:table-header-group; }
+.flow-gallery { display:block; }
+.flow-gallery > section { break-inside:avoid; margin-bottom:1rem; }
+a { color:inherit; }
+@page { size:A4; margin:16mm; }
+}
 </style>
 </head>
-<body>
-<header id="title-block-header"><img class="lab-logo" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNzU4IDcwMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InRpdGxlIGRlc2MiPgogIDx0aXRsZSBpZD0idGl0bGUiPk1JVCBEZXZpY2UgUmVzZWFyY2ggTGFiIGxvZ288L3RpdGxlPgogIDxkZXNjIGlkPSJkZXNjIj5WZWN0b3IgcmVjb25zdHJ1Y3Rpb24gb2YgdGhlIERldmljZSBSZXNlYXJjaCBMYWIgbG9nbyBmcm9tIHRoZSBvZmZpY2lhbCBNSVQgbGFiIHdlYnNpdGUuPC9kZXNjPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJjaXJjbGUtZ3JhZGllbnQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjUwIiB5MT0iMCIgeDI9IjYwMCIgeTI9IjAiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZjhkNDIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjQ4NiIgc3RvcC1jb2xvcj0iI2ZmYWUzNiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNzE0IiBzdG9wLWNvbG9yPSIjZmZiZDMwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC45MTQiIHN0b3AtY29sb3I9IiNmZmM5MmMiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZmZjZTJiIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJkcm9wbGV0LWdyYWRpZW50IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjQwMCIgeTE9IjcwMCIgeDI9IjYwIiB5Mj0iNjAiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwZmIyZjMiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjE4IiBzdG9wLWNvbG9yPSIjMGZiMmYzIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC4zNSIgc3RvcC1jb2xvcj0iIzFlYTBlZiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNTciIHN0b3AtY29sb3I9IiMzODgwZTkiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjc2IiBzdG9wLWNvbG9yPSIjNGY2NGUzIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC44NyIgc3RvcC1jb2xvcj0iIzVjNTRlMCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM1YzU0ZTAiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9Im92ZXJsYXAtZ3JhZGllbnQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjUwIiB5MT0iMCIgeDI9IjUxMCIgeTI9IjAiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNkZjJjNjQiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjExNSIgc3RvcC1jb2xvcj0iI2RhMzI2YSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuMjY5IiBzdG9wLWNvbG9yPSIjZDAzYTc1Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC40MjMiIHN0b3AtY29sb3I9IiNjODQwN2UiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjU3NyIgc3RvcC1jb2xvcj0iI2JlNDg4OSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNzY5IiBzdG9wLWNvbG9yPSIjYjM1MTk2Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2E5NWFhMSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPGcgc2hhcGUtcmVuZGVyaW5nPSJnZW9tZXRyaWNQcmVjaXNpb24iPgogICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCA3MDApIHNjYWxlKDEgLTEpIj4KICAgICAgPHBhdGggZmlsbD0idXJsKCNjaXJjbGUtZ3JhZGllbnQpIiBkPSJNNDA4IDYwNyBjLTE4IC0yIC0zOCAtNyAtNTIgLTE0IC0xMCAtNCAtMjggLTE1IC0zOCAtMjMgLTMyIC0yNSAtNTQgLTYyIC02MyAtMTAzIC0zIC0xNCAtNCAtNDEgLTIgLTU3IDExIC03OSA3NSAtMTQwIDE1NCAtMTQ5IDI5IC0zIDYwIDIgODYgMTMgNSAyIDExIDUgMTMgNSAxMCA0IDI5IDE4IDQzIDMxIDE0IDE1IDI1IDMwIDM0IDUwIDMyIDY3IDE3IDE0OCAtMzcgMjAwIC0zNyAzNSAtODggNTIgLTEzOCA0N3oiLz4KICAgIDwvZz4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgNzAwKSBzY2FsZSgxIC0xKSI+CiAgICAgIDxwYXRoIGZpbGw9InVybCgjZHJvcGxldC1ncmFkaWVudCkiIGQ9Ik0yNTQgNjQ4IGMtNDEgLTQyIC05NiAtMTEwIC0xMzMgLTE2NSAtNDUgLTY4IC03MyAtMTI3IC04MyAtMTc0IC02IC0yOSAtNSAtNjEgMyAtOTQgMjEgLTg1IDkwIC0xNTMgMTc1IC0xNzMgMjAgLTUgMzAgLTUgNTUgLTUgMjcgMCAzNSAxIDU4IDYgODggMjIgMTU3IDk0IDE3NCAxODQgMTEgNTQgMiAxMDEgLTMyIDE2OSAtMjcgNTUgLTY1IDExMSAtMTIxIDE4MSAtMzEgMzggLTc1IDg3IC03OSA4NyAtMSAwIC05IC03IC0xNyAtMTZ6Ii8+CiAgICA8L2c+CiAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDcwMCkgc2NhbGUoMSAtMSkiPgogICAgICA8cGF0aCBmaWxsPSJ1cmwoI292ZXJsYXAtZ3JhZGllbnQpIiBkPSJNMzM0IDU4MSBjLTQxIC0yNiAtNjkgLTY2IC03OSAtMTE0IC0zIC0xNCAtNCAtNDEgLTIgLTU3IDE3IC0xMTYgMTQwIC0xODMgMjQ2IC0xMzMgbDggMyAwIDggYy0xIDQgLTEgNyAtMSA4IC0xIDEgLTEgNCAtMSA3IC0yIDEzIC0xMCAzNiAtMTggNTcgLTQgMTEgLTIyIDQ4IC0yNyA1OCAtMSAyIC00IDYgLTYgMTAgLTE4IDMxIC00NCA3MSAtNzEgMTA3IC0xNCAxOCAtNDAgNTEgLTQxIDUxIDAgMCAtNCAtMiAtOCAtNXoiLz4KICAgIDwvZz4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgNzAwKSBzY2FsZSgxIC0xKSI+CiAgICAgIDxwYXRoIGZpbGw9IiMyMzFmMjAiIGQ9Ik03MjQgMzgzIGwwIC0xOTIgODYgMCBjNTcgMSA4OCAxIDk0IDIgMjUgNCA0MCA4IDU5IDE3IDM5IDE5IDY2IDU1IDc3IDEwNSAxMiA1MSA5IDExNSAtOCAxNTggLTExIDI4IC0yOSA1MiAtNTIgNjkgLTE3IDExIC00MiAyMyAtNjMgMjcgLTI0IDUgLTI0IDUgLTExMSA2IGwtODIgMCAwIC0xOTJ6IG0xNTggMTIzIGMyNSAtNCA0NCAtMTMgNTkgLTI4IDE1IC0xNyAyNCAtMzggMjkgLTY4IDIgLTE0IDEgLTUzIC0xIC02NyAtNSAtMjkgLTE0IC00NyAtMjkgLTYxIC04IC04IC0yMSAtMTUgLTMyIC0xOCAtMTcgLTQgLTIxIC00IC02NyAtNSBsLTQ0IDAgMCAxMjQgMCAxMjQgMzkgMCBjMjMgMCA0MiAwIDQ2IC0xeiBNMTEyOSAzODMgbDAgLTE5MiAzNyAwIDM2IDAgMCA3MSAwIDcwIDM0IDAgMzUgMCAzNyAtNzEgMzcgLTcwIDQyIDAgYzIzIDAgNDIgMCA0MiAwIDAgMSAtMTkgMzUgLTQzIDc3IC0yMyA0MyAtNDIgNzggLTQxIDc4IDAgMSAxIDEgMSAxIDQgMCAyNiAxMiAzMyAxOCAxOCAxNSAzMiAzOCAzNyA2MiA3IDM1IDEgNzEgLTE1IDk2IC0xNCAyMiAtMzMgMzYgLTYwIDQ0IC0yMiA4IC0xOSA3IC0xMjEgOCBsLTkxIDAgMCAtMTkyeiBtMTUzIDEyNyBjMzIgLTMgNTEgLTE2IDU5IC00MCAyIC04IDIgLTI0IDAgLTMzIC01IC0xOSAtMjAgLTMzIC00MiAtMzggLTcgLTIgLTExIC0yIC01MiAtMiBsLTQ1IDAgMCA1NyAwIDU3IDM1IDAgYzE5IDAgMzkgMCA0NSAtMXogTTE0OTUgMzgzIGwwIC0xOTIgMTE0IDAgMTE0IDAgMCAzNCAwIDM0IC03NyAwIC03OCAwIDAgMTU4IDAgMTU4IC0zNiAwIC0zNyAwIDAgLTE5MnogTTk0MSAxNTAgYy0yIC0xIC02IC0yIC05IC0zIC0xMSAtNyAtMTQgLTI3IC02IC00MCA4IC0xMyAzMCAtMTQgNDAgLTIgMyAzIDYgMTAgNSAxMSAwIDEgLTIgMSAtNCAxIC00IDEgLTQgMSAtNCAtMiAtMSAtMSAtMiAtNCAtNCAtNiAtOCAtMTAgLTIzIC03IC0yOCA1IC0yIDcgLTEgMTggMyAyNCA2IDggMjEgOCAyNyAtMiAyIC0zIDMgLTMgNiAtMyAyIDEgMyAxIDQgMSAwIDEgLTEgMyAtMiA1IC0yIDQgLTcgOCAtMTEgMTAgLTQgMSAtMTIgMiAtMTcgMXogTTEyMDEgMTUwIGMtMTEgLTIgLTE2IC0xMSAtMTMgLTE5IDIgLTUgNSAtNyAxNiAtOSAxMiAtMyAxNSAtNSAxNSAtOSAwIC00IC0xIC03IC01IC04IC04IC01IC0xOSAwIC0yMSA4IDAgMyAwIDMgLTMgMyAtMiAtMSAtNCAtMSAtNCAtMSAtMiAwIC0xIC00IDEgLTggMyAtNiA3IC05IDE1IC0xMCAxMyAtMiAyNCAzIDI2IDE0IDAgNSAtMiAxMSAtNyAxNCAtMiAxIC03IDMgLTExIDQgLTEwIDIgLTE0IDQgLTE0IDggMCA0IDMgNiA5IDcgNyAwIDEyIC0zIDEzIC04IDEgLTIgMiAtMyAzIC0zIDEgMSAyIDEgNCAxIDIgMCAyIDAgMiAzIC0yIDUgLTUgOSAtOSAxMSAtNSAyIC0xMiAzIC0xNyAyeiBNMTQzMyAxNTAgYy03IC0yIC0xMyAtNiAtMTcgLTEzIC0yIC01IC0yIC0yMiAxIC0yNyA0IC05IDExIC0xMyAyMiAtMTMgOCAtMSAxNCAyIDE5IDcgMyA0IDcgMTIgNiAxMyAwIDAgLTIgMCAtNCAwIC00IDEgLTQgMSAtNSAtMyAtNiAtMTUgLTI2IC0xNCAtMzEgMSAtNSAxMyAxIDI3IDEyIDI5IDcgMSAxNCAtMiAxOCAtOCAyIC0zIDUgLTQgOCAtMiAzIDIgLTQgMTEgLTExIDE0IC01IDIgLTEzIDMgLTE4IDJ6IE03MjQgMTI0IGwwIC0yNiAxMyAwIGMxNCAwIDE4IDEgMjIgNiA2IDUgNyA4IDcgMjAgMCAxMCAtMSAxMSAtMyAxNiAtMiAzIC01IDUgLTggNyAtNCAyIC02IDIgLTE4IDIgbC0xMyAwIDAgLTI1eiBtMjggMTUgYzUgLTQgNiAtMTAgNiAtMTggLTEgLTEyIC02IC0xNiAtMTggLTE2IGwtOCAwIDAgMTkgMCAxOCA4IDAgYzggMCA5IDAgMTIgLTN6IE03ODUgMTI0IGwwIC0yNiAxOSAwIDE4IDAgMCA0IDAgMyAtMTQgMCAtMTUgMCAwIDggMCA4IDEzIDAgMTIgMCAwIDQgMCAzIC0xMiAwIC0xMyAwIDAgNyAwIDcgMTQgMCAxNCAwIDAgNCAwIDMgLTE4IDAgLTE4IDAgMCAtMjV6IE04MzUgMTQ3IGMxIC0xIDUgLTEyIDkgLTI1IGw4IC0yMyA0IC0xIGMyIDAgNCAwIDQgMCAwIDAgMiA1IDQgMTEgMiA1IDYgMTYgOSAyNSBsNSAxNSAtNCAwIC01IDAgLTYgLTE5IGMtNCAtMTEgLTcgLTIwIC03IC0yMCAwIDEgLTMgOSAtNyAyMCBsLTUgMTkgLTUgMCBjLTMgMCAtNCAwIC00IC0yeiBNODk0IDEyNCBsMCAtMjYgNCAwIDQgMCAwIDI2IDAgMjUgLTQgMCAtNCAwIDAgLTI1eiBNOTg5IDEyNCBsMCAtMjYgMTkgMCAxOCAwIDAgNCAwIDMgLTE0IDAgLTE1IDAgMCA4IDAgOCAxMyAwIDEyIDAgMCA0IDAgMyAtMTIgMCAtMTMgMCAwIDcgMCA3IDE1IDAgMTQgMCAwIDQgMCAzIC0xOCAwIC0xOSAwIDAgLTI1eiBNMTA3NCAxMjQgbDAgLTI2IDQgMCA0IDAgMCAxMSAwIDEwIDYgMCA2IDAgNiAtOSBjMyAtNSA2IC0xMCA3IC0xMSAwIC0xIDIgLTEgNSAtMSBsNSAxIC03IDEwIC03IDExIDQgMSBjNSAyIDcgNiA3IDE0IDAgNCAwIDYgLTIgOCAtNCA1IC03IDYgLTIzIDYgbC0xNSAwIDAgLTI1eiBtMzAgMTcgYzQgLTQgMyAtMTIgLTIgLTE0IC0xIDAgLTYgLTEgLTExIC0xIGwtOSAwIDAgOCAwIDggMTAgMCBjNyAwIDEwIDAgMTIgLTF6IE0xMTMzIDEyNCBsMCAtMjYgMTkgMCAxOCAwIDAgNCAwIDMgLTE1IDAgLTE1IDAgMCA4IDAgOCAxMyAwIDEyIDAgMCA0IDAgMyAtMTIgMCAtMTMgMCAwIDcgMCA3IDE1IDAgMTQgMCAwIDQgMCAzIC0xOCAwIC0xOCAwIDAgLTI1eiBNMTI0NSAxMjQgbDAgLTI2IDE5IDAgMTkgMCAwIDQgMCAzIC0xNSAwIC0xNSAwIDAgOCAwIDggMTMgMCAxMiAwIDAgNCAwIDMgLTEyIDAgLTEzIDAgMCA3IDAgNyAxNSAwIDE0IDAgMCA0IDAgMyAtMTggMCAtMTkgMCAwIC0yNXogTTEzMTQgMTQ2IGMtMSAtMiAtNSAtMTMgLTEwIC0yNSAtNCAtMTIgLTggLTIyIC05IC0yMiAwIC0xIDIgLTEgNCAtMSBsNSAwIDMgOCAyIDcgMTAgMCA5IDAgMiAtNyAzIC03IDQgLTEgYzIgMCA0IDAgNCAxIDAgMCAtNCAxMiAtOSAyNSBsLTkgMjUgLTQgMCBjLTQgMCAtNCAwIC01IC0zeiBtOCAtMTYgYzEgLTQgMiAtOCAzIC05IDAgLTEgLTIgLTEgLTYgLTEgLTQgMCAtNyAwIC03IDEgMCAwIDIgNCAzIDkgMiA0IDQgOCA0IDcgMCAwIDIgLTQgMyAtN3ogTTEzNTcgMTI0IGwwIC0yNiA0IDAgNCAwIDAgMTEgMCAxMCA2IDAgNiAwIDYgLTEwIDcgLTEwIDQgLTEgYzMgMCA1IDAgNSAwIDAgMSAtMyA2IC02IDExIGwtNyAxMCAzIDIgYzUgMiA3IDYgOCAxMiAwIDUgMCA3IC0yIDEwIC0zIDUgLTcgNiAtMjMgNiBsLTE1IDAgMCAtMjV6IG0zMCAxNiBjMyAtMyAzIC05IDAgLTEyIC0yIC0xIC00IC0yIC0xMiAtMiBsLTEwIDAgMCA4IDAgOCAxMCAwIGM5IDAgMTAgMCAxMiAtMnogTTE0ODIgMTI0IGwwIC0yNiA0IDAgMyAwIDAgMTIgMCAxMSAxNCAwIDEzIDAgMCAtMTEgMCAtMTIgNCAwIDQgMCAwIDI2IDAgMjUgLTQgMCAtNCAwIDAgLTEwIDAgLTExIC0xMyAwIC0xNCAwIDAgMTEgMCAxMCAtMyAwIC00IDAgMCAtMjV6IE0xNTc1IDEyNCBsMCAtMjYgMTYgMCAxNiAwIDAgNCAwIDMgLTEyIDAgLTEzIDAgMCAyMiAwIDIyIC0zIDAgLTQgMCAwIC0yNXogTTE2MzkgMTQ3IGMtMTEgLTMwIC0xOCAtNDggLTE4IC00OCAwIC0xIDIgLTEgNCAtMSBsNCAxIDMgNyAyIDcgMTAgMCA5IDAgMiAtNSBjMSAtMyAyIC03IDIgLTggMSAtMiAyIC0yIDUgLTIgMyAwIDQgMCA0IDEgMCAxIC00IDEyIC05IDI2IGwtOSAyNCAtNCAwIGMtMyAwIC00IDAgLTUgLTJ6IG04IC0xOCBjMiAtNCAzIC04IDMgLTkgLTEgMCAtMyAwIC03IDAgbC02IDEgMyA4IGMyIDQgNCA4IDQgOCAwIDAgMiAtNCAzIC04eiBNMTY4MiAxMjQgbDAgLTI2IDE2IDAgYzE2IDAgMTcgMCAyMCAyIDQgMyA2IDYgNiAxMiAwIDUgLTIgMTAgLTUgMTIgLTEgMSAtMSAxIDEgNCAzIDUgNCA5IDEgMTQgLTMgNiAtNiA3IC0yNCA3IGwtMTUgMCAwIC0yNXogbTMxIDE3IGMyIC0yIDIgLTkgLTEgLTExIC0yIC0yIC00IC0yIC0xMiAtMiBsLTEwIDAgMCA3IDAgNyAxMCAwIGM4IDAgMTEgMCAxMyAtMXogbTEgLTIzIGMzIC0zIDMgLTggMCAtMTEgLTIgLTIgLTMgLTIgLTEzIC0yIGwtMTEgMCAwIDggMCA4IDExIDAgYzEwIDAgMTEgLTEgMTMgLTN6Ii8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K" alt="MIT Device Research Lab" width="1758" height="700">
-<h1 class="title">DLE filings: 18 US project profiles</h1>
-<p class="subtitle">Brine composition, process flowsheets and project
-evidence</p>
-<p class="date">Expanded September 16, 2026 · project-specific cutoffs
-below</p>
-</header>
-<nav id="TOC" role="doc-toc"><details class="project-menu" open><summary>Project pages (18)</summary><div class="project-nav" aria-label="Report pages"><a href="report.html" aria-current="page">Overview</a><a href="south-west-arkansas.html">South West Arkansas</a><a href="hells-kitchen.html">Hell’s Kitchen</a><a href="bher.html">BHER demonstration</a><a href="atlis.html">ATLiS</a><a href="ogden.html">Ogden / Great Salt Lake</a><a href="green-river.html">Green River</a><a href="waterleaf.html">Waterleaf / Lilac</a><a href="franklin.html">Franklin</a><a href="wellspring.html">Wellspring</a><a href="paradox.html">Paradox</a><a href="us-magnesium.html">US Magnesium</a><a href="utah-lithium.html">Mandrake Utah</a><a href="evergreen.html">Evergreen</a><a href="pine.html">Pine / Exxon</a><a href="lonestar.html">Lonestar</a><a href="daytona.html">Daytona / Folsom Point</a><a href="magnolia.html">Magnolia</a><a href="lanxess.html">LANXESS history</a><a href="full-report.html">Full report</a></div></details><hr><p class="toc-label">On this page</p>
-<ul>
-<li><a href="#overview" id="toc-overview">Overview</a>
-<ul>
-<li><a href="#project-reports" id="toc-project-reports">Project
-reports</a></li>
-<li><a href="#principal-findings" id="toc-principal-findings">Principal
-findings</a></li>
-<li><a href="#how-to-read-the-report" id="toc-how-to-read-the-report">How to read the report</a></li>
-</ul></li>
-<li><a href="#cross-project-comparison" id="toc-cross-project-comparison">Cross-project comparison</a>
-<ul>
-<li><a href="#composition-and-flowsheet-availability" id="toc-composition-and-flowsheet-availability">Composition and
-flowsheet availability</a></li>
-<li><a href="#pretreatment-comparison" id="toc-pretreatment-comparison">Pretreatment comparison</a></li>
-<li><a href="#brine-concentration-and-chemistry" id="toc-brine-concentration-and-chemistry">Brine concentration and
-chemistry</a></li>
-<li><a href="#discrepancies-requiring-review" id="toc-discrepancies-requiring-review">Discrepancies requiring
-review</a></li>
-</ul></li>
-<li><a href="#methods-and-limitations" id="toc-methods-and-limitations">Methods and limitations</a>
-<ul>
-<li><a href="#discovery-and-coverage" id="toc-discovery-and-coverage">Discovery and coverage</a></li>
-<li><a href="#extraction-and-review" id="toc-extraction-and-review">Extraction and review</a></li>
-<li><a href="#interpretation-rules" id="toc-interpretation-rules">Interpretation rules</a></li>
-<li><a href="#sharing-and-reproducibility" id="toc-sharing-and-reproducibility">Sharing and
-reproducibility</a></li>
-</ul></li>
-</ul>
-</nav>
-<blockquote>
-<p><strong>Research draft for source review.</strong> The observations
-below have been checked by an AI assistant against source text, with
-selected source pages also inspected visually. No human review has yet
-been recorded. These observations remain provisional; the separate
-human-reviewed dataset contains no accepted rows. The report
-distinguishes technical-report estimates, company targets, reported test
-results, and agency decisions.</p>
-</blockquote>
-<section id="overview" class="level1">
-<h1>Overview</h1>
-<p>This research draft brings together project-specific securities
-disclosures and environmental records for 18 US direct lithium
-extraction (DLE) project profiles, including development programs,
-historical demonstrations and suspended designs. The count is a set of
-research profiles, not 18 operating plants or independent companies. Its
-purpose is to make the evidence findable and comparable <strong>where
-the definitions allow it</strong>, while preserving disagreements and
-gaps. It does not establish present operating performance. <strong>South
-West Arkansas and Hell’s Kitchen retain their September 14, 2026
-collection cutoff; the other profiles use September 16, 2026.</strong> A
-collection date is not the date of the underlying study.</p>
-<!-- BEGIN COUNTS -->
-<p><strong>Collection:</strong> 124 source records; 100 successful
-original-file downloads; 24 failed original-file downloads. The saved
-PDFs contain 6,562 pages. <strong>Evidence:</strong> 586 observations; 0
-accepted after human review.</p>
-<!-- END COUNTS -->
-<p>The source manifest covers official agency pages, submitted reports
-and attachments, agency decisions, SEC indexes and selected exhibits,
-and explicitly labeled issuer supplements. The saved SEC histories now
-contain <strong>2,846 metadata entries</strong>: 219 Standard Lithium,
-79 Plum Acquisition Corp. IV, 2,453 Compass Minerals (April
-2003–September 2026) and 95 EnergyX (November 2020–July 2026). Metadata
-is inventoried, not assumed to be downloaded or reviewed project
-evidence. <a href="south-west-arkansas.html#d006">D006</a>, <a href="hells-kitchen.html#d007">D007</a>, <a href="ogden.html#d083">D083</a>, <a href="ogden.html#d084">D084</a>, <a href="ogden.html#d091">D091</a>.</p>
-<section id="project-reports" class="level2">
-<h2>Project reports</h2>
-<ul>
-<li><a href="south-west-arkansas.html">South West Arkansas</a>: full
-published pilot-feed composition, process flowsheets, project profile,
-sources and evidence.</li>
-<li><a href="hells-kitchen.html">Hell’s Kitchen</a>: full expected brine
-composition, geothermal schematic, lithium-process disclosure limits,
-sources and evidence.</li>
-<li><a href="bher.html">BHER demonstration</a>: measured brine,
-canal-water and steam tables; process diagram; field-test outcome.</li>
-<li><a href="atlis.html">ATLiS</a>: DOE block flowsheet, brine/water
-flows, reagent use and explicit chemistry gaps.</li>
-<li><a href="ogden.html">Ogden / Great Salt Lake</a>: lake and pond
-chemistry, historical process design, and separate EnergyX
-proposal.</li>
-<li><a href="green-river.html">Green River</a>: Anson/Blackstone permit
-chemistry, injection limits and stream-label discrepancy.</li>
-<li><a href="waterleaf.html">Waterleaf / Lilac</a>: pilot
-raw-brine/eluate chemistry, groundwater laboratory results, flowsheet
-and public water balance.</li>
-<li><a href="franklin.html">Franklin</a>: 2023 exploration-average
-chemistry, expected flowsheet and separate 2026 PEA assumptions.</li>
-<li><a href="wellspring.html">Wellspring</a>: North Dakota
-produced-water field program; grant records and high-level diagram.</li>
-<li><a href="paradox.html">Paradox</a>: draft permit chemistry with
-reused Green River ranges and unresolved stream labels.</li>
-<li><a href="us-magnesium.html">US Magnesium</a>: historical DLE
-installation and idling; limited government-survey evidence.</li>
-<li><a href="utah-lithium.html">Mandrake Utah</a>: resource-horizon
-concentrations and September 2026 bulk-sample appraisal update.</li>
-<li><a href="evergreen.html">Evergreen</a>: TETRA/Saltwerx unit history;
-direct lithium engineering records still needed.</li>
-<li><a href="pine.html">Pine / Exxon</a>: Exxon/Saltwerx unit identity;
-neighboring-property evidence with technical gaps.</li>
-<li><a href="lonestar.html">Lonestar</a>: Texas demonstration and
-mineral-option disclosures; chemistry package not established.</li>
-<li><a href="daytona.html">Daytona / Folsom Point</a>: EnergyX Arkansas
-acquisition/development record; no dated feed assay established.</li>
-<li><a href="magnolia.html">Magnolia</a>: issuer-supported pilot record;
-direct project government package still needed.</li>
-<li><a href="lanxess.html">LANXESS history</a>: ended commercial
-arrangement and separate continuing demonstration evidence.</li>
-<li><a href="full-report.html">Full report</a>: all projects on one page
-for browser search and printing.</li>
-</ul>
-</section>
-<section id="principal-findings" class="level2">
-<h2>Principal findings</h2>
-<ul>
-<li><p><strong>Pretreatment now has a dedicated comparison.</strong> The
-<a href="#pretreatment-by-project">all-project matrix</a> distinguishes
-selected designs, tested alternatives and disclosure gaps; the <a href="#pretreatment-methods">method inventory</a> and <a href="#pretreatment-boundaries">stream-boundary check</a> keep feed
-preparation separate from eluate purification and discharge
-treatment.</p></li>
-<li><p><strong>The expanded report contains 18 profiles with uneven
-evidence.</strong> Waterleaf adds six measured brine/eluate constituents
-and a separate groundwater laboratory panel; Franklin adds ten
-exploration-average brine constituents. Several additions establish
-project identity or history only, and Magnolia remains an explicitly
-issuer-supported profile. <a href="#composition-and-flowsheet-availability">Disclosure
-comparison</a>.</p></li>
-<li><p><strong>New concentrations retain their stream and date.</strong>
-Waterleaf reports 69 mg/L raw-brine lithium and 2,044 mg/L in pilot
-eluate. Franklin reports 668 mg/L in 2023 exploration averages versus
-515 mg/L as a 2026 PEA lifetime model average. Paradox repeats Green
-River’s proposed 170–210 ppm range; those tables are not independent
-assays. <a href="waterleaf.html#waterleaf-water-composition">Waterleaf</a>, <a href="franklin.html#franklin-water-composition">Franklin</a>, <a href="paradox.html#paradox-water-composition">Paradox</a>.</p></li>
-<li><p><strong>A process diagram is not a complete water
-balance.</strong> Source diagrams cover BHER, ATLiS, historical Ogden,
-Waterleaf, Franklin and Wellspring. Waterleaf publishes a design
-water-summary table but redacts detailed stream balances. BHER cancelled
-its completed-balance deliverable; none of these packages establishes
-all numbered streams with measured flows and compositions. <a href="bher.html#bher-process-flowsheets">BHER</a>, <a href="atlis.html#atlis-process-flowsheets">ATLiS</a>, <a href="ogden.html#ogden-process-flowsheets">Ogden</a>.</p></li>
-<li><p><strong>The original pilot’s brine concentration figures have
-different bases.</strong> SWA’s September 2025 plant-design table uses
-439.9 mg/L lithium; HK’s August 2023 EIR gives 250 mg/L as expected
-geothermal brine composition. Neither is a directly comparable dated
-well assay. SWA separately reports well-sample results and changing
-concentrations in its production model. <a href="south-west-arkansas.html#o009">O009</a>, <a href="hells-kitchen.html#o051">O051</a>, <a href="#brine-concentration-and-chemistry">brine chemistry
-comparison</a>.</p></li>
-<li><p><strong>Recovery needs a process boundary.</strong> South West
-Arkansas reports greater than 95% lithium extraction in
-demonstration/pilot testing, while the commercial process design uses
-89.25% overall brine-to-product recovery. These are different
-quantities. <a href="south-west-arkansas.html#o002">O002</a>, <a href="south-west-arkansas.html#o003">O003</a>.</p></li>
-<li><p><strong>Water figures need reconciliation.</strong> The 2025
-South West Arkansas feasibility study gives 3.17 million m³/year; the
-May 2026 DOE assessment gives 1,600–1,700 gpm for the central processing
-facility, after planned recycling. Hell’s Kitchen gives both 6,100 and
-6,300 acre-feet/year for its lithium facility in different EIR sections.
-<a href="south-west-arkansas.html#o016">O016</a>, <a href="south-west-arkansas.html#o017">O017</a>, <a href="hells-kitchen.html#o055">O055</a>, <a href="hells-kitchen.html#o056">O056</a>.</p></li>
-<li><p><strong>Emissions estimates are not comparable as
-presented.</strong> South West Arkansas’s estimate includes gas-fired
-electricity generation. Hell’s Kitchen’s combined net result includes
-credit for geothermal electricity displacing grid power. Neither number
-is a measured lithium-product carbon intensity. <a href="south-west-arkansas.html#o033">O033</a>, <a href="hells-kitchen.html#o063">O063</a>.</p></li>
-<li><p><strong>Study vintage changes the story.</strong> South West
-Arkansas’s earlier PFS describes lithium hydroxide monohydrate; its
-later DFS describes lithium carbonate. Its announced first-production
-target moved from 2027 in the earlier source to 2029 in the August 2026
-announcement. <a href="south-west-arkansas.html#o045">O045</a>, <a href="south-west-arkansas.html#o048">O048</a>, <a href="south-west-arkansas.html#o004">O004</a>, <a href="south-west-arkansas.html#o044">O044</a>.</p></li>
-<li><p><strong>Permitting decisions have specific scope.</strong> DOE’s
-FONSI addresses its funding action. Hell’s Kitchen’s county decisions
-concern specified project entitlements. These records do not demonstrate
-that every authorization has been obtained, that litigation is resolved,
-or that commercial operations have begun. <a href="south-west-arkansas.html#o042">O042</a>, <a href="hells-kitchen.html#o065">O065</a>, <a href="hells-kitchen.html#o066">O066</a>.</p></li>
-</ul>
-</section>
-<section id="how-to-read-the-report" class="level2">
-<h2>How to read the report</h2>
-<p>Read the project profiles and comparison first. Use each
-<strong>O-number</strong> to reach the full observation, and each
-<strong>D-number</strong> to reach the document catalog. Observation
-links identify a printed page, section, table, or slide; PDF citations
-also include the physical PDF page number, which may differ from printed
-pagination.</p>
-<p>On narrow screens, scroll wide tables sideways to read the remaining
-columns. The <a href="#pretreatment-comparison">pretreatment
-comparison</a> covers all 18 project profiles.</p>
-<p><strong>Reported measurement</strong> means the source reports a test
-result; it is not independent verification by this pilot.
-<strong>Design/model estimate</strong> means an engineering or economic
-assumption. <strong>Company target</strong> means a forward-looking
-statement. <strong>Agency decision</strong> is confined to the named
-action. <strong>Not located</strong> is a bounded search outcome, not a
-claim that information does not exist.</p>
-</section>
-</section>
-<section id="cross-project-comparison" class="level1">
-<h1>Cross-project comparison</h1>
-<p>The following original-pilot comparison covers SWA and Hell’s
-Kitchen; the 18-profile disclosure comparison follows it. The table
-preserves source definitions. It does not convert products, normalize
-water intensity, or calculate a comparative environmental ranking.</p>
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Topic</th>
-<th style="text-align: left;">South West Arkansas</th>
-<th style="text-align: left;">Hell’s Kitchen</th>
-<th style="text-align: left;">Comparability</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Brine lithium</td>
-<td style="text-align: left;">439.9 mg/L; September 2025 process-design
-basis. <a href="south-west-arkansas.html#o009">O009</a></td>
-<td style="text-align: left;">250 mg/L; August 2023 expected geothermal
-composition. <a href="hells-kitchen.html#o051">O051</a></td>
-<td style="text-align: left;">Different source basis; exact HK stream
-point and assay provenance unspecified.</td>
-</tr>
-<tr>
-<td style="text-align: left;">Product/capacity</td>
-<td style="text-align: left;">22,500 t/year carbonate; September 2025
-commercial design. <a href="south-west-arkansas.html#o004">O004</a></td>
-<td style="text-align: left;">25,000 TPA LCE; August 2026 Stage 1
-target. <a href="hells-kitchen.html#o069">O069</a></td>
-<td style="text-align: left;">Different vintage and evidential basis;
-product conventions require checking.</td>
-</tr>
-<tr>
-<td style="text-align: left;">Recovery</td>
-<td style="text-align: left;">&gt;95% reported demonstration/pilot
-extraction; 89.25% commercial whole-process design, September 2025 DFS.
-<a href="south-west-arkansas.html#o002">O002</a>, <a href="south-west-arkansas.html#o003">O003</a></td>
-<td style="text-align: left;">Not established in screened 2023
-environmental text. <a href="hells-kitchen.html#o050">O050</a></td>
-<td style="text-align: left;">No performance ranking.</td>
-</tr>
-<tr>
-<td style="text-align: left;">Freshwater</td>
-<td style="text-align: left;">Commercial estimates: 3.17 million
-m³/year, September 2025 DFS; 1,600–1,700 gpm CPF, May 2026 EA. <a href="south-west-arkansas.html#o016">O016</a>, <a href="south-west-arkansas.html#o017">O017</a></td>
-<td style="text-align: left;">August 2023 design: 6,100 or 6,300 AFY
-HKL1; approximately 6,500 AFY combined. <a href="hells-kitchen.html#o055">O055</a>–<a href="hells-kitchen.html#o057">O057</a></td>
-<td style="text-align: left;">Reconcile source differences, boundaries
-and operating hours first.</td>
-</tr>
-<tr>
-<td style="text-align: left;">Electrical demand</td>
-<td style="text-align: left;">40,008 kWe CPF + wellfield; September 2025
-commercial design. <a href="south-west-arkansas.html#o020">O020</a></td>
-<td style="text-align: left;">Approximately 35 MW average HKL1 demand,
-alongside 49.9 MW generation; August 2023 design. <a href="hells-kitchen.html#o052">O052</a>, <a href="hells-kitchen.html#o053">O053</a></td>
-<td style="text-align: left;">Consumption boundaries differ; generation
-is a separate quantity.</td>
-</tr>
-<tr>
-<td style="text-align: left;">GHG</td>
-<td style="text-align: left;">290,000 tons/year potential emissions; May
-2026 commercial-facility estimate. <a href="south-west-arkansas.html#o033">O033</a></td>
-<td style="text-align: left;">−10,435 metric tons/year net combined
-estimate; August 2023 EIR. <a href="hells-kitchen.html#o063">O063</a></td>
-<td style="text-align: left;">Gross/potential and net/credited
-accounting; unresolved ton conventions.</td>
-</tr>
-<tr>
-<td style="text-align: left;">Operating costs</td>
-<td style="text-align: left;">US$4,516.05/t LCE, Q1 2025 cost basis;
-initial commercial-phase model. <a href="south-west-arkansas.html#o035">O035</a></td>
-<td style="text-align: left;">August 2026 expansion model; unit/basis
-unresolved. <a href="hells-kitchen.html#o072">O072</a></td>
-<td style="text-align: left;">No cost ranking.</td>
-</tr>
-<tr>
-<td style="text-align: left;">Development</td>
-<td style="text-align: left;">DOE funding FONSI, May 2026. <a href="south-west-arkansas.html#o042">O042</a></td>
-<td style="text-align: left;">County Board approval, January 2024. <a href="hells-kitchen.html#o066">O066</a></td>
-<td style="text-align: left;">Different agency actions, not equivalent
-completion milestones.</td>
-</tr>
-</tbody>
-</table>
-<section id="composition-and-flowsheet-availability" class="level2">
-<h2>Composition and flowsheet availability</h2>
-<p>“Full table” means all rows of a named published table, not an
-exhaustive chemical characterization. No complete measured
-stream-by-stream material/energy balance was established for the covered
-profiles.</p>
-<table style="width:100%;">
-<colgroup>
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Project / technical vintage</th>
-<th style="text-align: left;">Li (mg/L)</th>
-<th style="text-align: left;">Li (ppm)</th>
-<th style="text-align: left;">Stream basis</th>
-<th style="text-align: left;">Broader chemistry</th>
-<th style="text-align: left;">Diagram and balance coverage</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><a href="south-west-arkansas.html">South
-West Arkansas</a> · 2025 DFS</td>
-<td style="text-align: left;">476; design 439.9</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">Measured pilot feed; separate design</td>
-<td style="text-align: left;">11 parameters in full two-feed table. <a href="south-west-arkansas.html#swa-water-composition">Table</a></td>
-<td style="text-align: left;">Overall block flowsheets; no complete
-numbered balance. <a href="south-west-arkansas.html#swa-process-flowsheets">Figures</a></td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="hells-kitchen.html">Hell’s
-Kitchen</a> · 2023 EIR</td>
-<td style="text-align: left;">250</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">Expected geothermal brine</td>
-<td style="text-align: left;">23 expected constituents. <a href="hells-kitchen.html#hk-water-composition">Table</a></td>
-<td style="text-align: left;">Geothermal schematic; lithium stages in
-narrative. <a href="hells-kitchen.html#hk-process-flowsheets">Limits</a></td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="bher.html">BHER demonstration</a>
-· 2024 report</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">222; diagram approximately 250</td>
-<td style="text-align: left;">Laboratory-average brine; separate diagram
-basis</td>
-<td style="text-align: left;">24 brine parameters plus canal-water and
-steam tables. <a href="bher.html#bher-water-composition">Tables</a></td>
-<td style="text-align: left;">Demonstration PFD with selected flows;
-balance deliverable cancelled. <a href="bher.html#bher-process-flowsheets">Figure</a></td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="atlis.html">ATLiS</a> · 2021/2025
-environmental studies</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">Complete project-specific feed assay not
-located</td>
-<td style="text-align: left;">Monitoring-well chemistry is a different
-stream. <a href="atlis.html#atlis-water-composition">Scope</a></td>
-<td style="text-align: left;">Four-stage block diagram; brine and water
-estimates, no closed balance. <a href="atlis.html#atlis-process-flowsheets">Figure</a></td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="ogden.html">Ogden</a> · 2022
-initial assessment</td>
-<td style="text-align: left;">Lake: 25.9–58.6; Pond: 125–328</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">Lake Table 7.2 location/depth averages;
-Pond 114 individual samples</td>
-<td style="text-align: left;">Five-cation lake table and four-cation
-pond table; not complete water analyses. <a href="ogden.html#ogden-water-composition">Tables</a></td>
-<td style="text-align: left;">Historical East/West block flowsheets
-include pond evaporation. <a href="ogden.html#ogden-process-flowsheets">Figure</a></td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="green-river.html">Green River</a>
-· 2023 draft permit</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">170–210</td>
-<td style="text-align: left;">Production/spent-brine label
-unresolved</td>
-<td style="text-align: left;">18 proposed parameters, including density
-and pH. <a href="green-river.html#green-river-water-composition">Table</a></td>
-<td style="text-align: left;">Injection manifold only, with reused
-copper-project provenance. <a href="green-river.html#green-river-process-flowsheets">Limits</a></td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="waterleaf.html">Waterleaf</a> ·
-2025 pilot / 2026 application</td>
-<td style="text-align: left;">69 raw; 2044 eluate</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">Selected stable pilot averages</td>
-<td style="text-align: left;">Six brine/eluate constituents; separate
-broad groundwater panel. <a href="waterleaf.html#waterleaf-water-composition">Details</a></td>
-<td style="text-align: left;">Public process diagram and design water
-summary; detailed balances redacted. <a href="waterleaf.html#waterleaf-process-flowsheets">Scope</a></td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="franklin.html">Franklin</a> ·
-2023 samples / 2025 report; 2026 PEA</td>
-<td style="text-align: left;">668 samples; 515 model average</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">Exploration average vs separate lifetime
-model</td>
-<td style="text-align: left;">Ten-constituent table; no complete
-makeup-water analysis. <a href="franklin.html#franklin-water-composition">Details</a></td>
-<td style="text-align: left;">Expected lithium block flowsheet; no
-measured complete balance. <a href="franklin.html#franklin-process-flowsheets">Scope</a></td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="wellspring.html">Wellspring</a> ·
-2025 grant application</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">Distributed produced-water program</td>
-<td style="text-align: left;">Full site-specific feed assay not
-established. <a href="wellspring.html#wellspring-water-composition">Details</a></td>
-<td style="text-align: left;">High-level drawing mixes scales; no closed
-balance. <a href="wellspring.html#wellspring-process-flowsheets">Scope</a></td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="paradox.html">Paradox</a> · 2024
-draft permit</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">170–210</td>
-<td style="text-align: left;">Production/spent label unresolved; repeats
-Green River</td>
-<td style="text-align: left;">18 proposed parameters, not an independent
-measured assay. <a href="paradox.html#paradox-water-composition">Details</a></td>
-<td style="text-align: left;">Injection package; full DLE flowsheet not
-located. <a href="paradox.html#paradox-process-flowsheets">Scope</a></td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="us-magnesium.html">US
-Magnesium</a> · 2024 historical events</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">Magnesium-operation byproduct</td>
-<td style="text-align: left;">Feed chemistry not established in survey.
-<a href="us-magnesium.html#us-magnesium-water-composition">Details</a></td>
-<td style="text-align: left;">Historical installation; engineering
-package missing. <a href="us-magnesium.html#us-magnesium-water-composition">Scope</a></td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="utah-lithium.html">Mandrake
-Utah</a> · 2024 resource / 2026 sample collection</td>
-<td style="text-align: left;">69–142</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">Resource-horizon averages; not delivered
-test-feed assay</td>
-<td style="text-align: left;">Bulk-sample composition not established.
-<a href="utah-lithium.html#utah-lithium-water-composition">Details</a></td>
-<td style="text-align: left;">Electroflow appraisal prospective; no full
-PFD located. <a href="utah-lithium.html#utah-lithium-water-composition">Scope</a></td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="evergreen.html">Evergreen</a> ·
-2025 annual disclosure</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">Distinct TETRA/Saltwerx unit</td>
-<td style="text-align: left;">Direct technical-report chemistry not yet
-extracted. <a href="evergreen.html#evergreen-water-composition">Details</a></td>
-<td style="text-align: left;">Bromine development does not establish
-lithium operation. <a href="evergreen.html#evergreen-water-composition">Scope</a></td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="pine.html">Pine</a> · 2025
-neighboring-property disclosure</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">Saltwerx/Exxon unit identity</td>
-<td style="text-align: left;">Pine-specific assay not established. <a href="pine.html#pine-water-composition">Details</a></td>
-<td style="text-align: left;">Direct unit/process package not collected.
-<a href="pine.html#pine-water-composition">Scope</a></td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="lonestar.html">Lonestar</a> ·
-July 2026 SEC circular</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">Texas demo and mineral options</td>
-<td style="text-align: left;">Dated feed panel not established. <a href="lonestar.html#lonestar-water-composition">Details</a></td>
-<td style="text-align: left;">Site-specific full PFD not located. <a href="lonestar.html#lonestar-water-composition">Scope</a></td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="daytona.html">Daytona / Folsom
-Point</a> · July 2026 SEC circular</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">Acquired Arkansas leases</td>
-<td style="text-align: left;">Regional target range excluded as a
-measured assay. <a href="daytona.html#daytona-water-composition">Details</a></td>
-<td style="text-align: left;">Site-specific full PFD not located. <a href="daytona.html#daytona-water-composition">Scope</a></td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="magnolia.html">Magnolia</a> ·
-2024 issuer pilot statement</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">Issuer-supported lead; government package
-missing</td>
-<td style="text-align: left;">Magnolia-specific assay not located. <a href="magnolia.html#magnolia-water-composition">Details</a></td>
-<td style="text-align: left;">Do not transfer La Negra performance to
-this pilot. <a href="magnolia.html#magnolia-water-composition">Scope</a></td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="lanxess.html">LANXESS history</a>
-· 2023 demo chemistry; 2025 commercial cessation</td>
-<td style="text-align: left;">237 demo</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">Post-bromine demonstration feed, already
-counted under SWA</td>
-<td style="text-align: left;">Existing 11-parameter column; no duplicate
-observations. <a href="lanxess.html#lanxess-water-composition">Details</a></td>
-<td style="text-align: left;">Historical commercial studies not added in
-this pass. <a href="lanxess.html#lanxess-water-composition">Scope</a></td>
-</tr>
-</tbody>
-</table>
-<p>A dash means no value is presented in that unit. Do not rank these
-lithium values directly: ppm and mg/L are retained as distinct source
-units; lake, concentrated pond brine, geothermal feed and proposed
-injection chemistry are different boundaries. The earlier two-project
-engineering comparison above retains its original scope.</p>
-</section>
-<section id="pretreatment-comparison" class="level2">
-<h2>Pretreatment comparison</h2>
-<p><strong>The filings disclose different treatment trains, not a single
-interchangeable “pretreatment” step.</strong> The comparison below
-covers all 18 profiles, including explicit gaps. It uses the collected
-study vintages; no new claim of current plant operation or exhaustive
-historical coverage is made. The observations remain pending human
-review.</p>
-<p>Here, <strong>pretreatment means preparing the brine before it enters
-the lithium-selective extraction step</strong>. Existing well-pad,
-geothermal or pond operations are identified as upstream feed history.
-Purification of lithium-rich eluate and treatment of depleted brine are
-separate. <strong>“Not established” means the reviewed project records
-do not identify a defensible train; it does not mean the plant needs no
-pretreatment.</strong></p>
-<p>The clearest contrasts are SWA’s gas removal, chemical conditioning
-and multimedia-plus-UF design; Waterleaf’s selected raw-brine multimedia
-filtration; ATLiS’s staged non-lithium mineral removal; and BHER’s
-reported response to field-test solids clogging. There is no matched
-dataset here for ranking their cost, water use or overall effectiveness.
-<a href="south-west-arkansas.html#south-west-arkansas-pretreatment">SWA</a>,
-<a href="waterleaf.html#waterleaf-pretreatment">Waterleaf</a>, <a href="atlis.html#atlis-pretreatment">ATLiS</a>, <a href="bher.html#bher-pretreatment">BHER</a>.</p>
-<section id="pretreatment-methods" class="level3">
-<h3>Methods disclosed</h3>
-<p>This inventory includes selected methods and tested alternatives. It
-is a synthesis of the cited project descriptions, not a recommendation
-to combine every listed method into one plant.</p>
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Method / operation</th>
-<th style="text-align: left;">Role before DLE</th>
-<th style="text-align: left;">Where disclosed</th>
-<th style="text-align: left;">Comparison limit</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Phase separation; gas
-stripping/scrubbing</td>
-<td style="text-align: left;">Separate oil/gas phases and dissolved
-gases.</td>
-<td style="text-align: left;">SWA design: well-pad separation, then air
-stripping and H2S scrubber. LANXESS test history and Franklin co-product
-concept: vacuum degassing. <a href="south-west-arkansas.html#o561">O561</a>, <a href="south-west-arkansas.html#o562">O562</a>, <a href="lanxess.html#o567">O567</a>, <a href="franklin.html#o584">O584</a></td>
-<td style="text-align: left;">These are different gas-handling
-arrangements; no matched removal/cost data.</td>
-</tr>
-<tr>
-<td style="text-align: left;">Temperature conditioning</td>
-<td style="text-align: left;">Bring brine to the chosen
-extraction/process conditions.</td>
-<td style="text-align: left;">SWA heat exchanger; HK vacuum-flash
-cooling. <a href="south-west-arkansas.html#o563">O563</a>, <a href="hells-kitchen.html#o568">O568</a></td>
-<td style="text-align: left;">Cooling is not itself proof of contaminant
-removal.</td>
-</tr>
-<tr>
-<td style="text-align: left;">pH / oxidation-reduction adjustment</td>
-<td style="text-align: left;">Condition brine; where stated, form
-removable iron solids.</td>
-<td style="text-align: left;">SWA NaOH/H2O2; BHER NaOH pH elevation.
-ATLiS identifies HCl for pH control. <a href="south-west-arkansas.html#o563">O563</a>, <a href="bher.html#o570">O570</a>, <a href="atlis.html#o574">O574</a></td>
-<td style="text-align: left;">Different purposes and feed chemistry; do
-not infer equal pH, dose or iron removal.</td>
-</tr>
-<tr>
-<td style="text-align: left;">Screening, clarification and weir
-separation</td>
-<td style="text-align: left;">Remove or intercept suspended/coarse
-material.</td>
-<td style="text-align: left;">Waterleaf intake screens; pre-existing
-geothermal clarification at BHER/ATLiS; BHER added weir tank after
-clogging. <a href="waterleaf.html#o577">O577</a>, <a href="bher.html#o571">O571</a>, <a href="atlis.html#o573">O573</a></td>
-<td style="text-align: left;">Solids separation alone does not establish
-removal of dissolved salts.</td>
-</tr>
-<tr>
-<td style="text-align: left;">Solar evaporation and salt
-precipitation</td>
-<td style="text-align: left;">Concentrate brine and remove salts before
-it reaches the DLE plant.</td>
-<td style="text-align: left;">Ogden’s historical pond and salt-recovery
-operations prepare distinct feed streams. <a href="ogden.html#o575">O575</a></td>
-<td style="text-align: left;">Existing upstream operations, not a
-dedicated DLE pretreatment unit; pond history changes the inlet
-chemistry.</td>
-</tr>
-<tr>
-<td style="text-align: left;">Multimedia filtration</td>
-<td style="text-align: left;">Filter suspended matter; SWA also names
-residual oil droplets.</td>
-<td style="text-align: left;">Selected for Waterleaf; precedes UF in
-SWA. <a href="waterleaf.html#o577">O577</a>, <a href="south-west-arkansas.html#o564">O564</a></td>
-<td style="text-align: left;">Waterleaf’s short cold-brine test is not a
-universal advantage over UF.</td>
-</tr>
-<tr>
-<td style="text-align: left;">Ultrafiltration: pressurized/submerged,
-polymeric/ceramic options</td>
-<td style="text-align: left;">Membrane solid–liquid separation before
-extraction.</td>
-<td style="text-align: left;">SWA selects UF after multimedia; LANXESS
-tests pressurized/submerged UF; Waterleaf tests polymeric/ceramic UF. <a href="south-west-arkansas.html#o564">O564</a>, <a href="lanxess.html#o566">O566</a>, <a href="waterleaf.html#o578">O578</a></td>
-<td style="text-align: left;">Plant selection differs. Waterleaf reports
-winter flux penalties; SWA retains UF in its own design.</td>
-</tr>
-<tr>
-<td style="text-align: left;">Precoat filtration</td>
-<td style="text-align: left;">An evaluated filtration alternative.</td>
-<td style="text-align: left;">Waterleaf lists it among tested
-incoming-brine options. <a href="waterleaf.html#o578">O578</a></td>
-<td style="text-align: left;">Not selected as its main raw-brine filter;
-a separate downstream filter press must not be mistaken for the same
-stage.</td>
-</tr>
-<tr>
-<td style="text-align: left;">Activated carbon, walnut-shell filters and
-iron guard beds</td>
-<td style="text-align: left;">Hydrocarbon-removal / residual-iron
-options in the test program.</td>
-<td style="text-align: left;">Listed in LANXESS-site demonstration tests
-supporting SWA. <a href="lanxess.html#o566">O566</a></td>
-<td style="text-align: left;">No like-for-like performance table; source
-says many tested options were sub-optimal.</td>
-</tr>
-<tr>
-<td style="text-align: left;">Staged mineral removal with solids
-dewatering</td>
-<td style="text-align: left;">Remove targeted non-lithium minerals
-before DLE.</td>
-<td style="text-align: left;">ATLiS: Fe/silica then Mn/Zn and filter
-presses. HK: proprietary silica/polymetallic removal and filtration. <a href="atlis.html#o573">O573</a>, <a href="hells-kitchen.html#o569">O569</a></td>
-<td style="text-align: left;">Detailed reaction recipes are incomplete;
-waste versus potential product disposition differs.</td>
-</tr>
-<tr>
-<td style="text-align: left;">Conditional dehalogenation /
-neutralization</td>
-<td style="text-align: left;">Prepare bromine-depleted brine for lithium
-extraction.</td>
-<td style="text-align: left;">Franklin co-product concept: sodium
-bisulfite after bromine extraction, then partial neutralization with
-anhydrous ammonia. <a href="franklin.html#o584">O584</a></td>
-<td style="text-align: left;">Optional bromine pathway, not a confirmed
-requirement for the lithium-only project.</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="pretreatment-by-project" class="level3">
-<h3>Project-by-project comparison</h3>
-<p><strong>Design</strong> describes the proposed commercial train;
-<strong>test history</strong> describes reported trials;
-<strong>recommended work</strong> is prospective. A method listed in a
-test program is not automatically a commercial selection.</p>
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Project / source vintage</th>
-<th style="text-align: left;">Upstream sequence or disclosure gap</th>
-<th style="text-align: left;">Targets, reagents and residuals</th>
-<th style="text-align: left;">Evidence and qualification</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><a href="south-west-arkansas.html#south-west-arkansas-pretreatment">SWA ·
-2025 DFS / 2026 EA</a></td>
-<td style="text-align: left;">Well-pad phase separation → air
-stripping/scrubbing → cooling → pH/ORP conditioning → multimedia
-filtration → UF.</td>
-<td style="text-align: left;">Gases, oils, precipitated iron and
-suspended solids; NaOH/H2O2 for conditioning.</td>
-<td style="text-align: left;">Selected commercial design with supporting
-trials; no stage-by-stage outlet assay or removal efficiency established
-here. <a href="south-west-arkansas.html#o561">O561</a>, <a href="south-west-arkansas.html#o562">O562</a>, <a href="south-west-arkansas.html#o563">O563</a>, <a href="south-west-arkansas.html#o564">O564</a></td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="hells-kitchen.html#hells-kitchen-pretreatment">Hell’s Kitchen ·
-2023 EIR</a></td>
-<td style="text-align: left;">Vacuum-flash cooling → proprietary
-silica/polymetallic recovery and filtration → lithium extraction.</td>
-<td style="text-align: left;">Silica and polymetallic products; boron
-removal is only a possibility. Recipe and dose not specified.</td>
-<td style="text-align: left;">Proposed sequence; proprietary chemistry
-and impurity residuals unresolved. <a href="hells-kitchen.html#o568">O568</a>, <a href="hells-kitchen.html#o569">O569</a></td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="bher.html#bher-pretreatment">BHER
-demonstration · 2022–2023</a></td>
-<td style="text-align: left;">Existing secondary clarification → NaOH pH
-adjustment; weir tank acquired after initial solids clogging.</td>
-<td style="text-align: left;">pH conditioning and precipitated solids.
-Original media-tolerance assumption did not establish adequate
-iron/silicon removal.</td>
-<td style="text-align: left;">Field-test failure informs risk; media
-degradation was also observed, so no single-cause attribution. <a href="bher.html#o570">O570</a>, <a href="bher.html#o571">O571</a>, <a href="bher.html#o572">O572</a></td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="atlis.html#atlis-pretreatment">ATLiS · 2021 EIR / 2025 EA</a></td>
-<td style="text-align: left;">HR1 post-secondary-clarifier brine →
-Fe/silica removal → Mn/Zn removal → filter-press dewatering →
-ILiAD.</td>
-<td style="text-align: left;">HCl pH control disclosed; limestone/CaO
-facilities listed. Detailed chemical sequence not disclosed.</td>
-<td style="text-align: left;">Commercial proposal; Fe/silica cake
-initially a waste, Mn/Zn intended products. No verified operating
-efficiency. <a href="atlis.html#o573">O573</a>, <a href="atlis.html#o574">O574</a>; <a href="atlis.html#o211">O211</a>.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="ogden.html#ogden-pretreatment">Ogden · historical 2022
-design</a></td>
-<td style="text-align: left;">Evaporation ponds and prior salt recovery
-→ brine filtration → ILiAD.</td>
-<td style="text-align: left;">Different concentrated feed streams;
-specific filter type and outlet specifications not given in reviewed
-process section.</td>
-<td style="text-align: left;">Historical Compass design; not the later
-EnergyX configuration. No assumed raw-brine Mg-softening step. <a href="ogden.html#o575">O575</a>, <a href="ogden.html#o576">O576</a></td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="green-river.html#green-river-pretreatment">Green River · 2023
-draft UIC</a></td>
-<td style="text-align: left;">No upstream DLE pretreatment train
-established in reviewed injection package.</td>
-<td style="text-align: left;">Injection-side solids handling is not
-evidence of the incoming DLE treatment.</td>
-<td style="text-align: left;">Permit chemistry has a
-production/spent-brine label conflict; no method inferred from it. <a href="green-river.html#d079">D079</a>, Attachment D pp. 16–17; <a href="green-river.html#o404">O404</a>.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="waterleaf.html#waterleaf-pretreatment">Waterleaf · 2025 tests /
-2026 application</a></td>
-<td style="text-align: left;">Intake screening → surge storage →
-raw-brine multimedia filtration.</td>
-<td style="text-align: left;">Native suspended material; raw-filter
-backwash routed through depleted-brine return. UF alternatives were
-tested.</td>
-<td style="text-align: left;">Selected commercial design supported by
-pilot/short cold-brine tests; no upstream dissolved-Mg/Ca removal
-claimed. <a href="waterleaf.html#o577">O577</a>, <a href="waterleaf.html#o578">O578</a></td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="franklin.html#franklin-pretreatment">Franklin · 2025 report / 2026
-PEA</a></td>
-<td style="text-align: left;">H2S removal if applicable → iron
-precipitation → suspended-solids filtration recommended for
-testing.</td>
-<td style="text-align: left;">Optional bromine route additionally needs
-bisulfite treatment and partial ammonia neutralization.</td>
-<td style="text-align: left;">Expected / recommended train; optional
-co-product circuit kept separate from lithium-only case. <a href="franklin.html#o583">O583</a>, <a href="franklin.html#o584">O584</a></td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="wellspring.html#wellspring-pretreatment">Wellspring · 2025
-application</a></td>
-<td style="text-align: left;">Brine-treatment block and proposed
-site-specific technology selection; exact train not established.</td>
-<td style="text-align: left;">Species-specific targets, reagents and
-outlet limits are not supplied in selected passages.</td>
-<td style="text-align: left;">Applicant proposal. Carbonate-refining
-precipitation/filtration is downstream of DLE. <a href="wellspring.html#o585">O585</a>, <a href="wellspring.html#o586">O586</a></td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="paradox.html#paradox-pretreatment">Paradox · 2024 draft
-UIC</a></td>
-<td style="text-align: left;">No upstream DLE pretreatment train
-established in reviewed injection package.</td>
-<td style="text-align: left;">Shared Green River chemistry does not
-identify a treatment recipe.</td>
-<td style="text-align: left;">Draft spent-brine management cannot
-substitute for an upstream process flowsheet. <a href="paradox.html#d114">D114</a>, Attachment D, PDF pp. 46–48.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="us-magnesium.html#us-magnesium-pretreatment">US Magnesium · 2024
-historical events</a></td>
-<td style="text-align: left;">DLE installation on magnesium-operation
-byproduct material; specific preparation train not established.</td>
-<td style="text-align: left;">Prior magnesium processing changes the
-feed, but the survey does not detail DLE pretreatment.</td>
-<td style="text-align: left;">Historical government-survey summary; no
-transfer of Ogden or Waterleaf methods. <a href="us-magnesium.html#o551">O551</a>.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="utah-lithium.html#utah-lithium-pretreatment">Mandrake Utah ·
-September 2026 testing update</a></td>
-<td style="text-align: left;">Brine supplied to Electroflow for
-appraisal; pretreatment selection not established.</td>
-<td style="text-align: left;">No full treatment train, reagent schedule
-or inlet/outlet pair in the cited update.</td>
-<td style="text-align: left;">Sample delivery is not completed
-pretreatment validation. <a href="utah-lithium.html#o553">O553</a>.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="evergreen.html#evergreen-pretreatment">Evergreen · 2025
-disclosures</a></td>
-<td style="text-align: left;">No lithium-specific pretreatment train
-established in the currently collected unit/development records.</td>
-<td style="text-align: left;">Bromine development alone does not specify
-the future lithium-feed preparation.</td>
-<td style="text-align: left;">Underlying TETRA technical studies remain
-uncollected; no process inferred from neighboring SWA. <a href="evergreen.html#o554">O554</a>, <a href="evergreen.html#o555">O555</a>.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="pine.html#pine-pretreatment">Pine
-· 2025 neighboring-property disclosure</a></td>
-<td style="text-align: left;">No Pine-specific pretreatment train
-established in the collected unit-identity record.</td>
-<td style="text-align: left;">Targets, chemistry, filters and outputs
-unresolved.</td>
-<td style="text-align: left;">Direct Exxon project engineering evidence
-still needed. <a href="pine.html#o556">O556</a>.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="lonestar.html#lonestar-pretreatment">Lonestar · July 2026
-filing</a></td>
-<td style="text-align: left;">No site-specific pretreatment train
-established in the selected Texas project disclosure.</td>
-<td style="text-align: left;">Generic LiTAS or multi-project claims are
-not a Texas treatment specification.</td>
-<td style="text-align: left;">Commissioned demonstration does not itself
-document the pretreatment train. <a href="lonestar.html#o557">O557</a>.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="daytona.html#daytona-pretreatment">Daytona / Folsom Point · July
-2026 filing</a></td>
-<td style="text-align: left;">No Arkansas asset-specific pretreatment
-train established in the selected acquisition disclosure.</td>
-<td style="text-align: left;">Targets, reagents and treated-feed assays
-unresolved.</td>
-<td style="text-align: left;">Do not inherit Texas or Ogden methods
-merely through shared ownership. <a href="daytona.html#o558">O558</a>.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="magnolia.html#magnolia-pretreatment">Magnolia · 2024 issuer
-report</a></td>
-<td style="text-align: left;">Pilot statement does not disclose a
-Magnolia-specific pretreatment train.</td>
-<td style="text-align: left;">Different brine/technology from La Negra;
-no Chile method or efficiency transferred.</td>
-<td style="text-align: left;">Issuer-only pilot evidence; direct
-government/technical package missing. <a href="magnolia.html#o559">O559</a>.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a href="lanxess.html#lanxess-pretreatment">LANXESS history · 2020–2025
-demonstration</a></td>
-<td style="text-align: left;">Post-bromine feed with upstream phase
-separation/vacuum degassing; pH/ORP, temperature and filtration
-trials.</td>
-<td style="text-align: left;">UF, multimedia, activated carbon,
-walnut-shell and iron-guard-bed options tested; not all selected.</td>
-<td style="text-align: left;">Demonstration supports SWA research; not
-proof that the ended commercial project was built. <a href="lanxess.html#o567">O567</a>, <a href="lanxess.html#o566">O566</a></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="pretreatment-conditions" class="level3">
-<h3>Conditions and outcomes that can actually be checked</h3>
-<p>BHER’s process description gives a pH change; Waterleaf gives a short
-filtration test. They measure different things and should not be ranked
-against one another.</p>
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Project / basis</th>
-<th style="text-align: right;">Feed pH (dimensionless)</th>
-<th style="text-align: right;">Conditioned pH (dimensionless)</th>
-<th style="text-align: left;">Reagent / evidence</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">BHER demonstration process, 2022–2023</td>
-<td style="text-align: right;">4.7</td>
-<td style="text-align: right;">7.5</td>
-<td style="text-align: left;">NaOH; process description, not proof of
-sufficient impurity removal. <a href="bher.html#o570">O570</a></td>
-</tr>
-</tbody>
-</table>
-<table style="width:100%;">
-<colgroup>
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Waterleaf test location / scale</th>
-<th style="text-align: left;">Feed temperatures (°C)</th>
-<th style="text-align: right;">Flux (L/m²/h)</th>
-<th style="text-align: right;">Duration (h)</th>
-<th style="text-align: left;">Pressure result (psi differential)</th>
-<th style="text-align: left;">Filtrate particle-size result (µm)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Oakland pilot-scale column; application
-pp. 106–107</td>
-<td style="text-align: left;">13 and 1.5</td>
-<td style="text-align: right;">12000</td>
-<td style="text-align: right;">12</td>
-<td style="text-align: left;">Below the 5 psi design ceiling; 5 is not
-the measured operating pressure</td>
-<td style="text-align: left;">No particles above 4 reported in the
-tested filtrates</td>
-</tr>
-</tbody>
-</table>
-<p>Waterleaf sources: <a href="waterleaf.html#o579">O579</a>, <a href="waterleaf.html#o580">O580</a>, <a href="waterleaf.html#o581">O581</a>. The GSL pilot performance period
-excluded the coldest months; the separate Oakland test supplied
-cold-brine evidence. Particle size is not TSS concentration, and a
-12-hour test does not demonstrate seasonal media life, cleaning demand
-or full-scale reliability. The applicant’s narrative attributes UF
-difficulties to cold-brine viscosity and lower flux; it does not publish
-a matched lifecycle-cost comparison in these passages. <a href="waterleaf.html#o578">O578</a>.</p>
-<p>BHER’s first field trial stopped after precipitated solids clogged
-valves and contaminated media; a weir tank was then acquired. Later
-tests also identified media structural degradation, and the report
-highlights iron/silicon removal as an unresolved need. These findings
-support attention to pretreatment but do not isolate it as the sole
-cause of failure. <a href="bher.html#o571">O571</a>, <a href="bher.html#o572">O572</a>.</p>
-</section>
-<section id="pretreatment-boundaries" class="level3">
-<h3>Keep downstream treatment separate</h3>
-<table>
+<body class="library-home"><a class="skip-link" href="#main-content">Skip to content</a><header class="site-header"><a class="brand" href="report.html"><img class="lab-logo" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNzU4IDcwMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InRpdGxlIGRlc2MiPgogIDx0aXRsZSBpZD0idGl0bGUiPk1JVCBEZXZpY2UgUmVzZWFyY2ggTGFiIGxvZ288L3RpdGxlPgogIDxkZXNjIGlkPSJkZXNjIj5WZWN0b3IgcmVjb25zdHJ1Y3Rpb24gb2YgdGhlIERldmljZSBSZXNlYXJjaCBMYWIgbG9nbyBmcm9tIHRoZSBvZmZpY2lhbCBNSVQgbGFiIHdlYnNpdGUuPC9kZXNjPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJjaXJjbGUtZ3JhZGllbnQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjUwIiB5MT0iMCIgeDI9IjYwMCIgeTI9IjAiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZjhkNDIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjQ4NiIgc3RvcC1jb2xvcj0iI2ZmYWUzNiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNzE0IiBzdG9wLWNvbG9yPSIjZmZiZDMwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC45MTQiIHN0b3AtY29sb3I9IiNmZmM5MmMiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZmZjZTJiIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJkcm9wbGV0LWdyYWRpZW50IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjQwMCIgeTE9IjcwMCIgeDI9IjYwIiB5Mj0iNjAiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwZmIyZjMiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjE4IiBzdG9wLWNvbG9yPSIjMGZiMmYzIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC4zNSIgc3RvcC1jb2xvcj0iIzFlYTBlZiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNTciIHN0b3AtY29sb3I9IiMzODgwZTkiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjc2IiBzdG9wLWNvbG9yPSIjNGY2NGUzIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC44NyIgc3RvcC1jb2xvcj0iIzVjNTRlMCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM1YzU0ZTAiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9Im92ZXJsYXAtZ3JhZGllbnQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjUwIiB5MT0iMCIgeDI9IjUxMCIgeTI9IjAiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNkZjJjNjQiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjExNSIgc3RvcC1jb2xvcj0iI2RhMzI2YSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuMjY5IiBzdG9wLWNvbG9yPSIjZDAzYTc1Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC40MjMiIHN0b3AtY29sb3I9IiNjODQwN2UiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjU3NyIgc3RvcC1jb2xvcj0iI2JlNDg4OSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNzY5IiBzdG9wLWNvbG9yPSIjYjM1MTk2Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2E5NWFhMSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPGcgc2hhcGUtcmVuZGVyaW5nPSJnZW9tZXRyaWNQcmVjaXNpb24iPgogICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCA3MDApIHNjYWxlKDEgLTEpIj4KICAgICAgPHBhdGggZmlsbD0idXJsKCNjaXJjbGUtZ3JhZGllbnQpIiBkPSJNNDA4IDYwNyBjLTE4IC0yIC0zOCAtNyAtNTIgLTE0IC0xMCAtNCAtMjggLTE1IC0zOCAtMjMgLTMyIC0yNSAtNTQgLTYyIC02MyAtMTAzIC0zIC0xNCAtNCAtNDEgLTIgLTU3IDExIC03OSA3NSAtMTQwIDE1NCAtMTQ5IDI5IC0zIDYwIDIgODYgMTMgNSAyIDExIDUgMTMgNSAxMCA0IDI5IDE4IDQzIDMxIDE0IDE1IDI1IDMwIDM0IDUwIDMyIDY3IDE3IDE0OCAtMzcgMjAwIC0zNyAzNSAtODggNTIgLTEzOCA0N3oiLz4KICAgIDwvZz4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgNzAwKSBzY2FsZSgxIC0xKSI+CiAgICAgIDxwYXRoIGZpbGw9InVybCgjZHJvcGxldC1ncmFkaWVudCkiIGQ9Ik0yNTQgNjQ4IGMtNDEgLTQyIC05NiAtMTEwIC0xMzMgLTE2NSAtNDUgLTY4IC03MyAtMTI3IC04MyAtMTc0IC02IC0yOSAtNSAtNjEgMyAtOTQgMjEgLTg1IDkwIC0xNTMgMTc1IC0xNzMgMjAgLTUgMzAgLTUgNTUgLTUgMjcgMCAzNSAxIDU4IDYgODggMjIgMTU3IDk0IDE3NCAxODQgMTEgNTQgMiAxMDEgLTMyIDE2OSAtMjcgNTUgLTY1IDExMSAtMTIxIDE4MSAtMzEgMzggLTc1IDg3IC03OSA4NyAtMSAwIC05IC03IC0xNyAtMTZ6Ii8+CiAgICA8L2c+CiAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDcwMCkgc2NhbGUoMSAtMSkiPgogICAgICA8cGF0aCBmaWxsPSJ1cmwoI292ZXJsYXAtZ3JhZGllbnQpIiBkPSJNMzM0IDU4MSBjLTQxIC0yNiAtNjkgLTY2IC03OSAtMTE0IC0zIC0xNCAtNCAtNDEgLTIgLTU3IDE3IC0xMTYgMTQwIC0xODMgMjQ2IC0xMzMgbDggMyAwIDggYy0xIDQgLTEgNyAtMSA4IC0xIDEgLTEgNCAtMSA3IC0yIDEzIC0xMCAzNiAtMTggNTcgLTQgMTEgLTIyIDQ4IC0yNyA1OCAtMSAyIC00IDYgLTYgMTAgLTE4IDMxIC00NCA3MSAtNzEgMTA3IC0xNCAxOCAtNDAgNTEgLTQxIDUxIDAgMCAtNCAtMiAtOCAtNXoiLz4KICAgIDwvZz4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgNzAwKSBzY2FsZSgxIC0xKSI+CiAgICAgIDxwYXRoIGZpbGw9IiMyMzFmMjAiIGQ9Ik03MjQgMzgzIGwwIC0xOTIgODYgMCBjNTcgMSA4OCAxIDk0IDIgMjUgNCA0MCA4IDU5IDE3IDM5IDE5IDY2IDU1IDc3IDEwNSAxMiA1MSA5IDExNSAtOCAxNTggLTExIDI4IC0yOSA1MiAtNTIgNjkgLTE3IDExIC00MiAyMyAtNjMgMjcgLTI0IDUgLTI0IDUgLTExMSA2IGwtODIgMCAwIC0xOTJ6IG0xNTggMTIzIGMyNSAtNCA0NCAtMTMgNTkgLTI4IDE1IC0xNyAyNCAtMzggMjkgLTY4IDIgLTE0IDEgLTUzIC0xIC02NyAtNSAtMjkgLTE0IC00NyAtMjkgLTYxIC04IC04IC0yMSAtMTUgLTMyIC0xOCAtMTcgLTQgLTIxIC00IC02NyAtNSBsLTQ0IDAgMCAxMjQgMCAxMjQgMzkgMCBjMjMgMCA0MiAwIDQ2IC0xeiBNMTEyOSAzODMgbDAgLTE5MiAzNyAwIDM2IDAgMCA3MSAwIDcwIDM0IDAgMzUgMCAzNyAtNzEgMzcgLTcwIDQyIDAgYzIzIDAgNDIgMCA0MiAwIDAgMSAtMTkgMzUgLTQzIDc3IC0yMyA0MyAtNDIgNzggLTQxIDc4IDAgMSAxIDEgMSAxIDQgMCAyNiAxMiAzMyAxOCAxOCAxNSAzMiAzOCAzNyA2MiA3IDM1IDEgNzEgLTE1IDk2IC0xNCAyMiAtMzMgMzYgLTYwIDQ0IC0yMiA4IC0xOSA3IC0xMjEgOCBsLTkxIDAgMCAtMTkyeiBtMTUzIDEyNyBjMzIgLTMgNTEgLTE2IDU5IC00MCAyIC04IDIgLTI0IDAgLTMzIC01IC0xOSAtMjAgLTMzIC00MiAtMzggLTcgLTIgLTExIC0yIC01MiAtMiBsLTQ1IDAgMCA1NyAwIDU3IDM1IDAgYzE5IDAgMzkgMCA0NSAtMXogTTE0OTUgMzgzIGwwIC0xOTIgMTE0IDAgMTE0IDAgMCAzNCAwIDM0IC03NyAwIC03OCAwIDAgMTU4IDAgMTU4IC0zNiAwIC0zNyAwIDAgLTE5MnogTTk0MSAxNTAgYy0yIC0xIC02IC0yIC05IC0zIC0xMSAtNyAtMTQgLTI3IC02IC00MCA4IC0xMyAzMCAtMTQgNDAgLTIgMyAzIDYgMTAgNSAxMSAwIDEgLTIgMSAtNCAxIC00IDEgLTQgMSAtNCAtMiAtMSAtMSAtMiAtNCAtNCAtNiAtOCAtMTAgLTIzIC03IC0yOCA1IC0yIDcgLTEgMTggMyAyNCA2IDggMjEgOCAyNyAtMiAyIC0zIDMgLTMgNiAtMyAyIDEgMyAxIDQgMSAwIDEgLTEgMyAtMiA1IC0yIDQgLTcgOCAtMTEgMTAgLTQgMSAtMTIgMiAtMTcgMXogTTEyMDEgMTUwIGMtMTEgLTIgLTE2IC0xMSAtMTMgLTE5IDIgLTUgNSAtNyAxNiAtOSAxMiAtMyAxNSAtNSAxNSAtOSAwIC00IC0xIC03IC01IC04IC04IC01IC0xOSAwIC0yMSA4IDAgMyAwIDMgLTMgMyAtMiAtMSAtNCAtMSAtNCAtMSAtMiAwIC0xIC00IDEgLTggMyAtNiA3IC05IDE1IC0xMCAxMyAtMiAyNCAzIDI2IDE0IDAgNSAtMiAxMSAtNyAxNCAtMiAxIC03IDMgLTExIDQgLTEwIDIgLTE0IDQgLTE0IDggMCA0IDMgNiA5IDcgNyAwIDEyIC0zIDEzIC04IDEgLTIgMiAtMyAzIC0zIDEgMSAyIDEgNCAxIDIgMCAyIDAgMiAzIC0yIDUgLTUgOSAtOSAxMSAtNSAyIC0xMiAzIC0xNyAyeiBNMTQzMyAxNTAgYy03IC0yIC0xMyAtNiAtMTcgLTEzIC0yIC01IC0yIC0yMiAxIC0yNyA0IC05IDExIC0xMyAyMiAtMTMgOCAtMSAxNCAyIDE5IDcgMyA0IDcgMTIgNiAxMyAwIDAgLTIgMCAtNCAwIC00IDEgLTQgMSAtNSAtMyAtNiAtMTUgLTI2IC0xNCAtMzEgMSAtNSAxMyAxIDI3IDEyIDI5IDcgMSAxNCAtMiAxOCAtOCAyIC0zIDUgLTQgOCAtMiAzIDIgLTQgMTEgLTExIDE0IC01IDIgLTEzIDMgLTE4IDJ6IE03MjQgMTI0IGwwIC0yNiAxMyAwIGMxNCAwIDE4IDEgMjIgNiA2IDUgNyA4IDcgMjAgMCAxMCAtMSAxMSAtMyAxNiAtMiAzIC01IDUgLTggNyAtNCAyIC02IDIgLTE4IDIgbC0xMyAwIDAgLTI1eiBtMjggMTUgYzUgLTQgNiAtMTAgNiAtMTggLTEgLTEyIC02IC0xNiAtMTggLTE2IGwtOCAwIDAgMTkgMCAxOCA4IDAgYzggMCA5IDAgMTIgLTN6IE03ODUgMTI0IGwwIC0yNiAxOSAwIDE4IDAgMCA0IDAgMyAtMTQgMCAtMTUgMCAwIDggMCA4IDEzIDAgMTIgMCAwIDQgMCAzIC0xMiAwIC0xMyAwIDAgNyAwIDcgMTQgMCAxNCAwIDAgNCAwIDMgLTE4IDAgLTE4IDAgMCAtMjV6IE04MzUgMTQ3IGMxIC0xIDUgLTEyIDkgLTI1IGw4IC0yMyA0IC0xIGMyIDAgNCAwIDQgMCAwIDAgMiA1IDQgMTEgMiA1IDYgMTYgOSAyNSBsNSAxNSAtNCAwIC01IDAgLTYgLTE5IGMtNCAtMTEgLTcgLTIwIC03IC0yMCAwIDEgLTMgOSAtNyAyMCBsLTUgMTkgLTUgMCBjLTMgMCAtNCAwIC00IC0yeiBNODk0IDEyNCBsMCAtMjYgNCAwIDQgMCAwIDI2IDAgMjUgLTQgMCAtNCAwIDAgLTI1eiBNOTg5IDEyNCBsMCAtMjYgMTkgMCAxOCAwIDAgNCAwIDMgLTE0IDAgLTE1IDAgMCA4IDAgOCAxMyAwIDEyIDAgMCA0IDAgMyAtMTIgMCAtMTMgMCAwIDcgMCA3IDE1IDAgMTQgMCAwIDQgMCAzIC0xOCAwIC0xOSAwIDAgLTI1eiBNMTA3NCAxMjQgbDAgLTI2IDQgMCA0IDAgMCAxMSAwIDEwIDYgMCA2IDAgNiAtOSBjMyAtNSA2IC0xMCA3IC0xMSAwIC0xIDIgLTEgNSAtMSBsNSAxIC03IDEwIC03IDExIDQgMSBjNSAyIDcgNiA3IDE0IDAgNCAwIDYgLTIgOCAtNCA1IC03IDYgLTIzIDYgbC0xNSAwIDAgLTI1eiBtMzAgMTcgYzQgLTQgMyAtMTIgLTIgLTE0IC0xIDAgLTYgLTEgLTExIC0xIGwtOSAwIDAgOCAwIDggMTAgMCBjNyAwIDEwIDAgMTIgLTF6IE0xMTMzIDEyNCBsMCAtMjYgMTkgMCAxOCAwIDAgNCAwIDMgLTE1IDAgLTE1IDAgMCA4IDAgOCAxMyAwIDEyIDAgMCA0IDAgMyAtMTIgMCAtMTMgMCAwIDcgMCA3IDE1IDAgMTQgMCAwIDQgMCAzIC0xOCAwIC0xOCAwIDAgLTI1eiBNMTI0NSAxMjQgbDAgLTI2IDE5IDAgMTkgMCAwIDQgMCAzIC0xNSAwIC0xNSAwIDAgOCAwIDggMTMgMCAxMiAwIDAgNCAwIDMgLTEyIDAgLTEzIDAgMCA3IDAgNyAxNSAwIDE0IDAgMCA0IDAgMyAtMTggMCAtMTkgMCAwIC0yNXogTTEzMTQgMTQ2IGMtMSAtMiAtNSAtMTMgLTEwIC0yNSAtNCAtMTIgLTggLTIyIC05IC0yMiAwIC0xIDIgLTEgNCAtMSBsNSAwIDMgOCAyIDcgMTAgMCA5IDAgMiAtNyAzIC03IDQgLTEgYzIgMCA0IDAgNCAxIDAgMCAtNCAxMiAtOSAyNSBsLTkgMjUgLTQgMCBjLTQgMCAtNCAwIC01IC0zeiBtOCAtMTYgYzEgLTQgMiAtOCAzIC05IDAgLTEgLTIgLTEgLTYgLTEgLTQgMCAtNyAwIC03IDEgMCAwIDIgNCAzIDkgMiA0IDQgOCA0IDcgMCAwIDIgLTQgMyAtN3ogTTEzNTcgMTI0IGwwIC0yNiA0IDAgNCAwIDAgMTEgMCAxMCA2IDAgNiAwIDYgLTEwIDcgLTEwIDQgLTEgYzMgMCA1IDAgNSAwIDAgMSAtMyA2IC02IDExIGwtNyAxMCAzIDIgYzUgMiA3IDYgOCAxMiAwIDUgMCA3IC0yIDEwIC0zIDUgLTcgNiAtMjMgNiBsLTE1IDAgMCAtMjV6IG0zMCAxNiBjMyAtMyAzIC05IDAgLTEyIC0yIC0xIC00IC0yIC0xMiAtMiBsLTEwIDAgMCA4IDAgOCAxMCAwIGM5IDAgMTAgMCAxMiAtMnogTTE0ODIgMTI0IGwwIC0yNiA0IDAgMyAwIDAgMTIgMCAxMSAxNCAwIDEzIDAgMCAtMTEgMCAtMTIgNCAwIDQgMCAwIDI2IDAgMjUgLTQgMCAtNCAwIDAgLTEwIDAgLTExIC0xMyAwIC0xNCAwIDAgMTEgMCAxMCAtMyAwIC00IDAgMCAtMjV6IE0xNTc1IDEyNCBsMCAtMjYgMTYgMCAxNiAwIDAgNCAwIDMgLTEyIDAgLTEzIDAgMCAyMiAwIDIyIC0zIDAgLTQgMCAwIC0yNXogTTE2MzkgMTQ3IGMtMTEgLTMwIC0xOCAtNDggLTE4IC00OCAwIC0xIDIgLTEgNCAtMSBsNCAxIDMgNyAyIDcgMTAgMCA5IDAgMiAtNSBjMSAtMyAyIC03IDIgLTggMSAtMiAyIC0yIDUgLTIgMyAwIDQgMCA0IDEgMCAxIC00IDEyIC05IDI2IGwtOSAyNCAtNCAwIGMtMyAwIC00IDAgLTUgLTJ6IG04IC0xOCBjMiAtNCAzIC04IDMgLTkgLTEgMCAtMyAwIC03IDAgbC02IDEgMyA4IGMyIDQgNCA4IDQgOCAwIDAgMiAtNCAzIC04eiBNMTY4MiAxMjQgbDAgLTI2IDE2IDAgYzE2IDAgMTcgMCAyMCAyIDQgMyA2IDYgNiAxMiAwIDUgLTIgMTAgLTUgMTIgLTEgMSAtMSAxIDEgNCAzIDUgNCA5IDEgMTQgLTMgNiAtNiA3IC0yNCA3IGwtMTUgMCAwIC0yNXogbTMxIDE3IGMyIC0yIDIgLTkgLTEgLTExIC0yIC0yIC00IC0yIC0xMiAtMiBsLTEwIDAgMCA3IDAgNyAxMCAwIGM4IDAgMTEgMCAxMyAtMXogbTEgLTIzIGMzIC0zIDMgLTggMCAtMTEgLTIgLTIgLTMgLTIgLTEzIC0yIGwtMTEgMCAwIDggMCA4IDExIDAgYzEwIDAgMTEgLTEgMTMgLTN6Ii8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K" alt="MIT Device Research Lab" width="1758" height="700"><span>DLE Research Library</span></a><nav class="global-nav" aria-label="Primary"><a href="projects.html">Projects</a><a href="compare-chemistry.html">Compare</a><a href="sources.html">Sources</a><a href="methods.html">Methods</a></nav></header><div class="review-status">Research draft · Human review pending · Collection cutoffs September 14–16, 2026 · <a href="methods.html">Review and scope</a></div><main id="main-content">
+<section id="library" class="level1 unlisted">
+<h1 class="unlisted">US DLE project evidence</h1>
+<p>Explore US direct lithium extraction projects through public filings
+and technical reports. <strong>18 research profiles</strong>, including
+proposed developments, demonstrations and historical projects.</p>
+<div class="research-routes">
+<p><a href="compare-chemistry.html#chemistry-comparison"><strong>Compare
+chemistry →</strong> Concentrations, sample basis and full published
+analyses.</a></p>
+<p><a href="compare-pretreatment.html#pretreatment-comparison"><strong>Compare
+pretreatment →</strong> Selected methods, tested alternatives and
+disclosure gaps.</a></p>
+<p><a href="compare-flowsheets.html#flowsheet-library"><strong>Browse
+flowsheets →</strong> Published diagrams, water flows and process
+boundaries.</a></p>
+</div>
+<section id="featured-projects" class="level2">
+<h2>Explore a project</h2>
+<p class="table-hint">Scroll within the table to see all columns and rows.</p><div class="table-scroll" role="region" tabindex="0" aria-label="Explore a project — data table"><table>
 <colgroup>
 <col style="width: 33%" />
 <col style="width: 33%" />
@@ -1203,422 +311,38 @@ cause of failure. <a href="bher.html#o571">O571</a>, <a href="bher.html#o572">O5
 </colgroup>
 <thead>
 <tr>
-<th style="text-align: left;">Project / stream</th>
-<th style="text-align: left;">Treatment after DLE</th>
-<th style="text-align: left;">Why it is excluded from incoming-brine
-pretreatment</th>
+<th style="text-align: left;">Project</th>
+<th style="text-align: left;">Location / feed context</th>
+<th style="text-align: left;">Start here</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">SWA concentrated eluate</td>
-<td style="text-align: left;">NaOH/soda-ash Ca/Mg precipitation,
-clarification and polishing</td>
-<td style="text-align: left;">Acts after lithium extraction and eluate
-RO. <a href="south-west-arkansas.html#o565">O565</a></td>
+<td style="text-align: left;"><a href="south-west-arkansas.html#south-west-arkansas">South West
+Arkansas</a></td>
+<td style="text-align: left;">Arkansas · Smackover brine</td>
+<td style="text-align: left;"><a href="south-west-arkansas-chemistry.html#swa-water-composition">Chemistry</a>
+· <a href="south-west-arkansas-process.html#swa-process-flowsheets">Process</a></td>
 </tr>
 <tr>
-<td style="text-align: left;">Waterleaf eluate</td>
-<td style="text-align: left;">Neutralization and divalent-ion
-purification</td>
-<td style="text-align: left;">Conditions the lithium-rich product
-stream, not raw lake water. <a href="waterleaf.html#o582">O582</a></td>
+<td style="text-align: left;"><a href="waterleaf.html#waterleaf">Waterleaf / Lilac</a></td>
+<td style="text-align: left;">Utah · Great Salt Lake brine</td>
+<td style="text-align: left;"><a href="waterleaf-chemistry.html#waterleaf-water-composition">Chemistry</a>
+· <a href="waterleaf-process.html#waterleaf-process-flowsheets">Process</a></td>
 </tr>
 <tr>
-<td style="text-align: left;">Waterleaf depleted brine</td>
-<td style="text-align: left;">pH adjustment, NaOCl manganese
-precipitation, residual-oxidant neutralization with sodium sulfite and
-solids removal</td>
-<td style="text-align: left;">Prepares discharge after extraction; do
-not put these reagents in the raw-MMF recipe. <a href="waterleaf.html#o582">O582</a></td>
-</tr>
-<tr>
-<td style="text-align: left;">Wellspring LiCl feed to carbonate
-unit</td>
-<td style="text-align: left;">Precipitation and filtration designed for
-carbonate refining</td>
-<td style="text-align: left;">Vendor feedstock had already passed
-through DLE. <a href="wellspring.html#o586">O586</a></td>
-</tr>
-<tr>
-<td style="text-align: left;">BHER loaded media / depleted brine</td>
-<td style="text-align: left;">Wash, acid elution and depleted-brine
-acidification</td>
-<td style="text-align: left;">These are extraction-cycle or
-return-stream operations. <a href="bher.html#o570">O570</a></td>
+<td style="text-align: left;"><a href="hells-kitchen.html#hells-kitchen">Hell’s Kitchen</a></td>
+<td style="text-align: left;">California · Geothermal brine</td>
+<td style="text-align: left;"><a href="hells-kitchen-chemistry.html#hk-water-composition">Chemistry</a> ·
+<a href="hells-kitchen-process.html#hk-process-flowsheets">Process</a></td>
 </tr>
 </tbody>
-</table>
-<p>For a quantitative pretreatment ranking, the remaining requirements
-are matched inlet/outlet analyses, lithium loss across each stage,
-removal efficiency by species, reagent dose per volume of brine,
-wash/backwash demand, filter flux and cleaning history, residual
-mass/disposal route, and costs at a common operating scale. <strong>No
-complete, comparable set was established across the 18
-profiles.</strong> Retaining the exact stream is essential: a DLE
-impurity-rejection percentage or final-product purity is not a
-pretreatment removal percentage.</p>
+</table></div>
+<p><a href="projects.html#project-reports"><strong>All 18 projects
+→</strong></a> · <a href="findings.html#principal-findings">Principal
+findings</a> · <a href="coverage.html#composition-and-flowsheet-availability">Disclosure
+coverage</a></p>
 </section>
 </section>
-<section id="brine-concentration-and-chemistry" class="level2">
-<h2>Brine concentration and chemistry</h2>
-<p><strong>The principal design figures are 439.9 mg/L lithium for SWA
-and 250 mg/L for HK.</strong> The first belongs to SWA’s process-design
-basis; the second is labeled expected geothermal brine composition in
-the EIR. Preserve those descriptions when using the numbers. The HK
-value is not established as a measured concentration at the inlet to the
-lithium extraction equipment. <a href="south-west-arkansas.html#o009">O009</a>, <a href="hells-kitchen.html#o051">O051</a>.</p>
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Constituent</th>
-<th style="text-align: left;">SWA process design (mg/L), September
-2025</th>
-<th style="text-align: left;">HK expected composition (mg/L), August
-2023</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Lithium, Li</td>
-<td style="text-align: left;">439.9 <a href="south-west-arkansas.html#o009">O009</a></td>
-<td style="text-align: left;">250 <a href="hells-kitchen.html#o051">O051</a></td>
-</tr>
-<tr>
-<td style="text-align: left;">Magnesium, Mg</td>
-<td style="text-align: left;">3,361.2 <a href="south-west-arkansas.html#o010">O010</a></td>
-<td style="text-align: left;">50 <a href="hells-kitchen.html#o089">O089</a></td>
-</tr>
-<tr>
-<td style="text-align: left;">Calcium, Ca</td>
-<td style="text-align: left;">39,051.1 <a href="south-west-arkansas.html#o011">O011</a></td>
-<td style="text-align: left;">29,000 <a href="hells-kitchen.html#o080">O080</a></td>
-</tr>
-<tr>
-<td style="text-align: left;">Boron, B</td>
-<td style="text-align: left;">296.6 <a href="south-west-arkansas.html#o012">O012</a></td>
-<td style="text-align: left;">350 <a href="hells-kitchen.html#o078">O078</a></td>
-</tr>
-<tr>
-<td style="text-align: left;">Total dissolved solids</td>
-<td style="text-align: left;">370,121 <a href="south-west-arkansas.html#o013">O013</a></td>
-<td style="text-align: left;">Not listed as a total in Table 2.0-2</td>
-</tr>
-</tbody>
-</table>
-<p>Sources: <a href="south-west-arkansas.html#d044">D044</a>, Table
-17-1, printed p. 120 / PDF p. 142; <a href="hells-kitchen.html#d022">D022</a>, Table 2.0-2, printed
-pp. 2.0-10–11 / PDF pp. 64–65. HK’s table additionally reports chloride,
-sodium, potassium, silica, iron and other constituents, retained
-individually in the appendix. A missing total is not a zero, and the
-reported species have not been summed into an inferred TDS measurement.
-<a href="hells-kitchen.html#o075">O075</a>–<a href="hells-kitchen.html#o096">O096</a>.</p>
-<p>For a direct unit interpretation, 439.9 mg/L means <strong>0.4399 kg
-of contained lithium per m³ of brine</strong>, and 250 mg/L means
-<strong>0.250 kg/m³</strong>, before extraction losses. These are unit
-conversions, not recovered-product yields. Lithium concentration, total
-dissolved solids and final lithium-carbonate purity are different
-quantities. We retain mg/L rather than treating it as mass-based ppm
-without a brine density.</p>
-<p>SWA also discloses <strong>actual well-sampling results</strong>.
-Selected reported values below retain their intervals and averaging
-basis; they are not averaged across wells into an invented project
-grade.</p>
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: left;">Well</th>
-<th style="text-align: left;">Sampling year(s)</th>
-<th style="text-align: left;">Interval</th>
-<th style="text-align: right;">Li (mg/L)</th>
-<th style="text-align: left;">Basis</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Taylor, Beulah et al. 1</td>
-<td style="text-align: left;">2023</td>
-<td style="text-align: left;">Upper Smackover</td>
-<td style="text-align: right;">549</td>
-<td style="text-align: left;">Porosity-thickness-weighted value. <a href="south-west-arkansas.html#o097">O097</a></td>
-</tr>
-<tr>
-<td style="text-align: left;">Carter Moore 1</td>
-<td style="text-align: left;">2023</td>
-<td style="text-align: left;">Upper + Middle</td>
-<td style="text-align: right;">156</td>
-<td style="text-align: left;">Mixed-interval test value. <a href="south-west-arkansas.html#o098">O098</a></td>
-</tr>
-<tr>
-<td style="text-align: left;">International Paper Co. 1</td>
-<td style="text-align: left;">2024–2025</td>
-<td style="text-align: left;">Upper Smackover</td>
-<td style="text-align: right;">479</td>
-<td style="text-align: left;">Reported well average from later sampling.
-<a href="south-west-arkansas.html#o099">O099</a></td>
-</tr>
-<tr>
-<td style="text-align: left;">Speer 1</td>
-<td style="text-align: left;">2023</td>
-<td style="text-align: left;">Upper / top of Middle</td>
-<td style="text-align: right;">589</td>
-<td style="text-align: left;">Reported test average. <a href="south-west-arkansas.html#o100">O100</a></td>
-</tr>
-<tr>
-<td style="text-align: left;">Montague 1</td>
-<td style="text-align: left;">2023</td>
-<td style="text-align: left;">Upper Smackover</td>
-<td style="text-align: right;">555</td>
-<td style="text-align: left;">Reported test average. <a href="south-west-arkansas.html#o101">O101</a></td>
-</tr>
-<tr>
-<td style="text-align: left;">Lester 2</td>
-<td style="text-align: left;">2025</td>
-<td style="text-align: left;">Upper Smackover</td>
-<td style="text-align: right;">582</td>
-<td style="text-align: left;">Reported three-sample average. <a href="south-west-arkansas.html#o102">O102</a></td>
-</tr>
-<tr>
-<td style="text-align: left;">International Paper Co. 1</td>
-<td style="text-align: left;">2023</td>
-<td style="text-align: left;">Middle Smackover</td>
-<td style="text-align: right;">306</td>
-<td style="text-align: left;">Reported weighted zone average. <a href="south-west-arkansas.html#o103">O103</a></td>
-</tr>
-</tbody>
-</table>
-<p>These data are reported in <a href="south-west-arkansas.html#d044">D044</a>, Table 9-1, printed p. 58
-/ PDF p. 80; §§9.2–9.3 describe sampling and averaging. The later
-International Paper Upper-zone results supersede the earlier Upper-zone
-sampling. The 2018 McKamie Patton samples are outside the current
-project area and do not enter this comparison. Individual Middle-zone
-results are also retained in the appendix. <a href="south-west-arkansas.html#o104">O104</a>, <a href="south-west-arkansas.html#o105">O105</a>.</p>
-<p>The <strong>economic summary uses 481 mg/L</strong>, whereas the
-reserve-production schedule models concentration declining from
-<strong>549 mg/L in year 1 to 370 mg/L in year 20</strong>, reaching
-<strong>162 mg/L in year 40</strong> in the extended reserve case. These
-are model outputs and assumptions, not repeat measurements of operating
-plant feed. The reserve table excludes production ramp-up and uses the
-old 2028 start-year label; the report’s newer schedule target remains
-separately identified. <a href="south-west-arkansas.html#o014">O014</a>,
-<a href="south-west-arkansas.html#o106">O106</a>–<a href="south-west-arkansas.html#o108">O108</a>.</p>
-<p>The practical research fields are therefore: lithium concentration;
-other brine constituents and TDS; well and sampled interval; sample date
-and method; stream location; design or measurement basis; and any
-forecast change through time. The expected HK composition table leaves
-several of those assay and stream details unspecified.</p>
-</section>
-<section id="discrepancies-requiring-review" class="level2">
-<h2>Discrepancies requiring review</h2>
-<p>New-profile discrepancies: Paradox/Green River repeat the same
-chemistry with production/spent labels; Waterleaf’s rounded totals do
-not reproduce its printed zero water balance, and its two agency
-packages describe differing processing boundaries; Mandrake resource
-totals differ between the survey and issuer update. These remain
-explicit in their profiles.</p>
-<ol type="1">
-<li><strong>SWA freshwater:</strong> the annual DFS estimate and later
-EA flow estimates are not reconciled. Their differing dates and plant
-boundaries may matter. No annualization assumption has been imposed. <a href="south-west-arkansas.html#o016">O016</a>, <a href="south-west-arkansas.html#o017">O017</a>.</li>
-<li><strong>SWA lithium concentration:</strong> Table 17-1 and Table 1-6
-use different bases. Preserve both until the engineering and
-reservoir-model relationship is resolved. <a href="south-west-arkansas.html#o009">O009</a>, <a href="south-west-arkansas.html#o014">O014</a>.</li>
-<li><strong>HK water:</strong> the project-description and WSA-summary
-figures differ within the draft EIR. Table 4.13-7 also labels
-accumulated multiyear volumes as “AFY”; those totals are not adopted as
-annual demand. <a href="hells-kitchen.html#o055">O055</a>–<a href="hells-kitchen.html#o057">O057</a>; <a href="hells-kitchen.html#d022">D022</a>, PDF p. 288.</li>
-<li><strong>HK energy wording and revision:</strong> the draft EIR
-contains an editorial comment, which the final EIR explicitly strikes
-out while retaining that annual-energy statement in its revisions
-section. Elsewhere, the final EIR’s responses use 275,940,000 kWh/year
-of demand and 430,567,140 kWh/year of generation; these differ from the
-draft’s rounded demand and 416 million kWh/year generation. The response
-also gives net emissions of −10,443 metric tons CO₂e/year, differing
-from the draft table’s −10,435. The comparison above retains the
-explicitly dated draft figures; these final-response differences remain
-to reconcile. The separate malformed “147,732,2 kWh” statement in the
-draft is excluded. <a href="hells-kitchen.html#d022">D022</a>, PDF
-p. 177; <a href="hells-kitchen.html#d031">D031</a>, PDF pp. 180,
-197–198.</li>
-<li><strong>SWA unit error:</strong> the DFS prints 28.4 m³/h beside
-“125,041 gpm” for well-drilling water. That pair is dimensionally
-inconsistent as printed; it is excluded rather than silently corrected.
-<a href="south-west-arkansas.html#d044">D044</a>, PDF p. 153,
-§17.6.2.1.</li>
-<li><strong>HK newer financial assumptions:</strong> the supporting
-model and underlying technical report were not acquired. Numerical
-securities observations are provisional and separately identified. <a href="hells-kitchen.html#o071">O071</a>, <a href="hells-kitchen.html#o072">O072</a>.</li>
-</ol>
-</section>
-</section>
-<section id="methods-and-limitations" class="level1">
-<h1>Methods and limitations</h1>
-<section id="discovery-and-coverage" class="level2">
-<h2>Discovery and coverage</h2>
-<p>The collection follows project names, legal entities, aliases, agency
-identifiers and source cross-references through SEC, DOE, CEC, CEQAnet,
-county and state environmental records. US scope means project location,
-including foreign parents. Demonstration, proposed, suspended and
-discontinued phases are retained. No lower filing-date cutoff was
-imposed. Original-pilot collection stopped September 14, 2026; the 16
-added profiles use September 16, 2026. Neither date establishes current
-operating performance.</p>
-<p>The original SWA/HK collection includes all five records and
-attachments exposed by the Hell’s Kitchen commercial CEQA chronology,
-its separate 2020 pilot exemption, and the SWA draft/final EA and FONSI
-sequence. The new collection adds the BHER CEC demonstration report and
-exemption, ATLiS’s 2020/2021 CEQA chronology and 2024 circulated draft
-with their listed attachments, its 2025 DOE EA and decision notice,
-historical Ogden technical/securities evidence, and Green River draft
-injection-permit materials plus the current Utah permit index.
-Government hosting does not turn an applicant claim into an agency
-finding.</p>
-<p>The manual reference checklist contains <strong>64 project–source
-entries: 42 with downloaded originals and 22 with unavailable originals;
-shared sources recur across project checklists</strong>. Every reference
-has a document-register entry. This is a known-document presence check,
-not a web-wide recall estimate. The full manifest contains additional
-indexes, attachments and unsuccessful source routes beyond that
-checklist.</p>
-<p>All filing metadata exposed by the saved SEC indexes was inventoried,
-including the Compass historical index. There are <strong>2,846
-entries</strong>, not 2,846 reviewed filings. The original Standard
-Lithium/Plum and new EnergyX index snapshots expose no additional
-historical-index files; the Compass index exposes one, which was
-collected. <a href="south-west-arkansas.html#d006">D006</a>, <a href="hells-kitchen.html#d007">D007</a>, <a href="ogden.html#d083">D083</a>, <a href="ogden.html#d084">D084</a>, <a href="ogden.html#d091">D091</a>.</p>
-<p>Specific gaps and exclusions remain:</p>
-<ul>
-<li>Selected SEC originals denied direct download. Official-URL web text
-supports explicitly marked observations; issuer-hosted SWA and Ogden
-technical PDFs retain their separate provenance. Web text has no
-original-file hash or verified figure layout.</li>
-<li>Utah final-permit and statement-of-basis URLs returned HTML viewers
-rather than PDFs. Anson’s issuer announcement was readable via web text
-but failed direct TLS certificate validation. The early bare ATLiS CEQA
-URL and an old Utah archive route returned 404. No unavailable original
-is represented as a successful filing download. <a href="green-river.html#d070">D070</a>, <a href="green-river.html#d088">D088</a>, <a href="green-river.html#d092">D092</a>, <a href="atlis.html#d062">D062</a>, <a href="green-river.html#d072">D072</a>.</li>
-<li>SWA’s detailed AOGC orders, complete air/water permit packages and
-an older 2019 TETRA-property resource report remain unacquired. The
-current Arkansas draft-air-permit list does not prove that no project
-permit exists. <a href="south-west-arkansas.html#d054">D054</a>, <a href="south-west-arkansas.html#d044">D044</a>, §7.1.</li>
-<li>The 1,562-page HK appendix and 1,388-page ATLiS EIR package were
-text-screened, not exhaustively visually reviewed. Low-text pages are
-flagged for potential OCR; image-only content cannot support a
-categorical absence claim. ATLiS monitoring-well and soil chemistry were
-excluded from feed-water composition.</li>
-<li>Ogden Tables 7.2 and 7.3 are fully transcribed; additional pond
-chemistry tables are identified for follow-up. The selected cation
-tables are not complete water analyses. Green River’s draft
-production/spent-brine label conflict remains unresolved.</li>
-<li>Current construction progress, full financing, executed contracts,
-litigation outcomes, final permit conditions and measured commercial
-operation are not established unless the profile identifies a supporting
-source. BHER’s later technology program and EnergyX’s later Ogden
-proposal do not inherit the historical designs’ results.</li>
-</ul>
-<p>The September 16 follow-up promotes all 12 screened candidates as
-<strong>bounded provisional profiles</strong>, bringing the total to 18.
-Shared sources are cataloged once and linked from each relevant page.
-The added register contains 14 new source URLs; EnergyX D089 and the SWA
-DFS D001/D044 were reused without duplicate downloads. The Waterleaf
-1,197-page application was searched and selectively inspected, not
-exhaustively reviewed page by page. Full groundwater sample-result
-tables are transcribed, while laboratory QC controls and the trip blank
-remain in the original. Historic records, incomplete engineering
-profiles and the issuer-only Magnolia lead are labeled accordingly. This
-is not an exhaustive US industry census or a count of operating plants.
-The manually selected reference list validates inventory coverage, not
-search completeness.</p>
-</section>
-<section id="extraction-and-review" class="level2">
-<h2>Extraction and review</h2>
-<p>The September 16 pretreatment review reused the saved filings without
-advancing project collection cutoffs. It compared process sections, test
-histories and diagrams and added source-located observations for
-treatment stages and their boundaries. Missing methods are bounded to
-the cited project packages; no chemical train was inferred solely from
-raw-water composition, company ownership or a generic technology
-claim.</p>
-<p>Original bytes are stored under SHA-256 filenames. Expected PDFs must
-pass PDF signature/content validation; an HTML viewer is not a filing.
-An initially misclassified Utah HTML response was corrected, with its
-earlier retrieval preserved for audit. The manifest, document register
-and append-only retrieval log preserve URLs, source roles, timestamps,
-download outcomes and revisions. Repeated collection verifies the cached
-hash; explicit refresh preserves previous successful versions. Requests
-are paced, transient failures have bounded retries, and a denied request
-is not repeatedly retried.</p>
-<p>PDF text is stored with one-based physical-page markers. Selected
-tables were rendered and checked against the extraction, including SWA
-process design, capital/economic data, reagents, water and power, and
-both projects’ environmental estimates. OCR was tested on the scanned
-county determination; OCR is a derivative and never replaces the
-original. Full OCR of every image-only appendix page was not performed.
-Every newly reproduced chemistry table and process diagram was checked
-against rendered source pages. Individual source values remain linked to
-their document and locator; all observations remain pending human
-review.</p>
-<p>AI source checking and human acceptance are separate states. The
-observation CSV retains the source document, hash where available,
-locator, original value and unit, date, process boundary, scale,
-interpretation and review status. The human-reviewed export accepts only
-rows with an affirmative acceptance, reviewer name and review date. None
-have yet been accepted. Data not located and documents unavailable are
-distinguished from a reported zero.</p>
-</section>
-<section id="interpretation-rules" class="level2">
-<h2>Interpretation rules</h2>
-<ul>
-<li>Keep measured tests, commercial designs, company targets and agency
-decisions separate.</li>
-<li>Preserve original units, product conventions, ranges and qualifiers.
-Do not silently equate LHM, lithium carbonate and LCE or reinterpret
-“per TPA” as “per tonne.”</li>
-<li>Keep cost year and definition alongside economics. No inflation
-adjustment, currency conversion, market-price update or investment
-recommendation is supplied.</li>
-<li>Compare freshwater withdrawal with like-for-like freshwater
-withdrawal; brine circulation and internal recycled water are different
-streams.</li>
-<li>Treat emissions boundaries explicitly. Avoided-grid credits,
-potential-to-emit estimates, gross emissions and life-cycle product
-intensity are different measures.</li>
-<li>Preserve contradictions and study revisions. A more recent filing
-does not automatically explain or correct an older number.</li>
-</ul>
-</section>
-<section id="sharing-and-reproducibility" class="level2">
-<h2>Sharing and reproducibility</h2>
-<p>The Markdown is the authored report. The catalog and evidence
-appendix are refreshed from the register and observations, then Pandoc
-generates an overview and separate project pages with embedded styling
-and source-figure images. A full-report HTML file retains all content on
-one page for ordinary browser search and printing. No server, scripts or
-remote fonts are required. Official-source links require internet
-access.</p>
-<p>Share the report-site.zip archive for the complete multipage report,
-or full-report.html for a single-file version. Keep the HTML pages
-together when using project navigation. The Markdown and its nine figure
-images are included in the archive. Original documents, CSVs, manifest,
-source-review images, search log and rerunnable commands remain in the
-supporting research folder. Manual reruns are the default; no scheduled
-monitoring or publishing has been enabled. The September 16 expansions
-added 16 profiles; original SWA/HK evidence remains tied to its
-September 14 collection snapshot. The supplied lab logo and all source
-figures are embedded in every HTML page where used.</p>
-</section>
-</section>
-</body>
+</main><aside class="legacy-links"><details><summary>Previously shared section links</summary><ul><li id="overview"><a href="methods.html#overview">overview</a></li><li id="project-reports"><a href="projects.html#project-reports">project-reports</a></li><li id="principal-findings"><a href="findings.html#principal-findings">principal-findings</a></li><li id="how-to-read-the-report"><a href="methods.html#how-to-read-the-report">how-to-read-the-report</a></li><li id="cross-project-comparison"><a href="compare-engineering.html#cross-project-comparison">cross-project-comparison</a></li><li id="composition-and-flowsheet-availability"><a href="coverage.html#composition-and-flowsheet-availability">composition-and-flowsheet-availability</a></li><li id="pretreatment-comparison"><a href="compare-pretreatment.html#pretreatment-comparison">pretreatment-comparison</a></li><li id="pretreatment-methods"><a href="pretreatment-methods.html#pretreatment-methods">pretreatment-methods</a></li><li id="pretreatment-by-project"><a href="compare-pretreatment.html#pretreatment-by-project">pretreatment-by-project</a></li><li id="pretreatment-conditions"><a href="pretreatment-results.html#pretreatment-conditions">pretreatment-conditions</a></li><li id="pretreatment-boundaries"><a href="pretreatment-results.html#pretreatment-boundaries">pretreatment-boundaries</a></li><li id="brine-concentration-and-chemistry"><a href="compare-engineering.html#brine-concentration-and-chemistry">brine-concentration-and-chemistry</a></li><li id="discrepancies-requiring-review"><a href="findings.html#discrepancies-requiring-review">discrepancies-requiring-review</a></li><li id="methods-and-limitations"><a href="methods.html#methods-and-limitations">methods-and-limitations</a></li><li id="discovery-and-coverage"><a href="methods.html#discovery-and-coverage">discovery-and-coverage</a></li><li id="extraction-and-review"><a href="methods.html#extraction-and-review">extraction-and-review</a></li><li id="interpretation-rules"><a href="methods.html#interpretation-rules">interpretation-rules</a></li><li id="sharing-and-reproducibility"><a href="methods.html#sharing-and-reproducibility">sharing-and-reproducibility</a></li></ul></details></aside><script id="legacy-routing">(()=>{const routes={"overview": "methods.html#overview", "project-reports": "projects.html#project-reports", "principal-findings": "findings.html#principal-findings", "how-to-read-the-report": "methods.html#how-to-read-the-report", "cross-project-comparison": "compare-engineering.html#cross-project-comparison", "composition-and-flowsheet-availability": "coverage.html#composition-and-flowsheet-availability", "pretreatment-comparison": "compare-pretreatment.html#pretreatment-comparison", "pretreatment-methods": "pretreatment-methods.html#pretreatment-methods", "pretreatment-by-project": "compare-pretreatment.html#pretreatment-by-project", "pretreatment-conditions": "pretreatment-results.html#pretreatment-conditions", "pretreatment-boundaries": "pretreatment-results.html#pretreatment-boundaries", "brine-concentration-and-chemistry": "compare-engineering.html#brine-concentration-and-chemistry", "discrepancies-requiring-review": "findings.html#discrepancies-requiring-review", "methods-and-limitations": "methods.html#methods-and-limitations", "discovery-and-coverage": "methods.html#discovery-and-coverage", "extraction-and-review": "methods.html#extraction-and-review", "interpretation-rules": "methods.html#interpretation-rules", "sharing-and-reproducibility": "methods.html#sharing-and-reproducibility"};function follow(){let key;try{key=decodeURIComponent(location.hash.slice(1));}catch{return;}if(Object.hasOwn(routes,key))location.replace(routes[key]);}follow();addEventListener("hashchange",follow);})();</script><footer class="site-footer"><span>MIT Device Research Lab · Public-source research</span><nav aria-label="Reading and downloads"><a href="full-report.html">Search all text / print</a> · <a href="methods.html">Methods</a> · <a href="report.md" download>Markdown</a> · <a href="report-site.zip" download>Download HTML bundle</a></nav></footer></body>
 </html>
